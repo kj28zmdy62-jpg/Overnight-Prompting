@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cave_stalactite"
+    },
+    "facing=east": {
+      "model": "noclip:block/cave_stalactite"
+    },
+    "facing=south": {
+      "model": "noclip:block/cave_stalactite"
+    },
+    "facing=west": {
+      "model": "noclip:block/cave_stalactite"
+    }
+  }
+}

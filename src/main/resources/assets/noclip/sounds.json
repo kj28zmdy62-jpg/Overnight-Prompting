@@ -244,6 +244,58 @@
     ],
     "subtitle": "subtitles.noclip.event.power_down"
   },
+  "ambient.level_10": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_10",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_10.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_10_crow0"
+      },
+      {
+        "name": "noclip:ambient/level_10_crow1"
+      },
+      {
+        "name": "noclip:ambient/level_10_windmill"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_10.additions"
+  },
+  "event.level_10_harvester": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_10_harvester"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_10_harvester"
+  },
+  "ambient.level_11": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_11",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_11.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_11_siren"
+      },
+      {
+        "name": "noclip:ambient/level_11_pigeons"
+      },
+      {
+        "name": "noclip:ambient/level_11_bells"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_11.additions"
+  },
   "ambient.level_2": {
     "sounds": [
       {
@@ -540,5 +592,98 @@
       }
     ],
     "subtitle": "subtitles.noclip.entity.leviathan.surge"
+  },
+  "ambient.level_8": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_8",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_8.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_8_scuttle0"
+      },
+      {
+        "name": "noclip:ambient/level_8_scuttle1"
+      },
+      {
+        "name": "noclip:ambient/level_8_rockfall"
+      },
+      {
+        "name": "noclip:ambient/level_8_wail"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_8.additions"
+  },
+  "event.level_8_rumble": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_8_rumble"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_8_rumble"
+  },
+  "entity.cave_crawler.chitter": {
+    "sounds": [
+      {
+        "name": "noclip:entity/cave_crawler_chitter"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.cave_crawler.chitter"
+  },
+  "entity.cave_crawler.hiss": {
+    "sounds": [
+      {
+        "name": "noclip:entity/cave_crawler_hiss"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.cave_crawler.hiss"
+  },
+  "entity.cave_crawler.hurt": {
+    "sounds": [
+      {
+        "name": "noclip:entity/cave_crawler_hurt"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.cave_crawler.hurt"
+  },
+  "ambient.level_9": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_9",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_9.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_9_bark0"
+      },
+      {
+        "name": "noclip:ambient/level_9_bark1"
+      },
+      {
+        "name": "noclip:ambient/level_9_car"
+      },
+      {
+        "name": "noclip:ambient/level_9_chimes"
+      },
+      {
+        "name": "noclip:ambient/level_9_screendoor"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_9.additions"
+  },
+  "event.level_9_lamp_off": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_9_lamp_off"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_9_lamp_off"
   }
 }

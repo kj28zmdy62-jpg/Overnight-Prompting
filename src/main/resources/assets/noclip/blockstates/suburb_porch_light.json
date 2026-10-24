@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/suburb_porch_light"
+    },
+    "facing=east": {
+      "model": "noclip:block/suburb_porch_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/suburb_porch_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/suburb_porch_light",
+      "y": 270
+    }
+  }
+}

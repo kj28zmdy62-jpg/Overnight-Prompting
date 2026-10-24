@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/suburb_tree_trunk"
+    },
+    "axis=z": {
+      "model": "noclip:block/suburb_tree_trunk_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/suburb_tree_trunk_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

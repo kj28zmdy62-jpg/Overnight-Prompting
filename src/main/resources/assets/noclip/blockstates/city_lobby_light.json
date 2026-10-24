@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/city_lobby_light"
+    },
+    "lit=false": {
+      "model": "noclip:block/city_lobby_light_off"
+    }
+  }
+}

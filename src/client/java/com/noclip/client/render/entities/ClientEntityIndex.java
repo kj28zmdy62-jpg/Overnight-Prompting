@@ -7,6 +7,7 @@ public final class ClientEntityIndex {
 
     public static void registerAll() {
         BellhopRenderers.register();
+        CaveCrawlerRenderers.register();
         LeviathanRenderers.register();
     }
 }

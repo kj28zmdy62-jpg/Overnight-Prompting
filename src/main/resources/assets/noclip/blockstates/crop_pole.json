@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/crop_pole"
+    },
+    "axis=z": {
+      "model": "noclip:block/crop_pole_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/crop_pole_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

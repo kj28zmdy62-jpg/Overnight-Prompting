@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/scarecrow_head"
+    },
+    "facing=east": {
+      "model": "noclip:block/scarecrow_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/scarecrow_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/scarecrow_head",
+      "y": 270
+    }
+  }
+}

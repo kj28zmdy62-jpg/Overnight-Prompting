@@ -509,6 +509,654 @@
     "no_collision": true
   },
   {
+    "name": "crop_soil",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "crop_track",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "crop_grass",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true
+  },
+  {
+    "name": "wheat_lower",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "wheat_upper",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "wheat_upper_b",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "wheat_stubble",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "barn_planks",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "barn_trim",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "barn_roof",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "barn_roof_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "unbreakable": true,
+    "base": "barn_roof"
+  },
+  {
+    "name": "barn_floor",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "crop_hay_bale",
+    "kind": "pillar",
+    "sound": "grass",
+    "unbreakable": true
+  },
+  {
+    "name": "silo_wall",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "silo_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "barn_cellar_hatch",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DESCEND",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "crop_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "crop_pole",
+    "kind": "pillar",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "scarecrow_body",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        16,
+        9
+      ],
+      [
+        4,
+        6,
+        6,
+        12,
+        16,
+        10
+      ],
+      [
+        0,
+        13,
+        7,
+        16,
+        15,
+        9
+      ],
+      [
+        0,
+        12,
+        6,
+        3,
+        15,
+        10
+      ],
+      [
+        13,
+        12,
+        6,
+        16,
+        15,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "scarecrow_head",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        3,
+        9
+      ],
+      [
+        4,
+        3,
+        4,
+        12,
+        11,
+        12
+      ],
+      [
+        2,
+        11,
+        2,
+        14,
+        12,
+        14
+      ],
+      [
+        5,
+        12,
+        5,
+        11,
+        15,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "city_road",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_road_line_x",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_road_line_z",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_crosswalk",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_pavement",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_concrete_lit",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "city_concrete_tv",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "city_brick",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_brick_lit",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "city_brick_tv",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "city_glass",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_glass_lit",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "city_glass_tv",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "city_stone",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_stone_lit",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "city_stone_tv",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "city_shopfront",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 9,
+    "emissive": true
+  },
+  {
+    "name": "city_awning",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "city_roof",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_ac_unit",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        10,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "city_lobby_floor",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "city_lobby_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "city_lobby_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.02,
+    "emissive": true
+  },
+  {
+    "name": "city_streetlamp",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.01,
+    "emissive": true
+  },
+  {
+    "name": "city_lamp_pole",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6.5,
+        0,
+        6.5,
+        9.5,
+        16,
+        9.5
+      ]
+    ]
+  },
+  {
+    "name": "city_signal",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 6,
+    "flicker": 0.9,
+    "emissive": true
+  },
+  {
+    "name": "city_bench",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        5,
+        3,
+        16,
+        6.5,
+        12
+      ],
+      [
+        0,
+        6.5,
+        11,
+        16,
+        13,
+        12.5
+      ],
+      [
+        1,
+        0,
+        4,
+        2.5,
+        5,
+        11
+      ],
+      [
+        13.5,
+        0,
+        4,
+        15,
+        5,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "city_sign_diner",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        2,
+        0,
+        16,
+        14,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "city_sign_open",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        2,
+        0,
+        16,
+        14,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "city_sign_hotel",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        2,
+        0,
+        16,
+        14,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "city_sign_safe",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        2,
+        0,
+        16,
+        14,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "city_vending",
+    "kind": "pickup",
+    "sound": "metal",
+    "collides": true,
+    "render": "cutout",
+    "light": 7,
+    "strength": 0.5,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        16,
+        15
+      ]
+    ],
+    "item": "noclip:almond_water*4,noclip:energy_bar*3,noclip:canned_beans*2,noclip:battery*2"
+  },
+  {
+    "name": "city_subway_sign",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true,
+    "light": 8,
+    "emissive": true
+  },
+  {
+    "name": "city_subway_stairs",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "DESCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "city_transit_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
     "name": "pipe_tunnel_wall",
     "kind": "cube",
     "sound": "stone",
@@ -3343,5 +3991,511 @@
         14
       ]
     ]
+  },
+  {
+    "name": "cave_rock",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_rock_dark",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_rock_vein",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_rock_wet",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_gravel",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_mud",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "cave_stalagmite",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": true,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "cave_stalactite",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "cave_glow_fungus",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ],
+    "light": 9,
+    "emissive": true
+  },
+  {
+    "name": "cave_lantern",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 12,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        9,
+        11
+      ],
+      [
+        6,
+        9,
+        6,
+        10,
+        11,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "cave_rope_coil",
+    "kind": "shaped",
+    "sound": "wool",
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        0,
+        3,
+        13,
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "cave_daylight",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "light": 15,
+    "emissive": true,
+    "no_collision": true
+  },
+  {
+    "name": "cave_chasm_bottom",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "FALL",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "cave_mine_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "suburb_grass",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_road",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_road_line_x",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_road_line_z",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_sidewalk",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_siding",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_window_lit",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 10,
+    "emissive": true
+  },
+  {
+    "name": "suburb_window_figure",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 10,
+    "emissive": true
+  },
+  {
+    "name": "suburb_shingles",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_roof_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "unbreakable": true,
+    "base": "suburb_shingles"
+  },
+  {
+    "name": "suburb_trim",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_front_door",
+    "kind": "door",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout",
+    "strength": 3.0
+  },
+  {
+    "name": "suburb_door_closed",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_door_closed_top",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_porch_light",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 11,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        4,
+        0,
+        10,
+        12,
+        1
+      ],
+      [
+        6.5,
+        5,
+        1,
+        9.5,
+        11,
+        4
+      ]
+    ]
+  },
+  {
+    "name": "suburb_porch_light_off",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        4,
+        0,
+        10,
+        12,
+        1
+      ],
+      [
+        6.5,
+        5,
+        1,
+        9.5,
+        11,
+        4
+      ]
+    ]
+  },
+  {
+    "name": "suburb_streetlamp",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "suburb_lamp_pole",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6.5,
+        0,
+        6.5,
+        9.5,
+        16,
+        9.5
+      ]
+    ]
+  },
+  {
+    "name": "suburb_picket_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "suburb_manhole",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DESCEND",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "suburb_mailbox",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        10,
+        9
+      ],
+      [
+        5,
+        10,
+        4,
+        11,
+        15,
+        13
+      ],
+      [
+        11,
+        12,
+        9,
+        12,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "suburb_tree_trunk",
+    "kind": "pillar",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_leaves",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "suburb_floorboards",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "suburb_couch",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        4,
+        16,
+        7,
+        14
+      ],
+      [
+        0,
+        7,
+        12,
+        16,
+        15,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "suburb_tv",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        4,
+        14,
+        11,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "suburb_tv_on",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        2,
+        0,
+        4,
+        14,
+        11,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "suburb_basement_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid",
+    "light": 3
   }
 ]

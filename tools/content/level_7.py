@@ -361,6 +361,6 @@ sound("ambient.level_7.additions",
 sound("entity.leviathan.moan", [("entity/leviathan_moan", close_moan)], subtitle="Something huge calls, below")
 sound("entity.leviathan.surge", [("entity/leviathan_surge", surge)], subtitle="Something rushes up from below")
 
-level("level_7", fog="#03070b", sky="#020306", water="#06121a", water_fog="#010406",
+level("level_7", fog="#08131c", sky="#020306", water="#0a1a24", water_fog="#02070a", ambient_light=0.05,
       ambient="ambient.level_7", additions="ambient.level_7.additions", additions_chance=0.004, fixed_time=18000,
       skylight=False, ceiling=False, height=64)

@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/l9_lamp_off",
+    "up": "noclip:block/l9_pole",
+    "north": "noclip:block/l9_pole",
+    "south": "noclip:block/l9_pole",
+    "west": "noclip:block/l9_pole",
+    "east": "noclip:block/l9_pole",
+    "particle": "noclip:block/l9_pole"
+  }
+}

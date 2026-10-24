@@ -7,6 +7,7 @@ public final class EntityIndex {
 
     public static void registerAll() {
         Bellhop.register();
+        CaveCrawler.register();
         Leviathan.register();
     }
 }
