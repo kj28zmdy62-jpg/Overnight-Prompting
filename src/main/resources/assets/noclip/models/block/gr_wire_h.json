@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "w": "noclip:block/gr_wire",
+    "particle": "noclip:block/gr_wire"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        7,
+        0
+      ],
+      "to": [
+        9,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#w",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#w",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#w",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#w",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#w",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#w",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        }
+      }
+    }
+  ]
+}

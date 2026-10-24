@@ -6,22 +6,13 @@ public final class ClientEntityIndex {
     private ClientEntityIndex() {}
 
     public static void registerAll() {
-        BellhopRenderers.register();
-        CaveCrawlerRenderers.register();
-        DuctCrawlerRenderers.register();
-        ElevatorCarRenderers.register();
-        GasAttendantRenderers.register();
-        HallMonitorRenderers.register();
-        InvertedWalkerRenderers.register();
-        LeviathanRenderers.register();
-        MotionClayFigureRenderers.register();
-        NightStockerRenderers.register();
-        PlayplaceMascotRenderers.register();
-        RunChaserRenderers.register();
-        StaticManRenderers.register();
-        VoidFarThingRenderers.register();
-        WardPatientRenderers.register();
-        WindowWatcherRenderers.register();
-        WrappedOneRenderers.register();
+        DhTinSoldierRenderers.register();
+        GridRenderers.register();
+        MrReflectionRenderers.register();
+        MtNullRenderers.register();
+        PgPhotographerRenderers.register();
+        RecResidentRenderers.register();
+        RedGuestRenderers.register();
+        ZzBlankRenderers.register();
     }
 }

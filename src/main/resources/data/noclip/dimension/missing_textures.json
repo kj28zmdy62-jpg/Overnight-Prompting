@@ -1,0 +1,11 @@
+{
+  "type": "noclip:missing_textures",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "missing_textures",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:missing_textures"
+    }
+  }
+}

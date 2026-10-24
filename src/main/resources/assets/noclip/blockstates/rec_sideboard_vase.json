@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rec_sideboard_vase"
+    },
+    "facing=east": {
+      "model": "noclip:block/rec_sideboard_vase",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rec_sideboard_vase",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rec_sideboard_vase",
+      "y": 270
+    }
+  }
+}

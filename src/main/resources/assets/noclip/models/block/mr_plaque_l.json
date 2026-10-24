@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p": "noclip:block/mr_plaque_l",
+    "frame": "noclip:block/mr_darkwood",
+    "particle": "noclip:block/mr_plaque_l"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#p",
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

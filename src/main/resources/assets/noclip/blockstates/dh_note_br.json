@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dh_note_br"
+    },
+    "facing=east": {
+      "model": "noclip:block/dh_note_br",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dh_note_br",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dh_note_br",
+      "y": 270
+    }
+  }
+}

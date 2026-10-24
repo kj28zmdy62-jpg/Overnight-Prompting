@@ -1,0 +1,11 @@
+{
+  "type": "noclip:long_hallway",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "long_hallway",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:long_hallway"
+    }
+  }
+}
