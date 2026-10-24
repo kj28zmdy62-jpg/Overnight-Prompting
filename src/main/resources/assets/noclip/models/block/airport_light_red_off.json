@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/ap_light_red",
+    "up": "noclip:block/ap_light_red",
+    "north": "noclip:block/ap_light_red",
+    "south": "noclip:block/ap_light_red",
+    "west": "noclip:block/ap_light_red",
+    "east": "noclip:block/ap_light_red",
+    "particle": "noclip:block/ap_light_red"
+  }
+}

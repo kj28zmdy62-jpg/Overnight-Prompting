@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "f": "noclip:block/mr_folder",
+    "particle": "noclip:block/mr_folder"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        4
+      ],
+      "to": [
+        13,
+        0.6,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#f",
+          "uv": [
+            3,
+            4,
+            13,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            3,
+            4,
+            13,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#f",
+          "uv": [
+            3,
+            15.4,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            3,
+            15.4,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            4,
+            15.4,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            4,
+            15.4,
+            12,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/manila_picture"
+    },
+    "facing=east": {
+      "model": "noclip:block/manila_picture",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/manila_picture",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/manila_picture",
+      "y": 270
+    }
+  }
+}

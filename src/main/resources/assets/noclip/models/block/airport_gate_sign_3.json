@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "noclip:block/ap_chrome",
+    "sign": "noclip:block/ap_gate_3",
+    "particle": "noclip:block/ap_chrome"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        4,
+        7
+      ],
+      "to": [
+        15,
+        14,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            1,
+            7,
+            15,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            1,
+            7,
+            15,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#sign",
+          "uv": [
+            1,
+            2,
+            15,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#sign",
+          "uv": [
+            1,
+            2,
+            15,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            2,
+            9,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            2,
+            9,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        14,
+        7.5
+      ],
+      "to": [
+        8.5,
+        16,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -8,6 +8,7 @@ public final class LevelIndex {
 
     public static void registerAll() {
         Levels.register(AirVents.create());
+        Levels.register(Airport.create());
         Levels.register(Arcade.create());
         Levels.register(BoilerRoom.create());
         Levels.register(BowlingAlley.create());
@@ -25,6 +26,7 @@ public final class LevelIndex {
         Levels.register(Level1.create());
         Levels.register(Level10.create());
         Levels.register(Level11.create());
+        Levels.register(Level13.create());
         Levels.register(Level188.create());
         Levels.register(Level2.create());
         Levels.register(Level3.create());
@@ -38,6 +40,7 @@ public final class LevelIndex {
         Levels.register(Level94.create());
         Levels.register(LevelFun.create());
         Levels.register(LevelRun.create());
+        Levels.register(ManilaRoom.create());
         Levels.register(Motel.create());
         Levels.register(MovieTheater.create());
         Levels.register(OvergrownLobby.create());

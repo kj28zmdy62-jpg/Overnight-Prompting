@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/apartment_dome_light_bad"
+    },
+    "lit=false": {
+      "model": "noclip:block/apartment_dome_light_bad_off"
+    }
+  }
+}

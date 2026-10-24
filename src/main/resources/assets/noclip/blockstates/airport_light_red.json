@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/airport_light_red"
+    },
+    "lit=false": {
+      "model": "noclip:block/airport_light_red_off"
+    }
+  }
+}

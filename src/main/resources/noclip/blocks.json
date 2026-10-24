@@ -131,6 +131,566 @@
     "unbreakable": true
   },
   {
+    "name": "airport_terrazzo",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_gate_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_skylight",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.01,
+    "emissive": true
+  },
+  {
+    "name": "airport_skylight_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.6,
+    "emissive": true
+  },
+  {
+    "name": "airport_glass",
+    "kind": "pane",
+    "sound": "glass",
+    "unbreakable": true,
+    "render": "translucent"
+  },
+  {
+    "name": "airport_walkway",
+    "kind": "class",
+    "class": "com.noclip.block.AirportWalkwayBlock",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_walkway_rail",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        0,
+        0,
+        10,
+        14,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "airport_seats",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        6,
+        2,
+        16,
+        7.5,
+        14
+      ],
+      [
+        0,
+        7.5,
+        12,
+        16,
+        15,
+        14
+      ],
+      [
+        7,
+        6,
+        2,
+        9,
+        13,
+        14
+      ],
+      [
+        1,
+        0,
+        6,
+        2,
+        6,
+        10
+      ],
+      [
+        14,
+        0,
+        6,
+        15,
+        6,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "airport_board_a",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "airport_board_b",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "airport_board_c",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_1",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_2",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_3",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_4",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_5",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_6",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_7",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_8",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_sign_9",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        9
+      ],
+      [
+        7.5,
+        14,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "airport_gate_desk",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        3,
+        16,
+        14,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "airport_jetway_closed",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_jetway_open",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "light": 6,
+    "emissive": true,
+    "no_collision": true
+  },
+  {
+    "name": "airport_tarmac",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_taxi_line",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_light_blue",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        3,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "airport_light_red",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 9,
+    "flicker": 0.95,
+    "emissive": true
+  },
+  {
+    "name": "airport_fuselage",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_fuselage_plain",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_cockpit",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_wing",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "airport_engine",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
     "name": "arc_carpet",
     "kind": "cube",
     "sound": "wool",
@@ -10292,6 +10852,230 @@
     "render": "solid"
   },
   {
+    "name": "apartment_hall_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_wallpaper_peeling",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_baseboard",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_popcorn_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_dome_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "flicker": 0.12,
+    "emissive": true
+  },
+  {
+    "name": "apartment_dome_light_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "flicker": 0.8,
+    "emissive": true
+  },
+  {
+    "name": "apartment_dome_light_dead",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_door",
+    "kind": "door",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout",
+    "strength": 3.0
+  },
+  {
+    "name": "apartment_door_lit",
+    "kind": "door",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout",
+    "strength": 3.0
+  },
+  {
+    "name": "apartment_stair_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DESCEND",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "apartment_stair_door_top",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "apartment_floor",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_linoleum",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "apartment_stove",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        15,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "apartment_fridge",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        16,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "apartment_lamp",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 12,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        1,
+        10
+      ],
+      [
+        7.5,
+        1,
+        7.5,
+        8.5,
+        12,
+        8.5
+      ],
+      [
+        4,
+        11,
+        4,
+        12,
+        16,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "apartment_lamp_off",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        1,
+        10
+      ],
+      [
+        7.5,
+        1,
+        7.5,
+        8.5,
+        12,
+        8.5
+      ],
+      [
+        4,
+        11,
+        4,
+        12,
+        16,
+        12
+      ]
+    ]
+  },
+  {
     "name": "courtyard_facade",
     "kind": "cube",
     "sound": "stone",
@@ -15375,6 +16159,96 @@
     "kind": "cube",
     "sound": "metal",
     "unbreakable": true
+  },
+  {
+    "name": "manila_wall",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "manila_wall_base",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "manila_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "manila_ceiling",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 15,
+    "emissive": true
+  },
+  {
+    "name": "manila_clock",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "manila_painted_door",
+    "kind": "exit",
+    "sound": "wool",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "manila_painted_door_top",
+    "kind": "exit",
+    "sound": "wool",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "manila_picture",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        2,
+        0,
+        14,
+        14,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "manila_folder",
+    "kind": "pickup",
+    "sound": "wool",
+    "collides": false,
+    "render": "cutout",
+    "strength": 0.2,
+    "boxes": [
+      [
+        3,
+        0,
+        4,
+        13,
+        0.6,
+        12
+      ]
+    ],
+    "item": "noclip:journal*1,noclip:almond_water*3,noclip:battery*2"
   },
   {
     "name": "motel_asphalt",
