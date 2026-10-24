@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cs_pallet_boxes"
+    },
+    "facing=east": {
+      "model": "noclip:block/cs_pallet_boxes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cs_pallet_boxes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cs_pallet_boxes",
+      "y": 270
+    }
+  }
+}

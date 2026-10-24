@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "noclip:block/el_rungs",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "noclip:block/el_rungs"
+    },
+    "facing=south": {
+      "model": "noclip:block/el_rungs",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/el_rungs",
+      "y": 270
+    }
+  }
+}

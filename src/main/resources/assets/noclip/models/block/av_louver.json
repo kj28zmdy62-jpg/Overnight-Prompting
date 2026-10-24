@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/av_louver",
+    "up": "noclip:block/av_louver",
+    "north": "noclip:block/av_louver",
+    "south": "noclip:block/av_louver",
+    "west": "noclip:block/av_louver",
+    "east": "noclip:block/av_louver",
+    "particle": "noclip:block/av_louver"
+  }
+}

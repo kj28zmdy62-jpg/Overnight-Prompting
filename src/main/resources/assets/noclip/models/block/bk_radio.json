@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "noclip:block/bk_radio",
+    "side": "noclip:block/bk_bunk_metal",
+    "top": "noclip:block/bk_bunk_metal"
+  }
+}

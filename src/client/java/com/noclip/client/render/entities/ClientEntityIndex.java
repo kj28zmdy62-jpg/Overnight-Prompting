@@ -6,5 +6,8 @@ public final class ClientEntityIndex {
     private ClientEntityIndex() {}
 
     public static void registerAll() {
+        DuctCrawlerRenderers.register();
+        ElevatorCarRenderers.register();
+        WrappedOneRenderers.register();
     }
 }

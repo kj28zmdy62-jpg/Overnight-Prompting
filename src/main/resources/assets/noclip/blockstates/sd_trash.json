@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sd_trash"
+    },
+    "facing=east": {
+      "model": "noclip:block/sd_trash",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sd_trash",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sd_trash",
+      "y": 270
+    }
+  }
+}

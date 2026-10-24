@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/bk_locker"
+    },
+    "facing=east": {
+      "model": "noclip:block/bk_locker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/bk_locker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/bk_locker",
+      "y": 270
+    }
+  }
+}

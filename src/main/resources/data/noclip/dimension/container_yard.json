@@ -1,0 +1,11 @@
+{
+  "type": "noclip:container_yard",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "container_yard",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:container_yard"
+    }
+  }
+}

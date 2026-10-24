@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sd_cone"
+    },
+    "facing=east": {
+      "model": "noclip:block/sd_cone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sd_cone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sd_cone",
+      "y": 270
+    }
+  }
+}

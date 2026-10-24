@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/av_vent_fan"
+    },
+    "lit=false": {
+      "model": "noclip:block/av_vent_fan_off"
+    }
+  }
+}

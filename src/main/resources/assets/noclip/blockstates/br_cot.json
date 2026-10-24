@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/br_cot"
+    },
+    "facing=east": {
+      "model": "noclip:block/br_cot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/br_cot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/br_cot",
+      "y": 270
+    }
+  }
+}

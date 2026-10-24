@@ -1,0 +1,11 @@
+{
+  "type": "noclip:elevator_shaft",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "elevator_shaft",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:elevator_shaft"
+    }
+  }
+}
