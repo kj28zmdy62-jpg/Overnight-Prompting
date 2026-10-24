@@ -44,6 +44,7 @@ public final class Sanity {
         ServerLevel level = p.serverLevel();
         BackroomsLevel def = Levels.get(level.dimension());
         float s = PlayerData.sanity(p);
+        if (!level.getGameRules().getBoolean(com.noclip.registry.ModGameRules.BACKROOMS_SANITY)) def = null;
         if (def == null) {
             s += 0.5f;
         } else {

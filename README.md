@@ -111,3 +111,11 @@ wikis (Level 0, Level 1, Smilers, Hounds, Facelings, Deathmoths, Partygoers, Ski
 Poolrooms, Level Fun, Level !, and others) are used under that license, and this mod's adaptations
 of them are shared under CC BY-SA 4.0. All textures, models and sounds in this mod were generated
 procedurally from code in `tools/`.
+
+## Gamerules
+
+| Rule | Default | What it does |
+|---|---|---|
+| `noclipFromSuffocation` | true | Suffocating in a wall in the real world can drop you into Level 0 |
+| `noclipFromWalls` | true | Pushing into walls long enough can make them give way |
+| `backroomsSanity` | true | Sanity drains in the Backrooms (turn off for a calmer game) |
