@@ -1,4 +1,34 @@
 {
+  "ambient.airport": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/airport",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.airport.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/airport_announcement"
+      },
+      {
+        "name": "noclip:ambient/airport_jet"
+      },
+      {
+        "name": "noclip:ambient/airport_wheels"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.airport.additions"
+  },
+  "event.airport_boarding": {
+    "sounds": [
+      {
+        "name": "noclip:event/airport_boarding"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.airport_boarding"
+  },
   "event.noclip": {
     "sounds": [
       {
@@ -295,6 +325,36 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.level_11.additions"
+  },
+  "ambient.level_13": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_13",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_13.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_13_slam"
+      },
+      {
+        "name": "noclip:ambient/level_13_argument"
+      },
+      {
+        "name": "noclip:ambient/level_13_flush"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_13.additions"
+  },
+  "event.level_13_home": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_13_home"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_13_home"
   },
   "ambient.level_2": {
     "sounds": [
@@ -685,5 +745,35 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.level_9_lamp_off"
+  },
+  "event.manila_room_scrape": {
+    "sounds": [
+      {
+        "name": "noclip:event/manila_room_scrape"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.manila_room_scrape"
+  },
+  "ambient.manila_room": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/manila_room",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.manila_room.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/manila_room_rustle"
+      },
+      {
+        "name": "noclip:ambient/manila_room_knock"
+      },
+      {
+        "name": "noclip:ambient/manila_room_exhale"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.manila_room.additions"
   }
 }

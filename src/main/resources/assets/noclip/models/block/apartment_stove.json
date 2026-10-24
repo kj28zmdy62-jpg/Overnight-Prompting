@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "noclip:block/l13_fridge",
+    "top": "noclip:block/l13_stove_top",
+    "front": "noclip:block/l13_stove",
+    "particle": "noclip:block/l13_fridge"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#side",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            1,
+            1,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#front",
+          "uv": [
+            1,
+            1,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1,
+            1,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1,
+            1,
+            15,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

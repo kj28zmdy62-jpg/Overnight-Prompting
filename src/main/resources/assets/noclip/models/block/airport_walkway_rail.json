@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rail": "noclip:block/ap_rail",
+    "top": "noclip:block/ap_chrome",
+    "particle": "noclip:block/ap_rail"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        0
+      ],
+      "to": [
+        10,
+        14,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rail",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#rail",
+          "uv": [
+            6,
+            2,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#rail",
+          "uv": [
+            6,
+            2,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#rail",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#rail",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}
