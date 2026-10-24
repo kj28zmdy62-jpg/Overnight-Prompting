@@ -9,6 +9,11 @@ public final class LevelIndex {
     public static void registerAll() {
         Levels.register(Level0.create());
         Levels.register(Level1.create());
+        Levels.register(Level2.create());
+        Levels.register(Level3.create());
+        Levels.register(Level4.create());
+        Levels.register(Level5.create());
         Levels.register(Level6.create());
+        Levels.register(Level7.create());
     }
 }

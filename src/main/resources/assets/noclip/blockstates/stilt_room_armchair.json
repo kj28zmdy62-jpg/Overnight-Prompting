@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/stilt_room_armchair"
+    },
+    "facing=east": {
+      "model": "noclip:block/stilt_room_armchair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/stilt_room_armchair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/stilt_room_armchair",
+      "y": 270
+    }
+  }
+}

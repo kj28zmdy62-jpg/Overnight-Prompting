@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "noclip:block/l4_table",
+    "leg": "noclip:block/l4_desk_side",
+    "particle": "noclip:block/l4_table"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#top",
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#top",
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#top",
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#top",
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        12,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            4,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            4,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            4,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#leg",
+          "uv": [
+            6,
+            4,
+            10,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

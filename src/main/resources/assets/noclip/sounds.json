@@ -244,6 +244,237 @@
     ],
     "subtitle": "subtitles.noclip.event.power_down"
   },
+  "ambient.level_2": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_2",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_2.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_2_knock0"
+      },
+      {
+        "name": "noclip:ambient/level_2_knock1"
+      },
+      {
+        "name": "noclip:ambient/level_2_knock2"
+      },
+      {
+        "name": "noclip:ambient/level_2_hiss0"
+      },
+      {
+        "name": "noclip:ambient/level_2_hiss1"
+      },
+      {
+        "name": "noclip:ambient/level_2_groan"
+      },
+      {
+        "name": "noclip:ambient/level_2_drip"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_2.additions"
+  },
+  "event.level_2_knock": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_2_knock"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_2_knock"
+  },
+  "event.level_2_burst": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_2_burst"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_2_burst"
+  },
+  "event.level_2_scald": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_2_scald"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_2_scald"
+  },
+  "ambient.level_3": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_3",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_3.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_3_relay0"
+      },
+      {
+        "name": "noclip:ambient/level_3_relay1"
+      },
+      {
+        "name": "noclip:ambient/level_3_arc0"
+      },
+      {
+        "name": "noclip:ambient/level_3_arc1"
+      },
+      {
+        "name": "noclip:ambient/level_3_spinup"
+      },
+      {
+        "name": "noclip:ambient/level_3_slam"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_3.additions"
+  },
+  "event.level_3_whine": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_3_whine"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_3_whine"
+  },
+  "event.level_3_surge": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_3_surge"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_3_surge"
+  },
+  "event.level_3_breaker": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_3_breaker"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_3_breaker"
+  },
+  "event.level_3_zap": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_3_zap"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_3_zap"
+  },
+  "ambient.level_4": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_4",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_4.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_4_phone0"
+      },
+      {
+        "name": "noclip:ambient/level_4_phone1"
+      },
+      {
+        "name": "noclip:ambient/level_4_phone2"
+      },
+      {
+        "name": "noclip:ambient/level_4_typing"
+      },
+      {
+        "name": "noclip:ambient/level_4_copier"
+      },
+      {
+        "name": "noclip:ambient/level_4_glug"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_4.additions"
+  },
+  "event.level_4_chime": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_4_chime"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_4_chime"
+  },
+  "event.level_4_closing": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_4_closing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_4_closing"
+  },
+  "ambient.level_5": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_5",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_5.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_5_knock0"
+      },
+      {
+        "name": "noclip:ambient/level_5_knock1"
+      },
+      {
+        "name": "noclip:ambient/level_5_slam"
+      },
+      {
+        "name": "noclip:ambient/level_5_bell"
+      },
+      {
+        "name": "noclip:ambient/level_5_steps"
+      },
+      {
+        "name": "noclip:ambient/level_5_laugh"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_5.additions"
+  },
+  "entity.bellhop.bell": {
+    "sounds": [
+      {
+        "name": "noclip:entity/bellhop_bell"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.bellhop.bell"
+  },
+  "event.level_5_knock": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_5_knock"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_5_knock"
+  },
+  "event.level_5_descend": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_5_descend"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_5_descend"
+  },
+  "event.level_5_boiler": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_5_boiler"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_5_boiler"
+  },
   "ambient.level_6": {
     "sounds": [
       {
@@ -265,5 +496,49 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.level_6.additions"
+  },
+  "ambient.level_7": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_7",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_7.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_7_moan0"
+      },
+      {
+        "name": "noclip:ambient/level_7_moan1"
+      },
+      {
+        "name": "noclip:ambient/level_7_slap"
+      },
+      {
+        "name": "noclip:ambient/level_7_bubbles"
+      },
+      {
+        "name": "noclip:ambient/level_7_radio"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_7.additions"
+  },
+  "entity.leviathan.moan": {
+    "sounds": [
+      {
+        "name": "noclip:entity/leviathan_moan"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.leviathan.moan"
+  },
+  "entity.leviathan.surge": {
+    "sounds": [
+      {
+        "name": "noclip:entity/leviathan_surge"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.leviathan.surge"
   }
 }

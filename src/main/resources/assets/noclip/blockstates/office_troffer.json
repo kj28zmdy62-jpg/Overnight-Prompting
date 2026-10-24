@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/office_troffer"
+    },
+    "lit=false": {
+      "model": "noclip:block/office_troffer_off"
+    }
+  }
+}

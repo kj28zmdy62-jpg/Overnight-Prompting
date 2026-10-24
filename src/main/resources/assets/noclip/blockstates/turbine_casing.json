@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/turbine_casing"
+    },
+    "axis=z": {
+      "model": "noclip:block/turbine_casing_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/turbine_casing_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/office_plant"
+    },
+    "facing=east": {
+      "model": "noclip:block/office_plant"
+    },
+    "facing=south": {
+      "model": "noclip:block/office_plant"
+    },
+    "facing=west": {
+      "model": "noclip:block/office_plant"
+    }
+  }
+}

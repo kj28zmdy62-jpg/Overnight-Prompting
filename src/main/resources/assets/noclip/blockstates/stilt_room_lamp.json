@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/stilt_room_lamp"
+    },
+    "lit=false": {
+      "model": "noclip:block/stilt_room_lamp_off"
+    }
+  }
+}

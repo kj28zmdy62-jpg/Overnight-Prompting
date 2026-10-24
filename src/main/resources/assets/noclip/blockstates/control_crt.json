@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/control_crt"
+    },
+    "facing=east": {
+      "model": "noclip:block/control_crt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/control_crt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/control_crt",
+      "y": 270
+    }
+  }
+}

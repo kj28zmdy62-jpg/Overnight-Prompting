@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "noclip:block/l5_boiler_top",
+    "side": "noclip:block/l5_boiler_shell"
+  }
+}

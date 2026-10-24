@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/main_breaker"
+    },
+    "facing=east": {
+      "model": "noclip:block/main_breaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/main_breaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/main_breaker",
+      "y": 270
+    }
+  }
+}

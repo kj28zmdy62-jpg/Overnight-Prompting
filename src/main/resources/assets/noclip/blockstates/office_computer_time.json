@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/office_computer_time"
+    },
+    "facing=east": {
+      "model": "noclip:block/office_computer_time",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/office_computer_time",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/office_computer_time",
+      "y": 270
+    }
+  }
+}
