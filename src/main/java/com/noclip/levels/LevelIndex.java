@@ -11,6 +11,7 @@ public final class LevelIndex {
         Levels.register(Airport.create());
         Levels.register(Arcade.create());
         Levels.register(Archive.create());
+        Levels.register(AssemblyLine.create());
         Levels.register(Ballroom.create());
         Levels.register(BingoHall.create());
         Levels.register(BoilerRoom.create());
@@ -21,6 +22,7 @@ public final class LevelIndex {
         Levels.register(ColdStorage.create());
         Levels.register(ContainerYard.create());
         Levels.register(ConventionCenter.create());
+        Levels.register(Dam.create());
         Levels.register(Daycare.create());
         Levels.register(DeadMall.create());
         Levels.register(Dollhouse.create());
@@ -72,6 +74,7 @@ public final class LevelIndex {
         Levels.register(PhotoGallery.create());
         Levels.register(Playground.create());
         Levels.register(PoleForest.create());
+        Levels.register(PowerPlant.create());
         Levels.register(RainCity.create());
         Levels.register(Recursion.create());
         Levels.register(RedRoom.create());
@@ -95,6 +98,7 @@ public final class LevelIndex {
         Levels.register(TheExit.create());
         Levels.register(TheGrid.create());
         Levels.register(TheHub.create());
+        Levels.register(TheSignal.create());
         Levels.register(TheVoid.create());
         Levels.register(WaitingRoom.create());
         Levels.register(WaterPark.create());

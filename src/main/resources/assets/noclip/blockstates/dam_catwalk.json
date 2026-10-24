@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dam_catwalk"
+    },
+    "facing=east": {
+      "model": "noclip:block/dam_catwalk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dam_catwalk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dam_catwalk",
+      "y": 270
+    }
+  }
+}

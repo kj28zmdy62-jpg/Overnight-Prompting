@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sig_tussock"
+    },
+    "facing=east": {
+      "model": "noclip:block/sig_tussock"
+    },
+    "facing=south": {
+      "model": "noclip:block/sig_tussock"
+    },
+    "facing=west": {
+      "model": "noclip:block/sig_tussock"
+    }
+  }
+}

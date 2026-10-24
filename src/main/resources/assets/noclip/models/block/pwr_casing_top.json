@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/pwr_casing_top",
+    "bottom": "noclip:block/pwr_casing",
+    "side": "noclip:block/pwr_casing"
+  }
+}

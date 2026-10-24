@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "s": "noclip:block/sig_sign_tx",
+    "particle": "noclip:block/sig_sign_tx"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        2,
+        0
+      ],
+      "to": [
+        15,
+        14,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#s",
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#s",
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#s",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#s",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#s",
+          "uv": [
+            0,
+            2,
+            1,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#s",
+          "uv": [
+            0,
+            2,
+            1,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

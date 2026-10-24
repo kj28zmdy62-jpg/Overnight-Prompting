@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "noclip:block/sig_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "noclip:block/sig_ladder"
+    },
+    "facing=south": {
+      "model": "noclip:block/sig_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sig_ladder",
+      "y": 270
+    }
+  }
+}

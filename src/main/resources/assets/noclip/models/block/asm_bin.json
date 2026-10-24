@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "bin": "noclip:block/asm_bin",
+    "top": "noclip:block/asm_bin_top",
+    "particle": "noclip:block/asm_bin"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        12,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bin",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#bin",
+          "uv": [
+            1,
+            4,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#bin",
+          "uv": [
+            1,
+            4,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#bin",
+          "uv": [
+            1,
+            4,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#bin",
+          "uv": [
+            1,
+            4,
+            15,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

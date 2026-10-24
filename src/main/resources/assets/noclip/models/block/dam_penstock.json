@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "noclip:block/dam_penstock_end",
+    "side": "noclip:block/dam_penstock_side"
+  }
+}

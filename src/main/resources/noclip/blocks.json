@@ -1740,6 +1740,283 @@
     "render": "cutout"
   },
   {
+    "name": "asm_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_floor_line",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_belt",
+    "kind": "class",
+    "class": "com.noclip.block.AsmBeltBlock",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_arm_base",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        4,
+        14
+      ],
+      [
+        5,
+        4,
+        5,
+        11,
+        32,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "asm_arm_head",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 6,
+    "strength": 1.0,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        4,
+        11
+      ],
+      [
+        6,
+        3,
+        -10,
+        10,
+        7,
+        11
+      ],
+      [
+        6,
+        -2,
+        -12,
+        10,
+        4,
+        -8
+      ],
+      [
+        7,
+        -4,
+        -11,
+        9,
+        -2,
+        -9
+      ]
+    ]
+  },
+  {
+    "name": "asm_press",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_press_head",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        6,
+        0,
+        16,
+        16,
+        16
+      ],
+      [
+        2,
+        0,
+        2,
+        14,
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "asm_column",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_ceiling",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_lamp",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        10,
+        3,
+        13,
+        16,
+        13
+      ],
+      [
+        7,
+        16,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "asm_wrapped",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        0,
+        3,
+        13,
+        9,
+        13
+      ],
+      [
+        4,
+        9,
+        9,
+        12,
+        20,
+        14
+      ],
+      [
+        5,
+        20,
+        6,
+        11,
+        27,
+        12
+      ],
+      [
+        2,
+        9,
+        4,
+        4,
+        17,
+        11
+      ],
+      [
+        12,
+        9,
+        4,
+        14,
+        17,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "asm_bin",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        12,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "asm_counter",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 4,
+    "emissive": true
+  },
+  {
+    "name": "asm_shipping_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "asm_booth_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_pallet",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        3,
+        16
+      ]
+    ]
+  },
+  {
     "name": "ball_carpet",
     "kind": "cube",
     "sound": "wool",
@@ -7898,6 +8175,136 @@
     "class": "com.noclip.block.ConventionDeskBlock",
     "unbreakable": true,
     "sound": "wood"
+  },
+  {
+    "name": "dam_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_concrete_b",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_concrete_wet",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_marker",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_seep",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_spill_floor",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_ledge",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_catwalk",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        13,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "dam_rail",
+    "kind": "pane",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "dam_penstock",
+    "kind": "pillar",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_work_light",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        3,
+        0,
+        13,
+        13,
+        5
+      ]
+    ]
+  },
+  {
+    "name": "dam_sluice",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "WATER",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "dam_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "dam_gallery_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "emissive": true
+  },
+  {
+    "name": "dam_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
   },
   {
     "name": "dc_foam_ry",
@@ -28926,6 +29333,224 @@
     "unbreakable": true
   },
   {
+    "name": "pwr_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_floor_hazard",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_floor_walk",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_wall_low",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_sign_turbine",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_sign_ears",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_casing",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_casing_top",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_generator",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_plinth",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_pipe",
+    "kind": "pillar",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_panel",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_panel_b",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_annunciator",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "pwr_desk",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 5,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        2,
+        12,
+        2,
+        14,
+        22,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "pwr_desk_odd",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 5,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        2,
+        12,
+        2,
+        14,
+        22,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "pwr_ack",
+    "kind": "class",
+    "class": "com.noclip.block.PwrAckBlock",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 4,
+    "render": "cutout"
+  },
+  {
+    "name": "pwr_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "emissive": true
+  },
+  {
+    "name": "pwr_flood",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        3,
+        0,
+        13,
+        13,
+        4
+      ]
+    ]
+  },
+  {
+    "name": "pwr_beacon",
+    "kind": "class",
+    "class": "com.noclip.block.AlarmBeaconBlock",
+    "sound": "glass",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "pwr_exit_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "pwr_grate",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
     "name": "rc_asphalt",
     "kind": "cube",
     "sound": "stone",
@@ -38479,6 +39104,229 @@
         12
       ]
     ]
+  },
+  {
+    "name": "sig_grass",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_peat",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_granite",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_drystone",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_heather",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "sig_tussock",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "sig_lattice",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_platform",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        14,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sig_beacon",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        7,
+        11
+      ],
+      [
+        4,
+        0,
+        4,
+        12,
+        1,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "sig_hut_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_roof",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "sig_radio",
+    "kind": "class",
+    "class": "com.noclip.block.SigRadioBlock",
+    "sound": "wood",
+    "unbreakable": true,
+    "light": 4,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_tx_door",
+    "kind": "class",
+    "class": "com.noclip.block.SigDoorBlock",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_bulb",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 13,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        6,
+        6,
+        10,
+        12,
+        10
+      ],
+      [
+        7,
+        12,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "sig_sign_tx",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        2,
+        0,
+        15,
+        14,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "sig_ladder",
+    "kind": "ladder",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_mast_top",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "light": 12,
+    "emissive": true,
+    "no_collision": true
   },
   {
     "name": "the_void_floor",

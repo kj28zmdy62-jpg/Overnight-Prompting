@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/dam_penstock"
+    },
+    "axis=z": {
+      "model": "noclip:block/dam_penstock_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/dam_penstock_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

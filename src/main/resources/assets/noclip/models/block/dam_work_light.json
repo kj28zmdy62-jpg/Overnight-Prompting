@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "l": "noclip:block/dam_work_light",
+    "h": "noclip:block/dam_light_housing",
+    "particle": "noclip:block/dam_work_light"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        3,
+        0
+      ],
+      "to": [
+        13,
+        13,
+        5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#h",
+          "uv": [
+            3,
+            0,
+            13,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#h",
+          "uv": [
+            3,
+            0,
+            13,
+            5
+          ]
+        },
+        "north": {
+          "texture": "#h",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#l",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#h",
+          "uv": [
+            0,
+            3,
+            5,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#h",
+          "uv": [
+            0,
+            3,
+            5,
+            13
+          ]
+        }
+      }
+    }
+  ]
+}

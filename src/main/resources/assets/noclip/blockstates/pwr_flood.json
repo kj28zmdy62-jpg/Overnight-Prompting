@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pwr_flood"
+    },
+    "facing=east": {
+      "model": "noclip:block/pwr_flood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pwr_flood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pwr_flood",
+      "y": 270
+    }
+  }
+}

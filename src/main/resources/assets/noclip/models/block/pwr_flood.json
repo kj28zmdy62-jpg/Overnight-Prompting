@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "f": "noclip:block/pwr_flood",
+    "pwr_desk_side": "noclip:block/pwr_grate",
+    "particle": "noclip:block/pwr_flood"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        3,
+        0
+      ],
+      "to": [
+        13,
+        13,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pwr_desk_side",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#pwr_desk_side",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#pwr_desk_side",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#pwr_desk_side",
+          "uv": [
+            0,
+            3,
+            4,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#pwr_desk_side",
+          "uv": [
+            0,
+            3,
+            4,
+            13
+          ]
+        }
+      }
+    }
+  ]
+}
