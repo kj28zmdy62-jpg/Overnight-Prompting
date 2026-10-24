@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "pane": "noclip:block/pl_booth_window",
+    "edge": "noclip:block/pl_booth_window"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "noclip:block/mr_door_bottom"
+    "all": "noclip:block/mnl_door_bottom"
   }
 }

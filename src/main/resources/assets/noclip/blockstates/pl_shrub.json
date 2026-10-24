@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pl_shrub"
+    },
+    "facing=east": {
+      "model": "noclip:block/pl_shrub"
+    },
+    "facing=south": {
+      "model": "noclip:block/pl_shrub"
+    },
+    "facing=west": {
+      "model": "noclip:block/pl_shrub"
+    }
+  }
+}

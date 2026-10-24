@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "noclip:block/pg_floor",
-    "top": "noclip:block/pg_floor",
-    "side": "noclip:block/pg_floor"
-  }
-}

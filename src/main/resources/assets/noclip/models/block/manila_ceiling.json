@@ -1,12 +1,12 @@
 {
   "parent": "noclip:base/cube_flat",
   "textures": {
-    "down": "noclip:block/mr_ceiling",
-    "up": "noclip:block/mr_ceiling",
-    "north": "noclip:block/mr_ceiling",
-    "south": "noclip:block/mr_ceiling",
-    "west": "noclip:block/mr_ceiling",
-    "east": "noclip:block/mr_ceiling",
-    "particle": "noclip:block/mr_ceiling"
+    "down": "noclip:block/mnl_ceiling",
+    "up": "noclip:block/mnl_ceiling",
+    "north": "noclip:block/mnl_ceiling",
+    "south": "noclip:block/mnl_ceiling",
+    "west": "noclip:block/mnl_ceiling",
+    "east": "noclip:block/mnl_ceiling",
+    "particle": "noclip:block/mnl_ceiling"
   }
 }

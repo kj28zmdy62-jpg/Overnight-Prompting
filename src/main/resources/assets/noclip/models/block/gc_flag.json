@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p": "noclip:block/gc_flag_pole",
+    "c": "noclip:block/gc_flag_red",
+    "particle": "noclip:block/gc_flag_pole"
+  },
+  "elements": [
+    {
+      "from": [
+        7.25,
+        0,
+        7.25
+      ],
+      "to": [
+        8.75,
+        12,
+        8.75
+      ],
+      "faces": {
+        "down": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            7.25,
+            8.75,
+            8.75
+          ]
+        },
+        "up": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            7.25,
+            8.75,
+            8.75
+          ]
+        },
+        "north": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            4,
+            8.75,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            4,
+            8.75,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            4,
+            8.75,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#p",
+          "uv": [
+            7.25,
+            4,
+            8.75,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        4,
+        0
+      ],
+      "to": [
+        8.01,
+        12,
+        7.25
+      ],
+      "faces": {
+        "west": {
+          "texture": "#c",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

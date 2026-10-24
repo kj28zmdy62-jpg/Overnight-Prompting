@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rc_awning_red"
+    },
+    "facing=east": {
+      "model": "noclip:block/rc_awning_red",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rc_awning_red",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rc_awning_red",
+      "y": 270
+    }
+  }
+}

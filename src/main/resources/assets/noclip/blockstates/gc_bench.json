@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/gc_bench"
+    },
+    "facing=east": {
+      "model": "noclip:block/gc_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/gc_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/gc_bench",
+      "y": 270
+    }
+  }
+}

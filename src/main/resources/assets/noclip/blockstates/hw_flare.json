@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hw_flare"
+    },
+    "facing=east": {
+      "model": "noclip:block/hw_flare"
+    },
+    "facing=south": {
+      "model": "noclip:block/hw_flare"
+    },
+    "facing=west": {
+      "model": "noclip:block/hw_flare"
+    }
+  }
+}

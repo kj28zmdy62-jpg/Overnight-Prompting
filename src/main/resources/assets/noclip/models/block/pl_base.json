@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "noclip:block/pl_base",
+    "p": "noclip:block/pl_pole",
+    "particle": "noclip:block/pl_base"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#b",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#b",
+          "uv": [
+            3,
+            4,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            3,
+            4,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#b",
+          "uv": [
+            3,
+            4,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#b",
+          "uv": [
+            3,
+            4,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        12,
+        6.5
+      ],
+      "to": [
+        9.5,
+        16,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#p",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

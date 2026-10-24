@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/fp_tube"
+    },
+    "facing=east": {
+      "model": "noclip:block/fp_tube",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/fp_tube",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/fp_tube",
+      "y": 270
+    }
+  }
+}

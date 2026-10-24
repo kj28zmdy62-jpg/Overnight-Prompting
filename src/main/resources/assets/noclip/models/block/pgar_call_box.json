@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "metal": "noclip:block/pgar_beam",
+    "front": "noclip:block/pgar_call_box",
+    "particle": "noclip:block/pgar_beam"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        2,
+        0
+      ],
+      "to": [
+        12,
+        14,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            0,
+            12,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            0,
+            12,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            2,
+            12,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#front",
+          "uv": [
+            4,
+            2,
+            12,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            2,
+            4,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            2,
+            4,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

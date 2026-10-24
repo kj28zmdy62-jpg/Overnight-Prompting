@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/fp_seesaw_mid"
+    },
+    "facing=east": {
+      "model": "noclip:block/fp_seesaw_mid",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/fp_seesaw_mid",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/fp_seesaw_mid",
+      "y": 270
+    }
+  }
+}

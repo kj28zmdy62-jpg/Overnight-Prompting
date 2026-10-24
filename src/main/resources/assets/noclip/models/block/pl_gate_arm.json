@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "a": "noclip:block/pl_gate_arm",
+    "particle": "noclip:block/pl_gate_arm"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        9,
+        7
+      ],
+      "to": [
+        16,
+        11,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#a",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#a",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#a",
+          "uv": [
+            0,
+            5,
+            16,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#a",
+          "uv": [
+            0,
+            5,
+            16,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#a",
+          "uv": [
+            7,
+            5,
+            9,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#a",
+          "uv": [
+            7,
+            5,
+            9,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

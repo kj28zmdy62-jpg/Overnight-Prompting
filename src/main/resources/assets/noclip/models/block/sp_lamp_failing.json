@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/sp_lamp_on",
+    "up": "noclip:block/sp_pole",
+    "north": "noclip:block/sp_pole",
+    "south": "noclip:block/sp_pole",
+    "west": "noclip:block/sp_pole",
+    "east": "noclip:block/sp_pole",
+    "particle": "noclip:block/sp_pole"
+  }
+}

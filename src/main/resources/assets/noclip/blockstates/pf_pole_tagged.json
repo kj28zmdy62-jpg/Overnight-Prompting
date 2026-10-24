@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pf_pole_tagged"
+    },
+    "facing=east": {
+      "model": "noclip:block/pf_pole_tagged",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pf_pole_tagged",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pf_pole_tagged",
+      "y": 270
+    }
+  }
+}

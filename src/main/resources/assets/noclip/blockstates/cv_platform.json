@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cv_platform"
+    },
+    "facing=east": {
+      "model": "noclip:block/cv_platform",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cv_platform",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cv_platform",
+      "y": 270
+    }
+  }
+}

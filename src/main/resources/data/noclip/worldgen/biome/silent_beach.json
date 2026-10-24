@@ -1,0 +1,20 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 10791082,
+    "sky_color": 10791082,
+    "water_color": 5924976,
+    "water_fog_color": 2765366,
+    "ambient_sound": "noclip:ambient.silent_beach",
+    "additions_sound": {
+      "sound": "noclip:ambient.silent_beach.additions",
+      "tick_chance": 0.0025
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

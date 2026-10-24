@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hw_lamp_pole"
+    },
+    "facing=east": {
+      "model": "noclip:block/hw_lamp_pole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hw_lamp_pole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hw_lamp_pole",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "f": "noclip:block/sb_fridge",
+    "particle": "noclip:block/sb_fridge"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#f",
+          "uv": [
+            1,
+            2,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            1,
+            2,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#f",
+          "uv": [
+            1,
+            7,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            1,
+            7,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            2,
+            7,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            2,
+            7,
+            15,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

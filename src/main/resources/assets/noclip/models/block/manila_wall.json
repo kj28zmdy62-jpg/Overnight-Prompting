@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "noclip:block/mr_wall"
+    "all": "noclip:block/mnl_wall"
   }
 }

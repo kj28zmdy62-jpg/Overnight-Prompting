@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "f": "noclip:block/mr_folder",
-    "particle": "noclip:block/mr_folder"
+    "f": "noclip:block/mnl_folder",
+    "particle": "noclip:block/mnl_folder"
   },
   "elements": [
     {

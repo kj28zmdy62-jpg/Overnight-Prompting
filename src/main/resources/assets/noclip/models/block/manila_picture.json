@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "frame": "noclip:block/mr_wall_base",
-    "pic": "noclip:block/mr_picture",
-    "particle": "noclip:block/mr_wall_base"
+    "frame": "noclip:block/mnl_wall_base",
+    "pic": "noclip:block/mnl_picture",
+    "particle": "noclip:block/mnl_wall_base"
   },
   "elements": [
     {

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pf_fern"
+    },
+    "facing=east": {
+      "model": "noclip:block/pf_fern"
+    },
+    "facing=south": {
+      "model": "noclip:block/pf_fern"
+    },
+    "facing=west": {
+      "model": "noclip:block/pf_fern"
+    }
+  }
+}

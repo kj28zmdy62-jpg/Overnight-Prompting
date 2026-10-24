@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "noclip:block/gc_bark",
+    "side": "noclip:block/gc_bark"
+  }
+}

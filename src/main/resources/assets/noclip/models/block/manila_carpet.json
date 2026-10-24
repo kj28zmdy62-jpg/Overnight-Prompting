@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "noclip:block/mr_carpet"
+    "all": "noclip:block/mnl_carpet"
   }
 }

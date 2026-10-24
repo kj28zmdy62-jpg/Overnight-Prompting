@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pgar_car_maroon"
+    },
+    "facing=east": {
+      "model": "noclip:block/pgar_car_maroon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pgar_car_maroon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pgar_car_maroon",
+      "y": 270
+    }
+  }
+}
