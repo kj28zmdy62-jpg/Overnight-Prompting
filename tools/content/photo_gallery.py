@@ -174,7 +174,7 @@ cube("pg_wall_rail", "pg_wall_rail", display="Gallery Wall", sound="stone", flat
 cube("pg_skirting", "pg_skirting", display="Gallery Wall", sound="stone", flat=True)
 cube("pg_floor", "pg_floor", display="Gallery Floor", sound="wood")
 cube("pg_ceiling", "pg_ceiling", display="Gallery Ceiling", flat=True)
-cube("pg_spot", "pg_spot", display="Gallery Spotlight", light=13, emissive=True, flat=True, sound="glass")
+cube("pg_spot", "pg_spot", display="Gallery Spotlight", light=15, emissive=True, flat=True, sound="glass")
 
 # framed print quarters; the frame moulding only on the outer edges of each quarter
 EDGES = {"tl": ("north", "west"), "tr": ("north", "east"), "bl": ("south", "west"), "br": ("south", "east")}

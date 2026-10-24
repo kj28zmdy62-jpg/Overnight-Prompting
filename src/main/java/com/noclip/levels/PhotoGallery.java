@@ -55,7 +55,7 @@ public final class PhotoGallery {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Retaken())
-                .visuals(new Visuals().tint(1.04f, 1.0f, 0.94f).saturation(0.55f).contrast(1.06f).brightness(1.1f)
+                .visuals(new Visuals().tint(1.04f, 1.0f, 0.94f).saturation(0.55f).contrast(1.06f).brightness(1.28f)
                         .grain(0.07f).aberration(0.0012f).vignette(0.55f).fog(6f, 44f).fogColor(0x2A2622).bloom(0.5f))
                 .sanityDrain(0.03f)
                 .spawnY(FLOOR + 1, FLOOR + 1)

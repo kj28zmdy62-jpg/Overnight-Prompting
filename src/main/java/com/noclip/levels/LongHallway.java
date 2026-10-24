@@ -48,7 +48,7 @@ public final class LongHallway {
                 .danger(BackroomsLevel.Danger.LOW)
                 .generator(Gen::new)
                 .behavior(new Growing())
-                .visuals(new Visuals().tint(1.08f, 0.98f, 0.84f).saturation(0.78f).contrast(1.07f).brightness(1.05f)
+                .visuals(new Visuals().tint(1.08f, 0.98f, 0.84f).saturation(0.78f).contrast(1.07f).brightness(1.2f)
                         .grain(0.08f).aberration(0.0015f).vignette(0.6f).fog(4f, 44f).fogColor(0x2A2014).bloom(0.5f))
                 .sanityDrain(0.03f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -136,6 +136,8 @@ public final class LongHallway {
         final BlockState ceiling = ModBlocks.state("lh_ceiling");
         final BlockState filler = ModBlocks.state("void_filler");
         final BlockState sub = ModBlocks.state("subfloor");
+        static final BlockState WASH = net.minecraft.world.level.block.Blocks.LIGHT.defaultBlockState()
+                .setValue(net.minecraft.world.level.block.LightBlock.LEVEL, 8);
 
         @Override
         public void generate(ChunkWriter w) {
@@ -180,6 +182,8 @@ public final class LongHallway {
             for (int y = F + 1; y < CEIL; y++) w.set(x, y, z, ModBlocks.AIR);
             w.set(x, CEIL, z, ceiling);
             if (zl == LENGTH - 2 && dx == 0) w.set(x, F + 3, z, f("lh_sconce", Direction.SOUTH));
+            // the sconces alone leave pools of dark; a dim wash keeps the carpet readable
+            if (dx == 0 && Math.floorMod(zl, 4) == 1) w.set(x, F + 4, z, WASH);
             // sconces: one every seven blocks, alternating sides, periodic with the hall
             int q = Math.floorMod(zl - 4, PERIOD);
             if (Math.abs(dx) == 1 && q % 7 == 3 && zl > 2 && zl < LENGTH - 3) {

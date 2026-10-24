@@ -33,11 +33,11 @@ import net.minecraft.world.level.block.state.BlockState;
  * every direction, hundreds of them. Every wanderer before you tried them, and
  * the wrong ones are marked: claw marks at the base, handprints, a chalk X.
  * Most wrong doors put you back in the hall somewhere else; some open onto
- * somewhere worse. In every block of 144 doors exactly one has never been touched.
+ * somewhere worse. In every block of 252 doors exactly one has never been touched.
  */
 public final class RoomOfDoors {
     static final int FLOOR = 6, CEIL = FLOOR + 12;
-    static final int COL = 4, ROW = 7, REGION_X = 64, REGION_Z = 63;
+    static final int COL = 3, ROW = 5, REGION_X = 63, REGION_Z = 60;
     static final String[] COLORS = {"white", "oak", "green"};
 
     private RoomOfDoors() {}
@@ -49,7 +49,7 @@ public final class RoomOfDoors {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(LevelBehavior.NONE)
-                .visuals(new Visuals().tint(1.04f, 0.98f, 0.9f).saturation(0.82f).contrast(1.1f).brightness(1.05f)
+                .visuals(new Visuals().tint(1.04f, 0.98f, 0.9f).saturation(0.82f).contrast(1.1f).brightness(1.2f)
                         .grain(0.07f).aberration(0.0014f).vignette(0.55f).fog(6f, 46f).fogColor(0x1A1612).bloom(0.6f))
                 .sanityDrain(0.035f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -83,7 +83,7 @@ public final class RoomOfDoors {
                 double ang = r.nextDouble() * Math.PI * 2;
                 double d = 50 + r.nextDouble() * 80;
                 int x = (int) Math.floor((p.getX() + Math.cos(ang) * d) / COL) * COL + 2;
-                int z = (int) Math.floor((p.getZ() + Math.sin(ang) * d) / ROW) * ROW + 3;
+                int z = (int) Math.floor((p.getZ() + Math.sin(ang) * d) / ROW) * ROW + 2;
                 BlockPos t = new BlockPos(x, FLOOR + 1, z);
                 level.getChunk(t);
                 if (!level.getBlockState(t).isAir() || !level.getBlockState(t.above()).isAir()) continue;
@@ -105,7 +105,7 @@ public final class RoomOfDoors {
         for (int attempt = 0; attempt < 8; attempt++) {
             double ang = Math.toRadians(p.getYRot() + 180 + (r.nextFloat() - 0.5f) * 90);
             int x = (int) Math.floor(p.getX() - Math.sin(ang) * 20);
-            int z = (int) Math.floor((p.getZ() + Math.cos(ang) * 20) / ROW) * ROW + 3;
+            int z = (int) Math.floor((p.getZ() + Math.cos(ang) * 20) / ROW) * ROW + 2;
             Mob m = type.create(level);
             if (m == null) return;
             m.moveTo(x + 0.5, FLOOR + 1, z + 0.5, r.nextFloat() * 360, 0);
@@ -126,7 +126,7 @@ public final class RoomOfDoors {
         final BlockState fallen = ModBlocks.state("rod_fallen_door");
         final BlockState sub = ModBlocks.state("subfloor");
         final BlockState filler = ModBlocks.state("void_filler");
-        final BlockState light = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 10);
+        final BlockState light = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 13);
 
         @Override
         public void generate(ChunkWriter w) {
@@ -136,8 +136,8 @@ public final class RoomOfDoors {
             for (int x = w.minX; x <= w.maxX; x++) {
                 for (int z = w.minZ; z <= w.maxZ; z++) {
                     w.set(x, FLOOR, z, ((x + z) & 1) == 0 ? white : black);
-                    if (Math.floorMod(x, 12) == 2 && Math.floorMod(z, 14) == 3) w.set(x, CEIL - 1, z, chandelier);
-                    if (Math.floorMod(x, 8) == 2 && Math.floorMod(z, ROW) == 3) w.set(x, FLOOR + 5, z, light);
+                    if (Math.floorMod(x, 12) == 1 && Math.floorMod(z, 10) == 3) w.set(x, CEIL - 1, z, chandelier);
+                    if (Math.floorMod(x, 6) == 1 && Math.floorMod(z, ROW) == 3) w.set(x, FLOOR + 5, z, light);
                     if (Math.floorMod(x, COL) == 0 && Math.floorMod(z, ROW) == 0) door(w, s, x, z);
                 }
             }
@@ -146,8 +146,8 @@ public final class RoomOfDoors {
             for (int ix = rx - 1; ix <= rx + 1; ix++)
                 for (int iz = rz - 1; iz <= rz + 1; iz++) {
                     if (!Hash.chance(s, ix, iz, 0x5C4A, 0.7f)) continue;
-                    int bx = ix * REGION_X + 4 * (2 + Hash.range(s, ix, iz, 0x5C4B, 12)) + 2;
-                    int bz = iz * REGION_Z + 7 * Hash.range(s, ix, iz, 0x5C4C, 8) + 3;
+                    int bx = ix * REGION_X + COL * (2 + Hash.range(s, ix, iz, 0x5C4B, 16)) + 1;
+                    int bz = iz * REGION_Z + ROW * Hash.range(s, ix, iz, 0x5C4C, 10) + 2;
                     BlockState tl = ModBlocks.state("rod_scrawl_tl"), tr = ModBlocks.state("rod_scrawl_tr");
                     BlockState bl = ModBlocks.state("rod_scrawl_bl"), br = ModBlocks.state("rod_scrawl_br");
                     w.set(bx, FLOOR + 1, bz, tl);

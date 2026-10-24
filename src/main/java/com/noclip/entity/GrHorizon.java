@@ -63,6 +63,11 @@ public class GrHorizon extends PathfinderMob {
     }
 
     @Override
+    public net.minecraft.world.phys.AABB getBoundingBoxForCulling() {
+        return getBoundingBox().inflate(30, 30, 4);
+    }
+
+    @Override
     public boolean shouldRenderAtSqrDistance(double d) {
         return d < 200 * 200;
     }

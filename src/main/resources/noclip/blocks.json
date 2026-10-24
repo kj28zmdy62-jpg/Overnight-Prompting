@@ -2176,7 +2176,7 @@
     "kind": "cube",
     "sound": "glass",
     "unbreakable": true,
-    "light": 13,
+    "light": 15,
     "emissive": true
   },
   {

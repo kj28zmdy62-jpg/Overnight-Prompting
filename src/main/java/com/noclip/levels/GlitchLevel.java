@@ -58,7 +58,7 @@ public final class GlitchLevel {
                 .danger(BackroomsLevel.Danger.UNKNOWN)
                 .generator(Gen::new)
                 .behavior(new Names())
-                .visuals(new Visuals().tint(1.0f, 0.96f, 1.06f).saturation(1.0f).contrast(1.12f).brightness(1.05f)
+                .visuals(new Visuals().tint(1.0f, 0.96f, 1.06f).saturation(1.0f).contrast(1.12f).brightness(1.2f)
                         .grain(0.12f).aberration(0.006f).vignette(0.5f).warp(0.05f).scanlines(0.14f).flicker(0.08f)
                         .fog(4f, 40f).fogColor(0x1A1424).bloom(0.5f))
                 .sanityDrain(0.05f)
@@ -164,7 +164,7 @@ public final class GlitchLevel {
                     int vshift = Hash.chance(s, vband, 0x5E, 0.25f) ? Hash.range(s, vband, 0x5F, 7) - 3 : 0;
                     int sx = x + shift, sz = z + vshift;
                     float st = Hash.noise(s ^ 0x57, sx / 34.0, sz / 34.0);
-                    int style = st < 0.42f ? 0 : st < 0.7f ? 1 : 2;
+                    int style = st < 0.5f ? 0 : st < 0.78f ? 1 : 2;
                     boolean seam = Hash.chance(s, band, 0x5A, 0.3f) && Math.floorMod(z, 5 + Hash.range(s, Math.floorDiv(z, 7), 0x5B, 4)) == 0;
                     float tear = Hash.noise(s ^ 0x7EA, x / 18.0, z / 18.0);
                     boolean hole = Hash.noise(s ^ 0x401E, x / 9.0, z / 9.0) > 0.86f;

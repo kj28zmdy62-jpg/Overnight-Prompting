@@ -100,7 +100,10 @@ public final class GravityRooms {
         @Override
         public void onEnter(ServerPlayer p, ServerLevel level, BackroomsLevel def) {
             int tx = Math.round((float) (p.getX() / TOWER)) * TOWER, tz = Math.round((float) (p.getZ() / TOWER)) * TOWER;
-            p.teleportTo(level, tx + 5.5, y0(0) + 1, tz + 7.5, 180f, 10f);
+            // stand clear of the hatch at first: let the player find it
+            int[] h = hatch(level.getSeed(), tx, tz, 0);
+            boolean blocked = h[0] <= 5 && h[0] + 1 >= 5 && h[1] <= 2 && h[1] + 1 >= 2;
+            p.teleportTo(level, tx + 5.5, y0(0) + 1, tz + (blocked ? 9.5 : 2.5), blocked ? 180f : 0f, 10f);
             lastRoom.put(p.getUUID(), 0);
         }
 

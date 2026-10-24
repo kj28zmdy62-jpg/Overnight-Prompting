@@ -38,7 +38,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * simply is not there. Follow them.
  */
 public final class TheGrid {
-    static final int FLOOR = 16, LINE = 8, REGION = 96, HORIZON = 84;
+    static final int FLOOR = 16, LINE = 8, REGION = 96, HORIZON = 64;
 
     private TheGrid() {}
 
@@ -50,7 +50,7 @@ public final class TheGrid {
                 .generator(Gen::new)
                 .behavior(new Pulses())
                 .visuals(new Visuals().tint(0.92f, 1.0f, 1.1f).saturation(1.2f).contrast(1.15f).brightness(1.0f)
-                        .grain(0.05f).aberration(0.0025f).vignette(0.55f).scanlines(0.08f).fog(26f, 150f).fogColor(0x02040A)
+                        .grain(0.05f).aberration(0.0025f).vignette(0.55f).scanlines(0.08f).fog(30f, 170f).fogColor(0x02040A)
                         .bloom(1.0f))
                 .sanityDrain(0.035f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -102,11 +102,11 @@ public final class TheGrid {
             if (h == null) {
                 h = GrHorizon.TYPE.create(level);
                 if (h == null) return;
-                h.moveTo(p.getX(), FLOOR - 6, p.getZ() - HORIZON, 0f, 0f);
+                h.moveTo(p.getX(), FLOOR + 1, p.getZ() - HORIZON, 0f, 0f);
                 level.addFreshEntity(h);
                 s.horizon = h.getId();
             }
-            h.absMoveTo(p.getX(), FLOOR - 6, p.getZ() - HORIZON, 0f, 0f);
+            h.absMoveTo(p.getX(), FLOOR + 1, p.getZ() - HORIZON, 0f, 0f);
             h.setYHeadRot(0f);
             h.yBodyRot = 0f;
 

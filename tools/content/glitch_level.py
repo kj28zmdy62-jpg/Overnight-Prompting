@@ -155,4 +155,4 @@ sound("ambient.glitch_level.additions",
 sound("event.glitch_level_tick", [("event/glitch_level_tick", name_tick)], subtitle="The name changes")
 
 level("glitch_level", fog="#1a1424", sky="#1a1424", ambient="ambient.glitch_level",
-      additions="ambient.glitch_level.additions", additions_chance=0.006, fixed_time=6000, height=48)
+      additions="ambient.glitch_level.additions", additions_chance=0.006, fixed_time=6000, height=48, ambient_light=0.3)

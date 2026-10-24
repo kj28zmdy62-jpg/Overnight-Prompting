@@ -178,13 +178,6 @@ public final class Recursion {
             int i = Math.floorDiv(p.getBlockX(), SPACING), k = Math.floorDiv(p.getBlockZ(), SPACING);
             int i0 = i - depth(i);
             clearResidents(level, p);
-            String dbg = System.getenv("NOCLIP_REC_DEPTH");
-            if (dbg != null) {
-                int dd = Integer.parseInt(dbg);
-                p.teleportTo(level, (i0 + dd) * SPACING + 7.5, FLOOR + 1, k * SPACING + 10.5, 180f, 0f);
-                spawnResident(level, p, (i0 + dd) * SPACING, k * SPACING, (i0 + dd) * SPACING + 7.5, k * SPACING + 13.3, dd);
-                return;
-            }
             p.teleportTo(level, i0 * SPACING + 7.5, FLOOR + 1, k * SPACING + 10.5, 180f, 0f);
         }
 
