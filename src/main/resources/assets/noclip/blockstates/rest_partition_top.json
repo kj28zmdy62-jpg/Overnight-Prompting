@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rest_partition_top"
+    },
+    "facing=east": {
+      "model": "noclip:block/rest_partition_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rest_partition_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rest_partition_top",
+      "y": 270
+    }
+  }
+}

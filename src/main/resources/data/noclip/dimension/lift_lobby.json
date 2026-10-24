@@ -1,0 +1,11 @@
+{
+  "type": "noclip:lift_lobby",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "lift_lobby",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:lift_lobby"
+    }
+  }
+}

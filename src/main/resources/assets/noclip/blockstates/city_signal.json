@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/city_signal"
+    },
+    "lit=false": {
+      "model": "noclip:block/city_signal_off"
+    }
+  }
+}

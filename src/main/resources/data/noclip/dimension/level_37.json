@@ -1,0 +1,11 @@
+{
+  "type": "noclip:level_37",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "level_37",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:level_37"
+    }
+  }
+}

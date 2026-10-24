@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "m": "noclip:block/cy_mattress",
+    "particle": "noclip:block/cy_mattress"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        1
+      ],
+      "to": [
+        16,
+        4,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#m",
+          "uv": [
+            0,
+            1,
+            16,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#m",
+          "uv": [
+            0,
+            1,
+            16,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#m",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#m",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#m",
+          "uv": [
+            1,
+            12,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#m",
+          "uv": [
+            1,
+            12,
+            15,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

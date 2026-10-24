@@ -41,7 +41,7 @@ public class NoclipClient implements ClientModInitializer {
         for (BackroomsLevel l : Levels.all()) {
             if (!l.visuals.sky) DimensionRenderingRegistry.registerSkyRenderer(l.dimension, ctx -> {});
             if (!l.visuals.clouds) DimensionRenderingRegistry.registerCloudRenderer(l.dimension, ctx -> {});
-            DimensionRenderingRegistry.registerWeatherRenderer(l.dimension, ctx -> {});
+            if (!l.visuals.weather) DimensionRenderingRegistry.registerWeatherRenderer(l.dimension, ctx -> {});
         }
 
         ClientPlayNetworking.registerGlobalReceiver(NoclipNet.SanityPayload.TYPE,
@@ -86,6 +86,7 @@ public class NoclipClient implements ClientModInitializer {
 
     private void tick(Minecraft mc) {
         ClientState.tick(mc);
+        ClientState.camcorder = mc.player != null && com.noclip.item.CamcorderItem.viewing(mc.player);
         Hallucinations.tick(mc);
         if (mc.player == null) return;
         boolean pushing = mc.player.horizontalCollision && mc.player.input.forwardImpulse > 0.1f

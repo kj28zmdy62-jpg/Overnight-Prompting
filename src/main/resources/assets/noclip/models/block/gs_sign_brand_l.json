@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "noclip:block/gs_pole",
+    "a": "noclip:block/gs_brand_0_0",
+    "b": "noclip:block/gs_brand_1_0",
+    "particle": "noclip:block/gs_pole"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        5
+      ],
+      "to": [
+        16,
+        16,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            5,
+            16,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            5,
+            16,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#b",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#a",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

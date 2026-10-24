@@ -1,0 +1,283 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "bracket": "noclip:block/l2_bracket",
+    "bulb": "noclip:block/l2_bulb_cold",
+    "cage": "noclip:block/l2_cage",
+    "particle": "noclip:block/l2_bracket"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        15,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#bracket",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        10,
+        7.5
+      ],
+      "to": [
+        8.5,
+        15,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            1,
+            8.5,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            1,
+            8.5,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            1,
+            8.5,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#bracket",
+          "uv": [
+            7.5,
+            1,
+            8.5,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        5,
+        6.5
+      ],
+      "to": [
+        9.5,
+        10,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6,
+            9.5,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6,
+            9.5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6,
+            9.5,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#bulb",
+          "uv": [
+            6.5,
+            6,
+            9.5,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        11,
+        11,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#cage",
+          "uv": [
+            5,
+            5,
+            11,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

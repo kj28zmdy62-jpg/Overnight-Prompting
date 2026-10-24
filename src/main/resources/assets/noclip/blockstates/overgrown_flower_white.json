@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/overgrown_flower_white"
+    },
+    "facing=east": {
+      "model": "noclip:block/overgrown_flower_white"
+    },
+    "facing=south": {
+      "model": "noclip:block/overgrown_flower_white"
+    },
+    "facing=west": {
+      "model": "noclip:block/overgrown_flower_white"
+    }
+  }
+}

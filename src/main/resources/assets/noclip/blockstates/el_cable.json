@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/el_cable"
+    },
+    "facing=east": {
+      "model": "noclip:block/el_cable"
+    },
+    "facing=south": {
+      "model": "noclip:block/el_cable"
+    },
+    "facing=west": {
+      "model": "noclip:block/el_cable"
+    }
+  }
+}

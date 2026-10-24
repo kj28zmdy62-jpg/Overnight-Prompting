@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/lift_dial_r"
+    },
+    "facing=east": {
+      "model": "noclip:block/lift_dial_r",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/lift_dial_r",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/lift_dial_r",
+      "y": 270
+    }
+  }
+}

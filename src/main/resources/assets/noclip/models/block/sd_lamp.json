@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "l": "noclip:block/sd_lamp",
+    "f": "noclip:block/sd_cart",
+    "particle": "noclip:block/sd_lamp"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4,
+        0
+      ],
+      "to": [
+        12,
+        12,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#f",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#f",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#l",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            0,
+            4,
+            3,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            0,
+            4,
+            3,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

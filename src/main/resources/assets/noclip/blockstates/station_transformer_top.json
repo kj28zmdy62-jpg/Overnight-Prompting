@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/station_transformer_top"
+    },
+    "facing=east": {
+      "model": "noclip:block/station_transformer_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/station_transformer_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/station_transformer_top",
+      "y": 270
+    }
+  }
+}

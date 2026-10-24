@@ -41,6 +41,7 @@ public class Noclip implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        com.noclip.registry.ModGameRules.init();
         ModSounds.init();
         ModBlocks.init();
         ModItems.init();

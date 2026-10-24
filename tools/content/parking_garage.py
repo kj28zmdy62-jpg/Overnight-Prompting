@@ -109,51 +109,51 @@ def ramp_sign(text):
     return f
 
 
-tex("pg_floor", lambda: concrete("pgf"))
-tex("pg_floor_oil", lambda: concrete("pgfo", oil=2))
-tex("pg_floor_line", floor_line)
-tex("pg_floor_arrow", floor_arrow)
-tex("pg_floor_hazard", floor_yellow)
+tex("pgar_floor", lambda: concrete("pgf"))
+tex("pgar_floor_oil", lambda: concrete("pgfo", oil=2))
+tex("pgar_floor_line", floor_line)
+tex("pgar_floor_arrow", floor_arrow)
+tex("pgar_floor_hazard", floor_yellow)
 for txt, band in (("P3", "#2a6ab0"), ("P-13", "#b02a2a")):
-    tex(f"pg_pillar_{txt.replace('-', 'm').lower()}", pillar(txt, band))
-tex("pg_ceiling", ceiling)
-tex("pg_beam", beam)
-tex("pg_tube", lambda: tube(True))
-tex("pg_tube_off", lambda: tube(False))
-tex("pg_wall", wall)
-tex("pg_stair_door_top", lambda: stair_door(True))
-tex("pg_stair_door_bottom", lambda: stair_door(False))
-tex("pg_call_box", call_box)
-tex("pg_sign_up", ramp_sign("UP"))
-tex("pg_sign_down", ramp_sign("DOWN"))
+    tex(f"pgar_pillar_{txt.replace('-', 'm').lower()}", pillar(txt, band))
+tex("pgar_ceiling", ceiling)
+tex("pgar_beam", beam)
+tex("pgar_tube", lambda: tube(True))
+tex("pgar_tube_off", lambda: tube(False))
+tex("pgar_wall", wall)
+tex("pgar_stair_door_top", lambda: stair_door(True))
+tex("pgar_stair_door_bottom", lambda: stair_door(False))
+tex("pgar_call_box", call_box)
+tex("pgar_sign_up", ramp_sign("UP"))
+tex("pgar_sign_down", ramp_sign("DOWN"))
 
-cube("pg_floor", "pg_floor", display="Garage Deck", sound="stone")
-cube("pg_floor_oil", "pg_floor_oil", display="Oil-Stained Deck", sound="stone")
-cube("pg_floor_line", "pg_floor_line", display="Stall Line", sound="stone")
-cube("pg_floor_arrow", "pg_floor_arrow", display="Painted Arrow", sound="stone")
-cube("pg_floor_hazard", "pg_floor_hazard", display="Hazard Paint", sound="stone")
-cube("pg_pillar_p3", "pg_pillar_p3", display="Column P3", sound="stone")
-cube("pg_pillar_pm13", "pg_pillar_pm13", display="Column P-13", sound="stone")
-cube("pg_ceiling", "pg_ceiling", display="Deck Soffit", sound="stone", flat=True)
-cube("pg_beam", "pg_beam", display="Concrete Beam", sound="stone", flat=True)
-cube("pg_wall", "pg_wall", display="Garage Wall", sound="stone")
-shaped("pg_light", [(1, 13, 5, 15, 16, 11, {"all": "housing", "down": "tube"})],
-       {"housing": "pg_beam", "tube": "pg_tube"}, display="Sodium Tube", light=13, emissive=True,
+cube("pgar_floor", "pgar_floor", display="Garage Deck", sound="stone")
+cube("pgar_floor_oil", "pgar_floor_oil", display="Oil-Stained Deck", sound="stone")
+cube("pgar_floor_line", "pgar_floor_line", display="Stall Line", sound="stone")
+cube("pgar_floor_arrow", "pgar_floor_arrow", display="Painted Arrow", sound="stone")
+cube("pgar_floor_hazard", "pgar_floor_hazard", display="Hazard Paint", sound="stone")
+cube("pgar_pillar_p3", "pgar_pillar_p3", display="Column P3", sound="stone")
+cube("pgar_pillar_pm13", "pgar_pillar_pm13", display="Column P-13", sound="stone")
+cube("pgar_ceiling", "pgar_ceiling", display="Deck Soffit", sound="stone", flat=True)
+cube("pgar_beam", "pgar_beam", display="Concrete Beam", sound="stone", flat=True)
+cube("pgar_wall", "pgar_wall", display="Garage Wall", sound="stone")
+shaped("pgar_light", [(1, 13, 5, 15, 16, 11, {"all": "housing", "down": "tube"})],
+       {"housing": "pgar_beam", "tube": "pgar_tube"}, display="Sodium Tube", light=13, emissive=True,
        unbreakable=True, collides=False, sound="glass", render="solid")
-shaped("pg_light_off", [(1, 13, 5, 15, 16, 11, {"all": "housing", "down": "tube"})],
-       {"housing": "pg_beam", "tube": "pg_tube_off"}, display="Dead Tube", unbreakable=True, collides=False,
+shaped("pgar_light_off", [(1, 13, 5, 15, 16, 11, {"all": "housing", "down": "tube"})],
+       {"housing": "pgar_beam", "tube": "pgar_tube_off"}, display="Dead Tube", unbreakable=True, collides=False,
        sound="glass", render="solid")
-exit_block("pg_stair_door", "pg_stair_door_bottom", "DOOR", trigger="USE", solid=True, display="Stair Door", sound="metal")
-cube("pg_stair_door_top", "pg_stair_door_top", display="Stair Door", sound="metal")
-shaped("pg_call_box", [(4, 2, 0, 12, 14, 4, {"all": "metal", "south": "front"})],
-       {"metal": "pg_beam", "front": "pg_call_box"}, display="Emergency Call Box", light=6, emissive=True,
+exit_block("pgar_stair_door", "pgar_stair_door_bottom", "DOOR", trigger="USE", solid=True, display="Stair Door", sound="metal")
+cube("pgar_stair_door_top", "pgar_stair_door_top", display="Stair Door", sound="metal")
+shaped("pgar_call_box", [(4, 2, 0, 12, 14, 4, {"all": "metal", "south": "front"})],
+       {"metal": "pgar_beam", "front": "pgar_call_box"}, display="Emergency Call Box", light=6, emissive=True,
        unbreakable=True, collides=False)
-cube("pg_sign_up", "pg_sign_up", display="Ramp Sign", sound="metal", light=4, emissive=True)
-cube("pg_sign_down", "pg_sign_down", display="Ramp Sign", sound="metal", light=4, emissive=True)
-stairs("pg_ramp", "pg_floor", "pg_floor", display="Ramp")
-exit_block("pg_dark_up", "pitch_black", "ASCEND", display="Up")
-exit_block("pg_dark_down", "pitch_black", "DESCEND", display="Down")
-cube("pg_curb", "pg_floor_hazard", display="Curb", sound="stone")
+cube("pgar_sign_up", "pgar_sign_up", display="Ramp Sign", sound="metal", light=4, emissive=True)
+cube("pgar_sign_down", "pgar_sign_down", display="Ramp Sign", sound="metal", light=4, emissive=True)
+stairs("pgar_ramp", "pgar_floor", "pgar_floor", display="Ramp")
+exit_block("pgar_dark_up", "pitch_black", "ASCEND", display="Up")
+exit_block("pgar_dark_down", "pitch_black", "DESCEND", display="Down")
+cube("pgar_curb", "pgar_floor_hazard", display="Curb", sound="stone")
 
 # ------------------------------------------------------------------ cars
 
@@ -209,14 +209,14 @@ def rear(lit):
 
 
 for name, (lo, hi) in CARS.items():
-    tex(f"pg_paint_{name}", paint(lo, hi, "pgp" + name))
-tex("pg_car_glass", lambda: car_glass(False))
-tex("pg_car_glass_lit", lambda: car_glass(True))
-tex("pg_tire", tire)
-tex("pg_car_front", lambda: front(False))
-tex("pg_car_front_lit", lambda: front(True))
-tex("pg_car_rear", lambda: rear(False))
-tex("pg_car_rear_lit", lambda: rear(True))
+    tex(f"pgar_paint_{name}", paint(lo, hi, "pgp" + name))
+tex("pgar_car_glass", lambda: car_glass(False))
+tex("pgar_car_glass_lit", lambda: car_glass(True))
+tex("pgar_tire", tire)
+tex("pgar_car_front", lambda: front(False))
+tex("pgar_car_front_lit", lambda: front(True))
+tex("pgar_car_rear", lambda: rear(False))
+tex("pgar_car_rear_lit", lambda: rear(True))
 
 
 def car_model(paint_tex, glass, fr, rr):
@@ -243,15 +243,15 @@ def car_model(paint_tex, glass, fr, rr):
 
 COLLIDE = [(0, 0, 0, 16, 16, 16, "paint")]
 for name in CARS:
-    shaped(f"pg_car_{name}", COLLIDE, {"paint": f"pg_paint_{name}"}, display="Parked Car", unbreakable=True,
+    shaped(f"pgar_car_{name}", COLLIDE, {"paint": f"pgar_paint_{name}"}, display="Parked Car", unbreakable=True,
            sound="metal")
-    BLOCK_MODELS[f"pg_car_{name}"] = car_model(f"pg_paint_{name}", "pg_car_glass", "pg_car_front", "pg_car_rear")
+    BLOCK_MODELS[f"pgar_car_{name}"] = car_model(f"pgar_paint_{name}", "pgar_car_glass", "pgar_car_front", "pgar_car_rear")
 
 # the one with the alarm: lights flashing, keys in the ignition. Use it to get in.
-exit_block("pg_car_alarm", "pg_paint_maroon", "SECRET", trigger="USE", solid=True, display="Car With Its Alarm Going",
+exit_block("pgar_car_alarm", "pgar_paint_maroon", "SECRET", trigger="USE", solid=True, display="Car With Its Alarm Going",
            light=9, emissive=True, sound="metal",
-           model=car_model("pg_paint_maroon", "pg_car_glass_lit", "pg_car_front_lit", "pg_car_rear_lit"))
-A.ITEM_MODELS["pg_car_alarm"] = {"parent": "noclip:block/pg_car_alarm"}
+           model=car_model("pgar_paint_maroon", "pgar_car_glass_lit", "pgar_car_front_lit", "pgar_car_rear_lit"))
+A.ITEM_MODELS["pgar_car_alarm"] = {"parent": "noclip:block/pg_car_alarm"}
 
 # ------------------------------------------------------------------ sound
 

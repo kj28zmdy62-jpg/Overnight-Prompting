@@ -1,0 +1,11 @@
+{
+  "type": "noclip:the_dock",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "the_dock",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:the_dock"
+    }
+  }
+}

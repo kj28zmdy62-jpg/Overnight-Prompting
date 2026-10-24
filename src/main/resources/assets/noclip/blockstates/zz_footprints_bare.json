@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/zz_footprints_bare"
+    },
+    "facing=east": {
+      "model": "noclip:block/zz_footprints_bare",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/zz_footprints_bare",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/zz_footprints_bare",
+      "y": 270
+    }
+  }
+}

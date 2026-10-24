@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sl_bones"
+    },
+    "facing=east": {
+      "model": "noclip:block/sl_bones",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sl_bones",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sl_bones",
+      "y": 270
+    }
+  }
+}

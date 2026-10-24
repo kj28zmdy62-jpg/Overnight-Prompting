@@ -1,0 +1,11 @@
+{
+  "type": "noclip:stairwell",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "stairwell",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:stairwell"
+    }
+  }
+}

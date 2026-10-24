@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cave_glow_fungus"
+    },
+    "facing=east": {
+      "model": "noclip:block/cave_glow_fungus"
+    },
+    "facing=south": {
+      "model": "noclip:block/cave_glow_fungus"
+    },
+    "facing=west": {
+      "model": "noclip:block/cave_glow_fungus"
+    }
+  }
+}

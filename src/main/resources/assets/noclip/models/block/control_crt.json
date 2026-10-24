@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "case": "noclip:block/l3_casing",
+    "screen": "noclip:block/l3_crt",
+    "particle": "noclip:block/l3_casing"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        11,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#screen",
+          "uv": [
+            2,
+            5,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#case",
+          "uv": [
+            2,
+            5,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            4,
+            5,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            4,
+            5,
+            14,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        2,
+        14
+      ],
+      "to": [
+        12,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            4,
+            7,
+            12,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#case",
+          "uv": [
+            4,
+            7,
+            12,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            14,
+            7,
+            16,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            14,
+            7,
+            16,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

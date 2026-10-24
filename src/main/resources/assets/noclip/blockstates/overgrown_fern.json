@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/overgrown_fern"
+    },
+    "facing=east": {
+      "model": "noclip:block/overgrown_fern"
+    },
+    "facing=south": {
+      "model": "noclip:block/overgrown_fern"
+    },
+    "facing=west": {
+      "model": "noclip:block/overgrown_fern"
+    }
+  }
+}

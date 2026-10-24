@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "glass": "noclip:block/l8_lantern",
+    "rope": "noclip:block/l8_rope",
+    "particle": "noclip:block/l8_lantern"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        9,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            7,
+            11,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            7,
+            11,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            7,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            7,
+            11,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        9,
+        6
+      ],
+      "to": [
+        10,
+        11,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            5,
+            10,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            5,
+            10,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            5,
+            10,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#rope",
+          "uv": [
+            6,
+            5,
+            10,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

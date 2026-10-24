@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/mt_missing_dirty",
+    "up": "noclip:block/mt_missing_dirty",
+    "north": "noclip:block/mt_missing_dirty",
+    "south": "noclip:block/mt_missing_dirty",
+    "west": "noclip:block/mt_missing_dirty",
+    "east": "noclip:block/mt_missing_dirty",
+    "particle": "noclip:block/mt_missing_dirty"
+  }
+}

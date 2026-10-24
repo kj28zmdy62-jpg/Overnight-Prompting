@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "noclip:block/gh_roof_slab"
+    },
+    "type=top": {
+      "model": "noclip:block/gh_roof_slab_top"
+    },
+    "type=double": {
+      "model": "noclip:block/gh_roof_slab_double"
+    }
+  }
+}

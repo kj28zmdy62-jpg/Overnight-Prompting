@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "noclip:block/fr_shingles_brown",
+    "top": "noclip:block/fr_shingles_brown",
+    "side": "noclip:block/fr_shingles_brown"
+  }
+}

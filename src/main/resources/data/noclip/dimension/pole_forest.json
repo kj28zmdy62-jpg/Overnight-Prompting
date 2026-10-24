@@ -1,0 +1,11 @@
+{
+  "type": "noclip:pole_forest",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "pole_forest",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:pole_forest"
+    }
+  }
+}

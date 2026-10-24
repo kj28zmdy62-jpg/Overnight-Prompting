@@ -42,6 +42,7 @@ public final class Level1 {
                 .spawn(SpawnRule.of(ModEntities.lazy("smiler"), 3, 0.55f).dark().dist(12, 26).weight(4))
                 .spawn(SpawnRule.of(ModEntities.lazy("faceling"), 2, 0.25f).dist(20, 40).weight(2))
                 .spawn(SpawnRule.of(ModEntities.lazy("hound"), 1, 0.12f).dist(30, 44).weight(1))
+                .spawn(SpawnRule.of(ModEntities.lazy("lurker"), 1, 0.06f).dist(6, 10).weight(1))
                 .exit(ExitType.NOCLIP, "level_2", 5).exit(ExitType.NOCLIP, "level_3", 2).exit(ExitType.NOCLIP, "level_4", 1)
                 .exit(ExitType.DESCEND, "level_2", 1)
                 .exit(ExitType.DOOR, "level_3", 2).exit(ExitType.DOOR, "level_4", 2).exit(ExitType.DOOR, "level_5", 1)

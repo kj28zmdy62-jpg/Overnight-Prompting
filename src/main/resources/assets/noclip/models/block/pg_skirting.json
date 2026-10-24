@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/pg_skirting",
+    "up": "noclip:block/pg_skirting",
+    "north": "noclip:block/pg_skirting",
+    "south": "noclip:block/pg_skirting",
+    "west": "noclip:block/pg_skirting",
+    "east": "noclip:block/pg_skirting",
+    "particle": "noclip:block/pg_skirting"
+  }
+}

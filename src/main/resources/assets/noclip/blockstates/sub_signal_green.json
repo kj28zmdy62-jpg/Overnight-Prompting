@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/sub_signal_green"
+    },
+    "lit=false": {
+      "model": "noclip:block/sub_signal_green_off"
+    }
+  }
+}

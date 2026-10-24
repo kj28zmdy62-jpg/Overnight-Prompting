@@ -21,6 +21,8 @@ public final class ClientState {
     public static float noclipFlash;
     public static float pulse;
     public static boolean camcorder;
+    /** Dev only: render without the camera effect (title panorama capture). */
+    public static boolean panorama;
     /** Wall-clock end of the current blackout, 0 if none. */
     public static long blackoutUntil;
 

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dc_drawing_tall"
+    },
+    "facing=east": {
+      "model": "noclip:block/dc_drawing_tall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dc_drawing_tall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dc_drawing_tall",
+      "y": 270
+    }
+  }
+}

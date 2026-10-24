@@ -1,0 +1,282 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "hat": "noclip:block/fun_hat",
+    "flame": "noclip:block/fun_balloon_yellow",
+    "particle": "noclip:block/fun_hat"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        3,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#hat",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        3,
+        6
+      ],
+      "to": [
+        10,
+        6,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            10,
+            10,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            10,
+            10,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            10,
+            10,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hat",
+          "uv": [
+            6,
+            10,
+            10,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        6,
+        7
+      ],
+      "to": [
+        9,
+        9,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#hat",
+          "uv": [
+            7,
+            7,
+            9,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        9,
+        7.5
+      ],
+      "to": [
+        8.5,
+        11,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#flame",
+          "uv": [
+            7.5,
+            5,
+            8.5,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

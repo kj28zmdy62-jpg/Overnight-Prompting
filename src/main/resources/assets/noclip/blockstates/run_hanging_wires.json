@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/run_hanging_wires"
+    },
+    "facing=east": {
+      "model": "noclip:block/run_hanging_wires"
+    },
+    "facing=south": {
+      "model": "noclip:block/run_hanging_wires"
+    },
+    "facing=west": {
+      "model": "noclip:block/run_hanging_wires"
+    }
+  }
+}

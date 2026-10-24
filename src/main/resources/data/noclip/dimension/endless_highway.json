@@ -1,0 +1,11 @@
+{
+  "type": "noclip:endless_highway",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "endless_highway",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:endless_highway"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "noclip:block/l10_hay_top",
+    "side": "noclip:block/l10_hay"
+  }
+}

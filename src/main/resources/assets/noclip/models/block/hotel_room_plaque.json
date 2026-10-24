@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "brass": "noclip:block/l5_brass",
+    "particle": "noclip:block/l5_brass"
+  },
+  "elements": [
+    {
+      "from": [
+        3.5,
+        4,
+        0
+      ],
+      "to": [
+        12.5,
+        9,
+        0.6
+      ],
+      "faces": {
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            0.6
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            0.6
+          ]
+        },
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            7,
+            0.6,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            7,
+            0.6,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

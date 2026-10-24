@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/wheat_upper_b"
+    },
+    "facing=east": {
+      "model": "noclip:block/wheat_upper_b"
+    },
+    "facing=south": {
+      "model": "noclip:block/wheat_upper_b"
+    },
+    "facing=west": {
+      "model": "noclip:block/wheat_upper_b"
+    }
+  }
+}

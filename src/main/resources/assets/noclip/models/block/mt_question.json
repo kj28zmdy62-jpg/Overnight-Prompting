@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/mt_question",
+    "up": "noclip:block/mt_question",
+    "north": "noclip:block/mt_question",
+    "south": "noclip:block/mt_question",
+    "west": "noclip:block/mt_question",
+    "east": "noclip:block/mt_question",
+    "particle": "noclip:block/mt_question"
+  }
+}

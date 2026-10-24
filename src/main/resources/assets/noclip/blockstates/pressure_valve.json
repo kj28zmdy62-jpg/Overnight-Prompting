@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pressure_valve"
+    },
+    "facing=east": {
+      "model": "noclip:block/pressure_valve",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pressure_valve",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pressure_valve",
+      "y": 270
+    }
+  }
+}

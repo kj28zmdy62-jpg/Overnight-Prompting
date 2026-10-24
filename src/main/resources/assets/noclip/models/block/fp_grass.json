@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/fp_grass",
+    "bottom": "noclip:block/fp_soil",
+    "side": "noclip:block/fp_grass_side"
+  }
+}

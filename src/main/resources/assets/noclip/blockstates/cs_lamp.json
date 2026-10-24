@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/cs_lamp"
+    },
+    "lit=false": {
+      "model": "noclip:block/cs_lamp_off"
+    }
+  }
+}

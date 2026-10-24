@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "t": "noclip:block/cc_phone_ringing",
+    "b": "noclip:block/cc_phone_body",
+    "particle": "noclip:block/cc_phone_body"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        -4,
+        3
+      ],
+      "to": [
+        13,
+        -1,
+        13
+      ],
+      "faces": {
+        "up": {
+          "texture": "#t",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#b"
+        },
+        "south": {
+          "texture": "#b"
+        },
+        "east": {
+          "texture": "#b"
+        },
+        "west": {
+          "texture": "#b"
+        },
+        "down": {
+          "texture": "#b"
+        }
+      }
+    }
+  ]
+}

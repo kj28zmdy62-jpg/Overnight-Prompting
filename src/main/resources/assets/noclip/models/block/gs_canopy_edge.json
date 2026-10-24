@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/gs_roof",
+    "bottom": "noclip:block/gs_canopy_under",
+    "side": "noclip:block/gs_fascia"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/gs_weeds"
+    },
+    "facing=east": {
+      "model": "noclip:block/gs_weeds"
+    },
+    "facing=south": {
+      "model": "noclip:block/gs_weeds"
+    },
+    "facing=west": {
+      "model": "noclip:block/gs_weeds"
+    }
+  }
+}

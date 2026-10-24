@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/mus_art_warehouse"
+    },
+    "facing=east": {
+      "model": "noclip:block/mus_art_warehouse",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/mus_art_warehouse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/mus_art_warehouse",
+      "y": 270
+    }
+  }
+}

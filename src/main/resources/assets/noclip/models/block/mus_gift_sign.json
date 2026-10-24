@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "s": "noclip:block/mus_gift_sign",
+    "f": "noclip:block/mus_leather",
+    "particle": "noclip:block/mus_gift_sign"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        16,
+        8,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#f",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#f",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#s",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#s",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#f",
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#f",
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

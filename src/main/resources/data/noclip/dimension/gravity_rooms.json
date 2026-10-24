@@ -1,0 +1,11 @@
+{
+  "type": "noclip:gravity_rooms",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "gravity_rooms",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:gravity_rooms"
+    }
+  }
+}

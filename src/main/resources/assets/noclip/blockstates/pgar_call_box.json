@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pgar_call_box"
+    },
+    "facing=east": {
+      "model": "noclip:block/pgar_call_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pgar_call_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pgar_call_box",
+      "y": 270
+    }
+  }
+}

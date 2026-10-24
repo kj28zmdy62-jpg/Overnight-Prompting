@@ -1,0 +1,11 @@
+{
+  "type": "noclip:gas_station",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "gas_station",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:gas_station"
+    }
+  }
+}

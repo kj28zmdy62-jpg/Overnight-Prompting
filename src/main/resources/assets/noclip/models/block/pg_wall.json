@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "noclip:base/cube_flat",
   "textures": {
-    "all": "noclip:block/pg_wall"
+    "down": "noclip:block/pg_wall",
+    "up": "noclip:block/pg_wall",
+    "north": "noclip:block/pg_wall",
+    "south": "noclip:block/pg_wall",
+    "west": "noclip:block/pg_wall",
+    "east": "noclip:block/pg_wall",
+    "particle": "noclip:block/pg_wall"
   }
 }

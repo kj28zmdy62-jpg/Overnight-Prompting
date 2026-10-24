@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/overgrown_mushrooms"
+    },
+    "facing=east": {
+      "model": "noclip:block/overgrown_mushrooms"
+    },
+    "facing=south": {
+      "model": "noclip:block/overgrown_mushrooms"
+    },
+    "facing=west": {
+      "model": "noclip:block/overgrown_mushrooms"
+    }
+  }
+}

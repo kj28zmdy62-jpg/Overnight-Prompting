@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/c188_room_sil_top",
+    "up": "noclip:block/c188_room_sil_top",
+    "north": "noclip:block/c188_room_sil_top",
+    "south": "noclip:block/c188_room_sil_top",
+    "west": "noclip:block/c188_room_sil_top",
+    "east": "noclip:block/c188_room_sil_top",
+    "particle": "noclip:block/c188_room_sil_top"
+  }
+}

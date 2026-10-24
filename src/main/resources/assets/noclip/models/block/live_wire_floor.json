@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "noclip:block/l3_wire_floor"
+  }
+}

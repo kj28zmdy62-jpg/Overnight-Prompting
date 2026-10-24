@@ -17,8 +17,9 @@ if ! flock -n 8; then
     flock 8
   fi
 fi
-timeout ${AUTOTEST_TIMEOUT:-1500} xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew runClient --console=plain \
-  --args="--width 1280 --height 720" > "$LOG" 2>&1
+W=${AUTOTEST_W:-1280}; H=${AUTOTEST_H:-720}
+timeout ${AUTOTEST_TIMEOUT:-1500} xvfb-run -a -s "-screen 0 ${W}x${H}x24" ./gradlew runClient --console=plain \
+  --args="--width $W --height $H" > "$LOG" 2>&1
 grep -E "AUTOTEST|NOCLIP\).*(ERROR|WARN|failed)|Exception in|Caused by|\[Render thread/ERROR\]|\[Server thread/ERROR\]" "$LOG" \
   | grep -v -E "yggdrasil|sessionserver|minecraftservices|SoundSystem|OpenAL|UnknownHost|authlib" | head -40
 ls run/screenshots/ 2>/dev/null | grep autotest | tr '\n' ' '; echo

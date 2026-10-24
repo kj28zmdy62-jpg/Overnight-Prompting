@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sb_beach_grass"
+    },
+    "facing=east": {
+      "model": "noclip:block/sb_beach_grass"
+    },
+    "facing=south": {
+      "model": "noclip:block/sb_beach_grass"
+    },
+    "facing=west": {
+      "model": "noclip:block/sb_beach_grass"
+    }
+  }
+}

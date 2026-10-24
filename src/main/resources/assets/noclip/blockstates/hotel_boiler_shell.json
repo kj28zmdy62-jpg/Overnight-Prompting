@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/hotel_boiler_shell"
+    },
+    "axis=z": {
+      "model": "noclip:block/hotel_boiler_shell_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/hotel_boiler_shell_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

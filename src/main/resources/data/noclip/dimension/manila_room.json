@@ -1,0 +1,11 @@
+{
+  "type": "noclip:manila_room",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "manila_room",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:manila_room"
+    }
+  }
+}

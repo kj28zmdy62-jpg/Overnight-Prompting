@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sd_beam"
+    },
+    "facing=east": {
+      "model": "noclip:block/sd_beam",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sd_beam",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sd_beam",
+      "y": 270
+    }
+  }
+}

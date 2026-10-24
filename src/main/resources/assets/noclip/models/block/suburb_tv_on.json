@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "case": "noclip:block/l9_tv_case",
+    "on": "noclip:block/l9_tv_on",
+    "particle": "noclip:block/l9_tv_case"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        11,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            2,
+            5,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#on",
+          "uv": [
+            2,
+            5,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            4,
+            5,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            4,
+            5,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cv_balloon"
+    },
+    "facing=east": {
+      "model": "noclip:block/cv_balloon"
+    },
+    "facing=south": {
+      "model": "noclip:block/cv_balloon"
+    },
+    "facing=west": {
+      "model": "noclip:block/cv_balloon"
+    }
+  }
+}

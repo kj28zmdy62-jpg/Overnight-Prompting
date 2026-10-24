@@ -25,6 +25,8 @@ import java.util.concurrent.ConcurrentHashMap;
 public final class Sanity {
     public static final ResourceKey<DamageType> INSANITY = ResourceKey.create(Registries.DAMAGE_TYPE, Noclip.id("insanity"));
     private static final Map<UUID, Float> lastSent = new ConcurrentHashMap<>();
+    private static final com.noclip.level.SpawnRule LOW_SANITY_FIGURE =
+            com.noclip.level.SpawnRule.of(com.noclip.registry.ModEntities.lazy("shadow_figure"), 1, 1f).seen().dist(24, 40);
 
     private Sanity() {}
 
@@ -42,6 +44,7 @@ public final class Sanity {
         ServerLevel level = p.serverLevel();
         BackroomsLevel def = Levels.get(level.dimension());
         float s = PlayerData.sanity(p);
+        if (!level.getGameRules().getBoolean(com.noclip.registry.ModGameRules.BACKROOMS_SANITY)) def = null;
         if (def == null) {
             s += 0.5f;
         } else {
@@ -59,6 +62,10 @@ public final class Sanity {
                 }
             }
             s -= drain;
+            // a fraying mind sees someone standing at the end of the hall
+            if (s < 30 && p.getRandom().nextInt(70) == 0) {
+                com.noclip.world.EntityDirector.trySpawn(p, level, def, LOW_SANITY_FIGURE);
+            }
             if (s <= 0 && p.tickCount % 60 == 0) {
                 p.hurt(insanity(level), 1.5f);
             }

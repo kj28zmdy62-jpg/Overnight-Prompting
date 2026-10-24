@@ -1,0 +1,11 @@
+{
+  "type": "noclip:bingo_hall",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "bingo_hall",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:bingo_hall"
+    }
+  }
+}

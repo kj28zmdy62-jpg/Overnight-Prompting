@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "noclip:block/pg_pillar_p3"
-  }
-}

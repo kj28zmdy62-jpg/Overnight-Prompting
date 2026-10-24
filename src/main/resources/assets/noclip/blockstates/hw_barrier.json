@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hw_barrier"
+    },
+    "facing=east": {
+      "model": "noclip:block/hw_barrier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hw_barrier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hw_barrier",
+      "y": 270
+    }
+  }
+}

@@ -67,26 +67,26 @@ public final class ParkingGarage {
     }
 
     static final class Gen implements LevelGenerator {
-        final BlockState floor = ModBlocks.state("pg_floor");
-        final BlockState oil = ModBlocks.state("pg_floor_oil");
-        final BlockState line = ModBlocks.state("pg_floor_line");
-        final BlockState hazard = ModBlocks.state("pg_floor_hazard");
-        final BlockState pillar = ModBlocks.state("pg_pillar_p3");
-        final BlockState pillarOdd = ModBlocks.state("pg_pillar_pm13");
-        final BlockState ceil = ModBlocks.state("pg_ceiling");
-        final BlockState beam = ModBlocks.state("pg_beam");
-        final BlockState wall = ModBlocks.state("pg_wall");
-        final BlockState light = ModBlocks.state("pg_light");
-        final BlockState lightOff = ModBlocks.state("pg_light_off");
-        final BlockState curb = ModBlocks.state("pg_curb");
-        final BlockState door = ModBlocks.state("pg_stair_door");
-        final BlockState doorTop = ModBlocks.state("pg_stair_door_top");
-        final BlockState callBox = ModBlocks.state("pg_call_box");
-        final BlockState signUp = ModBlocks.state("pg_sign_up");
-        final BlockState signDown = ModBlocks.state("pg_sign_down");
-        final BlockState ramp = ModBlocks.state("pg_ramp");
-        final BlockState darkUp = ModBlocks.state("pg_dark_up");
-        final BlockState darkDown = ModBlocks.state("pg_dark_down");
+        final BlockState floor = ModBlocks.state("pgar_floor");
+        final BlockState oil = ModBlocks.state("pgar_floor_oil");
+        final BlockState line = ModBlocks.state("pgar_floor_line");
+        final BlockState hazard = ModBlocks.state("pgar_floor_hazard");
+        final BlockState pillar = ModBlocks.state("pgar_pillar_p3");
+        final BlockState pillarOdd = ModBlocks.state("pgar_pillar_pm13");
+        final BlockState ceil = ModBlocks.state("pgar_ceiling");
+        final BlockState beam = ModBlocks.state("pgar_beam");
+        final BlockState wall = ModBlocks.state("pgar_wall");
+        final BlockState light = ModBlocks.state("pgar_light");
+        final BlockState lightOff = ModBlocks.state("pgar_light_off");
+        final BlockState curb = ModBlocks.state("pgar_curb");
+        final BlockState door = ModBlocks.state("pgar_stair_door");
+        final BlockState doorTop = ModBlocks.state("pgar_stair_door_top");
+        final BlockState callBox = ModBlocks.state("pgar_call_box");
+        final BlockState signUp = ModBlocks.state("pgar_sign_up");
+        final BlockState signDown = ModBlocks.state("pgar_sign_down");
+        final BlockState ramp = ModBlocks.state("pgar_ramp");
+        final BlockState darkUp = ModBlocks.state("pgar_dark_up");
+        final BlockState darkDown = ModBlocks.state("pgar_dark_down");
         final BlockState exitSign = ModBlocks.state("exit_sign");
         final BlockState puddle = ModBlocks.state("puddle");
         final BlockState barrier = Blocks.BARRIER.defaultBlockState();
@@ -95,7 +95,7 @@ public final class ParkingGarage {
         final BlockState[] cars = new BlockState[COLORS.length];
 
         Gen() {
-            for (int i = 0; i < COLORS.length; i++) cars[i] = ModBlocks.state("pg_car_" + COLORS[i]);
+            for (int i = 0; i < COLORS.length; i++) cars[i] = ModBlocks.state("pgar_car_" + COLORS[i]);
         }
 
         @Override
@@ -212,7 +212,7 @@ public final class ParkingGarage {
             BlockPos c = new BlockPos(x, FLOOR + 1, z);
             level.getChunk(c);
             for (int dz = -1; dz <= 1; dz++) level.setBlock(c.offset(0, 0, dz), ModBlocks.AIR, Block.UPDATE_ALL);
-            level.setBlock(c, ModBlocks.state("pg_car_alarm"), Block.UPDATE_ALL);
+            level.setBlock(c, ModBlocks.state("pgar_car_alarm"), Block.UPDATE_ALL);
             level.setBlock(c.north(), Blocks.BARRIER.defaultBlockState(), Block.UPDATE_ALL);
             level.setBlock(c.south(), Blocks.BARRIER.defaultBlockState(), Block.UPDATE_ALL);
             alarms.put(p.getUUID(), c);

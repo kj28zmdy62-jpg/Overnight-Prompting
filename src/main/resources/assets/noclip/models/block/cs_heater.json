@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "noclip:block/cs_heater_body",
+    "c": "noclip:block/cs_heater_coils",
+    "particle": "noclip:block/cs_heater_body"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        14,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b",
+          "uv": [
+            2,
+            4,
+            14,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#b",
+          "uv": [
+            2,
+            4,
+            14,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#c",
+          "uv": [
+            2,
+            2,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            2,
+            2,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#b",
+          "uv": [
+            4,
+            2,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#b",
+          "uv": [
+            4,
+            2,
+            12,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        0,
+        3
+      ],
+      "to": [
+        15,
+        1,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b",
+          "uv": [
+            1,
+            3,
+            15,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#b",
+          "uv": [
+            1,
+            3,
+            15,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#b",
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#b",
+          "uv": [
+            3,
+            15,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#b",
+          "uv": [
+            3,
+            15,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

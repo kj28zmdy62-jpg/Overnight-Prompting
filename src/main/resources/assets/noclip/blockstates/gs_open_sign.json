@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/gs_open_sign"
+    },
+    "facing=east": {
+      "model": "noclip:block/gs_open_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/gs_open_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/gs_open_sign",
+      "y": 270
+    }
+  }
+}

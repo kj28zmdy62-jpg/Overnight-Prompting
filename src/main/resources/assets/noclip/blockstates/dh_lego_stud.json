@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dh_lego_stud"
+    },
+    "facing=east": {
+      "model": "noclip:block/dh_lego_stud",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dh_lego_stud",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dh_lego_stud",
+      "y": 270
+    }
+  }
+}

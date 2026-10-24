@@ -1,0 +1,11 @@
+{
+  "type": "noclip:boiler_room",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "boiler_room",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:boiler_room"
+    }
+  }
+}

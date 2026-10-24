@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "body": "noclip:block/gs_pump_lower",
+    "hose": "noclip:block/gs_hose",
+    "particle": "noclip:block/gs_pump_lower"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        16,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#body",
+          "uv": [
+            2,
+            4,
+            14,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            2,
+            4,
+            14,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#body",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#body",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        4,
+        7
+      ],
+      "to": [
+        15,
+        12,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hose",
+          "uv": [
+            14,
+            7,
+            15,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#hose",
+          "uv": [
+            14,
+            7,
+            15,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#hose",
+          "uv": [
+            14,
+            4,
+            15,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#hose",
+          "uv": [
+            14,
+            4,
+            15,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#hose",
+          "uv": [
+            7,
+            4,
+            9,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#hose",
+          "uv": [
+            7,
+            4,
+            9,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

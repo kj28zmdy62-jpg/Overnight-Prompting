@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "noclip:block/rest_stall_door",
+    "top": "noclip:block/rest_stall_door"
+  }
+}

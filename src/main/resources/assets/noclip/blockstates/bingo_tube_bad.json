@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/bingo_tube_bad"
+    },
+    "lit=false": {
+      "model": "noclip:block/bingo_tube_bad_off"
+    }
+  }
+}

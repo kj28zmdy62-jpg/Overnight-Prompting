@@ -48,6 +48,8 @@ public final class Level0 {
                 .exit(ExitType.FALL, "level_1", 3).exit(ExitType.FALL, "level_27", 1)
                 .spawn(SpawnRule.of(ModEntities.lazy("shadow_figure"), 1, 0.05f).seen().dist(28, 44))
                 .spawn(SpawnRule.of(ModEntities.lazy("smiler"), 2, 0.5f).dark().dist(14, 30).weight(3))
+                .spawn(SpawnRule.of(ModEntities.lazy("mimic"), 1, 0.08f).dist(16, 24).weight(1))
+                .spawn(SpawnRule.of(ModEntities.lazy("lurker"), 1, 0.05f).dist(6, 10).weight(1))
                 .exit(ExitType.DOOR, "level_2", 3).exit(ExitType.DOOR, "level_4", 2).exit(ExitType.DOOR, "level_fun", 1)
                 .build();
     }

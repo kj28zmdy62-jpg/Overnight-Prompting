@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "trim": "noclip:block/l9_trim",
+    "glass": "noclip:block/l9_porch_on",
+    "particle": "noclip:block/l9_trim"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        4,
+        0
+      ],
+      "to": [
+        10,
+        12,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#trim",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#trim",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#trim",
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#trim",
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#trim",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#trim",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        5,
+        1
+      ],
+      "to": [
+        9.5,
+        11,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            6.5,
+            1,
+            9.5,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            6.5,
+            1,
+            9.5,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            6.5,
+            5,
+            9.5,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            6.5,
+            5,
+            9.5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            1,
+            5,
+            4,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            1,
+            5,
+            4,
+            11
+          ]
+        }
+      }
+    }
+  ]
+}

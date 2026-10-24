@@ -38,6 +38,17 @@ public final class EntityRenderers {
                 e -> GenericRenderer.tex("faceling_" + e.variant()), null));
         EntityRendererRegistry.register(ModEntities.SMILER, SmilerRenderer::new);
         EntityRendererRegistry.register(ModEntities.SKIN_STEALER, SkinStealerRenderer::new);
+        EntityRendererRegistry.register(ModEntities.MIMIC, net.minecraft.client.renderer.entity.NoopRenderer::new);
+        ResourceLocation lurkerTex = GenericRenderer.tex("lurker");
+        EntityRendererRegistry.register(ModEntities.LURKER, ctx -> new GenericRenderer<com.noclip.entity.Lurker>(ctx,
+                new GenericModel<>(ctx.bakeLayer(layer("lurker")), GenericModel.Style.STIFF), 0f, 1.15f, e -> lurkerTex, null) {
+            @Override
+            public void render(com.noclip.entity.Lurker e, float yaw, float pt, com.mojang.blaze3d.vertex.PoseStack pose,
+                               net.minecraft.client.renderer.MultiBufferSource buf, int light) {
+                // invisible to the naked eye
+                if (com.noclip.client.ClientState.camcorder) super.render(e, yaw, pt, pose, buf, 0xF000F0);
+            }
+        });
         com.noclip.client.render.entities.ClientEntityIndex.registerAll();
     }
 

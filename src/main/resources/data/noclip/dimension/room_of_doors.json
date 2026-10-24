@@ -1,0 +1,11 @@
+{
+  "type": "noclip:room_of_doors",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "room_of_doors",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:room_of_doors"
+    }
+  }
+}

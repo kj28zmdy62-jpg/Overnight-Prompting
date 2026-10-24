@@ -1,0 +1,20 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 3810324,
+    "sky_color": 2759184,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "noclip:ambient.parking_lot",
+    "additions_sound": {
+      "sound": "noclip:ambient.parking_lot.additions",
+      "tick_chance": 0.003
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
