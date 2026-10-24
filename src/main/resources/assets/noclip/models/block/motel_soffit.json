@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/motel_soffit",
+    "up": "noclip:block/motel_soffit",
+    "north": "noclip:block/motel_soffit",
+    "south": "noclip:block/motel_soffit",
+    "west": "noclip:block/motel_soffit",
+    "east": "noclip:block/motel_soffit",
+    "particle": "noclip:block/motel_soffit"
+  }
+}

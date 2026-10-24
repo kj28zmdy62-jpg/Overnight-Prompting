@@ -9,11 +9,15 @@ public final class EntityIndex {
         DuctCrawler.register();
         ElevatorCar.register();
         GasAttendant.register();
+        HallMonitor.register();
         InvertedWalker.register();
         MotionClayFigure.register();
+        NightStocker.register();
+        PlayplaceMascot.register();
         RunChaser.register();
         StaticMan.register();
         VoidFarThing.register();
+        WardPatient.register();
         WindowWatcher.register();
         WrappedOne.register();
     }

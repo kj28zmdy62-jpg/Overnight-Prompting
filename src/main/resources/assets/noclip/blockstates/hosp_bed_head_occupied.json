@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hosp_bed_head_occupied"
+    },
+    "facing=east": {
+      "model": "noclip:block/hosp_bed_head_occupied",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hosp_bed_head_occupied",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hosp_bed_head_occupied",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/mall_mannequin_display"
+    },
+    "facing=east": {
+      "model": "noclip:block/mall_mannequin_display",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/mall_mannequin_display",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/mall_mannequin_display",
+      "y": 270
+    }
+  }
+}

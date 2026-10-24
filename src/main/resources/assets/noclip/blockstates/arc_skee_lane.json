@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/arc_skee_lane"
+    },
+    "facing=east": {
+      "model": "noclip:block/arc_skee_lane",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/arc_skee_lane",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/arc_skee_lane",
+      "y": 270
+    }
+  }
+}

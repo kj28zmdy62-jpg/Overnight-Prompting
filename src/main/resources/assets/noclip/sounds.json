@@ -79,6 +79,60 @@
     ],
     "subtitle": "subtitles.noclip.entity.duct_crawler.hurt"
   },
+  "ambient.arcade": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/arcade",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.arcade.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/arcade_coin"
+      },
+      {
+        "name": "noclip:ambient/arcade_explosion"
+      },
+      {
+        "name": "noclip:ambient/arcade_tokens"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.arcade.additions"
+  },
+  "event.arcade_poweron": {
+    "sounds": [
+      {
+        "name": "noclip:event/arcade_poweron"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.arcade_poweron"
+  },
+  "event.arcade_tickets": {
+    "sounds": [
+      {
+        "name": "noclip:event/arcade_tickets"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.arcade_tickets"
+  },
+  "event.arcade_fanfare": {
+    "sounds": [
+      {
+        "name": "noclip:event/arcade_fanfare"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.arcade_fanfare"
+  },
+  "event.arcade_denied": {
+    "sounds": [
+      {
+        "name": "noclip:event/arcade_denied"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.arcade_denied"
+  },
   "ambient.boiler_room": {
     "sounds": [
       {
@@ -133,6 +187,52 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.boiler_room_knock"
+  },
+  "ambient.bowling_alley": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/bowling_alley",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.bowling_alley.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/bowling_alley_strike"
+      },
+      {
+        "name": "noclip:ambient/bowling_alley_clap"
+      },
+      {
+        "name": "noclip:ambient/bowling_alley_return"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.bowling_alley.additions"
+  },
+  "event.bowling_roll": {
+    "sounds": [
+      {
+        "name": "noclip:event/bowling_roll"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bowling_roll"
+  },
+  "event.bowling_strike": {
+    "sounds": [
+      {
+        "name": "noclip:event/bowling_strike"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bowling_strike"
+  },
+  "event.bowling_reset": {
+    "sounds": [
+      {
+        "name": "noclip:event/bowling_reset"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bowling_reset"
   },
   "ambient.bunker": {
     "sounds": [
@@ -404,6 +504,50 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.container_yard_knock"
+  },
+  "ambient.dead_mall": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/dead_mall",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.dead_mall.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/dead_mall_heels0"
+      },
+      {
+        "name": "noclip:ambient/dead_mall_heels1"
+      },
+      {
+        "name": "noclip:ambient/dead_mall_shutter"
+      },
+      {
+        "name": "noclip:ambient/dead_mall_chime"
+      },
+      {
+        "name": "noclip:ambient/dead_mall_cart"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.dead_mall.additions"
+  },
+  "event.dead_mall_closing": {
+    "sounds": [
+      {
+        "name": "noclip:event/dead_mall_closing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.dead_mall_closing"
+  },
+  "event.dead_mall_step": {
+    "sounds": [
+      {
+        "name": "noclip:event/dead_mall_step"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.dead_mall_step"
   },
   "ambient.elevator_shaft": {
     "sounds": [
@@ -759,6 +903,63 @@
     ],
     "subtitle": "subtitles.noclip.event.golden_hour_lullaby"
   },
+  "ambient.hospital": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/hospital",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.hospital.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/hospital_gurney"
+      },
+      {
+        "name": "noclip:ambient/hospital_moan"
+      },
+      {
+        "name": "noclip:ambient/hospital_page"
+      },
+      {
+        "name": "noclip:ambient/hospital_curtain"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.hospital.additions"
+  },
+  "event.hospital_beep": {
+    "sounds": [
+      {
+        "name": "noclip:event/hospital_beep"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.hospital_beep"
+  },
+  "event.hospital_flatline": {
+    "sounds": [
+      {
+        "name": "noclip:event/hospital_flatline"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.hospital_flatline"
+  },
+  "entity.ward_patient.breath": {
+    "sounds": [
+      {
+        "name": "noclip:entity/ward_patient_breath"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.ward_patient.breath"
+  },
+  "entity.ward_patient.shuffle": {
+    "sounds": [
+      {
+        "name": "noclip:entity/ward_patient_shuffle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.ward_patient.shuffle"
+  },
   "ambient.inverted_lobby": {
     "sounds": [
       {
@@ -1094,6 +1295,99 @@
     ],
     "subtitle": "subtitles.noclip.event.level_run_start"
   },
+  "ambient.motel": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/motel",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.motel.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/motel_truck"
+      },
+      {
+        "name": "noclip:ambient/motel_dog"
+      },
+      {
+        "name": "noclip:ambient/motel_ice"
+      },
+      {
+        "name": "noclip:ambient/motel_tv"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.motel.additions"
+  },
+  "event.motel_door": {
+    "sounds": [
+      {
+        "name": "noclip:event/motel_door"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.motel_door"
+  },
+  "event.motel_phone": {
+    "sounds": [
+      {
+        "name": "noclip:event/motel_phone"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.motel_phone"
+  },
+  "event.motel_shower": {
+    "sounds": [
+      {
+        "name": "noclip:event/motel_shower"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.motel_shower"
+  },
+  "ambient.movie_theater": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/movie_theater",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.movie_theater.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/movie_theater_shush"
+      },
+      {
+        "name": "noclip:ambient/movie_theater_slurp"
+      },
+      {
+        "name": "noclip:ambient/movie_theater_wrapper"
+      },
+      {
+        "name": "noclip:ambient/movie_theater_seat"
+      },
+      {
+        "name": "noclip:ambient/movie_theater_laugh"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.movie_theater.additions"
+  },
+  "event.movie_theater_end": {
+    "sounds": [
+      {
+        "name": "noclip:event/movie_theater_end"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.movie_theater_end"
+  },
+  "event.movie_theater_shush": {
+    "sounds": [
+      {
+        "name": "noclip:event/movie_theater_shush"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.movie_theater_shush"
+  },
   "ambient.overgrown_lobby": {
     "sounds": [
       {
@@ -1123,6 +1417,110 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.overgrown_lobby_roots"
+  },
+  "ambient.parking_garage": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/parking_garage",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.parking_garage.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/parking_garage_squeal"
+      },
+      {
+        "name": "noclip:ambient/parking_garage_door"
+      },
+      {
+        "name": "noclip:ambient/parking_garage_engine"
+      },
+      {
+        "name": "noclip:ambient/parking_garage_steps"
+      },
+      {
+        "name": "noclip:ambient/parking_garage_chirp"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.parking_garage.additions"
+  },
+  "event.parking_garage_alarm": {
+    "sounds": [
+      {
+        "name": "noclip:event/parking_garage_alarm"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.parking_garage_alarm"
+  },
+  "ambient.playground": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/playground",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.playground.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/playground_giggle0"
+      },
+      {
+        "name": "noclip:ambient/playground_giggle1"
+      },
+      {
+        "name": "noclip:ambient/playground_giggle2"
+      },
+      {
+        "name": "noclip:ambient/playground_running"
+      },
+      {
+        "name": "noclip:ambient/playground_slide"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.playground.additions"
+  },
+  "event.playground_count": {
+    "sounds": [
+      {
+        "name": "noclip:event/playground_count"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.playground_count"
+  },
+  "event.playground_found": {
+    "sounds": [
+      {
+        "name": "noclip:event/playground_found"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.playground_found"
+  },
+  "event.playground_free": {
+    "sounds": [
+      {
+        "name": "noclip:event/playground_free"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.playground_free"
+  },
+  "event.playground_balls": {
+    "sounds": [
+      {
+        "name": "noclip:event/playground_balls"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.playground_balls"
+  },
+  "entity.playplace_mascot.step": {
+    "sounds": [
+      {
+        "name": "noclip:entity/playplace_mascot_step"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.playplace_mascot.step"
   },
   "ambient.salt_flats": {
     "sounds": [
@@ -1161,6 +1559,58 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.salt_flats_tone"
+  },
+  "ambient.school": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/school",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.school.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/school_locker0"
+      },
+      {
+        "name": "noclip:ambient/school_locker1"
+      },
+      {
+        "name": "noclip:ambient/school_murmur"
+      },
+      {
+        "name": "noclip:ambient/school_basketball"
+      },
+      {
+        "name": "noclip:ambient/school_chalk"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.school.additions"
+  },
+  "event.school_bell": {
+    "sounds": [
+      {
+        "name": "noclip:event/school_bell"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.school_bell"
+  },
+  "entity.hall_monitor.whistle": {
+    "sounds": [
+      {
+        "name": "noclip:entity/hall_monitor_whistle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.hall_monitor.whistle"
+  },
+  "entity.hall_monitor.step": {
+    "sounds": [
+      {
+        "name": "noclip:entity/hall_monitor_step"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.hall_monitor.step"
   },
   "ambient.server_farm": {
     "sounds": [
@@ -1346,6 +1796,58 @@
     ],
     "subtitle": "subtitles.noclip.event.storm_drains_step"
   },
+  "ambient.supermarket": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/supermarket",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.supermarket.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/supermarket_cart"
+      },
+      {
+        "name": "noclip:ambient/supermarket_can"
+      },
+      {
+        "name": "noclip:ambient/supermarket_scan"
+      },
+      {
+        "name": "noclip:ambient/supermarket_freezer"
+      },
+      {
+        "name": "noclip:ambient/supermarket_feedback"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.supermarket.additions"
+  },
+  "event.supermarket_intercom": {
+    "sounds": [
+      {
+        "name": "noclip:event/supermarket_intercom"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.supermarket_intercom"
+  },
+  "event.supermarket_cleanup": {
+    "sounds": [
+      {
+        "name": "noclip:event/supermarket_cleanup"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.supermarket_cleanup"
+  },
+  "entity.night_stocker.gun": {
+    "sounds": [
+      {
+        "name": "noclip:entity/night_stocker_gun"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.night_stocker.gun"
+  },
   "ambient.the_abyss": {
     "sounds": [
       {
@@ -1463,5 +1965,68 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.the_void.additions"
+  },
+  "ambient.waiting_room": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/waiting_room",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.waiting_room.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/waiting_room_cough0"
+      },
+      {
+        "name": "noclip:ambient/waiting_room_cough1"
+      },
+      {
+        "name": "noclip:ambient/waiting_room_cough2"
+      },
+      {
+        "name": "noclip:ambient/waiting_room_rustle"
+      },
+      {
+        "name": "noclip:ambient/waiting_room_scrape"
+      },
+      {
+        "name": "noclip:ambient/waiting_room_phone"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.waiting_room.additions"
+  },
+  "event.waiting_room_call": {
+    "sounds": [
+      {
+        "name": "noclip:event/waiting_room_call"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.waiting_room_call"
+  },
+  "event.waiting_room_ticket": {
+    "sounds": [
+      {
+        "name": "noclip:event/waiting_room_ticket"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.waiting_room_ticket"
+  },
+  "event.waiting_room_missed": {
+    "sounds": [
+      {
+        "name": "noclip:event/waiting_room_missed"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.waiting_room_missed"
+  },
+  "event.waiting_room_door": {
+    "sounds": [
+      {
+        "name": "noclip:event/waiting_room_door"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.waiting_room_door"
   }
 }

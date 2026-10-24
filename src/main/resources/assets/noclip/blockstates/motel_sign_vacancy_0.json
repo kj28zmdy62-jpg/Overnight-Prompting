@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/motel_sign_vacancy_0"
+    },
+    "lit=false": {
+      "model": "noclip:block/motel_sign_vacancy_0_off"
+    }
+  }
+}

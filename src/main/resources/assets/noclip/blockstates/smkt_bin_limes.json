@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/smkt_bin_limes"
+    },
+    "facing=east": {
+      "model": "noclip:block/smkt_bin_limes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/smkt_bin_limes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/smkt_bin_limes",
+      "y": 270
+    }
+  }
+}

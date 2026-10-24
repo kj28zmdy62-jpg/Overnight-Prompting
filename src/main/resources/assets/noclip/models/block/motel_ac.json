@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "case": "noclip:block/motel_curb",
+    "grille": "noclip:block/motel_soffit",
+    "particle": "noclip:block/motel_curb"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        2,
+        0
+      ],
+      "to": [
+        15,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            1,
+            0,
+            15,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            1,
+            0,
+            15,
+            8
+          ]
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            1,
+            4,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#grille",
+          "uv": [
+            1,
+            4,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            0,
+            4,
+            8,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            0,
+            4,
+            8,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

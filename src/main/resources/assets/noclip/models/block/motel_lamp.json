@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/motel_lamp_head",
+    "up": "noclip:block/motel_pole",
+    "north": "noclip:block/motel_pole",
+    "south": "noclip:block/motel_pole",
+    "west": "noclip:block/motel_pole",
+    "east": "noclip:block/motel_pole",
+    "particle": "noclip:block/motel_pole"
+  }
+}

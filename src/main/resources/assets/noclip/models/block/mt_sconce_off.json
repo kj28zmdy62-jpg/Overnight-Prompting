@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/mt_wall_fabric",
+    "up": "noclip:block/mt_wall_fabric",
+    "north": "noclip:block/mt_wall_fabric",
+    "south": "noclip:block/mt_wall_fabric",
+    "west": "noclip:block/mt_wall_fabric",
+    "east": "noclip:block/mt_wall_fabric",
+    "particle": "noclip:block/mt_wall_fabric"
+  }
+}

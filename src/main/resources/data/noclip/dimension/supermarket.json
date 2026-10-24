@@ -1,0 +1,11 @@
+{
+  "type": "noclip:supermarket",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "supermarket",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:supermarket"
+    }
+  }
+}

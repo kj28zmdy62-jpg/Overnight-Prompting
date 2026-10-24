@@ -1,0 +1,282 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "hood": "noclip:block/bowl_return",
+    "ball": "noclip:block/bowl_ball",
+    "particle": "noclip:block/bowl_return"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        0
+      ],
+      "to": [
+        15,
+        8,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hood",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#hood",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#hood",
+          "uv": [
+            1,
+            8,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#hood",
+          "uv": [
+            1,
+            8,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#hood",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#hood",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        8,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            4,
+            14,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            4,
+            14,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            4,
+            14,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#hood",
+          "uv": [
+            2,
+            4,
+            14,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        12,
+        3
+      ],
+      "to": [
+        8,
+        16,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            3,
+            8,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            3,
+            8,
+            8
+          ]
+        },
+        "north": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            0,
+            8,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            0,
+            8,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            0,
+            8,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#ball",
+          "uv": [
+            3,
+            0,
+            8,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        12,
+        8
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            0,
+            13,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            0,
+            13,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            0,
+            13,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#ball",
+          "uv": [
+            8,
+            0,
+            13,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

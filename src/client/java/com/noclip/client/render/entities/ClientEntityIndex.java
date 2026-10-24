@@ -9,11 +9,15 @@ public final class ClientEntityIndex {
         DuctCrawlerRenderers.register();
         ElevatorCarRenderers.register();
         GasAttendantRenderers.register();
+        HallMonitorRenderers.register();
         InvertedWalkerRenderers.register();
         MotionClayFigureRenderers.register();
+        NightStockerRenderers.register();
+        PlayplaceMascotRenderers.register();
         RunChaserRenderers.register();
         StaticManRenderers.register();
         VoidFarThingRenderers.register();
+        WardPatientRenderers.register();
         WindowWatcherRenderers.register();
         WrappedOneRenderers.register();
     }

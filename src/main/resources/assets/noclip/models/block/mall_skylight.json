@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/mall_skylight",
+    "up": "noclip:block/mall_skylight",
+    "north": "noclip:block/mall_skylight",
+    "south": "noclip:block/mall_skylight",
+    "west": "noclip:block/mall_skylight",
+    "east": "noclip:block/mall_skylight",
+    "particle": "noclip:block/mall_skylight"
+  }
+}

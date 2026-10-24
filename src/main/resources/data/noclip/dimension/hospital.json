@@ -1,0 +1,11 @@
+{
+  "type": "noclip:hospital",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "hospital",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:hospital"
+    }
+  }
+}

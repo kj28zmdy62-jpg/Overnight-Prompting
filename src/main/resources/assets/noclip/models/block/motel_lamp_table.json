@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "noclip:block/motel_wood",
+    "shade": "noclip:block/motel_lampshade",
+    "particle": "noclip:block/motel_wood"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        6,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        6,
+        4
+      ],
+      "to": [
+        12,
+        14,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            2,
+            12,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            2,
+            12,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            2,
+            12,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            2,
+            12,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

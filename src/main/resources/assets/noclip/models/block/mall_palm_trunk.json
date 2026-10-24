@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "noclip:block/mall_palm_trunk"
+  }
+}

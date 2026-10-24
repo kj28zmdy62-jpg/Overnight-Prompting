@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/mt_red_metal",
+    "bottom": "noclip:block/mt_red_metal",
+    "side": "noclip:block/mt_wall_corridor"
+  }
+}

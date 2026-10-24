@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sch_locker_top_0"
+    },
+    "facing=east": {
+      "model": "noclip:block/sch_locker_top_0",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sch_locker_top_0",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sch_locker_top_0",
+      "y": 270
+    }
+  }
+}

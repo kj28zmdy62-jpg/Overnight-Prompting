@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "arrow": "noclip:block/sch_arrow",
+    "particle": "noclip:block/sch_arrow"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        0.25,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            15.75,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            15.75,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            15.75,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#arrow",
+          "uv": [
+            1,
+            15.75,
+            15,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

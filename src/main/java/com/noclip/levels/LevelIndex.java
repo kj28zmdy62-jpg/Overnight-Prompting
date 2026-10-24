@@ -8,14 +8,18 @@ public final class LevelIndex {
 
     public static void registerAll() {
         Levels.register(AirVents.create());
+        Levels.register(Arcade.create());
         Levels.register(BoilerRoom.create());
+        Levels.register(BowlingAlley.create());
         Levels.register(ColdStorage.create());
         Levels.register(ContainerYard.create());
+        Levels.register(DeadMall.create());
         Levels.register(ElevatorShaft.create());
         Levels.register(FloodedLobby.create());
         Levels.register(Frontrooms.create());
         Levels.register(GasStation.create());
         Levels.register(GoldenHour.create());
+        Levels.register(Hospital.create());
         Levels.register(InvertedLobby.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
@@ -25,15 +29,22 @@ public final class LevelIndex {
         Levels.register(Level94.create());
         Levels.register(LevelFun.create());
         Levels.register(LevelRun.create());
+        Levels.register(Motel.create());
+        Levels.register(MovieTheater.create());
         Levels.register(OvergrownLobby.create());
+        Levels.register(ParkingGarage.create());
+        Levels.register(Playground.create());
         Levels.register(SaltFlats.create());
+        Levels.register(School.create());
         Levels.register(ServerFarm.create());
         Levels.register(SkyRooms.create());
         Levels.register(StaticFields.create());
         Levels.register(StormDrains.create());
+        Levels.register(Supermarket.create());
         Levels.register(TheAbyss.create());
         Levels.register(TheExit.create());
         Levels.register(TheHub.create());
         Levels.register(TheVoid.create());
+        Levels.register(WaitingRoom.create());
     }
 }

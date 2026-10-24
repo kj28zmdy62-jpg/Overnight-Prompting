@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/wr_laminate",
+    "bottom": "noclip:block/wr_laminate",
+    "side": "noclip:block/wr_wall_lower"
+  }
+}

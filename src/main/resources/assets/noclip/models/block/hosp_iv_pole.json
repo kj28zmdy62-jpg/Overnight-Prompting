@@ -1,0 +1,283 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "steel": "noclip:block/hosp_steel",
+    "wheel": "noclip:block/hosp_wheel",
+    "bag": "noclip:block/hosp_iv_bag",
+    "particle": "noclip:block/hosp_steel"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        0,
+        7.5
+      ],
+      "to": [
+        8.5,
+        16,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#steel",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0,
+        7
+      ],
+      "to": [
+        12,
+        1,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            7,
+            12,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            7,
+            12,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            15,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            15,
+            9,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        0,
+        4
+      ],
+      "to": [
+        9,
+        1,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            4,
+            9,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            4,
+            9,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            15,
+            9,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wheel",
+          "uv": [
+            7,
+            15,
+            9,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wheel",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        7
+      ],
+      "to": [
+        8,
+        16,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bag",
+          "uv": [
+            5,
+            7,
+            8,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#bag",
+          "uv": [
+            5,
+            7,
+            8,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#bag",
+          "uv": [
+            5,
+            0,
+            8,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#bag",
+          "uv": [
+            5,
+            0,
+            8,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#bag",
+          "uv": [
+            7,
+            0,
+            9,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#bag",
+          "uv": [
+            7,
+            0,
+            9,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}
