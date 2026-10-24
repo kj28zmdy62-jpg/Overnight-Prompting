@@ -213,7 +213,7 @@ stairs("mt_steps", "mt_carpet_aud", "mt_carpet_aud", display="Aisle Steps", soun
 cube("mt_wall_fabric", "mt_wall_fabric", display="Acoustic Fabric", sound="wool")
 cube("mt_wall_corridor", "mt_wall_corridor", display="Corridor Wall", sound="stone")
 for name in ("mt_screen", "mt_screen_b", "mt_screen_you", "mt_screen_you_turned") + tuple(f"mt_screen_letter_{c}" for c in "thend"):
-    cube(name, name, display="Screen", sound="wool", light=12, emissive=True)
+    cube(name, name, display="Screen", sound="wool", light=15, emissive=True)
 cube("mt_screen_dark", "mt_screen_dark", display="Screen", sound="wool")
 shaped("mt_seat", [
     (1, 0, 3, 3, 9, 13, "frame"), (13, 0, 3, 15, 9, 13, "frame"),
@@ -239,7 +239,7 @@ cube("mt_booth_window", "mt_booth_window", display="Projection Booth", sound="gl
 cube("mt_exit_locked", "mt_exit_locked_bottom", display="Exit (Locked)", sound="metal")
 cube("mt_exit_locked_top", "mt_exit_locked_top", display="Exit (Locked)", sound="metal")
 cube_faces("mt_counter", top="mt_red_metal", bottom="mt_red_metal", side="mt_wall_corridor", display="Concession Counter")
-flicker_light("mt_sconce", "mt_number_1", "mt_wall_fabric", "mt_wall_fabric", light=6, flicker=0.0, face="all",
+flicker_light("mt_sconce", "mt_number_1", "mt_wall_fabric", "mt_wall_fabric", light=11, flicker=0.0, face="all",
               display="Sconce")
 
 # ------------------------------------------------------------------ sound

@@ -150,3 +150,15 @@ The Mimic (repeats your sounds), The Lift Attendant. More matched to levels as b
 98. The Void – nothing, just you and the hum
 99. The Frontrooms – looks like the real world, until it doesn't
 100. The Exit – secret ending
+
+
+## Status (updated during the overnight build)
+
+**93 levels built**, each generated, compiled, booted in the real game and screenshotted at least once, plus ~25 new level-specific entities on top of the 10 core ones.
+
+Not built yet: assembly_line, construction_site, dam, drive_in, power_plant, rooftops, the_signal. These were cut to keep usage at the level the user asked for; they can be added later with the same tooling (see LEVEL_GUIDE.md).
+
+Known rough edges reported by the builders:
+- Many level rules (timers, moving trains, wave pools, alarms) were verified only by compiling and a layout screenshot, not by playing them through.
+- Some levels are quite dark under the software renderer used for testing; on a real GPU they should read better.
+- Per-player state in a few levels (Red Room, Recursion, Mirror Level, Gas Station loops) is kept in memory and resets on server restart.

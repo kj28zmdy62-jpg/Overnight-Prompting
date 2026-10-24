@@ -25566,7 +25566,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25574,7 +25574,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25582,7 +25582,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25590,7 +25590,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25598,7 +25598,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25606,7 +25606,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25614,7 +25614,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25622,7 +25622,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25630,7 +25630,7 @@
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true,
-    "light": 12,
+    "light": 15,
     "emissive": true
   },
   {
@@ -25936,7 +25936,7 @@
     "kind": "flicker",
     "sound": "glass",
     "unbreakable": true,
-    "light": 6,
+    "light": 11,
     "flicker": 0.0,
     "emissive": true
   },

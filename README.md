@@ -1,6 +1,6 @@
 # NOCLIP: The Backrooms
 
-A Backrooms mod for **Minecraft Java 1.21.1 (Fabric)**. Clip out of reality into the Backrooms:
+A Backrooms mod for **Minecraft Java 1.21.1 (Fabric)** with **93 levels**. Clip out of reality into the Backrooms:
 endless, generated levels, each with its own look, sound, rules and inhabitants, filmed through
 the lens of a 1996 camcorder.
 
