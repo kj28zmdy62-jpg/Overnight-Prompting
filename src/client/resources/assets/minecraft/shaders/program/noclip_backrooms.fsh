@@ -102,6 +102,23 @@ void main() {
 
     float depth = linearDepth(texture(DiffuseDepthSampler, uv).r);
 
+    // screen-space ambient occlusion: soft contact shadows in corners and under things
+    if (depth < Far * 0.9) {
+        float occ = 0.0;
+        float radius = clamp(0.9 / depth, 0.004, 0.05);
+        float rnd = hash(texCoord * InSize) * 6.2831;
+        for (int i = 0; i < 12; i++) {
+            float a = rnd + float(i) * 2.39996;
+            float rr = radius * (0.25 + 0.75 * fract(float(i) * 0.618 + rnd));
+            vec2 o = vec2(cos(a) / aspect, sin(a)) * rr;
+            float d2 = linearDepth(texture(DiffuseDepthSampler, uv + o).r);
+            float diff = depth - d2;
+            occ += smoothstep(0.03, 0.35, diff) * (1.0 - smoothstep(0.6, 2.2, diff));
+        }
+        occ /= 12.0;
+        col *= 1.0 - occ * 0.55;
+    }
+
     // darkness: crush everything the light does not reach
     if (Darkness > 0.0) {
         float l = luma(col);

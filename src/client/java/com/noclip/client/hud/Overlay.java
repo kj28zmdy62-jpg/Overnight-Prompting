@@ -34,6 +34,13 @@ public final class Overlay {
             String stamp = String.format("AUG 14 1996  %02d:%02d:%02d", (secs / 3600) % 24, (secs / 60) % 60, secs % 60);
             g.drawString(font, stamp, w - font.width(stamp) - 10, h - 18, (a << 24) | 0xF0F0F0, false);
             g.drawString(font, "SP", 10, h - 18, (0x80 << 24) | 0xF0F0F0, false);
+            // your pulse, as the camera's biometric strap reads it
+            float ins = ClientState.insanity();
+            int bpm = (int) (68 + ins * 82 + Math.sin(now / 700.0) * 2 + (ClientState.pulse > 0.3f ? 6 : 0));
+            boolean beat = (now % (60000 / Math.max(40, bpm))) < 120;
+            int col = ins > 0.6f ? 0xE04040 : ins > 0.3f ? 0xE0B060 : 0xD0D0D0;
+            String hr = (beat ? "\u2665 " : "  ") + bpm + " BPM";
+            g.drawString(font, hr, 10, h - 30, (0xA0 << 24) | col, false);
         }
 
         ItemStack light = flashlight(mc);

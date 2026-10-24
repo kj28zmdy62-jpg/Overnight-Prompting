@@ -91,7 +91,7 @@ public final class Travel {
             Noclip.LOG.warn("No safe spawn found in {}, placing at fallback", levelId);
             spot = new Vec3(0.5, def.spawnMinY + 1, 0.5);
         }
-        float yaw = r.nextFloat() * 360f;
+        float yaw = openestYaw(dest, spot, r);
         player.teleportTo(dest, spot.x, spot.y, spot.z, yaw, 0f);
         player.resetFallDistance();
         player.setDeltaMovement(Vec3.ZERO);
@@ -114,6 +114,27 @@ public final class Travel {
         level.playSound(null, player.blockPosition(), ModSounds.NOCLIP, SoundSource.PLAYERS, 0.9f, 1f);
         com.noclip.world.Blackouts.sync(player);
         def.behavior.onEnter(player, level, def);
+    }
+
+    /** Face down the longest line of sight, so you arrive looking into the level, not at a wall. */
+    private static float openestYaw(ServerLevel level, Vec3 spot, RandomSource r) {
+        Vec3 eye = spot.add(0, 1.62, 0);
+        float best = r.nextFloat() * 360f;
+        double bestDist = -1;
+        float offset = r.nextFloat() * 45f;
+        for (int i = 0; i < 8; i++) {
+            float yaw = offset + i * 45f;
+            double rad = Math.toRadians(yaw);
+            Vec3 end = eye.add(-Math.sin(rad) * 48, 0, Math.cos(rad) * 48);
+            var hit = level.clip(new net.minecraft.world.level.ClipContext(eye, end, net.minecraft.world.level.ClipContext.Block.COLLIDER,
+                    net.minecraft.world.level.ClipContext.Fluid.NONE, net.minecraft.world.phys.shapes.CollisionContext.empty()));
+            double d = hit.getLocation().distanceTo(eye);
+            if (d > bestDist + 1) {
+                bestDist = d;
+                best = yaw;
+            }
+        }
+        return best;
     }
 
     /** Scans one chunk (generating it if needed) for somewhere a player can stand. */
