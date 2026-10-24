@@ -213,7 +213,7 @@ stairs("mt_steps", "mt_carpet_aud", "mt_carpet_aud", display="Aisle Steps", soun
 cube("mt_wall_fabric", "mt_wall_fabric", display="Acoustic Fabric", sound="wool")
 cube("mt_wall_corridor", "mt_wall_corridor", display="Corridor Wall", sound="stone")
 for name in ("mt_screen", "mt_screen_b", "mt_screen_you", "mt_screen_you_turned") + tuple(f"mt_screen_letter_{c}" for c in "thend"):
-    cube(name, name, display="Screen", sound="wool", light=6, emissive=True)
+    cube(name, name, display="Screen", sound="wool", light=12, emissive=True)
 cube("mt_screen_dark", "mt_screen_dark", display="Screen", sound="wool")
 shaped("mt_seat", [
     (1, 0, 3, 3, 9, 13, "frame"), (13, 0, 3, 15, 9, 13, "frame"),

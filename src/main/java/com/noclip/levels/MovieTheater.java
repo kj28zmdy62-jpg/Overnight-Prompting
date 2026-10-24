@@ -49,7 +49,7 @@ public final class MovieTheater {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Screening())
-                .visuals(new Visuals().tint(1.04f, 0.96f, 1.0f).saturation(0.9f).contrast(1.15f).brightness(1.2f)
+                .visuals(new Visuals().tint(1.04f, 0.96f, 1.0f).saturation(0.9f).contrast(1.1f).brightness(1.45f)
                         .grain(0.1f).aberration(0.0018f).vignette(0.65f).fog(6f, 60f).fogColor(0x0A060C).bloom(0.7f).flicker(0.03f))
                 .sanityDrain(0.035f)
                 .spawnY(FLOOR + 1, FLOOR + 8)

@@ -251,7 +251,7 @@ for name in CARS:
 exit_block("pgar_car_alarm", "pgar_paint_maroon", "SECRET", trigger="USE", solid=True, display="Car With Its Alarm Going",
            light=9, emissive=True, sound="metal",
            model=car_model("pgar_paint_maroon", "pgar_car_glass_lit", "pgar_car_front_lit", "pgar_car_rear_lit"))
-A.ITEM_MODELS["pgar_car_alarm"] = {"parent": "noclip:block/pg_car_alarm"}
+A.ITEM_MODELS["pgar_car_alarm"] = {"parent": "noclip:block/pgar_car_alarm"}
 
 # ------------------------------------------------------------------ sound
 

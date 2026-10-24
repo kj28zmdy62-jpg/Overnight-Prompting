@@ -163,7 +163,7 @@ public final class Hospital {
             if (curtainLine) w.set(x, CEIL, z, track);
             if (wv == 5 && (u == 2 || u == 6 || u == 10)) {
                 float r = Hash.unit(s, x, z, 0x55);
-                w.set(x, CEIL, z, r < 0.55f ? light.setValue(BlockStateProperties.LIT, false) : r < 0.75f ? flicker : light);
+                w.set(x, CEIL, z, r < 0.3f ? light.setValue(BlockStateProperties.LIT, false) : r < 0.6f ? flicker : light);
             }
         }
 

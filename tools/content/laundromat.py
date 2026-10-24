@@ -307,4 +307,4 @@ sound("event.laundromat_dryer", [("event/laundromat_dryer", dryer_door)], subtit
 sound("event.laundromat_spin", [("event/laundromat_spin", spin)], subtitle="Spin cycle")
 
 level("laundromat", fog="#c8d0c8", sky="#c8d0c8", ambient="ambient.laundromat", additions="ambient.laundromat.additions",
-      additions_chance=0.005, fixed_time=6000, height=40)
+      additions_chance=0.005, fixed_time=6000, height=48)

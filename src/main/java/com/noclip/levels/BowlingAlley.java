@@ -55,7 +55,7 @@ public final class BowlingAlley {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Lanes())
-                .visuals(new Visuals().tint(1.0f, 0.96f, 1.08f).saturation(1.05f).contrast(1.12f).brightness(1.2f)
+                .visuals(new Visuals().tint(1.0f, 0.96f, 1.08f).saturation(1.05f).contrast(1.1f).brightness(1.4f)
                         .grain(0.07f).aberration(0.002f).vignette(0.55f).fog(6f, 56f).fogColor(0x0C0A18).bloom(0.65f))
                 .sanityDrain(0.03f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -131,8 +131,8 @@ public final class BowlingAlley {
             if (v <= 29) {
                 BlockState f = laneCol ? (v == FOUL ? foul : v == 8 ? dots : v == 13 ? arrows : lane) : gutterCol ? gutter : capping;
                 w.set(x, FLOOR, z, f);
-                boolean lit = Hash.unit(h >>> 5) < 0.35f;
-                if (laneCol && v == 22 && lit) w.set(x, CEIL, z, laneLight);
+                boolean lit = Hash.unit(h >>> 5) < 0.8f;
+                if (laneCol && (v == 10 || v == 16 || v == 22) && lit) w.set(x, CEIL, z, laneLight);
                 if (v >= 24) {
                     // the masking unit over the pin decks
                     w.fill(x, FLOOR + 3, z, x, CEIL - 1, z, v == 24 ? mask[Hash.range(h, 4)][1 - u % 2] : dark);
