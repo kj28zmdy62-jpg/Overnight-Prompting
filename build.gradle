@@ -13,6 +13,12 @@ loom {
     splitEnvironmentSourceSets()
     accessWidenerPath = file("src/main/resources/noclip.accesswidener")
 
+    runs {
+        client {
+            vmArgs "-Xmx2G"
+        }
+    }
+
     mods {
         "noclip" {
             sourceSet sourceSets.main

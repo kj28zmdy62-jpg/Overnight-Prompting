@@ -9,6 +9,14 @@ export NOCLIP_AUTOTEST="$1"
 [ "$2" = "flash" ] && export NOCLIP_AUTOTEST_FLASH=1
 export LIBGL_ALWAYS_SOFTWARE=1
 LOG=run/autotest.log
+# At most two game clients run at once across every worktree (CPU and RAM are shared).
+exec 8>/tmp/noclip-autotest-a.lock 9>/tmp/noclip-autotest-b.lock
+if ! flock -n 8; then
+  if ! flock -n 9; then
+    echo "waiting for a free autotest slot..."
+    flock 8
+  fi
+fi
 timeout ${AUTOTEST_TIMEOUT:-1500} xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew runClient --console=plain \
   --args="--width 1280 --height 720" > "$LOG" 2>&1
 grep -E "AUTOTEST|NOCLIP\).*(ERROR|WARN|failed)|Exception in|Caused by|\[Render thread/ERROR\]|\[Server thread/ERROR\]" "$LOG" \

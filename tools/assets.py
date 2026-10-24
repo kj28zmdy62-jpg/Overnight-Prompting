@@ -29,6 +29,8 @@ def title(name):
 
 def tex(name, fn):
     """Register a block texture painter. fn() -> rgb array or (rgb, alpha)."""
+    if name in TEXTURES:
+        raise ValueError(f"duplicate texture '{name}'")
     TEXTURES[name] = fn
     return "noclip:block/" + name
 
@@ -43,6 +45,8 @@ def _ref(t):
 
 
 def _block(name, kind, display=None, item_model=None, **props):
+    if any(b["name"] == name for b in BLOCKS):
+        raise ValueError(f"duplicate block name '{name}' - pick a unique, level-specific name")
     spec = {"name": name, "kind": kind}
     spec.update({k: v for k, v in props.items() if v is not None})
     BLOCKS.append(spec)
@@ -292,6 +296,8 @@ def level(id, *, fog="#000000", sky="#000000", water="#3f76e4", water_fog="#0505
           additions=None, additions_chance=0.006, mood=None, fixed_time=18000, skylight=False,
           ceiling=True, ambient_light=0.0, height=256, effects="minecraft:overworld", particle=None,
           particle_chance=0.0):
+    if id in LEVELS:
+        raise ValueError(f"duplicate level '{id}'")
     LEVELS[id] = dict(fog=fog, sky=sky, water=water, water_fog=water_fog, ambient=ambient, additions=additions,
                       additions_chance=additions_chance, mood=mood, fixed_time=fixed_time, skylight=skylight,
                       ceiling=ceiling, ambient_light=ambient_light, height=height, effects=effects,
@@ -300,6 +306,8 @@ def level(id, *, fog="#000000", sky="#000000", water="#3f76e4", water_fog="#0505
 
 def sound(event, files, stream=False, subtitle=None, volume=1.0, attenuation=None):
     """files: list of (file_name, painter_fn) - painter returns (samples float32 mono/stereo, rate)."""
+    if event in SOUNDS:
+        raise ValueError(f"duplicate sound event '{event}'")
     SOUNDS[event] = dict(files=files, stream=stream, subtitle=subtitle, volume=volume)
     if subtitle:
         LANG[f"subtitles.noclip.{event}"] = subtitle
