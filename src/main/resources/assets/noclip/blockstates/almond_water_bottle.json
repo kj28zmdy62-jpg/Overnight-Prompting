@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/almond_water_bottle"
+    },
+    "facing=east": {
+      "model": "noclip:block/almond_water_bottle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/almond_water_bottle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/almond_water_bottle",
+      "y": 270
+    }
+  }
+}

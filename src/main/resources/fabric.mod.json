@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "noclip",
+  "version": "${version}",
+  "name": "NOCLIP: The Backrooms",
+  "description": "You noclipped out of reality. Find your way through the Backrooms.",
+  "authors": ["NOCLIP"],
+  "license": "CC-BY-SA-4.0",
+  "icon": "assets/noclip/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.noclip.Noclip"],
+    "client": ["com.noclip.client.NoclipClient"]
+  },
+  "mixins": [
+    "noclip.mixins.json",
+    { "config": "noclip.client.mixins.json", "environment": "client" }
+  ],
+  "accessWidener": "noclip.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

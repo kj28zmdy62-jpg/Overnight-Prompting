@@ -1,0 +1,16 @@
+{
+    "targets": [ "swap" ],
+    "passes": [
+        {
+            "name": "noclip_backrooms",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "auxtargets": [ { "name": "DiffuseDepthSampler", "id": "minecraft:main:depth" } ]
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}

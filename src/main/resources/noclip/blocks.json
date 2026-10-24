@@ -1,0 +1,219 @@
+[
+  {
+    "name": "void_filler",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "subfloor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dark_doorway",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "bottomless_pit",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "FALL",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "almond_water_bottle",
+    "kind": "pickup",
+    "sound": "glass",
+    "collides": false,
+    "render": "translucent",
+    "strength": 0.1,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        6,
+        10
+      ],
+      [
+        6,
+        2,
+        6,
+        10,
+        5,
+        10
+      ],
+      [
+        7,
+        6,
+        7,
+        9,
+        8,
+        9
+      ],
+      [
+        7,
+        8,
+        7,
+        9,
+        9,
+        9
+      ]
+    ],
+    "item": "noclip:almond_water"
+  },
+  {
+    "name": "yellow_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_stained",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_baseboard",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_peeling",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_outlet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_smiley",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "moist_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "damp_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "stained_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "missing_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "fluorescent_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "flickering_fluorescent_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.6,
+    "emissive": true
+  },
+  {
+    "name": "dead_fluorescent_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "office_chair",
+    "kind": "shaped",
+    "sound": "wool",
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        6,
+        3,
+        13,
+        8,
+        13
+      ],
+      [
+        3,
+        8,
+        12,
+        13,
+        18,
+        14
+      ],
+      [
+        7,
+        1,
+        7,
+        9,
+        6,
+        9
+      ],
+      [
+        2,
+        0,
+        7,
+        14,
+        1,
+        9
+      ],
+      [
+        7,
+        0,
+        2,
+        9,
+        1,
+        14
+      ]
+    ]
+  }
+]

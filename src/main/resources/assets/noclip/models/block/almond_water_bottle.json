@@ -1,0 +1,283 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "glass": "noclip:block/almond_bottle_glass",
+    "label": "noclip:block/almond_bottle_label",
+    "cap": "noclip:block/almond_bottle_cap",
+    "particle": "noclip:block/almond_bottle_glass"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        6,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        2,
+        6
+      ],
+      "to": [
+        10,
+        5,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#label",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#label",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#label",
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#label",
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#label",
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#label",
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        6,
+        7
+      ],
+      "to": [
+        9,
+        8,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        8,
+        7
+      ],
+      "to": [
+        9,
+        9,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#cap",
+          "uv": [
+            7,
+            7,
+            9,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}

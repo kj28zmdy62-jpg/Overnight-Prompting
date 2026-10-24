@@ -1,0 +1,123 @@
+{
+  "event.noclip": {
+    "sounds": [
+      {
+        "name": "noclip:event/noclip"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.noclip"
+  },
+  "item.flashlight_click": {
+    "sounds": [
+      {
+        "name": "noclip:item/flashlight_click"
+      }
+    ],
+    "subtitle": "subtitles.noclip.item.flashlight_click"
+  },
+  "item.battery": {
+    "sounds": [
+      {
+        "name": "noclip:item/battery"
+      }
+    ],
+    "subtitle": "subtitles.noclip.item.battery"
+  },
+  "halluc.whisper": {
+    "sounds": [
+      {
+        "name": "noclip:halluc/whisper0"
+      },
+      {
+        "name": "noclip:halluc/whisper1"
+      },
+      {
+        "name": "noclip:halluc/whisper2"
+      },
+      {
+        "name": "noclip:halluc/whisper3"
+      }
+    ],
+    "subtitle": "subtitles.noclip.halluc.whisper"
+  },
+  "halluc.footsteps": {
+    "sounds": [
+      {
+        "name": "noclip:halluc/steps0"
+      },
+      {
+        "name": "noclip:halluc/steps1"
+      },
+      {
+        "name": "noclip:halluc/steps2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.halluc.footsteps"
+  },
+  "halluc.knock": {
+    "sounds": [
+      {
+        "name": "noclip:halluc/knock0"
+      },
+      {
+        "name": "noclip:halluc/knock1"
+      },
+      {
+        "name": "noclip:halluc/knock2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.halluc.knock"
+  },
+  "event.sting": {
+    "sounds": [
+      {
+        "name": "noclip:event/sting"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.sting"
+  },
+  "event.heartbeat": {
+    "sounds": [
+      {
+        "name": "noclip:event/heartbeat"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.heartbeat"
+  },
+  "event.wall_thin": {
+    "sounds": [
+      {
+        "name": "noclip:event/wall_thin"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.wall_thin"
+  },
+  "ambient.level_0": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_0.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0_steps0"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps1"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps2"
+      },
+      {
+        "name": "noclip:ambient/level_0_surge"
+      },
+      {
+        "name": "noclip:ambient/level_0_thump"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_0.additions"
+  }
+}

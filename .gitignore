@@ -1,0 +1,10 @@
+.gradle/
+build/
+out/
+run/
+*.iml
+.idea/
+classes/
+bin/
+remappedSrc/
+__pycache__/

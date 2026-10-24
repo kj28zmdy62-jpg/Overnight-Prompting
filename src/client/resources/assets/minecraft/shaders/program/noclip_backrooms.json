@@ -1,0 +1,233 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "one",
+    "dstrgb": "zero"
+  },
+  "vertex": "noclip_post",
+  "fragment": "noclip_backrooms",
+  "attributes": [
+    "Position"
+  ],
+  "samplers": [
+    {
+      "name": "DiffuseSampler"
+    },
+    {
+      "name": "DiffuseDepthSampler"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "ProjMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "InSize",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "OutSize",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Grain",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.07
+      ]
+    },
+    {
+      "name": "Aberration",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0015
+      ]
+    },
+    {
+      "name": "Vignette",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.45
+      ]
+    },
+    {
+      "name": "Tint",
+      "type": "float",
+      "count": 3,
+      "values": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Saturation",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.85
+      ]
+    },
+    {
+      "name": "Contrast",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.05
+      ]
+    },
+    {
+      "name": "Brightness",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1
+      ]
+    },
+    {
+      "name": "Warp",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.02
+      ]
+    },
+    {
+      "name": "Scanlines",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.04
+      ]
+    },
+    {
+      "name": "Flicker",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.02
+      ]
+    },
+    {
+      "name": "Bloom",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.35
+      ]
+    },
+    {
+      "name": "Darkness",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Flash",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Insanity",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Noclip",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Special",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "WallPush",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Far",
+      "type": "float",
+      "count": 1,
+      "values": [
+        512
+      ]
+    },
+    {
+      "name": "Pulse",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Camcorder",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    }
+  ]
+}

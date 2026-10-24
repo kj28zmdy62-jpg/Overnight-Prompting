@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "noclip:block/missing_ceiling_tile"
+    }
+  }
+}
