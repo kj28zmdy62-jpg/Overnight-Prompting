@@ -20,6 +20,7 @@ public final class LevelIndex {
         Levels.register(CallCenter.create());
         Levels.register(Carnival.create());
         Levels.register(ColdStorage.create());
+        Levels.register(ConstructionSite.create());
         Levels.register(ContainerYard.create());
         Levels.register(ConventionCenter.create());
         Levels.register(Dam.create());
