@@ -14,9 +14,9 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:falling_water"
+        "type": "minecraft:rain"
       },
-      "probability": 0.12
+      "probability": 0.2
     }
   },
   "spawners": {},

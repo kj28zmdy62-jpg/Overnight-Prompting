@@ -7388,7 +7388,7 @@
     "kind": "cube",
     "sound": "stone",
     "unbreakable": true,
-    "light": 6,
+    "light": 3,
     "emissive": true
   },
   {
@@ -7396,7 +7396,7 @@
     "kind": "cube",
     "sound": "stone",
     "unbreakable": true,
-    "light": 6,
+    "light": 3,
     "emissive": true
   },
   {
@@ -7404,7 +7404,7 @@
     "kind": "cube",
     "sound": "stone",
     "unbreakable": true,
-    "light": 6,
+    "light": 3,
     "emissive": true
   },
   {

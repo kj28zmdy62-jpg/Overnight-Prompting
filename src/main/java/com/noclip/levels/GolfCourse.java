@@ -51,7 +51,7 @@ public final class GolfCourse {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Keeper())
-                .visuals(new Visuals().tint(0.96f, 0.95f, 1.08f).saturation(0.78f).contrast(1.06f).brightness(1.14f)
+                .visuals(new Visuals().tint(0.96f, 0.95f, 1.08f).saturation(0.78f).contrast(1.06f).brightness(1.3f)
                         .grain(0.06f).aberration(0.0012f).vignette(0.48f).warp(0.01f)
                         .fog(8f, 76f).fogColor(0x3A3A5A).bloom(0.55f).sky())
                 .sanityDrain(0.03f)

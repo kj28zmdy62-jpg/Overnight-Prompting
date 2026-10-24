@@ -55,7 +55,7 @@ cube("rc_curb", "rc_curb", display="Curb")
 
 def puddle():
     rgb = T.ramp(T.noise("rcpud", sigma=3), "#0a0c10", "#141820")
-    a = np.ones((S, S)) * 0.42
+    a = np.ones((S, S)) * 0.62
     yy, xx = np.mgrid[0:S, 0:S]
     rings = (np.sin(np.sqrt((xx - 10) ** 2 + (yy - 20) ** 2) * 1.6) > 0.92) | (np.sin(np.sqrt((xx - 24) ** 2 + (yy - 8) ** 2) * 1.6) > 0.92)
     rgb[rings] = T.hexc("#4a5260")
@@ -69,7 +69,7 @@ def reflection(c):
         base = T.solid("#05060a")
         streak = np.exp(-((xx - 16 - np.sin(yy / 3) * 2) ** 2) / 30) * (0.5 + 0.5 * T.noise("rcrf" + c, sigma=1.5))
         glow = T.solid(c)
-        img = T.blend(base, glow, np.clip(streak * 1.1, 0, 1))
+        img = T.blend(base, glow, np.clip(streak * 0.55, 0, 1))
         smear = (T.noise("rcrs" + c, sigma=0.8) > 0.7) & (np.abs(xx - 16) < 10)
         img[smear] = img[smear] * 0.5 + T.hexc(c) * 0.3
         return img
@@ -80,7 +80,7 @@ tx("rc_puddle", puddle)
 cube("rc_puddle", "rc_puddle", display="Puddle", kind="glass", render="translucent", sound="mud")
 for name, c in (("pink", PINK), ("cyan", CYAN), ("amber", AMBER)):
     tx(f"rc_reflect_{name}", reflection(c))
-    cube(f"rc_reflect_{name}", f"rc_reflect_{name}", display="Reflected Neon", light=6, emissive=True, flat=True)
+    cube(f"rc_reflect_{name}", f"rc_reflect_{name}", display="Reflected Neon", light=3, emissive=True, flat=True)
 
 # ------------------------------------------------------------------ buildings
 
@@ -377,4 +377,4 @@ sound("event.rain_city_step", [("event/rain_city_step", splash_step)], subtitle=
 
 level("rain_city", fog="#0e0c16", sky="#0a0812", ambient="ambient.rain_city", additions="ambient.rain_city.additions",
       additions_chance=0.003, fixed_time=18000, skylight=True, ceiling=False, height=96,
-      particle="minecraft:falling_water", particle_chance=0.12)
+      particle="minecraft:rain", particle_chance=0.2)
