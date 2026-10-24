@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/arc_shelf_top",
+    "bottom": "noclip:block/arc_shelf_top",
+    "side": "noclip:block/arc_shelf_end_f02"
+  }
+}

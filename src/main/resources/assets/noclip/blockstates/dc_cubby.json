@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "coat=0": {
+      "model": "noclip:block/dc_cubby"
+    },
+    "coat=1": {
+      "model": "noclip:block/dc_cubby_red"
+    },
+    "coat=2": {
+      "model": "noclip:block/dc_cubby_blue"
+    }
+  }
+}

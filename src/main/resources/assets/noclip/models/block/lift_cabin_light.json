@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/lift_cabin_light",
+    "up": "noclip:block/lift_cabin_light",
+    "north": "noclip:block/lift_cabin_light",
+    "south": "noclip:block/lift_cabin_light",
+    "west": "noclip:block/lift_cabin_light",
+    "east": "noclip:block/lift_cabin_light",
+    "particle": "noclip:block/lift_cabin_light"
+  }
+}

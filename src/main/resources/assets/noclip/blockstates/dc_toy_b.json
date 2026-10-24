@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dc_toy_b"
+    },
+    "facing=east": {
+      "model": "noclip:block/dc_toy_b",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dc_toy_b",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dc_toy_b",
+      "y": 270
+    }
+  }
+}

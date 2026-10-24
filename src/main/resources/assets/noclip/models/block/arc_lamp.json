@@ -1,0 +1,214 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "shade": "noclip:block/arc_shade",
+    "bulb": "noclip:block/arc_bulb",
+    "particle": "noclip:block/arc_shade"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        8,
+        7.5
+      ],
+      "to": [
+        8.5,
+        16,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            7.5,
+            8.5,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#shade",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            8,
+            12,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            8,
+            12,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            8,
+            12,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            8,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        2,
+        6
+      ],
+      "to": [
+        10,
+        3,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            13,
+            10,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            13,
+            10,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            13,
+            10,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#bulb",
+          "uv": [
+            6,
+            13,
+            10,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

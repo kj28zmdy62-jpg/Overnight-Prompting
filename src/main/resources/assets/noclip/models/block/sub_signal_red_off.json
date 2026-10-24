@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/sub_signal_red",
+    "up": "noclip:block/sub_signal_red",
+    "north": "noclip:block/sub_signal_red",
+    "south": "noclip:block/sub_signal_red",
+    "west": "noclip:block/sub_signal_red",
+    "east": "noclip:block/sub_signal_red",
+    "particle": "noclip:block/sub_signal_red"
+  }
+}

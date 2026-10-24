@@ -1,0 +1,11 @@
+{
+  "type": "noclip:restrooms",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "restrooms",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:restrooms"
+    }
+  }
+}

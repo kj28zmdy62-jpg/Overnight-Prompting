@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cc_cooler"
+    },
+    "facing=east": {
+      "model": "noclip:block/cc_cooler",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cc_cooler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cc_cooler",
+      "y": 270
+    }
+  }
+}

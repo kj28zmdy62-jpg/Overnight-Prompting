@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/cc_panel_flicker"
+    },
+    "lit=false": {
+      "model": "noclip:block/cc_panel_flicker_off"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,tape=0": {
+      "model": "noclip:block/arc_crt"
+    },
+    "facing=north,tape=1": {
+      "model": "noclip:block/arc_crt_static"
+    },
+    "facing=north,tape=2": {
+      "model": "noclip:block/arc_crt_you"
+    },
+    "facing=east,tape=0": {
+      "model": "noclip:block/arc_crt",
+      "y": 90
+    },
+    "facing=east,tape=1": {
+      "model": "noclip:block/arc_crt_static",
+      "y": 90
+    },
+    "facing=east,tape=2": {
+      "model": "noclip:block/arc_crt_you",
+      "y": 90
+    },
+    "facing=south,tape=0": {
+      "model": "noclip:block/arc_crt",
+      "y": 180
+    },
+    "facing=south,tape=1": {
+      "model": "noclip:block/arc_crt_static",
+      "y": 180
+    },
+    "facing=south,tape=2": {
+      "model": "noclip:block/arc_crt_you",
+      "y": 180
+    },
+    "facing=west,tape=0": {
+      "model": "noclip:block/arc_crt",
+      "y": 270
+    },
+    "facing=west,tape=1": {
+      "model": "noclip:block/arc_crt_static",
+      "y": 270
+    },
+    "facing=west,tape=2": {
+      "model": "noclip:block/arc_crt_you",
+      "y": 270
+    }
+  }
+}

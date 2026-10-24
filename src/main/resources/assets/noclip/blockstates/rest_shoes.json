@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rest_shoes"
+    },
+    "facing=east": {
+      "model": "noclip:block/rest_shoes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rest_shoes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rest_shoes",
+      "y": 270
+    }
+  }
+}

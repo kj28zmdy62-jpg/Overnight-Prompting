@@ -1,0 +1,11 @@
+{
+  "type": "noclip:ballroom",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "ballroom",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:ballroom"
+    }
+  }
+}

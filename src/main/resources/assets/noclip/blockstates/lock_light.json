@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/lock_light"
+    },
+    "lit=false": {
+      "model": "noclip:block/lock_light_off"
+    }
+  }
+}

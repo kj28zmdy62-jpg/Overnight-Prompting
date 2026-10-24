@@ -1,0 +1,214 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "housing": "noclip:block/sub_housing",
+    "tube": "noclip:block/sub_strip",
+    "particle": "noclip:block/sub_housing"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        13,
+        6
+      ],
+      "to": [
+        15,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            1,
+            6,
+            15,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            6,
+            15,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            0,
+            15,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            0,
+            15,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        15,
+        13,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#housing",
+          "uv": [
+            15,
+            6,
+            16,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#housing",
+          "uv": [
+            15,
+            6,
+            16,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#housing",
+          "uv": [
+            15,
+            0,
+            16,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#housing",
+          "uv": [
+            15,
+            0,
+            16,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        13,
+        6
+      ],
+      "to": [
+        1,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#housing",
+          "uv": [
+            0,
+            6,
+            1,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#housing",
+          "uv": [
+            0,
+            6,
+            1,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#housing",
+          "uv": [
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#housing",
+          "uv": [
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

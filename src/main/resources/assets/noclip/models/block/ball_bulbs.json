@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "noclip:block/ball_bulbs",
+    "particle": "noclip:block/ball_bulbs"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        6,
+        7.5
+      ],
+      "to": [
+        16,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#b",
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

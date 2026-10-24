@@ -1,0 +1,11 @@
+{
+  "type": "noclip:museum",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "museum",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:museum"
+    }
+  }
+}

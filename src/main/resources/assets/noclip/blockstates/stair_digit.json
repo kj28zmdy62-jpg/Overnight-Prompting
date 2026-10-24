@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "glyph=0": {
+      "model": "noclip:block/stair_digit_0"
+    },
+    "glyph=1": {
+      "model": "noclip:block/stair_digit_1"
+    },
+    "glyph=2": {
+      "model": "noclip:block/stair_digit_2"
+    },
+    "glyph=3": {
+      "model": "noclip:block/stair_digit_3"
+    },
+    "glyph=4": {
+      "model": "noclip:block/stair_digit_4"
+    },
+    "glyph=5": {
+      "model": "noclip:block/stair_digit_5"
+    },
+    "glyph=6": {
+      "model": "noclip:block/stair_digit_6"
+    },
+    "glyph=7": {
+      "model": "noclip:block/stair_digit_7"
+    },
+    "glyph=8": {
+      "model": "noclip:block/stair_digit_8"
+    },
+    "glyph=9": {
+      "model": "noclip:block/stair_digit_9"
+    },
+    "glyph=10": {
+      "model": "noclip:block/stair_digit_10"
+    },
+    "glyph=11": {
+      "model": "noclip:block/stair_digit_11"
+    },
+    "glyph=12": {
+      "model": "noclip:block/stair_digit_12"
+    },
+    "glyph=13": {
+      "model": "noclip:block/stair_digit_13"
+    },
+    "glyph=14": {
+      "model": "noclip:block/stair_digit_14"
+    },
+    "glyph=15": {
+      "model": "noclip:block/stair_digit_15"
+    }
+  }
+}

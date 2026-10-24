@@ -6,5 +6,6 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        LiftAttendant.register();
     }
 }

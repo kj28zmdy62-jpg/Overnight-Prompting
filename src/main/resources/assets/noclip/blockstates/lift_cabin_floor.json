@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/lift_cabin_floor"
+    },
+    "facing=east": {
+      "model": "noclip:block/lift_cabin_floor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/lift_cabin_floor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/lift_cabin_floor",
+      "y": 270
+    }
+  }
+}

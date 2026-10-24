@@ -1,0 +1,11 @@
+{
+  "type": "noclip:subway",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "subway",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:subway"
+    }
+  }
+}

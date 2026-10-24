@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "noclip:block/lift_podium",
+    "leather": "noclip:block/lift_leather",
+    "particle": "noclip:block/lift_podium"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        13,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            3,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            3,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            3,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            3,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        13,
+        2
+      ],
+      "to": [
+        15,
+        15,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#leather",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            1,
+            15,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            1,
+            15,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            1,
+            14,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            1,
+            14,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

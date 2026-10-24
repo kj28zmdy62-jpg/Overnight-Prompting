@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "noclip:block/arc_partition",
+    "edge": "noclip:block/arc_partition"
+  }
+}

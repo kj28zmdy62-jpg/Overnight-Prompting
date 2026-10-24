@@ -1,0 +1,11 @@
+{
+  "type": "noclip:archive",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "archive",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:archive"
+    }
+  }
+}

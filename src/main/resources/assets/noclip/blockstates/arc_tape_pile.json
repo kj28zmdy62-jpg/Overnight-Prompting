@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/arc_tape_pile"
+    },
+    "facing=east": {
+      "model": "noclip:block/arc_tape_pile",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/arc_tape_pile",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/arc_tape_pile",
+      "y": 270
+    }
+  }
+}
