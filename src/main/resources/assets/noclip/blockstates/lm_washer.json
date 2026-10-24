@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/lm_washer"
+    },
+    "facing=east": {
+      "model": "noclip:block/lm_washer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/lm_washer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/lm_washer",
+      "y": 270
+    }
+  }
+}

@@ -11,6 +11,7 @@ public final class LevelIndex {
         Levels.register(BowlingAlley.create());
         Levels.register(DeadMall.create());
         Levels.register(Hospital.create());
+        Levels.register(Laundromat.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
@@ -21,5 +22,6 @@ public final class LevelIndex {
         Levels.register(School.create());
         Levels.register(Supermarket.create());
         Levels.register(WaitingRoom.create());
+        Levels.register(WaterPark.create());
     }
 }

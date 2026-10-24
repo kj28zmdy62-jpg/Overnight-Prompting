@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "gel": "noclip:block/hosp_gel",
+    "steel": "noclip:block/hosp_steel",
+    "particle": "noclip:block/hosp_gel"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        4,
+        0
+      ],
+      "to": [
+        11,
+        13,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#gel",
+          "uv": [
+            5,
+            0,
+            11,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#gel",
+          "uv": [
+            5,
+            0,
+            11,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#gel",
+          "uv": [
+            5,
+            3,
+            11,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#gel",
+          "uv": [
+            5,
+            3,
+            11,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#gel",
+          "uv": [
+            0,
+            3,
+            3,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#gel",
+          "uv": [
+            0,
+            3,
+            3,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        2,
+        1
+      ],
+      "to": [
+        9,
+        4,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            1,
+            9,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            1,
+            9,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            12,
+            9,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            12,
+            9,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#steel",
+          "uv": [
+            1,
+            12,
+            3,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#steel",
+          "uv": [
+            1,
+            12,
+            3,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

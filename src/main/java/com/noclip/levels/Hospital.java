@@ -91,6 +91,9 @@ public final class Hospital {
         final BlockState signIcu = ModBlocks.state("hosp_sign_icu");
         final BlockState signLifts = ModBlocks.state("hosp_sign_lifts");
         final BlockState panel = ModBlocks.state("hosp_elevator_panel");
+        final BlockState sanitizer = ModBlocks.state("hosp_sanitizer");
+        final BlockState morgue = ModBlocks.state("hosp_sign_morgue");
+        final BlockState wards = ModBlocks.state("hosp_sign_wards");
         final BlockState exitSign = ModBlocks.state("exit_sign");
         final BlockState door = ModBlocks.state("dark_doorway");
         final BlockState bottle = ModBlocks.state("almond_water_bottle");
@@ -266,6 +269,11 @@ public final class Hospital {
         void corridor(ChunkWriter w, long s, int sx, int r) {
             int x0 = sx * PX, z0 = r * PZ;
             int y = FLOOR + 1;
+            if (!service(sx)) {
+                w.set(x0 + 7, y + 1, z0 + 11, sanitizer.setValue(HorizontalDirectionalBlock.FACING, Direction.NORTH));
+                w.set(x0 + 3, y + 1, z0 + 14, sanitizer.setValue(HorizontalDirectionalBlock.FACING, Direction.SOUTH));
+            }
+            if (Math.floorMod(sx, 3) == 1) w.set(x0 + 6, y + 2, z0 + 12, Hash.chance(s, sx, r, 0x6E, 0.25f) ? morgue : wards);
             for (int u = 1; u < PX; u++) {
                 if (u == 13 || (service(sx) && u >= 4 && u <= 9)) continue;
                 long h = Hash.hash(s, x0 + u, r, 0xC0E);

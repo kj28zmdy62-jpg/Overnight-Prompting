@@ -117,7 +117,7 @@ def steel():
     return T.grain(T.ramp(br * 2.2, "#8c9498", "#b8c0c4"), "hspst", 0.02)
 
 
-def monitor_screen(kind):
+def monitor_screen(kind, shift=0):
     h = w = S
     img = T.ramp(T.noise("hspms" + kind, sigma=2), "#020a06", "#06120a")
     yy, xx = np.mgrid[0:h, 0:w]
@@ -129,6 +129,9 @@ def monitor_screen(kind):
         pts = [(2, 12), (9, 12), (11, 10), (13, 12), (15, 12), (16, 3), (17, 18), (18, 12), (23, 12), (25, 9), (27, 12), (30, 12)]
         for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
             m = np.maximum(m, K.line_mask(h, w, x0, y0, x1, y1, 1.2))
+        m = np.roll(m, shift, axis=1)
+        m[:, 2:4] *= 0.3
+        m[:, (shift + 2) % 28 + 2: (shift + 2) % 28 + 4] = 0  # the sweep gap
     img = T.blend(img, T.solid("#2aff6a"), K.glow(m, 1.2) * 0.4)
     img = T.blend(img, T.solid("#8affaa"), m)
     # numbers: heart rate and SpO2
@@ -213,7 +216,7 @@ tex("hosp_sheet", lambda: sheet_white())
 tex("hosp_sheet_stained", lambda: sheet_white(True))
 tex("hosp_blanket", blanket)
 tex("hosp_steel", steel)
-tex("hosp_screen", lambda: monitor_screen("ecg"))
+K.animated("hosp_screen", lambda i: monitor_screen("ecg", i * 4), 8, 3)
 tex("hosp_screen_flat", lambda: monitor_screen("flat"))
 tex("hosp_monitor_case", monitor_case)
 tex("hosp_iv_bag", iv_bag)
@@ -227,6 +230,9 @@ tex("hosp_sign_ward", ward_sign("WARD"))
 tex("hosp_sign_icu", ward_sign("ICU"))
 tex("hosp_sign_lifts", ward_sign("LIFTS"))
 tex("hosp_wheel", wheel)
+tex("hosp_sign_morgue", ward_sign("MORGUE"))
+tex("hosp_sign_wards", ward_sign("WARDS"))
+tex("hosp_gel", lambda: T.grain(T.ramp(T.noise("hspgel", sigma=1), "#d8e8f0", "#e8f4f8"), "hspgel", 0.02))
 tex("hosp_vinyl_seat", vinyl_seat)
 
 cube("hosp_floor", "hosp_floor", display="Sheet Vinyl", sound="stone")
@@ -243,6 +249,10 @@ flicker_light("hosp_troffer_flicker", "hosp_troffer", "hosp_troffer_off", "hosp_
 cube("hosp_sign_ward", "hosp_sign_ward", display="Ward Sign", sound="metal", light=4, emissive=True)
 cube("hosp_sign_icu", "hosp_sign_icu", display="ICU Sign", sound="metal", light=4, emissive=True)
 cube("hosp_sign_lifts", "hosp_sign_lifts", display="Lifts Sign", sound="metal", light=4, emissive=True)
+cube("hosp_sign_morgue", "hosp_sign_morgue", display="Morgue Sign", sound="metal", light=4, emissive=True)
+cube("hosp_sign_wards", "hosp_sign_wards", display="Wards Sign", sound="metal", light=4, emissive=True)
+shaped("hosp_sanitizer", [(5, 4, 0, 11, 13, 3, "gel"), (7, 2, 1, 9, 4, 3, "steel")], {"gel": "hosp_gel", "steel": "hosp_steel"},
+       display="Hand Sanitizer", unbreakable=True, collides=False)
 
 # curtains: thin, hanging, walk-through, opaque. A gap at the floor.
 shaped("hosp_curtain", [(0, 0, 7.5, 16, 16, 8.5, "c")], {"c": "hosp_curtain"}, display="Privacy Curtain",

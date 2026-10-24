@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/wp_palm_leaves"
+    },
+    "facing=east": {
+      "model": "noclip:block/wp_palm_leaves"
+    },
+    "facing=south": {
+      "model": "noclip:block/wp_palm_leaves"
+    },
+    "facing=west": {
+      "model": "noclip:block/wp_palm_leaves"
+    }
+  }
+}

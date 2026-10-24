@@ -255,8 +255,12 @@ public final class MovieTheater {
             BlockState dark = ModBlocks.state("mt_screen_dark");
             for (int u = 5; u <= 26; u++)
                 for (int y = FLOOR + 3; y <= FLOOR + 12; y++) set(level, new BlockPos(x0 + u, y, z0 + 6), dark);
-            set(level, new BlockPos(x0 + 15, FLOOR + 8, z0 + 6), ModBlocks.state("mt_screen_the"));
-            set(level, new BlockPos(x0 + 16, FLOOR + 8, z0 + 6), ModBlocks.state("mt_screen_end"));
+            String text = "THE END";
+            for (int c = 0; c < text.length(); c++) {
+                if (text.charAt(c) == ' ') continue;
+                set(level, new BlockPos(x0 + 12 + c, FLOOR + 8, z0 + 6),
+                        ModBlocks.state("mt_screen_letter_" + Character.toLowerCase(text.charAt(c))));
+            }
             BlockState door = ModBlocks.state("dark_doorway");
             set(level, new BlockPos(x0 + 31, FLOOR + 1, z0 + 9), door);
             set(level, new BlockPos(x0 + 31, FLOOR + 2, z0 + 9), door);

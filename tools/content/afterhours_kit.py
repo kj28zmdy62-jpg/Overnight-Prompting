@@ -155,6 +155,31 @@ def line_mask(h, w, x0, y0, x1, y1, width=1.0):
     return (d <= width / 2).astype(float)
 
 
+def animated(name, frame_fn, frames, frametime=2, interpolate=False):
+    """Register an animated block texture: frame_fn(i) -> rgb (32x32x3) or (rgb, alpha).
+
+    The frames are stacked vertically and a .png.mcmeta is written beside the PNG when the
+    texture is painted (build.py paints textures after it has cleaned the folder)."""
+    import json
+    import os
+    import assets as A
+
+    def paint():
+        outs = [frame_fn(i) for i in range(frames)]
+        has_alpha = isinstance(outs[0], tuple)
+        rgb = np.concatenate([o[0] if has_alpha else o for o in outs], axis=0)
+        path = os.path.join(A.ASSETS, "textures", "block", name + ".png.mcmeta")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as f:
+            json.dump({"animation": {"frametime": frametime, "interpolate": interpolate}}, f)
+        if has_alpha:
+            return rgb, np.concatenate([o[1] for o in outs], axis=0)
+        return rgb
+
+    from assets import tex
+    return tex(name, paint)
+
+
 def grime_bottom(img, seed, height=10, strength=0.25):
     S = img.shape[0]
     yy = np.arange(S)[:, None]

@@ -264,8 +264,8 @@ def tv_screen(kind):
         if kind == "off":
             img = T.ramp(T.noise("mttv", sigma=3), "#141614", "#222622")
             img = T.blend(img, T.solid("#5a6a62"), np.clip(1 - np.abs((xx - yy) % 30 - 6) / 2, 0, 1) * 0.3)
-        elif kind == "static":
-            img = np.repeat(T.rng("mtst").random((S, S))[..., None], 3, axis=2) * 0.85 + 0.1
+        elif kind.startswith("static"):
+            img = np.repeat(T.rng("mtst" + kind).random((S, S))[..., None], 3, axis=2) * 0.85 + 0.1
             img = T.shade(img, 1 - (yy % 2 == 0) * 0.2)
         else:  # it shows this room, from where the TV is
             img = T.ramp(T.noise("mttvr", sigma=3), "#1a1410", "#2a2018")
@@ -370,8 +370,9 @@ tex("motel_bedspread", bedspread)
 tex("motel_bedspread_unmade", bedspread_unmade)
 tex("motel_wood", wood)
 tex("motel_lampshade", lampshade)
-for k in ("off", "static", "room"):
+for k in ("off", "room"):
     tex(f"motel_tv_{k}", tv_screen(k))
+K.animated("motel_tv_static", lambda i: tv_screen(f"static{i}")(), 4, 1)
 tex("motel_painting_lake", painting("lake"))
 tex("motel_painting_motel", painting("motel"))
 tex("motel_mirror", mirror)

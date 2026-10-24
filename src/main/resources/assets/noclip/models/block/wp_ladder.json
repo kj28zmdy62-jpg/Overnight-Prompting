@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "particle": "noclip:block/wp_truss",
+    "texture": "noclip:block/wp_truss"
+  }
+}
