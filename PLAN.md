@@ -154,9 +154,9 @@ The Mimic (repeats your sounds), The Lift Attendant. More matched to levels as b
 
 ## Status (updated during the overnight build)
 
-**93 levels built**, each generated, compiled, booted in the real game and screenshotted at least once, plus ~25 new level-specific entities on top of the 10 core ones.
+**100 levels built**, each generated, compiled, booted in the real game and screenshotted at least once, plus ~25 new level-specific entities on top of the 10 core ones.
 
-Not built yet: assembly_line, construction_site, dam, drive_in, power_plant, rooftops, the_signal. These were cut to keep usage at the level the user asked for; they can be added later with the same tooling (see LEVEL_GUIDE.md).
+All 100 planned levels are built.
 
 Known rough edges reported by the builders:
 - Many level rules (timers, moving trains, wave pools, alarms) were verified only by compiling and a layout screenshot, not by playing them through.
