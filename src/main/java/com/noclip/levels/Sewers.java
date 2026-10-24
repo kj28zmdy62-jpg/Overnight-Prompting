@@ -50,7 +50,7 @@ public final class Sewers {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Wading())
-                .visuals(new Visuals().darkness(0.55f).tint(0.98f, 1.02f, 0.86f).saturation(0.68f).contrast(1.1f)
+                .visuals(new Visuals().darkness(0.35f).tint(0.98f, 1.02f, 0.86f).saturation(0.68f).contrast(1.1f)
                         .brightness(1.3f).grain(0.1f).aberration(0.0016f).vignette(0.72f).fog(2f, 24f).fogColor(0x0C0E08)
                         .bloom(0.6f))
                 .sanityDrain(0.045f)
