@@ -35,7 +35,7 @@ The Mimic (repeats your sounds), The Lift Attendant. More matched to levels as b
 5. Remaining levels in groups, committing and pushing after every batch
 6. Optional Iris shader pack, README + install/play guide, CREDITS (wiki content is CC BY-SA)
 
-## Levels (target ~100)
+## Levels (no cap: keep going past 100 while quality holds; stop when it would degrade)
 
 ### 1. Wiki levels (verify details against the wiki before building)
 1. Level 0 – The Lobby: endless yellow rooms, damp carpet, constant hum
