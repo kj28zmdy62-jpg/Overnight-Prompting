@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/arc_neon_cyan"
+    },
+    "facing=east": {
+      "model": "noclip:block/arc_neon_cyan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/arc_neon_cyan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/arc_neon_cyan",
+      "y": 270
+    }
+  }
+}

@@ -6,5 +6,9 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        HallMonitor.register();
+        NightStocker.register();
+        PlayplaceMascot.register();
+        WardPatient.register();
     }
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/mt_sconce"
+    },
+    "lit=false": {
+      "model": "noclip:block/mt_sconce_off"
+    }
+  }
+}

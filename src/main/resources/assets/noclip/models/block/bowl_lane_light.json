@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/bowl_lane_light",
+    "up": "noclip:block/bowl_capping",
+    "north": "noclip:block/bowl_capping",
+    "south": "noclip:block/bowl_capping",
+    "west": "noclip:block/bowl_capping",
+    "east": "noclip:block/bowl_capping",
+    "particle": "noclip:block/bowl_capping"
+  }
+}

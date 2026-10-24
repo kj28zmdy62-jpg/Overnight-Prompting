@@ -1,0 +1,11 @@
+{
+  "type": "noclip:movie_theater",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "movie_theater",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:movie_theater"
+    }
+  }
+}

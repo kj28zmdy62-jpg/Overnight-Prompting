@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/mt_popcorn_spill"
+    },
+    "facing=east": {
+      "model": "noclip:block/mt_popcorn_spill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/mt_popcorn_spill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/mt_popcorn_spill",
+      "y": 270
+    }
+  }
+}

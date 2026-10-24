@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/hosp_troffer"
+    },
+    "lit=false": {
+      "model": "noclip:block/hosp_troffer_off"
+    }
+  }
+}

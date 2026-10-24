@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/smkt_ceiling",
+    "up": "noclip:block/smkt_ceiling",
+    "north": "noclip:block/smkt_ceiling",
+    "south": "noclip:block/smkt_ceiling",
+    "west": "noclip:block/smkt_ceiling",
+    "east": "noclip:block/smkt_ceiling",
+    "particle": "noclip:block/smkt_ceiling"
+  }
+}

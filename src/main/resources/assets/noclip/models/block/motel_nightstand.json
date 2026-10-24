@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "noclip:block/motel_wood",
+    "particle": "noclip:block/motel_wood"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

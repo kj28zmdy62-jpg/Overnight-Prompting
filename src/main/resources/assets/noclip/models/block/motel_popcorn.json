@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/motel_popcorn",
+    "up": "noclip:block/motel_popcorn",
+    "north": "noclip:block/motel_popcorn",
+    "south": "noclip:block/motel_popcorn",
+    "west": "noclip:block/motel_popcorn",
+    "east": "noclip:block/motel_popcorn",
+    "particle": "noclip:block/motel_popcorn"
+  }
+}

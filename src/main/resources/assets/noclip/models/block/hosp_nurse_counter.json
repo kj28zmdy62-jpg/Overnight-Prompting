@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/hosp_counter",
+    "bottom": "noclip:block/hosp_counter",
+    "side": "noclip:block/hosp_counter"
+  }
+}

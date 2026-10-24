@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "noclip:block/mt_carpet_aud",
+    "top": "noclip:block/mt_carpet_aud",
+    "side": "noclip:block/mt_carpet_aud"
+  }
+}

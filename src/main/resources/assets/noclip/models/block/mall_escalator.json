@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "noclip:block/mall_escalator_step",
+    "top": "noclip:block/mall_escalator_step",
+    "side": "noclip:block/mall_escalator_step"
+  }
+}

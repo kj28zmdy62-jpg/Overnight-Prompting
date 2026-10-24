@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "noclip:block/motel_pole",
+    "side": "noclip:block/motel_pole"
+  }
+}

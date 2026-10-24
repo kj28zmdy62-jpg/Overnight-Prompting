@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hosp_curtain_top"
+    },
+    "facing=east": {
+      "model": "noclip:block/hosp_curtain_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hosp_curtain_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hosp_curtain_top",
+      "y": 270
+    }
+  }
+}

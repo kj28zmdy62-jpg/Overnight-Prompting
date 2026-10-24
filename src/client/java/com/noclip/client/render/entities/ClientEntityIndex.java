@@ -6,5 +6,9 @@ public final class ClientEntityIndex {
     private ClientEntityIndex() {}
 
     public static void registerAll() {
+        HallMonitorRenderers.register();
+        NightStockerRenderers.register();
+        PlayplaceMascotRenderers.register();
+        WardPatientRenderers.register();
     }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/arc_cab_lower_bricks"
+    },
+    "facing=east": {
+      "model": "noclip:block/arc_cab_lower_bricks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/arc_cab_lower_bricks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/arc_cab_lower_bricks",
+      "y": 270
+    }
+  }
+}

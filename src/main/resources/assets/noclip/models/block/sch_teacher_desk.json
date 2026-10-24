@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "noclip:block/sch_door_bottom",
+    "top": "noclip:block/sch_desk_top",
+    "particle": "noclip:block/sch_door_bottom"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        12,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

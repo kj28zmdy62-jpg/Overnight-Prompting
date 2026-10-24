@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "steel": "noclip:block/sch_fountain",
+    "metal": "noclip:block/sch_metal",
+    "particle": "noclip:block/sch_fountain"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        6,
+        0
+      ],
+      "to": [
+        13,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#steel",
+          "uv": [
+            3,
+            0,
+            13,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#steel",
+          "uv": [
+            3,
+            0,
+            13,
+            8
+          ]
+        },
+        "north": {
+          "texture": "#steel",
+          "uv": [
+            3,
+            4,
+            13,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#steel",
+          "uv": [
+            3,
+            4,
+            13,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            4,
+            8,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            4,
+            8,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        0
+      ],
+      "to": [
+        10,
+        6,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            6,
+            10,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            10,
+            4,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            10,
+            4,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

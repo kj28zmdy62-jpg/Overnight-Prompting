@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "noclip:block/mall_glass",
+    "edge": "noclip:block/mall_glass"
+  }
+}

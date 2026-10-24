@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hosp_gurney"
+    },
+    "facing=east": {
+      "model": "noclip:block/hosp_gurney",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hosp_gurney",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hosp_gurney",
+      "y": 270
+    }
+  }
+}

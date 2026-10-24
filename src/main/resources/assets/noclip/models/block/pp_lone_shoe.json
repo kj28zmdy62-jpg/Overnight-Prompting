@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "shoe": "noclip:block/pp_pad_red",
+    "particle": "noclip:block/pp_pad_red"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        4
+      ],
+      "to": [
+        10,
+        3,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shoe",
+          "uv": [
+            6,
+            4,
+            10,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#shoe",
+          "uv": [
+            6,
+            4,
+            10,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#shoe",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#shoe",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#shoe",
+          "uv": [
+            4,
+            13,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#shoe",
+          "uv": [
+            4,
+            13,
+            11,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

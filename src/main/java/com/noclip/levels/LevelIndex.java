@@ -7,8 +7,19 @@ public final class LevelIndex {
     private LevelIndex() {}
 
     public static void registerAll() {
+        Levels.register(Arcade.create());
+        Levels.register(BowlingAlley.create());
+        Levels.register(DeadMall.create());
+        Levels.register(Hospital.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
+        Levels.register(Motel.create());
+        Levels.register(MovieTheater.create());
+        Levels.register(ParkingGarage.create());
+        Levels.register(Playground.create());
+        Levels.register(School.create());
+        Levels.register(Supermarket.create());
+        Levels.register(WaitingRoom.create());
     }
 }
