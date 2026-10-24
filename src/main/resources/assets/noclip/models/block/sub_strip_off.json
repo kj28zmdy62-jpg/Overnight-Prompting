@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "housing": "noclip:block/sub_housing",
+    "tube": "noclip:block/sub_strip_off",
+    "particle": "noclip:block/sub_housing"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        13,
+        6
+      ],
+      "to": [
+        15,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            1,
+            6,
+            15,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            6,
+            15,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            0,
+            15,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#housing",
+          "uv": [
+            1,
+            0,
+            15,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#housing",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

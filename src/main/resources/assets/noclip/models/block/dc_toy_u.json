@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "t": "noclip:block/dc_toy_u",
+    "particle": "noclip:block/dc_toy_u"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#t",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#t",
+          "uv": [
+            4,
+            8,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#t",
+          "uv": [
+            4,
+            8,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#t",
+          "uv": [
+            4,
+            8,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#t",
+          "uv": [
+            4,
+            8,
+            12,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

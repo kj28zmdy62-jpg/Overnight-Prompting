@@ -18,6 +18,7 @@ public final class EntityIndex {
         HallMonitor.register();
         InvertedWalker.register();
         Leviathan.register();
+        LiftAttendant.register();
         MotionClayFigure.register();
         MrReflection.register();
         MtNull.register();

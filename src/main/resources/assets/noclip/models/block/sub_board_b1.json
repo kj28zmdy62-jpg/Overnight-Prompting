@@ -1,0 +1,147 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "n": "noclip:block/sub_board_service",
+    "s": "noclip:block/sub_board_not",
+    "frame": "noclip:block/sub_housing",
+    "particle": "noclip:block/sub_board_service"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        16,
+        9,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#n",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#s",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            7,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            7,
+            9,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        9,
+        7.5
+      ],
+      "to": [
+        9,
+        16,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            7.5,
+            9,
+            8.5
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            7.5,
+            9,
+            8.5
+          ]
+        },
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=north,daubs=0": {
+      "model": "noclip:block/bingo_card_0"
+    },
+    "facing=north,daubs=1": {
+      "model": "noclip:block/bingo_card_1"
+    },
+    "facing=north,daubs=2": {
+      "model": "noclip:block/bingo_card_2"
+    },
+    "facing=north,daubs=3": {
+      "model": "noclip:block/bingo_card_3"
+    },
+    "facing=north,daubs=4": {
+      "model": "noclip:block/bingo_card_4"
+    },
+    "facing=east,daubs=0": {
+      "model": "noclip:block/bingo_card_0",
+      "y": 90
+    },
+    "facing=east,daubs=1": {
+      "model": "noclip:block/bingo_card_1",
+      "y": 90
+    },
+    "facing=east,daubs=2": {
+      "model": "noclip:block/bingo_card_2",
+      "y": 90
+    },
+    "facing=east,daubs=3": {
+      "model": "noclip:block/bingo_card_3",
+      "y": 90
+    },
+    "facing=east,daubs=4": {
+      "model": "noclip:block/bingo_card_4",
+      "y": 90
+    },
+    "facing=south,daubs=0": {
+      "model": "noclip:block/bingo_card_0",
+      "y": 180
+    },
+    "facing=south,daubs=1": {
+      "model": "noclip:block/bingo_card_1",
+      "y": 180
+    },
+    "facing=south,daubs=2": {
+      "model": "noclip:block/bingo_card_2",
+      "y": 180
+    },
+    "facing=south,daubs=3": {
+      "model": "noclip:block/bingo_card_3",
+      "y": 180
+    },
+    "facing=south,daubs=4": {
+      "model": "noclip:block/bingo_card_4",
+      "y": 180
+    },
+    "facing=west,daubs=0": {
+      "model": "noclip:block/bingo_card_0",
+      "y": 270
+    },
+    "facing=west,daubs=1": {
+      "model": "noclip:block/bingo_card_1",
+      "y": 270
+    },
+    "facing=west,daubs=2": {
+      "model": "noclip:block/bingo_card_2",
+      "y": 270
+    },
+    "facing=west,daubs=3": {
+      "model": "noclip:block/bingo_card_3",
+      "y": 270
+    },
+    "facing=west,daubs=4": {
+      "model": "noclip:block/bingo_card_4",
+      "y": 270
+    }
+  }
+}

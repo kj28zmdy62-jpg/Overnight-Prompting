@@ -1,0 +1,11 @@
+{
+  "type": "noclip:convention_center",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "convention_center",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:convention_center"
+    }
+  }
+}

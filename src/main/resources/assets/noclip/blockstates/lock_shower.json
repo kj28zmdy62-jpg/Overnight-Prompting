@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/lock_shower"
+    },
+    "facing=east": {
+      "model": "noclip:block/lock_shower",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/lock_shower",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/lock_shower",
+      "y": 270
+    }
+  }
+}

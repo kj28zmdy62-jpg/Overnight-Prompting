@@ -1,0 +1,11 @@
+{
+  "type": "noclip:call_center",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "call_center",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:call_center"
+    }
+  }
+}

@@ -163,6 +163,175 @@
     ],
     "subtitle": "subtitles.noclip.event.arcade_denied"
   },
+  "ambient.archive": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/archive",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.archive.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/archive_clunk"
+      },
+      {
+        "name": "noclip:ambient/archive_rewind"
+      },
+      {
+        "name": "noclip:ambient/archive_cart"
+      },
+      {
+        "name": "noclip:ambient/archive_static"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.archive.additions"
+  },
+  "event.archive_insert": {
+    "sounds": [
+      {
+        "name": "noclip:event/archive_insert"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.archive_insert"
+  },
+  "event.archive_play": {
+    "sounds": [
+      {
+        "name": "noclip:event/archive_play"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.archive_play"
+  },
+  "event.archive_rewind": {
+    "sounds": [
+      {
+        "name": "noclip:event/archive_rewind"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.archive_rewind"
+  },
+  "event.archive_static": {
+    "sounds": [
+      {
+        "name": "noclip:event/archive_static"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.archive_static"
+  },
+  "event.archive_step": {
+    "sounds": [
+      {
+        "name": "noclip:event/archive_step0"
+      },
+      {
+        "name": "noclip:event/archive_step1"
+      },
+      {
+        "name": "noclip:event/archive_step2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.archive_step"
+  },
+  "ambient.ballroom": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/ballroom",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.ballroom.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/ballroom_clink"
+      },
+      {
+        "name": "noclip:ambient/ballroom_applause"
+      },
+      {
+        "name": "noclip:ambient/ballroom_chair"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.ballroom.additions"
+  },
+  "event.ballroom_waltz": {
+    "sounds": [
+      {
+        "name": "noclip:event/ballroom_waltz"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.ballroom_waltz"
+  },
+  "event.ballroom_stop": {
+    "sounds": [
+      {
+        "name": "noclip:event/ballroom_stop"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.ballroom_stop"
+  },
+  "ambient.bingo_hall": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/bingo_hall",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.bingo_hall.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/bingo_hall_cough"
+      },
+      {
+        "name": "noclip:ambient/bingo_hall_dauber"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.bingo_hall.additions"
+  },
+  "event.bingo_call": {
+    "sounds": [
+      {
+        "name": "noclip:event/bingo_call0"
+      },
+      {
+        "name": "noclip:event/bingo_call1"
+      },
+      {
+        "name": "noclip:event/bingo_call2"
+      },
+      {
+        "name": "noclip:event/bingo_call3"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bingo_call"
+  },
+  "event.bingo_shout": {
+    "sounds": [
+      {
+        "name": "noclip:event/bingo_shout"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bingo_shout"
+  },
+  "event.bingo_dauber": {
+    "sounds": [
+      {
+        "name": "noclip:event/bingo_dauber"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bingo_dauber"
+  },
+  "event.bingo_ball": {
+    "sounds": [
+      {
+        "name": "noclip:event/bingo_ball"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.bingo_ball"
+  },
   "ambient.boiler_room": {
     "sounds": [
       {
@@ -328,6 +497,74 @@
       }
     ],
     "subtitle": "subtitles.noclip.entity.the_drill.hurt"
+  },
+  "ambient.call_center": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/call_center",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.call_center.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/call_center_fax"
+      },
+      {
+        "name": "noclip:ambient/call_center_chair"
+      },
+      {
+        "name": "noclip:ambient/call_center_dial"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.call_center.additions"
+  },
+  "event.call_center_ring": {
+    "sounds": [
+      {
+        "name": "noclip:event/call_center_ring"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.call_center_ring"
+  },
+  "event.call_center_pickup": {
+    "sounds": [
+      {
+        "name": "noclip:event/call_center_pickup"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.call_center_pickup"
+  },
+  "event.call_center_voice": {
+    "sounds": [
+      {
+        "name": "noclip:event/call_center_voice0"
+      },
+      {
+        "name": "noclip:event/call_center_voice1"
+      },
+      {
+        "name": "noclip:event/call_center_voice2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.call_center_voice"
+  },
+  "event.call_center_hold": {
+    "sounds": [
+      {
+        "name": "noclip:event/call_center_hold"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.call_center_hold"
+  },
+  "event.call_center_all": {
+    "sounds": [
+      {
+        "name": "noclip:event/call_center_all"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.call_center_all"
   },
   "ambient.carnival": {
     "sounds": [
@@ -583,6 +820,105 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.container_yard_knock"
+  },
+  "ambient.convention_center": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/convention_center",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.convention_center.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/convention_center_forklift"
+      },
+      {
+        "name": "noclip:ambient/convention_center_hammer"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.convention_center.additions"
+  },
+  "event.convention_pa": {
+    "sounds": [
+      {
+        "name": "noclip:event/convention_pa0"
+      },
+      {
+        "name": "noclip:event/convention_pa1"
+      },
+      {
+        "name": "noclip:event/convention_pa2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.convention_pa"
+  },
+  "event.convention_bell": {
+    "sounds": [
+      {
+        "name": "noclip:event/convention_bell"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.convention_bell"
+  },
+  "ambient.daycare": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/daycare",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.daycare.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/daycare_giggle0"
+      },
+      {
+        "name": "noclip:ambient/daycare_giggle1"
+      },
+      {
+        "name": "noclip:ambient/daycare_giggle2"
+      },
+      {
+        "name": "noclip:ambient/daycare_clap"
+      },
+      {
+        "name": "noclip:ambient/daycare_squeak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.daycare.additions"
+  },
+  "event.daycare_toy": {
+    "sounds": [
+      {
+        "name": "noclip:event/daycare_toy"
+      },
+      {
+        "name": "noclip:event/daycare_squeak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.daycare_toy"
+  },
+  "event.daycare_nap": {
+    "sounds": [
+      {
+        "name": "noclip:event/daycare_nap"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.daycare_nap"
+  },
+  "event.daycare_giggle": {
+    "sounds": [
+      {
+        "name": "noclip:event/daycare_giggle0"
+      },
+      {
+        "name": "noclip:event/daycare_giggle1"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.daycare_giggle"
   },
   "ambient.dead_mall": {
     "sounds": [
@@ -2057,6 +2393,67 @@
     ],
     "subtitle": "subtitles.noclip.event.level_run_start"
   },
+  "ambient.lift_lobby": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/lift_lobby",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.lift_lobby.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/lift_lobby_ding0"
+      },
+      {
+        "name": "noclip:ambient/lift_lobby_ding1"
+      },
+      {
+        "name": "noclip:ambient/lift_lobby_ding2"
+      },
+      {
+        "name": "noclip:ambient/lift_lobby_cable"
+      },
+      {
+        "name": "noclip:ambient/lift_lobby_doors"
+      },
+      {
+        "name": "noclip:ambient/lift_lobby_goingup"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.lift_lobby.additions"
+  },
+  "event.lift_lobby_ding": {
+    "sounds": [
+      {
+        "name": "noclip:event/lift_lobby_ding"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.lift_lobby_ding"
+  },
+  "event.lift_lobby_doors": {
+    "sounds": [
+      {
+        "name": "noclip:event/lift_lobby_doors"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.lift_lobby_doors"
+  },
+  "entity.lift_attendant.speak": {
+    "sounds": [
+      {
+        "name": "noclip:entity/lift_attendant_hm0"
+      },
+      {
+        "name": "noclip:entity/lift_attendant_hm1"
+      },
+      {
+        "name": "noclip:entity/lift_attendant_hm2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.lift_attendant.speak"
+  },
   "ambient.loading_screen": {
     "sounds": [
       {
@@ -2091,6 +2488,58 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.loading_screen_unload"
+  },
+  "ambient.locker_rooms": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/locker_rooms",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.locker_rooms.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/locker_rooms_slam"
+      },
+      {
+        "name": "noclip:ambient/locker_rooms_squeak"
+      },
+      {
+        "name": "noclip:ambient/locker_rooms_drip"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.locker_rooms.additions"
+  },
+  "event.locker_rooms_shower": {
+    "sounds": [
+      {
+        "name": "noclip:event/locker_rooms_shower"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.locker_rooms_shower"
+  },
+  "event.locker_rooms_bang": {
+    "sounds": [
+      {
+        "name": "noclip:event/locker_rooms_bang0"
+      },
+      {
+        "name": "noclip:event/locker_rooms_bang1"
+      },
+      {
+        "name": "noclip:event/locker_rooms_bang2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.locker_rooms_bang"
+  },
+  "event.locker_rooms_open": {
+    "sounds": [
+      {
+        "name": "noclip:event/locker_rooms_open"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.locker_rooms_open"
   },
   "ambient.long_hallway": {
     "sounds": [
@@ -2331,6 +2780,47 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.movie_theater_shush"
+  },
+  "ambient.museum": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/museum",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.museum.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/museum_heels0"
+      },
+      {
+        "name": "noclip:ambient/museum_heels1"
+      },
+      {
+        "name": "noclip:ambient/museum_creak"
+      },
+      {
+        "name": "noclip:ambient/museum_shutter"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.museum.additions"
+  },
+  "event.museum_closing": {
+    "sounds": [
+      {
+        "name": "noclip:event/museum_closing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.museum_closing"
+  },
+  "event.museum_acquire": {
+    "sounds": [
+      {
+        "name": "noclip:event/museum_acquire"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.museum_acquire"
   },
   "ambient.overgrown_lobby": {
     "sounds": [
@@ -2716,6 +3206,68 @@
     ],
     "subtitle": "subtitles.noclip.event.red_room_caught"
   },
+  "ambient.restrooms": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/restrooms",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.restrooms.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/restrooms_flush"
+      },
+      {
+        "name": "noclip:ambient/restrooms_slam"
+      },
+      {
+        "name": "noclip:ambient/restrooms_cough"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.restrooms.additions"
+  },
+  "event.restrooms_dryer": {
+    "sounds": [
+      {
+        "name": "noclip:event/restrooms_dryer"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.restrooms_dryer"
+  },
+  "event.restrooms_knock": {
+    "sounds": [
+      {
+        "name": "noclip:event/restrooms_knock"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.restrooms_knock"
+  },
+  "event.restrooms_knock_back": {
+    "sounds": [
+      {
+        "name": "noclip:event/restrooms_knock_back"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.restrooms_knock_back"
+  },
+  "event.restrooms_unlock": {
+    "sounds": [
+      {
+        "name": "noclip:event/restrooms_unlock"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.restrooms_unlock"
+  },
+  "event.restrooms_flush": {
+    "sounds": [
+      {
+        "name": "noclip:event/restrooms_flush"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.restrooms_flush"
+  },
   "ambient.room_of_doors": {
     "sounds": [
       {
@@ -3006,6 +3558,74 @@
     ],
     "subtitle": "subtitles.noclip.event.snow_plains_steps"
   },
+  "ambient.stairwell": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/stairwell",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.stairwell.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/stairwell_steps_far0"
+      },
+      {
+        "name": "noclip:ambient/stairwell_steps_far1"
+      },
+      {
+        "name": "noclip:ambient/stairwell_slam_far"
+      },
+      {
+        "name": "noclip:ambient/stairwell_rail"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.stairwell.additions"
+  },
+  "event.stairwell_steps": {
+    "sounds": [
+      {
+        "name": "noclip:event/stairwell_steps0"
+      },
+      {
+        "name": "noclip:event/stairwell_steps1"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.stairwell_steps"
+  },
+  "event.stairwell_slam": {
+    "sounds": [
+      {
+        "name": "noclip:event/stairwell_slam"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.stairwell_slam"
+  },
+  "event.stairwell_locked": {
+    "sounds": [
+      {
+        "name": "noclip:event/stairwell_locked"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.stairwell_locked"
+  },
+  "event.stairwell_loop": {
+    "sounds": [
+      {
+        "name": "noclip:event/stairwell_loop"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.stairwell_loop"
+  },
+  "event.stairwell_door": {
+    "sounds": [
+      {
+        "name": "noclip:event/stairwell_door"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.stairwell_door"
+  },
   "ambient.static_fields": {
     "sounds": [
       {
@@ -3104,6 +3724,53 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.storm_drains_step"
+  },
+  "ambient.subway": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/subway",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.subway.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/subway_screech"
+      },
+      {
+        "name": "noclip:ambient/subway_far_train"
+      },
+      {
+        "name": "noclip:ambient/subway_drip"
+      },
+      {
+        "name": "noclip:ambient/subway_announce0"
+      },
+      {
+        "name": "noclip:ambient/subway_announce1"
+      },
+      {
+        "name": "noclip:ambient/subway_announce2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.subway.additions"
+  },
+  "event.subway_train": {
+    "sounds": [
+      {
+        "name": "noclip:event/subway_train"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.subway_train"
+  },
+  "event.subway_rumble": {
+    "sounds": [
+      {
+        "name": "noclip:event/subway_rumble"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.subway_rumble"
   },
   "ambient.supermarket": {
     "sounds": [

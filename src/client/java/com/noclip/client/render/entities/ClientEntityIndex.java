@@ -17,6 +17,7 @@ public final class ClientEntityIndex {
         HallMonitorRenderers.register();
         InvertedWalkerRenderers.register();
         LeviathanRenderers.register();
+        LiftAttendantRenderers.register();
         MotionClayFigureRenderers.register();
         MrReflectionRenderers.register();
         MtNullRenderers.register();

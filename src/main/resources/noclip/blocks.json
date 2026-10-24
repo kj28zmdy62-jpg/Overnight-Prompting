@@ -1440,6 +1440,1030 @@
     "render": "cutout"
   },
   {
+    "name": "archv_shelf_a",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_b",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_c",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_gap",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_end_a13",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_end_c77",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_end_f02",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_end_y0u",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_shelf_end_k40",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_lamp",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 11,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        7.5,
+        8,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ],
+      [
+        4,
+        3,
+        4,
+        12,
+        8,
+        12
+      ],
+      [
+        6,
+        2,
+        6,
+        10,
+        3,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "archv_lamp_dead",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7.5,
+        8,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ],
+      [
+        4,
+        3,
+        4,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "archv_partition",
+    "kind": "pane",
+    "sound": "wool",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "archv_desk",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        11,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        11,
+        2
+      ],
+      [
+        14,
+        0,
+        1,
+        15,
+        11,
+        2
+      ],
+      [
+        1,
+        0,
+        14,
+        2,
+        11,
+        15
+      ],
+      [
+        14,
+        0,
+        14,
+        15,
+        11,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "archv_tape_pile",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        1,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "archv_cart",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        2,
+        2,
+        14,
+        3,
+        14
+      ],
+      [
+        2,
+        9,
+        2,
+        14,
+        10,
+        14
+      ],
+      [
+        2,
+        0,
+        2,
+        3,
+        12,
+        3
+      ],
+      [
+        13,
+        0,
+        2,
+        14,
+        12,
+        3
+      ],
+      [
+        2,
+        0,
+        13,
+        3,
+        12,
+        14
+      ],
+      [
+        13,
+        0,
+        13,
+        14,
+        12,
+        14
+      ],
+      [
+        3,
+        10,
+        3,
+        13,
+        14,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "archv_vault_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "archv_vault_door_top",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "archv_crt",
+    "kind": "class",
+    "class": "com.noclip.block.ArchiveCrtBlock",
+    "unbreakable": true,
+    "sound": "glass",
+    "light": 5,
+    "emissive": true,
+    "render": "cutout"
+  },
+  {
+    "name": "ball_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_dance_floor",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_wall_base",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_drape",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_stage",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_table",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        13,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "ball_chair",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        7,
+        4,
+        12,
+        8,
+        12
+      ],
+      [
+        4,
+        8,
+        11,
+        12,
+        20,
+        12
+      ],
+      [
+        4,
+        12,
+        11.5,
+        12,
+        15,
+        12.5
+      ],
+      [
+        4,
+        0,
+        4,
+        5,
+        7,
+        5
+      ],
+      [
+        11,
+        0,
+        4,
+        12,
+        7,
+        5
+      ],
+      [
+        4,
+        0,
+        11,
+        5,
+        8,
+        12
+      ],
+      [
+        11,
+        0,
+        11,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "ball_centerpiece",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 6,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        -3,
+        6,
+        10,
+        2,
+        10
+      ],
+      [
+        7.5,
+        -3,
+        3,
+        8.5,
+        1,
+        4
+      ],
+      [
+        7.5,
+        1,
+        3,
+        8.5,
+        2,
+        4
+      ],
+      [
+        12,
+        -3,
+        7.5,
+        13,
+        0,
+        8.5
+      ],
+      [
+        12,
+        0,
+        7.5,
+        13,
+        1,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "ball_cake",
+    "kind": "pickup",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 0.4,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        6,
+        15
+      ],
+      [
+        3,
+        6,
+        3,
+        13,
+        11,
+        13
+      ],
+      [
+        5,
+        11,
+        5,
+        11,
+        15,
+        11
+      ],
+      [
+        7,
+        15,
+        7,
+        9,
+        16,
+        9
+      ]
+    ],
+    "item": "noclip:almond_water*1,noclip:energy_bar*2"
+  },
+  {
+    "name": "ball_bulbs",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 12,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        6,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "ball_chandelier",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "translucent",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        7.5,
+        10,
+        7.5,
+        8.5,
+        16,
+        8.5
+      ],
+      [
+        3,
+        6,
+        3,
+        13,
+        10,
+        13
+      ],
+      [
+        5,
+        2,
+        5,
+        11,
+        6,
+        11
+      ],
+      [
+        7,
+        0,
+        7,
+        9,
+        2,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "ball_drum",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        10,
+        14
+      ],
+      [
+        0,
+        12,
+        0,
+        6,
+        13,
+        6
+      ],
+      [
+        2.5,
+        0,
+        2.5,
+        3.5,
+        12,
+        3.5
+      ]
+    ]
+  },
+  {
+    "name": "ball_piano",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        4,
+        2,
+        16,
+        14,
+        16
+      ],
+      [
+        0,
+        10,
+        0,
+        16,
+        11,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        4,
+        5
+      ],
+      [
+        13,
+        0,
+        3,
+        15,
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "name": "ball_mic",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        1,
+        9
+      ],
+      [
+        7.5,
+        1,
+        7.5,
+        8.5,
+        22,
+        8.5
+      ],
+      [
+        7,
+        22,
+        6,
+        9,
+        25,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "ball_exit_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "ball_door",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "ball_backstage",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "bingo_lino",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_panel",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_tube",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.05,
+    "emissive": true
+  },
+  {
+    "name": "bingo_tube_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.7,
+    "emissive": true
+  },
+  {
+    "name": "bingo_stage",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_curtain",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_board",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_table",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        11,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        1,
+        0,
+        7,
+        2,
+        11,
+        9
+      ],
+      [
+        14,
+        0,
+        7,
+        15,
+        11,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "bingo_chair",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        7,
+        3,
+        13,
+        8,
+        13
+      ],
+      [
+        3,
+        8,
+        12,
+        13,
+        17,
+        13
+      ],
+      [
+        3,
+        0,
+        3,
+        4,
+        7,
+        4
+      ],
+      [
+        12,
+        0,
+        3,
+        13,
+        7,
+        4
+      ],
+      [
+        3,
+        0,
+        12,
+        4,
+        17,
+        13
+      ],
+      [
+        12,
+        0,
+        12,
+        13,
+        17,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "bingo_cage",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        6,
+        3,
+        13,
+        16,
+        13
+      ],
+      [
+        6,
+        8,
+        6,
+        8,
+        10,
+        8
+      ],
+      [
+        8,
+        7,
+        9,
+        10,
+        9,
+        11
+      ],
+      [
+        5,
+        0,
+        7,
+        11,
+        6,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "bingo_podium",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        3,
+        14,
+        14,
+        13
+      ],
+      [
+        1,
+        14,
+        2,
+        15,
+        16,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "bingo_ashtray",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        5,
+        -4,
+        5,
+        11,
+        -3,
+        11
+      ],
+      [
+        5,
+        -3,
+        5,
+        6,
+        -2,
+        11
+      ],
+      [
+        10,
+        -3,
+        5,
+        11,
+        -2,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "bingo_prize_locked",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "bingo_prize_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "bingo_fire_exit",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "bingo_card",
+    "kind": "class",
+    "class": "com.noclip.block.BingoCardBlock",
+    "unbreakable": true,
+    "sound": "wool",
+    "render": "cutout"
+  },
+  {
     "name": "br_boiler_plate",
     "kind": "cube",
     "sound": "metal",
@@ -2649,6 +3673,329 @@
     "kind": "ladder",
     "sound": "metal",
     "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cc_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "cc_ceiling",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "cc_panel",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "cc_panel_flicker",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.6,
+    "emissive": true
+  },
+  {
+    "name": "cc_panel_dead",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "cc_partition",
+    "kind": "pane",
+    "sound": "wool",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cc_partition_notes",
+    "kind": "pane",
+    "sound": "wool",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cc_glass",
+    "kind": "pane",
+    "sound": "glass",
+    "unbreakable": true,
+    "render": "translucent"
+  },
+  {
+    "name": "cc_desk",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        11,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        0,
+        0,
+        13,
+        16,
+        11,
+        15
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        11,
+        13
+      ],
+      [
+        15,
+        0,
+        0,
+        16,
+        11,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "cc_monitor",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        -4,
+        6,
+        13,
+        4,
+        7
+      ],
+      [
+        7,
+        -4,
+        7,
+        9,
+        -1,
+        10
+      ],
+      [
+        5,
+        -4,
+        7,
+        11,
+        -3.5,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "cc_monitor_off",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        -4,
+        6,
+        13,
+        4,
+        7
+      ],
+      [
+        7,
+        -4,
+        7,
+        9,
+        -1,
+        10
+      ],
+      [
+        5,
+        -4,
+        7,
+        11,
+        -3.5,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "cc_board",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        8,
+        9
+      ],
+      [
+        7,
+        8,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "cc_board2",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        8,
+        9
+      ],
+      [
+        7,
+        8,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "cc_board_youhold",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        8,
+        9
+      ],
+      [
+        7,
+        8,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "cc_column",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cc_whiteboard",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "cc_cooler",
+    "kind": "pickup",
+    "sound": "wood",
+    "collides": true,
+    "render": "translucent",
+    "strength": 0.5,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        13,
+        12
+      ],
+      [
+        5,
+        13,
+        5,
+        11,
+        16,
+        11
+      ]
+    ],
+    "item": "noclip:almond_water*2"
+  },
+  {
+    "name": "cc_phone",
+    "kind": "class",
+    "class": "com.noclip.block.CallPhoneBlock",
+    "unbreakable": true,
+    "sound": "metal",
+    "render": "cutout"
+  },
+  {
+    "name": "cc_red_phone",
+    "kind": "class",
+    "class": "com.noclip.block.CallPhoneBlock",
+    "unbreakable": true,
+    "sound": "metal",
     "render": "cutout"
   },
   {
@@ -6196,6 +7543,912 @@
         15
       ]
     ]
+  },
+  {
+    "name": "conv_aisle",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_aisle_x",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_booth_red",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_booth_green",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_booth_grey",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_booth_tan",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_roof",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "conv_truss",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "conv_high_bay",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "conv_high_bay_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.5,
+    "emissive": true
+  },
+  {
+    "name": "conv_drape",
+    "kind": "pane",
+    "sound": "wool",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "conv_pipe",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_0",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_1",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_2",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_3",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_4",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_5",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_6",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_banner_7",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_table",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        2,
+        16,
+        12,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "conv_tv",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        4,
+        7,
+        15,
+        14,
+        8
+      ],
+      [
+        7,
+        0,
+        7,
+        9,
+        4,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "conv_standee",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7.5,
+        16,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "conv_lanyards",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        7,
+        15,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "conv_info",
+    "kind": "class",
+    "class": "com.noclip.block.ConventionDeskBlock",
+    "unbreakable": true,
+    "sound": "wood"
+  },
+  {
+    "name": "dc_foam_ry",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_foam_bg",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_wall_red",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_wall_yellow",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_wall_blue",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_wall_green",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_wall_plain",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_frieze",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_frieze_wrong",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dc_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "dc_light_flicker",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.5,
+    "emissive": true
+  },
+  {
+    "name": "dc_drawing_sun",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        1,
+        0,
+        15,
+        15,
+        0.5
+      ]
+    ]
+  },
+  {
+    "name": "dc_drawing_fam",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        1,
+        0,
+        15,
+        15,
+        0.5
+      ]
+    ]
+  },
+  {
+    "name": "dc_drawing_tall",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        1,
+        0,
+        15,
+        15,
+        0.5
+      ]
+    ]
+  },
+  {
+    "name": "dc_drawing_door",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        1,
+        0,
+        15,
+        15,
+        0.5
+      ]
+    ]
+  },
+  {
+    "name": "dc_chair_red",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        5,
+        4,
+        12,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        11,
+        12,
+        11,
+        12
+      ],
+      [
+        4,
+        0,
+        4,
+        5,
+        5,
+        5
+      ],
+      [
+        11,
+        0,
+        4,
+        12,
+        5,
+        5
+      ],
+      [
+        4,
+        0,
+        11,
+        5,
+        5,
+        12
+      ],
+      [
+        11,
+        0,
+        11,
+        12,
+        5,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_chair_blue",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        5,
+        4,
+        12,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        11,
+        12,
+        11,
+        12
+      ],
+      [
+        4,
+        0,
+        4,
+        5,
+        5,
+        5
+      ],
+      [
+        11,
+        0,
+        4,
+        12,
+        5,
+        5
+      ],
+      [
+        4,
+        0,
+        11,
+        5,
+        5,
+        12
+      ],
+      [
+        11,
+        0,
+        11,
+        12,
+        5,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_table",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        8,
+        0,
+        16,
+        9,
+        16
+      ],
+      [
+        1,
+        0,
+        1,
+        3,
+        8,
+        3
+      ],
+      [
+        13,
+        0,
+        1,
+        15,
+        8,
+        3
+      ],
+      [
+        1,
+        0,
+        13,
+        3,
+        8,
+        15
+      ],
+      [
+        13,
+        0,
+        13,
+        15,
+        8,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "dc_mat_red",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        0,
+        15,
+        1.5,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "dc_mat_blue",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        0,
+        15,
+        1.5,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "dc_mat_green",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        0,
+        15,
+        1.5,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_a",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_b",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_c",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_u",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_bear",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        5,
+        12,
+        7,
+        11
+      ],
+      [
+        5,
+        7,
+        6,
+        11,
+        12,
+        10
+      ],
+      [
+        4,
+        11,
+        7,
+        6,
+        13,
+        9
+      ],
+      [
+        10,
+        11,
+        7,
+        12,
+        13,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "dc_toy_ball",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        8,
+        12
+      ],
+      [
+        5,
+        8,
+        5,
+        11,
+        9,
+        11
+      ],
+      [
+        5,
+        -0.5,
+        5,
+        11,
+        0,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "dc_cubby",
+    "kind": "class",
+    "class": "com.noclip.block.DaycareCubbyBlock",
+    "unbreakable": true,
+    "sound": "wood"
+  },
+  {
+    "name": "dc_fire_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
   },
   {
     "name": "mall_terrazzo",
@@ -19937,6 +22190,527 @@
     "unbreakable": true
   },
   {
+    "name": "lift_marble_cream",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_marble_black",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_runner_n",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_runner_s",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_wall",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_wainscot",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_cornice",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_ceiling_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "lift_ceiling_light_flicker",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.7,
+    "emissive": true
+  },
+  {
+    "name": "lift_ceiling_light_dead",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_frame",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_door",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_door_top",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_dial_l",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_dial_r",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_dial_wrong_l",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_dial_wrong_r",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_call_button",
+    "kind": "class",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        4,
+        3,
+        0,
+        12,
+        13,
+        1
+      ]
+    ],
+    "class": "com.noclip.block.LiftCallButtonBlock"
+  },
+  {
+    "name": "lift_cabin_wall",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_cabin_mirror",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "lift_cabin_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "emissive": true
+  },
+  {
+    "name": "lift_cabin_floor",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        15,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_shaft_dark",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "FALL",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "lift_stairs_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "lift_bench",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        5,
+        3,
+        15,
+        8,
+        13
+      ],
+      [
+        1,
+        8,
+        11,
+        15,
+        15,
+        13
+      ],
+      [
+        2,
+        0,
+        4,
+        3,
+        5,
+        5
+      ],
+      [
+        13,
+        0,
+        4,
+        14,
+        5,
+        5
+      ],
+      [
+        2,
+        0,
+        11,
+        3,
+        5,
+        12
+      ],
+      [
+        13,
+        0,
+        11,
+        14,
+        5,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "lift_planter",
+    "kind": "shaped",
+    "sound": "grass",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        0,
+        3,
+        13,
+        9,
+        13
+      ],
+      [
+        0,
+        7,
+        7.5,
+        16,
+        16,
+        8.5
+      ],
+      [
+        7.5,
+        7,
+        0,
+        8.5,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lift_sconce",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 11,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        4,
+        0,
+        11,
+        12,
+        2
+      ],
+      [
+        4,
+        7,
+        2,
+        12,
+        13,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "lift_ashtray",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        1,
+        10
+      ],
+      [
+        7,
+        1,
+        7,
+        9,
+        10,
+        9
+      ],
+      [
+        5,
+        10,
+        5,
+        11,
+        12,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "lift_luggage",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        2,
+        15,
+        1,
+        14
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        16,
+        3
+      ],
+      [
+        14,
+        1,
+        2,
+        15,
+        16,
+        3
+      ],
+      [
+        1,
+        15,
+        2,
+        15,
+        16,
+        3
+      ],
+      [
+        3,
+        1,
+        4,
+        13,
+        9,
+        11
+      ],
+      [
+        4,
+        9,
+        5,
+        11,
+        14,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "lift_podium",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        3,
+        14,
+        13,
+        13
+      ],
+      [
+        1,
+        13,
+        2,
+        15,
+        15,
+        14
+      ]
+    ]
+  },
+  {
     "name": "ls_dirt",
     "kind": "cube",
     "sound": "gravel",
@@ -20344,6 +23118,313 @@
     "render": "solid",
     "light": 6,
     "emissive": true
+  },
+  {
+    "name": "lock_locker",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_top_0412",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_top_0413",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_top_0711",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_top_2201",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_top_0999",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "lock_locker_odd",
+    "kind": "class",
+    "class": "com.noclip.block.LockerOddBlock",
+    "unbreakable": true,
+    "sound": "metal"
+  },
+  {
+    "name": "lock_floor",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_wall",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_wall_band",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_wall_mold",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "flicker": 0.1,
+    "emissive": true
+  },
+  {
+    "name": "lock_light_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "flicker": 0.85,
+    "emissive": true
+  },
+  {
+    "name": "lock_bench",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        7,
+        4,
+        16,
+        9,
+        12
+      ],
+      [
+        2,
+        0,
+        6,
+        4,
+        7,
+        10
+      ],
+      [
+        12,
+        0,
+        6,
+        14,
+        7,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "lock_bench_towel",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        7,
+        4,
+        16,
+        9,
+        12
+      ],
+      [
+        2,
+        0,
+        6,
+        4,
+        7,
+        10
+      ],
+      [
+        12,
+        0,
+        6,
+        14,
+        7,
+        10
+      ],
+      [
+        5,
+        9,
+        4,
+        11,
+        10,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "lock_shower",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        6,
+        0,
+        10,
+        9,
+        3
+      ],
+      [
+        7,
+        7,
+        3,
+        9,
+        8,
+        7
+      ],
+      [
+        5,
+        4,
+        6,
+        11,
+        7,
+        10
+      ],
+      [
+        6,
+        1,
+        0,
+        10,
+        3,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "lock_drain_tile",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "lock_drain_open",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "WATER",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
   },
   {
     "name": "lh_wallpaper",
@@ -22147,6 +25228,413 @@
     "light": 6,
     "flicker": 0.0,
     "emissive": true
+  },
+  {
+    "name": "mus_parquet",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_wall_base",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_wall_top",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_plinth",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_plinth_empty",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "mus_vitrine",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": true,
+    "render": "translucent",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        14,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "mus_spot",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 13,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        12,
+        5,
+        11,
+        16,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "mus_spot_off",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        5,
+        12,
+        5,
+        11,
+        16,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "mus_rope",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        12,
+        9
+      ],
+      [
+        6,
+        0,
+        6,
+        10,
+        1,
+        10
+      ],
+      [
+        6.5,
+        12,
+        6.5,
+        9.5,
+        13,
+        9.5
+      ],
+      [
+        0,
+        9,
+        7.5,
+        7,
+        10,
+        8.5
+      ],
+      [
+        9,
+        9,
+        7.5,
+        16,
+        10,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_bench",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        7,
+        3,
+        16,
+        10,
+        13
+      ],
+      [
+        2,
+        0,
+        4,
+        4,
+        7,
+        12
+      ],
+      [
+        12,
+        0,
+        4,
+        14,
+        7,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_lobby",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_dark",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_warehouse",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_you",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_stairs",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_door",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_portrait",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_art_blank",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1.5
+      ]
+    ]
+  },
+  {
+    "name": "mus_souvenir_shelf",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        4,
+        16,
+        16,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "mus_souvenir",
+    "kind": "pickup",
+    "sound": "wood",
+    "collides": true,
+    "render": "cutout",
+    "strength": 0.3,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        6,
+        12
+      ]
+    ],
+    "item": "noclip:almond_water*2,noclip:journal*1,noclip:energy_bar*2"
+  },
+  {
+    "name": "mus_gift_sign",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        8,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "mus_exit_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
   },
   {
     "name": "overgrown_wallpaper",
@@ -26828,6 +30316,364 @@
     ]
   },
   {
+    "name": "rest_tile",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_tile_band",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_tile_base",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_floor",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.12,
+    "emissive": true
+  },
+  {
+    "name": "rest_light_bad",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "flicker": 0.9,
+    "emissive": true
+  },
+  {
+    "name": "rest_light_dead",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "rest_partition",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        2,
+        7,
+        16,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "rest_partition_top",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        12,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "rest_stall_door",
+    "kind": "door",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout",
+    "strength": 3.0
+  },
+  {
+    "name": "rest_stall_locked",
+    "kind": "class",
+    "class": "com.noclip.block.RestroomStallBlock",
+    "unbreakable": true,
+    "sound": "metal"
+  },
+  {
+    "name": "rest_toilet",
+    "kind": "shaped",
+    "sound": "stone",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        6,
+        12,
+        6,
+        15
+      ],
+      [
+        5,
+        6,
+        6,
+        11,
+        7,
+        14
+      ],
+      [
+        3,
+        6,
+        0,
+        13,
+        13,
+        4
+      ],
+      [
+        4,
+        13,
+        0.5,
+        12,
+        14,
+        3.5
+      ],
+      [
+        5,
+        0,
+        4,
+        11,
+        6,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "rest_toilet_dark",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "WATER",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "rest_sink",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        10,
+        2,
+        16,
+        13,
+        16
+      ],
+      [
+        4,
+        12,
+        5,
+        12,
+        13.1,
+        12
+      ],
+      [
+        7,
+        13,
+        2,
+        9,
+        16,
+        4
+      ],
+      [
+        7,
+        15,
+        4,
+        9,
+        16,
+        7
+      ],
+      [
+        2,
+        0,
+        13,
+        14,
+        10,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "rest_mirror",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "rest_mirror_fig",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "rest_dryer",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        2,
+        0,
+        13,
+        12,
+        6
+      ],
+      [
+        6,
+        1,
+        3,
+        10,
+        2,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "rest_shoes",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        0,
+        4,
+        7,
+        2,
+        11
+      ],
+      [
+        9,
+        0,
+        4,
+        13,
+        2,
+        11
+      ],
+      [
+        3,
+        2,
+        8,
+        7,
+        4,
+        11
+      ],
+      [
+        9,
+        2,
+        8,
+        13,
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "rest_paper",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        0.3,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "rest_drain",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "FALL",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
     "name": "rod_marble_white",
     "kind": "cube",
     "sound": "tile",
@@ -29849,6 +33695,249 @@
     ]
   },
   {
+    "name": "stair_wall_white",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_wall_green",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_wall_band",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_wall_base",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_landing",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_underside",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_steps",
+    "kind": "stairs",
+    "sound": "stone",
+    "unbreakable": true,
+    "base": "stair_landing"
+  },
+  {
+    "name": "stair_lamp",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "stair_lamp_flicker",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.8,
+    "emissive": true
+  },
+  {
+    "name": "stair_lamp_dead",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_graffiti_out",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_graffiti_up",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_graffiti_count",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_graffiti_arrow",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_hose",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_hose_top",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_handrail",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        2,
+        14,
+        9
+      ],
+      [
+        7,
+        0,
+        7,
+        9,
+        14,
+        9
+      ],
+      [
+        14,
+        0,
+        7,
+        16,
+        14,
+        9
+      ],
+      [
+        0,
+        14,
+        6.5,
+        16,
+        16,
+        9.5
+      ]
+    ]
+  },
+  {
+    "name": "stair_chair",
+    "kind": "shaped",
+    "sound": "metal",
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        7,
+        3,
+        13,
+        8,
+        13
+      ],
+      [
+        3,
+        8,
+        12,
+        13,
+        18,
+        13
+      ],
+      [
+        3,
+        0,
+        3,
+        4,
+        7,
+        4
+      ],
+      [
+        12,
+        0,
+        3,
+        13,
+        7,
+        4
+      ],
+      [
+        3,
+        0,
+        12,
+        4,
+        18,
+        13
+      ],
+      [
+        12,
+        0,
+        12,
+        13,
+        18,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "stair_paper",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        0.25,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "stair_digit",
+    "kind": "class",
+    "class": "com.noclip.block.StairDigitBlock",
+    "unbreakable": true
+  },
+  {
+    "name": "stair_door",
+    "kind": "class",
+    "class": "com.noclip.block.StairwellDoorBlock",
+    "unbreakable": true,
+    "sound": "metal"
+  },
+  {
+    "name": "stair_door_top",
+    "kind": "class",
+    "class": "com.noclip.block.StairwellDoorBlock",
+    "unbreakable": true,
+    "sound": "metal"
+  },
+  {
     "name": "sf_grass",
     "kind": "cube",
     "sound": "grass",
@@ -30482,6 +34571,572 @@
         9,
         14,
         9
+      ]
+    ]
+  },
+  {
+    "name": "sub_tile_white",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_tile_band",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_tile_base",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_platform",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_edge",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_edge_n",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_ballast",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_sleeper",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_column",
+    "kind": "pillar",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_ceiling_pipes",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_tunnel_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_shutter",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_map",
+    "kind": "cube",
+    "sound": "tile",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_rail",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        6,
+        16,
+        1,
+        10
+      ],
+      [
+        0,
+        1,
+        7,
+        16,
+        3,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "sub_third_rail",
+    "kind": "hazard",
+    "sound": "metal",
+    "unbreakable": true,
+    "damage": 9.0,
+    "solid": false,
+    "render": "cutout",
+    "no_collision": true
+  },
+  {
+    "name": "sub_strip",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "light": 14,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        1,
+        13,
+        6,
+        15,
+        16,
+        10
+      ],
+      [
+        15,
+        13,
+        6,
+        16,
+        16,
+        10
+      ],
+      [
+        0,
+        13,
+        6,
+        1,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "sub_strip_off",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        13,
+        6,
+        15,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "sub_bench",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        6,
+        3,
+        15,
+        7,
+        13
+      ],
+      [
+        1,
+        7,
+        12,
+        15,
+        15,
+        13
+      ],
+      [
+        2,
+        0,
+        4,
+        3,
+        6,
+        12
+      ],
+      [
+        13,
+        0,
+        4,
+        14,
+        6,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "sub_bin",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        4,
+        0,
+        4,
+        12,
+        12,
+        12
+      ],
+      [
+        3,
+        12,
+        3,
+        13,
+        13,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_a1",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_a2",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_b1",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_b2",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_c1",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_board_c2",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        7,
+        16,
+        9,
+        9
+      ],
+      [
+        7,
+        9,
+        7.5,
+        9,
+        16,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "sub_signal_red",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 5,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "sub_signal_green",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 5,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "sub_exit_up",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "sub_service_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "sub_service_door_top",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "sub_letter",
+    "kind": "class",
+    "class": "com.noclip.block.SubwayLetterBlock",
+    "unbreakable": true,
+    "sound": "tile"
+  },
+  {
+    "name": "sub_train_body",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sub_train_window",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sub_train_window_fig",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sub_train_roof",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sub_train_front",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        16,
+        16
       ]
     ]
   },

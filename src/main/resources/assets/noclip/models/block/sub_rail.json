@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "steel": "noclip:block/sub_steel",
+    "top": "noclip:block/sub_rail_top",
+    "particle": "noclip:block/sub_steel"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        1,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#steel",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#steel",
+          "uv": [
+            6,
+            15,
+            10,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        1,
+        7
+      ],
+      "to": [
+        16,
+        3,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            7,
+            16,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            13,
+            16,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#steel",
+          "uv": [
+            0,
+            13,
+            16,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            13,
+            9,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#steel",
+          "uv": [
+            7,
+            13,
+            9,
+            15
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/stair_lamp_flicker"
+    },
+    "lit=false": {
+      "model": "noclip:block/stair_lamp_flicker_off"
+    }
+  }
+}
