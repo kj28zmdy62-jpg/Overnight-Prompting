@@ -8,6 +8,9 @@ public final class EntityIndex {
     public static void registerAll() {
         DuctCrawler.register();
         ElevatorCar.register();
+        SludgeLurker.register();
+        TankSettler.register();
+        TheDrill.register();
         WrappedOne.register();
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "noclip:mine_shaft",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "mine_shaft",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:mine_shaft"
+    }
+  }
+}

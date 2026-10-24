@@ -1,0 +1,11 @@
+{
+  "type": "noclip:sewers",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "sewers",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:sewers"
+    }
+  }
+}

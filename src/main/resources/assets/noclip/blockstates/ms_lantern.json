@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/ms_lantern_lit"
+    },
+    "lit=false": {
+      "model": "noclip:block/ms_lantern_out"
+    }
+  }
+}

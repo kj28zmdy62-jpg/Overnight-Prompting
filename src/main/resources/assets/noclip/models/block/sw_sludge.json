@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "s": "noclip:block/sw_sludge",
+    "particle": "noclip:block/sw_sludge"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#s",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#s",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#s",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#s",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#s",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/ms_timber_h",
+    "bottom": "noclip:block/ms_timber_h",
+    "side": "noclip:block/ms_timber_h"
+  }
+}

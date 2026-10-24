@@ -628,6 +628,58 @@
     ],
     "subtitle": "subtitles.noclip.ambient.level_6.additions"
   },
+  "ambient.mine_shaft": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/mine_shaft",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.mine_shaft.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/mine_shaft_knock0"
+      },
+      {
+        "name": "noclip:ambient/mine_shaft_knock1"
+      },
+      {
+        "name": "noclip:ambient/mine_shaft_creak"
+      },
+      {
+        "name": "noclip:ambient/mine_shaft_cart"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.mine_shaft.additions"
+  },
+  "event.mine_shaft_knock": {
+    "sounds": [
+      {
+        "name": "noclip:event/mine_shaft_knock0"
+      },
+      {
+        "name": "noclip:event/mine_shaft_knock1"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.mine_shaft_knock"
+  },
+  "event.mine_shaft_out": {
+    "sounds": [
+      {
+        "name": "noclip:event/mine_shaft_out"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.mine_shaft_out"
+  },
+  "event.mine_shaft_strike": {
+    "sounds": [
+      {
+        "name": "noclip:event/mine_shaft_strike"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.mine_shaft_strike"
+  },
   "ambient.server_farm": {
     "sounds": [
       {
@@ -674,6 +726,104 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.server_farm_discharge"
+  },
+  "ambient.sewers": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/sewers",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.sewers.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/sewers_squeak0"
+      },
+      {
+        "name": "noclip:ambient/sewers_squeak1"
+      },
+      {
+        "name": "noclip:ambient/sewers_splash0"
+      },
+      {
+        "name": "noclip:ambient/sewers_splash1"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.sewers.additions"
+  },
+  "event.sewers_grab": {
+    "sounds": [
+      {
+        "name": "noclip:event/sewers_grab"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.sewers_grab"
+  },
+  "event.sewers_wade": {
+    "sounds": [
+      {
+        "name": "noclip:event/sewers_wade"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.sewers_wade"
+  },
+  "entity.sludge_lurker.surface": {
+    "sounds": [
+      {
+        "name": "noclip:entity/sludge_lurker_surface"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.sludge_lurker.surface"
+  },
+  "ambient.steel_mill": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/steel_mill",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.steel_mill.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/steel_mill_crash0"
+      },
+      {
+        "name": "noclip:ambient/steel_mill_crash1"
+      },
+      {
+        "name": "noclip:ambient/steel_mill_horn"
+      },
+      {
+        "name": "noclip:ambient/steel_mill_quench"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.steel_mill.additions"
+  },
+  "event.steel_mill_siren": {
+    "sounds": [
+      {
+        "name": "noclip:event/steel_mill_siren"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.steel_mill_siren"
+  },
+  "event.steel_mill_pour": {
+    "sounds": [
+      {
+        "name": "noclip:event/steel_mill_pour"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.steel_mill_pour"
+  },
+  "event.steel_mill_sizzle": {
+    "sounds": [
+      {
+        "name": "noclip:event/steel_mill_sizzle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.steel_mill_sizzle"
   },
   "ambient.storm_drains": {
     "sounds": [
@@ -724,5 +874,54 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.storm_drains_step"
+  },
+  "ambient.water_treatment": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/water_treatment",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.water_treatment.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/water_treatment_blorp0"
+      },
+      {
+        "name": "noclip:ambient/water_treatment_blorp1"
+      },
+      {
+        "name": "noclip:ambient/water_treatment_creak"
+      },
+      {
+        "name": "noclip:ambient/water_treatment_beep"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.water_treatment.additions"
+  },
+  "event.water_treatment_creak": {
+    "sounds": [
+      {
+        "name": "noclip:event/water_treatment_creak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.water_treatment_creak"
+  },
+  "event.water_treatment_collapse": {
+    "sounds": [
+      {
+        "name": "noclip:event/water_treatment_collapse"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.water_treatment_collapse"
+  },
+  "entity.tank_settler.wake": {
+    "sounds": [
+      {
+        "name": "noclip:entity/tank_settler_wake"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.tank_settler.wake"
   }
 }

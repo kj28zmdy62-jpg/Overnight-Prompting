@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p": "noclip:block/wt_pipe_brown",
+    "particle": "noclip:block/wt_pipe_brown"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        1,
+        0
+      ],
+      "to": [
+        15,
+        15,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#p",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#p",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#p",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#p",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#p",
+          "uv": [
+            0,
+            1,
+            16,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#p",
+          "uv": [
+            0,
+            1,
+            16,
+            15
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -9,13 +9,18 @@ public final class LevelIndex {
     public static void registerAll() {
         Levels.register(AirVents.create());
         Levels.register(BoilerRoom.create());
+        Levels.register(Bunker.create());
         Levels.register(ColdStorage.create());
         Levels.register(ContainerYard.create());
         Levels.register(ElevatorShaft.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
+        Levels.register(MineShaft.create());
         Levels.register(ServerFarm.create());
+        Levels.register(Sewers.create());
+        Levels.register(SteelMill.create());
         Levels.register(StormDrains.create());
+        Levels.register(WaterTreatment.create());
     }
 }
