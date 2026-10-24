@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/overgrown_trunk"
+    },
+    "axis=z": {
+      "model": "noclip:block/overgrown_trunk_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/overgrown_trunk_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

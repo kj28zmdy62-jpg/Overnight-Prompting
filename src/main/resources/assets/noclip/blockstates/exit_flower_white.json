@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/exit_flower_white"
+    },
+    "facing=east": {
+      "model": "noclip:block/exit_flower_white"
+    },
+    "facing=south": {
+      "model": "noclip:block/exit_flower_white"
+    },
+    "facing=west": {
+      "model": "noclip:block/exit_flower_white"
+    }
+  }
+}

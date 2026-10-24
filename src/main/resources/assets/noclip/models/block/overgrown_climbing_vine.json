@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "particle": "noclip:block/og_climbing_vine",
+    "texture": "noclip:block/og_climbing_vine"
+  }
+}

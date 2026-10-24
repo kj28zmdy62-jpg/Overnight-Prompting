@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/motion_clay_rug"
+    },
+    "facing=east": {
+      "model": "noclip:block/motion_clay_rug",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/motion_clay_rug",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/motion_clay_rug",
+      "y": 270
+    }
+  }
+}

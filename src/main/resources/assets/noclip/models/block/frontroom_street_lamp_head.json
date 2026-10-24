@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "metal": "noclip:block/fr_metal",
+    "shade": "noclip:block/fr_lampshade",
+    "particle": "noclip:block/fr_metal"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        4,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            12,
+            9,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            12,
+            9,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            12,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            7,
+            12,
+            9,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        9,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            7,
+            12,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            7,
+            12,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            7,
+            12,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#shade",
+          "uv": [
+            4,
+            7,
+            12,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

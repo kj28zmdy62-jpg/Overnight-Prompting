@@ -7,6 +7,11 @@ public final class EntityIndex {
 
     public static void registerAll() {
         GasAttendant.register();
+        InvertedWalker.register();
+        MotionClayFigure.register();
+        RunChaser.register();
         StaticMan.register();
+        VoidFarThing.register();
+        WindowWatcher.register();
     }
 }

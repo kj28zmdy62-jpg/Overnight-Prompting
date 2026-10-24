@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hub_pendant"
+    },
+    "facing=east": {
+      "model": "noclip:block/hub_pendant",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hub_pendant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hub_pendant",
+      "y": 270
+    }
+  }
+}

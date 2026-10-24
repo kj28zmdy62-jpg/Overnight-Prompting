@@ -1,0 +1,11 @@
+{
+  "type": "noclip:inverted_lobby",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "inverted_lobby",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:inverted_lobby"
+    }
+  }
+}

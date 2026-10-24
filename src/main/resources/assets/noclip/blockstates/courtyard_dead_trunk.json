@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/courtyard_dead_trunk"
+    },
+    "axis=z": {
+      "model": "noclip:block/courtyard_dead_trunk_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/courtyard_dead_trunk_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

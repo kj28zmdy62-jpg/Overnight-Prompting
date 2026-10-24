@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/motion_clay_flower_pink"
+    },
+    "facing=east": {
+      "model": "noclip:block/motion_clay_flower_pink"
+    },
+    "facing=south": {
+      "model": "noclip:block/motion_clay_flower_pink"
+    },
+    "facing=west": {
+      "model": "noclip:block/motion_clay_flower_pink"
+    }
+  }
+}

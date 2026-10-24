@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/flooded_fallen_light"
+    },
+    "lit=false": {
+      "model": "noclip:block/flooded_fallen_light_off"
+    }
+  }
+}

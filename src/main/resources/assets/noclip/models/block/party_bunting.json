@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "noclip:block/fun_bunting",
+    "particle": "noclip:block/fun_bunting"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        6,
+        7.5
+      ],
+      "to": [
+        16,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#b",
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

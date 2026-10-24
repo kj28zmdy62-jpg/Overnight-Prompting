@@ -7,6 +7,11 @@ public final class ClientEntityIndex {
 
     public static void registerAll() {
         GasAttendantRenderers.register();
+        InvertedWalkerRenderers.register();
+        MotionClayFigureRenderers.register();
+        RunChaserRenderers.register();
         StaticManRenderers.register();
+        VoidFarThingRenderers.register();
+        WindowWatcherRenderers.register();
     }
 }

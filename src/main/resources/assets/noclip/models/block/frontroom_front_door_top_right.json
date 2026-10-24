@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "noclip:block/fr_front_door",
+    "top": "noclip:block/fr_front_door_top"
+  }
+}

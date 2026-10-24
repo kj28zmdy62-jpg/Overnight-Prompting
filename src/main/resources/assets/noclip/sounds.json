@@ -177,6 +177,139 @@
     ],
     "subtitle": "subtitles.noclip.entity.deathmoth.flutter"
   },
+  "ambient.level_0": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_0.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0_steps0"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps1"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps2"
+      },
+      {
+        "name": "noclip:ambient/level_0_surge"
+      },
+      {
+        "name": "noclip:ambient/level_0_thump"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_0.additions"
+  },
+  "block.moist_carpet.step": {
+    "sounds": [
+      {
+        "name": "noclip:block/moist_carpet_step0",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step1",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step2",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step3",
+        "volume": 0.6
+      }
+    ]
+  },
+  "block.light.zap": {
+    "sounds": [
+      {
+        "name": "noclip:block/light_zap0"
+      },
+      {
+        "name": "noclip:block/light_zap1"
+      },
+      {
+        "name": "noclip:block/light_zap2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.block.light.zap"
+  },
+  "ambient.flooded_lobby": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/flooded_lobby",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.flooded_lobby.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/flooded_lobby_splash"
+      },
+      {
+        "name": "noclip:ambient/flooded_lobby_crackle"
+      },
+      {
+        "name": "noclip:ambient/flooded_lobby_surfacing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.flooded_lobby.additions"
+  },
+  "event.flooded_lobby_zap": {
+    "sounds": [
+      {
+        "name": "noclip:event/flooded_lobby_zap"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.flooded_lobby_zap"
+  },
+  "event.flooded_lobby_brush": {
+    "sounds": [
+      {
+        "name": "noclip:event/flooded_lobby_brush"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.flooded_lobby_brush"
+  },
+  "ambient.frontrooms": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/frontrooms",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.frontrooms.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/frontrooms_dog"
+      },
+      {
+        "name": "noclip:ambient/frontrooms_icecream"
+      },
+      {
+        "name": "noclip:ambient/frontrooms_chimes"
+      },
+      {
+        "name": "noclip:ambient/frontrooms_hum"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.frontrooms.additions"
+  },
+  "event.frontrooms_tick": {
+    "sounds": [
+      {
+        "name": "noclip:event/frontrooms_tick"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.frontrooms_tick"
+  },
   "ambient.gas_station": {
     "sounds": [
       {
@@ -264,67 +397,35 @@
     ],
     "subtitle": "subtitles.noclip.event.golden_hour_lullaby"
   },
-  "ambient.level_0": {
+  "ambient.inverted_lobby": {
     "sounds": [
       {
-        "name": "noclip:ambient/level_0",
+        "name": "noclip:ambient/inverted_lobby",
         "stream": true
       }
     ]
   },
-  "ambient.level_0.additions": {
+  "ambient.inverted_lobby.additions": {
     "sounds": [
       {
-        "name": "noclip:ambient/level_0_steps0"
+        "name": "noclip:ambient/inverted_lobby_steps0"
       },
       {
-        "name": "noclip:ambient/level_0_steps1"
+        "name": "noclip:ambient/inverted_lobby_steps1"
       },
       {
-        "name": "noclip:ambient/level_0_steps2"
-      },
-      {
-        "name": "noclip:ambient/level_0_surge"
-      },
-      {
-        "name": "noclip:ambient/level_0_thump"
+        "name": "noclip:ambient/inverted_lobby_thump"
       }
     ],
-    "subtitle": "subtitles.noclip.ambient.level_0.additions"
+    "subtitle": "subtitles.noclip.ambient.inverted_lobby.additions"
   },
-  "block.moist_carpet.step": {
+  "entity.inverted_walker.drop": {
     "sounds": [
       {
-        "name": "noclip:block/moist_carpet_step0",
-        "volume": 0.6
-      },
-      {
-        "name": "noclip:block/moist_carpet_step1",
-        "volume": 0.6
-      },
-      {
-        "name": "noclip:block/moist_carpet_step2",
-        "volume": 0.6
-      },
-      {
-        "name": "noclip:block/moist_carpet_step3",
-        "volume": 0.6
-      }
-    ]
-  },
-  "block.light.zap": {
-    "sounds": [
-      {
-        "name": "noclip:block/light_zap0"
-      },
-      {
-        "name": "noclip:block/light_zap1"
-      },
-      {
-        "name": "noclip:block/light_zap2"
+        "name": "noclip:entity/inverted_walker_drop"
       }
     ],
-    "subtitle": "subtitles.noclip.block.light.zap"
+    "subtitle": "subtitles.noclip.entity.inverted_walker.drop"
   },
   "ambient.level_1": {
     "sounds": [
@@ -365,6 +466,108 @@
     ],
     "subtitle": "subtitles.noclip.event.power_down"
   },
+  "ambient.level_188": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_188",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_188.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_188_slam"
+      },
+      {
+        "name": "noclip:ambient/level_188_phone"
+      },
+      {
+        "name": "noclip:ambient/level_188_laugh"
+      },
+      {
+        "name": "noclip:ambient/level_188_curtain"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_188.additions"
+  },
+  "entity.window_watcher.knock": {
+    "sounds": [
+      {
+        "name": "noclip:entity/window_watcher_knock"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.window_watcher.knock"
+  },
+  "entity.window_watcher.break": {
+    "sounds": [
+      {
+        "name": "noclip:entity/window_watcher_break"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.window_watcher.break"
+  },
+  "event.level_188_locked": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_188_locked"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_188_locked"
+  },
+  "ambient.level_37": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_37",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_37.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_37_splash0"
+      },
+      {
+        "name": "noclip:ambient/level_37_splash1"
+      },
+      {
+        "name": "noclip:ambient/level_37_splash2"
+      },
+      {
+        "name": "noclip:ambient/level_37_drip0"
+      },
+      {
+        "name": "noclip:ambient/level_37_drip1"
+      },
+      {
+        "name": "noclip:ambient/level_37_drip2"
+      },
+      {
+        "name": "noclip:ambient/level_37_laughter"
+      },
+      {
+        "name": "noclip:ambient/level_37_whistle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_37.additions"
+  },
+  "event.level_37_undertow": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_37_undertow"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_37_undertow"
+  },
+  "event.level_37_splash": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_37_splash"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_37_splash"
+  },
   "ambient.level_6": {
     "sounds": [
       {
@@ -386,6 +589,178 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.level_6.additions"
+  },
+  "ambient.level_94": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_94",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_94.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_94_giggle"
+      },
+      {
+        "name": "noclip:ambient/level_94_shutter"
+      },
+      {
+        "name": "noclip:ambient/level_94_kettle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_94.additions"
+  },
+  "entity.motion_clay_figure.hop": {
+    "sounds": [
+      {
+        "name": "noclip:entity/motion_clay_figure_hop0"
+      },
+      {
+        "name": "noclip:entity/motion_clay_figure_hop1"
+      },
+      {
+        "name": "noclip:entity/motion_clay_figure_hop2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.motion_clay_figure.hop"
+  },
+  "ambient.level_fun": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_fun",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_fun.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_fun_horn"
+      },
+      {
+        "name": "noclip:ambient/level_fun_winddown"
+      },
+      {
+        "name": "noclip:ambient/level_fun_cheer"
+      },
+      {
+        "name": "noclip:ambient/level_fun_squeak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_fun.additions"
+  },
+  "event.level_fun_pop": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_fun_pop"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_fun_pop"
+  },
+  "event.level_fun_surprise": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_fun_surprise"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_fun_surprise"
+  },
+  "event.level_fun_present": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_fun_present"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_fun_present"
+  },
+  "ambient.level_run": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_run",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_run.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_run_scream0"
+      },
+      {
+        "name": "noclip:ambient/level_run_scream1"
+      },
+      {
+        "name": "noclip:ambient/level_run_crash"
+      },
+      {
+        "name": "noclip:ambient/level_run_steps"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_run.additions"
+  },
+  "entity.run_chaser.roar": {
+    "sounds": [
+      {
+        "name": "noclip:entity/run_chaser_roar"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.run_chaser.roar"
+  },
+  "entity.run_chaser.step": {
+    "sounds": [
+      {
+        "name": "noclip:entity/run_chaser_step"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.run_chaser.step"
+  },
+  "entity.run_chaser.kill": {
+    "sounds": [
+      {
+        "name": "noclip:entity/run_chaser_kill"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.run_chaser.kill"
+  },
+  "event.level_run_start": {
+    "sounds": [
+      {
+        "name": "noclip:event/level_run_start"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.level_run_start"
+  },
+  "ambient.overgrown_lobby": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/overgrown_lobby",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.overgrown_lobby.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/overgrown_lobby_crack"
+      },
+      {
+        "name": "noclip:ambient/overgrown_lobby_rustle"
+      },
+      {
+        "name": "noclip:ambient/overgrown_lobby_creak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.overgrown_lobby.additions"
+  },
+  "event.overgrown_lobby_roots": {
+    "sounds": [
+      {
+        "name": "noclip:event/overgrown_lobby_roots"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.overgrown_lobby_roots"
   },
   "ambient.salt_flats": {
     "sounds": [
@@ -511,5 +886,123 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.static_fields_sting"
+  },
+  "ambient.the_abyss": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_abyss",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.the_abyss.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_abyss_pass0"
+      },
+      {
+        "name": "noclip:ambient/the_abyss_pass1"
+      },
+      {
+        "name": "noclip:ambient/the_abyss_pass2"
+      },
+      {
+        "name": "noclip:ambient/the_abyss_pass3"
+      },
+      {
+        "name": "noclip:ambient/the_abyss_heart"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.the_abyss.additions"
+  },
+  "event.the_abyss_blink": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_abyss_blink"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_abyss_blink"
+  },
+  "ambient.the_exit": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_exit",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.the_exit.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_exit_bird"
+      },
+      {
+        "name": "noclip:ambient/the_exit_note"
+      },
+      {
+        "name": "noclip:ambient/the_exit_whisper"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.the_exit.additions"
+  },
+  "ambient.the_hub": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_hub",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.the_hub.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_hub_close"
+      },
+      {
+        "name": "noclip:ambient/the_hub_knock"
+      },
+      {
+        "name": "noclip:ambient/the_hub_ding"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.the_hub.additions"
+  },
+  "event.the_hub_open": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_hub_open"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_hub_open"
+  },
+  "event.the_hub_locked": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_hub_locked"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_hub_locked"
+  },
+  "ambient.the_void": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_void",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.the_void.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_void_groan"
+      },
+      {
+        "name": "noclip:ambient/the_void_bell"
+      },
+      {
+        "name": "noclip:ambient/the_void_name"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.the_void.additions"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "noclip:block/overgrown_climbing_vine",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "noclip:block/overgrown_climbing_vine"
+    },
+    "facing=south": {
+      "model": "noclip:block/overgrown_climbing_vine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/overgrown_climbing_vine",
+      "y": 270
+    }
+  }
+}

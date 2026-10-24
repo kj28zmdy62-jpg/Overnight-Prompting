@@ -1,0 +1,281 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "chair": "noclip:block/m94_roof",
+    "particle": "noclip:block/m94_roof"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        7,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            9,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            9,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            9,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            9,
+            15,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        7,
+        12
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            12,
+            15,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            12,
+            15,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            0,
+            15,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            0,
+            15,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#chair",
+          "uv": [
+            12,
+            0,
+            15,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#chair",
+          "uv": [
+            12,
+            0,
+            15,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        7,
+        1
+      ],
+      "to": [
+        3,
+        11,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            1,
+            3,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            1,
+            3,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            3,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            3,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            12,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            12,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13,
+        7,
+        1
+      ],
+      "to": [
+        15,
+        11,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chair",
+          "uv": [
+            13,
+            1,
+            15,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#chair",
+          "uv": [
+            13,
+            1,
+            15,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#chair",
+          "uv": [
+            13,
+            5,
+            15,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#chair",
+          "uv": [
+            13,
+            5,
+            15,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            12,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#chair",
+          "uv": [
+            1,
+            5,
+            12,
+            9
+          ]
+        }
+      }
+    }
+  ]
+}
