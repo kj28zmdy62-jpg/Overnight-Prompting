@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "case": "noclip:block/l3_casing",
+    "glass": "noclip:block/l3_bulkhead",
+    "particle": "noclip:block/l3_casing"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4,
+        0
+      ],
+      "to": [
+        12,
+        12,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            4,
+            0,
+            12,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            4,
+            0,
+            12,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#case",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            0,
+            4,
+            1,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        5,
+        1
+      ],
+      "to": [
+        11,
+        11,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            1,
+            5,
+            4,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            1,
+            5,
+            4,
+            11
+          ]
+        }
+      }
+    }
+  ]
+}

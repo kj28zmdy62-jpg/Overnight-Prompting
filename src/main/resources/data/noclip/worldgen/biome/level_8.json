@@ -1,0 +1,26 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 0,
+    "sky_color": 0,
+    "water_color": 660496,
+    "water_fog_color": 132356,
+    "ambient_sound": "noclip:ambient.level_8",
+    "additions_sound": {
+      "sound": "noclip:ambient.level_8.additions",
+      "tick_chance": 0.006
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/station_tube_light_bad"
+    },
+    "lit=false": {
+      "model": "noclip:block/station_tube_light_bad_off"
+    }
+  }
+}

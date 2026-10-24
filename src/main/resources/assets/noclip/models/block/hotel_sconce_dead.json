@@ -1,0 +1,214 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "brass": "noclip:block/l5_brass",
+    "wood": "noclip:block/l5_dark_wood",
+    "particle": "noclip:block/l5_brass"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        3,
+        0
+      ],
+      "to": [
+        10,
+        5,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            6,
+            11,
+            10,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            6,
+            11,
+            10,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            11,
+            1,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            0,
+            11,
+            1,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        5,
+        0.5
+      ],
+      "to": [
+        8.5,
+        9,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            7.5,
+            0.5,
+            8.5,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            7.5,
+            0.5,
+            8.5,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            7.5,
+            7,
+            8.5,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            7.5,
+            7,
+            8.5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            0.5,
+            7,
+            3,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            0.5,
+            7,
+            3,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9,
+        1
+      ],
+      "to": [
+        11,
+        14,
+        6
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            5,
+            1,
+            11,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            5,
+            1,
+            11,
+            6
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            5,
+            2,
+            11,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            5,
+            2,
+            11,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            2,
+            6,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            2,
+            6,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "noclip:block/l7_wood",
+    "art": "noclip:block/l7_painting",
+    "particle": "noclip:block/l7_wood"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        2,
+        0
+      ],
+      "to": [
+        15,
+        14,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            2,
+            1,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            2,
+            1,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

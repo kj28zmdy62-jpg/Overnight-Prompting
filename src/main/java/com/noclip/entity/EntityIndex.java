@@ -6,11 +6,14 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        Bellhop.register();
+        CaveCrawler.register();
         DuctCrawler.register();
         ElevatorCar.register();
         GasAttendant.register();
         HallMonitor.register();
         InvertedWalker.register();
+        Leviathan.register();
         MotionClayFigure.register();
         NightStocker.register();
         PlayplaceMascot.register();

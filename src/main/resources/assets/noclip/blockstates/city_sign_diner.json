@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/city_sign_diner"
+    },
+    "facing=east": {
+      "model": "noclip:block/city_sign_diner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/city_sign_diner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/city_sign_diner",
+      "y": 270
+    }
+  }
+}

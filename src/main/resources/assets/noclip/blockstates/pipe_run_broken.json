@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pipe_run_broken"
+    },
+    "facing=east": {
+      "model": "noclip:block/pipe_run_broken",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pipe_run_broken",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pipe_run_broken",
+      "y": 270
+    }
+  }
+}

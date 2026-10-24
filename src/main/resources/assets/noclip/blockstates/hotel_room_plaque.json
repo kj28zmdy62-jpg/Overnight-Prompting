@@ -1,0 +1,1209 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_base"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_8"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hundreds": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_9"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_8"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "tens": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_9"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_8"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "units": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_9"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hundreds": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "tens": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "units": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hundreds": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "tens": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "units": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hundreds": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d0_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "tens": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d1_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "0"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "1"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "2"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "3"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "4"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "5"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "6"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "7"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "8"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "units": "9"
+      },
+      "apply": {
+        "model": "noclip:block/hotel_room_plaque_d2_9",
+        "y": 270
+      }
+    }
+  ]
+}
