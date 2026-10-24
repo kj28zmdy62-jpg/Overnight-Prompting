@@ -51,7 +51,7 @@ public final class Level37 {
                 .danger(BackroomsLevel.Danger.LOW)
                 .generator(Gen::new)
                 .behavior(new Sublimity())
-                .visuals(new Visuals().tint(0.95f, 1.02f, 1.05f).brightness(1.0f).saturation(0.92f).contrast(1.02f)
+                .visuals(new Visuals().tint(0.95f, 1.02f, 1.05f).brightness(1.06f).saturation(0.92f).contrast(1.02f)
                         .grain(0.03f).aberration(0.0009f).vignette(0.28f).warp(0.012f).scanlines(0.015f).flicker(0f)
                         .bloom(0.6f).fog(12f, 72f).fogColor(0xDCECEE))
                 .sanityDrain(0.02f)
@@ -77,7 +77,7 @@ public final class Level37 {
         if (r < 0.44f) return Room.SHALLOW;
         if (r < 0.53f) return Room.DECK;
         if (r < 0.71f) return Room.POOL;
-        if (r < 0.81f) return Room.HALL;
+        if (r < 0.84f) return Room.HALL;
         if (r < 0.90f) return Room.TUNNEL;
         if (r < 0.935f) return Room.DARK;
         return g.width(i) >= 12 && g.depth(k) >= 9 ? Room.SLIDE : Room.POOL;

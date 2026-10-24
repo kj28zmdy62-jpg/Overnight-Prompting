@@ -177,6 +177,72 @@
     ],
     "subtitle": "subtitles.noclip.entity.deathmoth.flutter"
   },
+  "ambient.level_0": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_0.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_0_steps0"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps1"
+      },
+      {
+        "name": "noclip:ambient/level_0_steps2"
+      },
+      {
+        "name": "noclip:ambient/level_0_surge"
+      },
+      {
+        "name": "noclip:ambient/level_0_thump"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_0.additions"
+  },
+  "ambient.flooded_lobby": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/flooded_lobby",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.flooded_lobby.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/flooded_lobby_splash"
+      },
+      {
+        "name": "noclip:ambient/flooded_lobby_crackle"
+      },
+      {
+        "name": "noclip:ambient/flooded_lobby_surfacing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.flooded_lobby.additions"
+  },
+  "event.flooded_lobby_zap": {
+    "sounds": [
+      {
+        "name": "noclip:event/flooded_lobby_zap"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.flooded_lobby_zap"
+  },
+  "event.flooded_lobby_brush": {
+    "sounds": [
+      {
+        "name": "noclip:event/flooded_lobby_brush"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.flooded_lobby_brush"
+  },
   "ambient.frontrooms": {
     "sounds": [
       {
@@ -210,33 +276,35 @@
     ],
     "subtitle": "subtitles.noclip.event.frontrooms_tick"
   },
-  "ambient.level_0": {
+  "ambient.inverted_lobby": {
     "sounds": [
       {
-        "name": "noclip:ambient/level_0",
+        "name": "noclip:ambient/inverted_lobby",
         "stream": true
       }
     ]
   },
-  "ambient.level_0.additions": {
+  "ambient.inverted_lobby.additions": {
     "sounds": [
       {
-        "name": "noclip:ambient/level_0_steps0"
+        "name": "noclip:ambient/inverted_lobby_steps0"
       },
       {
-        "name": "noclip:ambient/level_0_steps1"
+        "name": "noclip:ambient/inverted_lobby_steps1"
       },
       {
-        "name": "noclip:ambient/level_0_steps2"
-      },
-      {
-        "name": "noclip:ambient/level_0_surge"
-      },
-      {
-        "name": "noclip:ambient/level_0_thump"
+        "name": "noclip:ambient/inverted_lobby_thump"
       }
     ],
-    "subtitle": "subtitles.noclip.ambient.level_0.additions"
+    "subtitle": "subtitles.noclip.ambient.inverted_lobby.additions"
+  },
+  "entity.inverted_walker.drop": {
+    "sounds": [
+      {
+        "name": "noclip:entity/inverted_walker_drop"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.inverted_walker.drop"
   },
   "ambient.level_1": {
     "sounds": [
@@ -542,6 +610,36 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.level_run_start"
+  },
+  "ambient.overgrown_lobby": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/overgrown_lobby",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.overgrown_lobby.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/overgrown_lobby_crack"
+      },
+      {
+        "name": "noclip:ambient/overgrown_lobby_rustle"
+      },
+      {
+        "name": "noclip:ambient/overgrown_lobby_creak"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.overgrown_lobby.additions"
+  },
+  "event.overgrown_lobby_roots": {
+    "sounds": [
+      {
+        "name": "noclip:event/overgrown_lobby_roots"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.overgrown_lobby_roots"
   },
   "ambient.the_abyss": {
     "sounds": [

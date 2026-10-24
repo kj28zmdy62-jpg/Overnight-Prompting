@@ -44,7 +44,7 @@ public final class TheAbyss {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Fall())
-                .visuals(new Visuals().darkness(0.8f).grain(0.08f).aberration(0.003f).vignette(0.7f).warp(0.05f)
+                .visuals(new Visuals().darkness(0.45f).grain(0.08f).aberration(0.003f).vignette(0.7f).warp(0.05f)
                         .saturation(0.8f).bloom(0.8f).fog(18f, 120f).fogColor(0x05060A))
                 .sanityDrain(0.06f)
                 .spawnY(60, 370)

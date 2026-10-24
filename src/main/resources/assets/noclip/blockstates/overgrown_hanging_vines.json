@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/overgrown_hanging_vines"
+    },
+    "facing=east": {
+      "model": "noclip:block/overgrown_hanging_vines"
+    },
+    "facing=south": {
+      "model": "noclip:block/overgrown_hanging_vines"
+    },
+    "facing=west": {
+      "model": "noclip:block/overgrown_hanging_vines"
+    }
+  }
+}

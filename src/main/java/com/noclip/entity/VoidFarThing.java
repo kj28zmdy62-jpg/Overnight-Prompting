@@ -20,7 +20,7 @@ import java.util.UUID;
 public class VoidFarThing extends BackroomsMonster {
     public static EntityType<VoidFarThing> TYPE;
     public UUID watcher;
-    public double distance = 110;
+    public double distance = 72;
     public float bearing;
 
     public VoidFarThing(EntityType<? extends Monster> type, Level level) {

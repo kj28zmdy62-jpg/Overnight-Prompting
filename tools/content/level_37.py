@@ -387,4 +387,4 @@ sound("event.level_37_splash", [("event/level_37_splash", slide_splash)], subtit
 
 level("level_37", fog="#dcecee", sky="#dcecee", water="#3fc6dc", water_fog="#5cc8d8", ambient="ambient.level_37",
       additions="ambient.level_37.additions", additions_chance=0.005, fixed_time=6000, height=48,
-      ambient_light=0.18)
+      ambient_light=0.45)

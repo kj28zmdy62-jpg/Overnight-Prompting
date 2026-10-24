@@ -142,10 +142,11 @@ public final class LevelRun {
 
         BlockState wallBlock(long s, int x, int y, int z, int sx, int m, boolean nextExit) {
             if (nextExit && y == F + 2 && Math.floorMod(x, 4) == 0) return arrow;
+            float rc = Hash.unit(s, x, z, 61);
+            if (rc < 0.012f && y == F + 3) return dont;
+            if (rc < 0.012f && y == F + 2) return stop;
+            if (rc < 0.024f && y == F + 2) return run;
             float r = Hash.unit(s, x, y * 64 + z, 60);
-            if (r < 0.010f && y == F + 2) return run;
-            if (r < 0.014f && y == F + 3) return dont;
-            if (r < 0.018f && y == F + 2) return stop;
             if (r < 0.06f) return bloody;
             if (r < 0.09f) return scratched;
             return wall;

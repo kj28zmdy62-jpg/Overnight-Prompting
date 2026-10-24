@@ -79,7 +79,7 @@ public final class TheVoid {
             if (t == null) return null;
             t.watcher = p.getUUID();
             t.bearing = p.getYRot() + 140f + p.getRandom().nextFloat() * 80f;
-            t.distance = 110;
+            t.distance = 72;
             place(t, p);
             level.addFreshEntity(t);
             thing.put(p.getUUID(), t.getId());
@@ -106,15 +106,15 @@ public final class TheVoid {
             // its height makes it easy to find; holding it in the middle of your view is the hard part
             boolean gazing = p.getViewVector(1f).dot(to) > 0.96;
             if (gazing) {
-                t.distance -= 0.055;
+                t.distance -= 0.04;
                 if (p.tickCount % 20 == 0) Sanity.add(p, -0.6f);
                 if (p.tickCount % 30 == 0) {
-                    ServerPlayNetworking.send(p, new NoclipNet.EventPayload("pulse", (float) Math.min(1.0, 1.2 - t.distance / 110.0)));
+                    ServerPlayNetworking.send(p, new NoclipNet.EventPayload("pulse", (float) Math.min(1.0, 1.2 - t.distance / 72.0)));
                     level.playSound(null, p.blockPosition(), ModSounds.get("event.heartbeat"), SoundSource.AMBIENT,
-                            (float) (0.3 + (110 - t.distance) / 110.0), 1f);
+                            (float) (0.3 + (72 - t.distance) / 72.0), 1f);
                 }
             } else {
-                t.distance = Math.min(110, t.distance + 0.12);
+                t.distance = Math.min(72, t.distance + 0.12);
             }
             place(t, p);
             int secs = (p.tickCount - arrived.computeIfAbsent(p.getUUID(), u -> p.tickCount)) / 20;

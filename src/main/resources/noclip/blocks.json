@@ -91,6 +91,215 @@
     "unbreakable": true
   },
   {
+    "name": "yellow_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_stained",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_baseboard",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_peeling",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_outlet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "yellow_wallpaper_smiley",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "moist_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "damp_carpet",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "stained_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "missing_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "fluorescent_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "flickering_fluorescent_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "flicker": 0.6,
+    "emissive": true
+  },
+  {
+    "name": "dead_fluorescent_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "office_chair",
+    "kind": "shaped",
+    "sound": "wool",
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        6,
+        3,
+        13,
+        8,
+        13
+      ],
+      [
+        3,
+        8,
+        12,
+        13,
+        18,
+        14
+      ],
+      [
+        7,
+        1,
+        7,
+        9,
+        6,
+        9
+      ],
+      [
+        2,
+        0,
+        7,
+        14,
+        1,
+        9
+      ],
+      [
+        7,
+        0,
+        2,
+        9,
+        1,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "flooded_wallpaper_tide",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "flooded_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "flooded_baseboard",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "flooded_carpet",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "flooded_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "flooded_fallen_light",
+    "kind": "flicker",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 12,
+    "flicker": 0.0,
+    "emissive": true
+  },
+  {
+    "name": "flooded_drain",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "WATER",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "flooded_floating_tile",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        2,
+        15,
+        1,
+        14
+      ]
+    ]
+  },
+  {
     "name": "frontroom_siding_white",
     "kind": "cube",
     "sound": "wood",
@@ -823,73 +1032,37 @@
     ]
   },
   {
-    "name": "yellow_wallpaper",
+    "name": "inverted_wallpaper",
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true
   },
   {
-    "name": "yellow_wallpaper_stained",
+    "name": "inverted_baseboard",
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true
   },
   {
-    "name": "yellow_wallpaper_baseboard",
+    "name": "inverted_floor_tile",
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true
   },
   {
-    "name": "yellow_wallpaper_peeling",
+    "name": "inverted_floor_tile_cracked",
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true
   },
   {
-    "name": "yellow_wallpaper_outlet",
+    "name": "inverted_carpet_sky",
     "kind": "cube",
     "sound": "wool",
     "unbreakable": true
   },
   {
-    "name": "yellow_wallpaper_smiley",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "moist_carpet",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "damp_carpet",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "ceiling_tile",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "stained_ceiling_tile",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "missing_ceiling_tile",
-    "kind": "cube",
-    "sound": "wool",
-    "unbreakable": true
-  },
-  {
-    "name": "fluorescent_light",
+    "name": "inverted_floor_light",
     "kind": "flicker",
     "sound": "glass",
     "unbreakable": true,
@@ -898,7 +1071,7 @@
     "emissive": true
   },
   {
-    "name": "flickering_fluorescent_light",
+    "name": "inverted_floor_light_flicker",
     "kind": "flicker",
     "sound": "glass",
     "unbreakable": true,
@@ -907,57 +1080,63 @@
     "emissive": true
   },
   {
-    "name": "dead_fluorescent_light",
-    "kind": "cube",
-    "sound": "glass",
-    "unbreakable": true
+    "name": "inverted_missing_tile",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "FALL",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
   },
   {
-    "name": "office_chair",
+    "name": "inverted_office_chair",
     "kind": "shaped",
     "sound": "wool",
-    "collides": true,
+    "unbreakable": true,
+    "collides": false,
     "render": "cutout",
     "strength": 1.0,
     "boxes": [
       [
         3,
-        6,
+        8,
         3,
         13,
-        8,
+        10,
         13
       ],
       [
         3,
-        8,
+        0,
         12,
         13,
-        18,
+        8,
         14
       ],
       [
         7,
-        1,
+        10,
         7,
         9,
-        6,
+        15,
         9
       ],
       [
         2,
-        0,
+        15,
         7,
         14,
-        1,
+        16,
         9
       ],
       [
         7,
-        0,
+        15,
         2,
         9,
-        1,
+        16,
         14
       ]
     ]
@@ -3037,6 +3216,178 @@
     "kind": "cube",
     "sound": "metal",
     "unbreakable": true
+  },
+  {
+    "name": "overgrown_wallpaper",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_wallpaper_mossier",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_wallpaper_lost",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_wallpaper_ivy",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_carpet",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_moss",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_roots",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_ceiling_tile",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_roof",
+    "kind": "cube",
+    "sound": "moss",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_fern",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "overgrown_hanging_vines",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "overgrown_flower_white",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "overgrown_flower_purple",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "overgrown_mushrooms",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ],
+    "light": 4
+  },
+  {
+    "name": "overgrown_climbing_vine",
+    "kind": "ladder",
+    "sound": "metal",
+    "render": "cutout"
+  },
+  {
+    "name": "overgrown_trunk",
+    "kind": "pillar",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "overgrown_leaves",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "overgrown_sunlight",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "light": 15,
+    "emissive": true,
+    "no_collision": true
   },
   {
     "name": "abyss_eye_sclera",

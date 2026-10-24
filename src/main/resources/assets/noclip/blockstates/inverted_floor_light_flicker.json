@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/inverted_floor_light_flicker"
+    },
+    "lit=false": {
+      "model": "noclip:block/inverted_floor_light_flicker_off"
+    }
+  }
+}
