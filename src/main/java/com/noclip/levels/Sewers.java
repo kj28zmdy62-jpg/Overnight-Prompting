@@ -50,8 +50,8 @@ public final class Sewers {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Wading())
-                .visuals(new Visuals().darkness(0.85f).tint(0.98f, 1.02f, 0.86f).saturation(0.68f).contrast(1.1f)
-                        .brightness(1.1f).grain(0.1f).aberration(0.0016f).vignette(0.72f).fog(2f, 24f).fogColor(0x0C0E08)
+                .visuals(new Visuals().darkness(0.55f).tint(0.98f, 1.02f, 0.86f).saturation(0.68f).contrast(1.1f)
+                        .brightness(1.3f).grain(0.1f).aberration(0.0016f).vignette(0.72f).fog(2f, 24f).fogColor(0x0C0E08)
                         .bloom(0.6f))
                 .sanityDrain(0.045f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -200,8 +200,8 @@ public final class Sewers {
                 Direction toWall = alongX ? (side > 0 ? Direction.SOUTH : Direction.NORTH) : (side > 0 ? Direction.EAST : Direction.WEST);
                 if (r < 0.035f) w.set(wx, FLOOR + 2, wz, outfall);
                 else if (r < 0.045f) w.set(wx, FLOOR + 2, wz, scrawls[(int) ((hh >>> 8) & 1)]);
-                else if (r < 0.06f) w.set(alongX ? cx : cx + side * 2, FLOOR + 3, alongX ? cz + side * 2 : cz, face(lamp, toWall));
-                else if (r < 0.065f) w.set(alongX ? cx : cx + side * 2, FLOOR + 1, alongX ? cz + side * 2 : cz, bottle);
+                else if (r < 0.13f) w.set(alongX ? cx : cx + side * 2, FLOOR + 3, alongX ? cz + side * 2 : cz, face(lamp, toWall));
+                else if (r < 0.135f) w.set(alongX ? cx : cx + side * 2, FLOOR + 1, alongX ? cz + side * 2 : cz, bottle);
             }
         }
 

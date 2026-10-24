@@ -55,8 +55,8 @@ public final class SteelMill {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Pours())
-                .visuals(new Visuals().darkness(0.3f).tint(1.18f, 0.94f, 0.74f).saturation(0.95f).contrast(1.16f)
-                        .brightness(1.15f).grain(0.09f).aberration(0.002f).vignette(0.6f).warp(0.04f)
+                .visuals(new Visuals().darkness(0.15f).tint(1.18f, 0.94f, 0.74f).saturation(0.95f).contrast(1.16f)
+                        .brightness(1.3f).grain(0.09f).aberration(0.002f).vignette(0.6f).warp(0.04f)
                         .fog(4f, 46f).fogColor(0x2A140A).bloom(0.95f))
                 .sanityDrain(0.035f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
@@ -98,7 +98,7 @@ public final class SteelMill {
         final BlockState lamp = ModBlocks.state("sm_lamp");
         final BlockState ceiling = ModBlocks.state("sm_ceiling");
         final BlockState hook = ModBlocks.state("sm_hook");
-        final BlockState light = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 10);
+        final BlockState light = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 13);
         final BlockState sub = ModBlocks.state("subfloor");
         final BlockState filler = ModBlocks.state("void_filler");
 
