@@ -56,7 +56,7 @@ public final class DriveIn {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Reels())
-                .visuals(new Visuals().tint(1.0f, 0.98f, 1.06f).saturation(0.7f).contrast(1.12f).brightness(1.25f)
+                .visuals(new Visuals().tint(1.0f, 0.98f, 1.06f).saturation(0.7f).contrast(1.04f).brightness(1.5f)
                         .grain(0.09f).aberration(0.0016f).vignette(0.55f).fog(10f, 120f).fogColor(0x0C0E14).bloom(0.9f).sky())
                 .sanityDrain(0.03f)
                 .spawnY(G + 1, G + 1)

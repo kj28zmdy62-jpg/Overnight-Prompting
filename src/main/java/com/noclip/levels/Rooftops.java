@@ -47,7 +47,7 @@ public final class Rooftops {
                 .danger(BackroomsLevel.Danger.MODERATE)
                 .generator(Gen::new)
                 .behavior(new Wind())
-                .visuals(new Visuals().tint(1.04f, 0.97f, 1.04f).saturation(0.75f).contrast(1.12f).brightness(1.3f)
+                .visuals(new Visuals().tint(1.04f, 0.97f, 1.04f).saturation(0.75f).contrast(1.04f).brightness(1.55f)
                         .grain(0.08f).aberration(0.0016f).vignette(0.5f).fog(8f, 90f).fogColor(0x1A1418).bloom(0.85f).sky())
                 .sanityDrain(0.03f)
                 .spawnY(BASE + 1, BASE + 2)

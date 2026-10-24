@@ -54,7 +54,7 @@ public final class TheSignal {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Storm())
-                .visuals(new Visuals().tint(0.92f, 0.97f, 1.08f).saturation(0.55f).contrast(1.1f).brightness(1.4f)
+                .visuals(new Visuals().tint(0.92f, 0.97f, 1.08f).saturation(0.55f).contrast(1.02f).brightness(1.65f)
                         .grain(0.09f).aberration(0.0018f).vignette(0.55f).warp(0.014f).fog(4f, 76f).fogColor(0x14181E)
                         .bloom(0.8f))
                 .sanityDrain(0.035f)
