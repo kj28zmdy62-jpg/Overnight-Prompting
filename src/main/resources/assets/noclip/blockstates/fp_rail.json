@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/fp_rail"
+    },
+    "facing=east": {
+      "model": "noclip:block/fp_rail",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/fp_rail",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/fp_rail",
+      "y": 270
+    }
+  }
+}

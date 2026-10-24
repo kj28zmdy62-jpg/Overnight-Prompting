@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/hw_verge",
+    "bottom": "noclip:block/hw_verge_side",
+    "side": "noclip:block/hw_verge_side"
+  }
+}

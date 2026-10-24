@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cv_string_sag"
+    },
+    "facing=east": {
+      "model": "noclip:block/cv_string_sag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cv_string_sag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cv_string_sag",
+      "y": 270
+    }
+  }
+}

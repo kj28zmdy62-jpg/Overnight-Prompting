@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/fp_swing_bar"
+    },
+    "facing=east": {
+      "model": "noclip:block/fp_swing_bar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/fp_swing_bar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/fp_swing_bar",
+      "y": 270
+    }
+  }
+}

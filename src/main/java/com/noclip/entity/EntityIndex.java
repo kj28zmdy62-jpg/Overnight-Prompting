@@ -7,6 +7,9 @@ public final class EntityIndex {
 
     public static void registerAll() {
         GasAttendant.register();
+        Groundskeeper.register();
+        Seeker.register();
         StaticMan.register();
+        TideWalker.register();
     }
 }

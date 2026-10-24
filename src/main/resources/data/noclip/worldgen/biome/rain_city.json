@@ -1,0 +1,26 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 920598,
+    "sky_color": 657426,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "noclip:ambient.rain_city",
+    "additions_sound": {
+      "sound": "noclip:ambient.rain_city.additions",
+      "tick_chance": 0.003
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_water"
+      },
+      "probability": 0.12
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

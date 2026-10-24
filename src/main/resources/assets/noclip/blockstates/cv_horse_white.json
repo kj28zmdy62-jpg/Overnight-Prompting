@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cv_horse_white"
+    },
+    "facing=east": {
+      "model": "noclip:block/cv_horse_white",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cv_horse_white",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cv_horse_white",
+      "y": 270
+    }
+  }
+}

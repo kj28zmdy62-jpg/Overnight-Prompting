@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/fp_branches"
+    },
+    "facing=east": {
+      "model": "noclip:block/fp_branches"
+    },
+    "facing=south": {
+      "model": "noclip:block/fp_branches"
+    },
+    "facing=west": {
+      "model": "noclip:block/fp_branches"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "c": "noclip:block/hw_jersey",
+    "particle": "noclip:block/hw_jersey"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#c",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#c",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#c",
+          "uv": [
+            2,
+            12,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            2,
+            12,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        4,
+        0
+      ],
+      "to": [
+        11,
+        14,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#c",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#c",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#c",
+          "uv": [
+            5,
+            2,
+            11,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            5,
+            2,
+            11,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            0,
+            2,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            0,
+            2,
+            16,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

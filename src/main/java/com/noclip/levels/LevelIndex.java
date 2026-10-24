@@ -7,13 +7,23 @@ public final class LevelIndex {
     private LevelIndex() {}
 
     public static void registerAll() {
+        Levels.register(Carnival.create());
+        Levels.register(EndlessHighway.create());
+        Levels.register(FoggyPlayground.create());
         Levels.register(GasStation.create());
         Levels.register(GoldenHour.create());
+        Levels.register(GolfCourse.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
+        Levels.register(ParkingLot.create());
+        Levels.register(PoleForest.create());
+        Levels.register(RainCity.create());
         Levels.register(SaltFlats.create());
+        Levels.register(SilentBeach.create());
         Levels.register(SkyRooms.create());
+        Levels.register(SnowPlains.create());
         Levels.register(StaticFields.create());
+        Levels.register(TheDock.create());
     }
 }

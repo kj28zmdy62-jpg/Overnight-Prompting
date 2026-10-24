@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "m": "noclip:block/gc_marker_blue",
+    "particle": "noclip:block/gc_marker_blue"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        3,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#m",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#m",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#m",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#m",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#m",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#m",
+          "uv": [
+            6,
+            13,
+            10,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

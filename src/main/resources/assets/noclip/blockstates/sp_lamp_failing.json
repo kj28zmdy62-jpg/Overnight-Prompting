@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/sp_lamp_failing"
+    },
+    "lit=false": {
+      "model": "noclip:block/sp_lamp_failing_off"
+    }
+  }
+}

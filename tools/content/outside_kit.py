@@ -303,3 +303,18 @@ for colour in CAR_COLOURS:
     _car_blocks(colour)
 _car_blocks("beige", lit=True)
 _car_blocks("red", lit=True)
+
+
+def _fix_full_uv():
+    """Runs during texture painting, after every content module has registered its models:
+    faces written as "#key!" by assets.shaped() become "#key" with the whole texture mapped."""
+    for model in A.BLOCK_MODELS.values():
+        for el in model.get("elements", []):
+            for face in el.get("faces", {}).values():
+                if face.get("texture", "").endswith("!"):
+                    face["texture"] = face["texture"][:-1]
+                    face["uv"] = [0, 0, 16, 16]
+    return np.zeros((S, S, 3))
+
+
+tex("ol_fixup", _fix_full_uv)

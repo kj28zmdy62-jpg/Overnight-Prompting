@@ -1,0 +1,11 @@
+{
+  "type": "noclip:foggy_playground",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "foggy_playground",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:foggy_playground"
+    }
+  }
+}

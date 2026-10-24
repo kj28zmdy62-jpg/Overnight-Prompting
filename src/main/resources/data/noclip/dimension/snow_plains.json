@@ -1,0 +1,11 @@
+{
+  "type": "noclip:snow_plains",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "snow_plains",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:snow_plains"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pf_brush"
+    },
+    "facing=east": {
+      "model": "noclip:block/pf_brush"
+    },
+    "facing=south": {
+      "model": "noclip:block/pf_brush"
+    },
+    "facing=west": {
+      "model": "noclip:block/pf_brush"
+    }
+  }
+}

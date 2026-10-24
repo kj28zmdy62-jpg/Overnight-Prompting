@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hw_mile_3"
+    },
+    "facing=east": {
+      "model": "noclip:block/hw_mile_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/hw_mile_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/hw_mile_3",
+      "y": 270
+    }
+  }
+}

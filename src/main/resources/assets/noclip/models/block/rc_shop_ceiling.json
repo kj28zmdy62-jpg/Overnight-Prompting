@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/rc_shop_light",
+    "up": "noclip:block/rc_shop_light",
+    "north": "noclip:block/rc_shop_light",
+    "south": "noclip:block/rc_shop_light",
+    "west": "noclip:block/rc_shop_light",
+    "east": "noclip:block/rc_shop_light",
+    "particle": "noclip:block/rc_shop_light"
+  }
+}
