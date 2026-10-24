@@ -18,7 +18,9 @@ def adv(name, title, desc, icon, parent, to=None, frame="task", hidden=False):
     ADV[name] = d
 
 
-adv("root", "NOCLIP", "Something is wrong with the walls.", "noclip:almond_water", None)
+adv("root", "NOCLIP", "Something is wrong with the walls.", "noclip:almond_water", None, "level_0")
+ADV["root"]["display"]["show_toast"] = False
+ADV["root"]["display"]["announce_to_chat"] = False
 adv("noclip", "Noclipped", "Fall out of reality into Level 0.", "noclip:yellow_wallpaper", "root", "level_0")
 adv("habitable", "Habitable?", "Reach Level 1.", "noclip:wooden_crate", "noclip", "level_1")
 adv("lights_out", "Lights Out", "Reach Level 6. Hope you brought a flashlight.", "noclip:flashlight", "habitable", "level_6")

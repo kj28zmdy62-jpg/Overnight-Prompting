@@ -6,14 +6,17 @@
     "title": "NOCLIP",
     "description": "Something is wrong with the walls.",
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false,
     "background": "noclip:textures/block/l0_wallpaper.png"
   },
   "criteria": {
     "arrive": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "noclip:level_0"
+      }
     }
   }
 }
