@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "noclip:block/bk_beacon_off"
+    },
+    "lit=true": {
+      "model": "noclip:block/bk_beacon_on"
+    }
+  }
+}

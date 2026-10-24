@@ -6,6 +6,8 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        DuctCrawler.register();
+        ElevatorCar.register();
         GasAttendant.register();
         InvertedWalker.register();
         MotionClayFigure.register();
@@ -13,5 +15,6 @@ public final class EntityIndex {
         StaticMan.register();
         VoidFarThing.register();
         WindowWatcher.register();
+        WrappedOne.register();
     }
 }

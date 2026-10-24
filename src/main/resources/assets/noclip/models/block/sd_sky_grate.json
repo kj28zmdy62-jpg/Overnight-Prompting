@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/sd_sky_grate",
+    "up": "noclip:block/sd_culvert",
+    "north": "noclip:block/sd_culvert",
+    "south": "noclip:block/sd_culvert",
+    "west": "noclip:block/sd_culvert",
+    "east": "noclip:block/sd_culvert",
+    "particle": "noclip:block/sd_culvert"
+  }
+}

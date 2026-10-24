@@ -1,0 +1,11 @@
+{
+  "type": "noclip:air_vents",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "air_vents",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:air_vents"
+    }
+  }
+}

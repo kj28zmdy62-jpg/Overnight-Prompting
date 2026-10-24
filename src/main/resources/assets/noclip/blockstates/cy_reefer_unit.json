@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cy_reefer_unit"
+    },
+    "facing=east": {
+      "model": "noclip:block/cy_reefer_unit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cy_reefer_unit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cy_reefer_unit",
+      "y": 270
+    }
+  }
+}

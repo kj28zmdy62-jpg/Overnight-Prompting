@@ -1,0 +1,11 @@
+{
+  "type": "noclip:bunker",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "bunker",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:bunker"
+    }
+  }
+}

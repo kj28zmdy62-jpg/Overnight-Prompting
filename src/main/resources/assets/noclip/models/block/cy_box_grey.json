@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/cy_roof_grey",
+    "bottom": "noclip:block/cy_interior",
+    "side": "noclip:block/cy_side_grey"
+  }
+}

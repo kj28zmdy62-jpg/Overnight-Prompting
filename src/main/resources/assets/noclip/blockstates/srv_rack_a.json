@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/srv_rack_a"
+    },
+    "facing=east": {
+      "model": "noclip:block/srv_rack_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/srv_rack_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/srv_rack_a",
+      "y": 270
+    }
+  }
+}

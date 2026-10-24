@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "particle": "noclip:block/bk_bunk_metal",
+    "texture": "noclip:block/bk_bunk_metal"
+  }
+}

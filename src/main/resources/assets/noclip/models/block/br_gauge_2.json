@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "g": "noclip:block/br_gauge_2",
+    "b": "noclip:block/br_brass",
+    "particle": "noclip:block/br_gauge_2"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        1.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b",
+          "uv": [
+            2,
+            0,
+            14,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#b",
+          "uv": [
+            2,
+            0,
+            14,
+            1.5
+          ]
+        },
+        "north": {
+          "texture": "#b",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#g",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#b",
+          "uv": [
+            0,
+            2,
+            1.5,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#b",
+          "uv": [
+            0,
+            2,
+            1.5,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

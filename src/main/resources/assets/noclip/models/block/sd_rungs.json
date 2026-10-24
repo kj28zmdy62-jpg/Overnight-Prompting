@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "particle": "noclip:block/sd_rungs",
+    "texture": "noclip:block/sd_rungs"
+  }
+}

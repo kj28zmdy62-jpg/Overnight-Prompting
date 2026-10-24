@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "particle": "noclip:block/el_rail",
+    "texture": "noclip:block/el_rail"
+  }
+}

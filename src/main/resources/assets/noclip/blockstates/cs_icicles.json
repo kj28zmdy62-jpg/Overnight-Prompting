@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cs_icicles"
+    },
+    "facing=east": {
+      "model": "noclip:block/cs_icicles"
+    },
+    "facing=south": {
+      "model": "noclip:block/cs_icicles"
+    },
+    "facing=west": {
+      "model": "noclip:block/cs_icicles"
+    }
+  }
+}
