@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/lm_dryer_empty"
+    },
+    "facing=east": {
+      "model": "noclip:block/lm_dryer_empty",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/lm_dryer_empty",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/lm_dryer_empty",
+      "y": 270
+    }
+  }
+}

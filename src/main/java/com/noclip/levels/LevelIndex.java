@@ -36,6 +36,7 @@ public final class LevelIndex {
         Levels.register(GravityRooms.create());
         Levels.register(Hospital.create());
         Levels.register(InvertedLobby.create());
+        Levels.register(Laundromat.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level10.create());
@@ -96,6 +97,7 @@ public final class LevelIndex {
         Levels.register(TheHub.create());
         Levels.register(TheVoid.create());
         Levels.register(WaitingRoom.create());
+        Levels.register(WaterPark.create());
         Levels.register(WaterTreatment.create());
         Levels.register(ZeroZero.create());
     }

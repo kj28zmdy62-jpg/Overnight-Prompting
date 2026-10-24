@@ -1638,6 +1638,55 @@
     ],
     "subtitle": "subtitles.noclip.entity.inverted_walker.drop"
   },
+  "ambient.laundromat": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/laundromat",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.laundromat.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/laundromat_buzzer"
+      },
+      {
+        "name": "noclip:ambient/laundromat_coins"
+      },
+      {
+        "name": "noclip:ambient/laundromat_zipper"
+      },
+      {
+        "name": "noclip:ambient/laundromat_spin"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.laundromat.additions"
+  },
+  "event.laundromat_buzzer": {
+    "sounds": [
+      {
+        "name": "noclip:event/laundromat_buzzer"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.laundromat_buzzer"
+  },
+  "event.laundromat_dryer": {
+    "sounds": [
+      {
+        "name": "noclip:event/laundromat_dryer"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.laundromat_dryer"
+  },
+  "event.laundromat_spin": {
+    "sounds": [
+      {
+        "name": "noclip:event/laundromat_spin"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.laundromat_spin"
+  },
   "ambient.level_1": {
     "sounds": [
       {
@@ -4222,6 +4271,52 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.waiting_room_door"
+  },
+  "ambient.water_park": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/water_park",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.water_park.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/water_park_whistle"
+      },
+      {
+        "name": "noclip:ambient/water_park_splash"
+      },
+      {
+        "name": "noclip:ambient/water_park_slide"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.water_park.additions"
+  },
+  "event.water_park_whistle": {
+    "sounds": [
+      {
+        "name": "noclip:event/water_park_whistle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.water_park_whistle"
+  },
+  "event.water_park_waves": {
+    "sounds": [
+      {
+        "name": "noclip:event/water_park_waves"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.water_park_waves"
+  },
+  "event.water_park_surge": {
+    "sounds": [
+      {
+        "name": "noclip:event/water_park_surge"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.water_park_surge"
   },
   "ambient.water_treatment": {
     "sounds": [

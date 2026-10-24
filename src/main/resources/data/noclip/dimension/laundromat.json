@@ -1,0 +1,11 @@
+{
+  "type": "noclip:laundromat",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "laundromat",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:laundromat"
+    }
+  }
+}

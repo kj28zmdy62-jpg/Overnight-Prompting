@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/wp_lamp",
+    "up": "noclip:block/wp_wall",
+    "north": "noclip:block/wp_wall",
+    "south": "noclip:block/wp_wall",
+    "west": "noclip:block/wp_wall",
+    "east": "noclip:block/wp_wall",
+    "particle": "noclip:block/wp_wall"
+  }
+}

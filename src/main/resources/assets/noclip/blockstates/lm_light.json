@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/lm_light"
+    },
+    "lit=false": {
+      "model": "noclip:block/lm_light_off"
+    }
+  }
+}

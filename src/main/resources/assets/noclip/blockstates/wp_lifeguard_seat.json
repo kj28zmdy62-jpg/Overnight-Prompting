@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/wp_lifeguard_seat"
+    },
+    "facing=east": {
+      "model": "noclip:block/wp_lifeguard_seat",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/wp_lifeguard_seat",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/wp_lifeguard_seat",
+      "y": 270
+    }
+  }
+}

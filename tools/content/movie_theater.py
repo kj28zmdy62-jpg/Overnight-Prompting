@@ -76,7 +76,7 @@ def screen_base(seed="mtsc", you=0):
 def screen_text(text):
     def f():
         img = T.solid("#06060a")
-        img = T.blend(img, T.solid("#e8e4d8"), K.centered(text, S, S, 9, font=K.F57, scale=2))
+        img = T.blend(img, T.solid("#e8e4d8"), K.centered(text, S, S, 5, font=K.F57, scale=3))
         return img
     return f
 
@@ -183,8 +183,8 @@ tex("mt_screen", lambda: screen_base())
 tex("mt_screen_b", lambda: screen_base("mtscb"))
 tex("mt_screen_you", lambda: screen_base("mtscy", 1))
 tex("mt_screen_you_turned", lambda: screen_base("mtscy2", 2))
-tex("mt_screen_the", screen_text("THE"))
-tex("mt_screen_end", screen_text("END"))
+for ch in "THEND":
+    tex(f"mt_screen_letter_{ch.lower()}", screen_text(ch))
 tex("mt_screen_dark", screen_text(""))
 tex("mt_seat_velvet", seat_velvet)
 tex("mt_seat_frame", seat_frame)
@@ -192,7 +192,7 @@ tex("mt_door_top", lambda: door_tex(True))
 tex("mt_door_bottom", lambda: door_tex(False))
 for n in range(1, 13):
     tex(f"mt_number_{n}", number_sign(n))
-POSTERS = [("THE SEATS", "#1a2a5a", "#0a0a1a"), ("ROW 9", "#5a1a1a", "#1a0a0a"), ("STAY", "#1a4a2a", "#0a1a0a"),
+POSTERS = [("SEATS", "#1a2a5a", "#0a0a1a"), ("ROW 9", "#5a1a1a", "#1a0a0a"), ("STAY", "#1a4a2a", "#0a1a0a"),
            ("CREDITS", "#4a3a1a", "#1a120a")]
 for n, (t, a, b) in enumerate(POSTERS):
     tex(f"mt_poster_{n}", poster(t, a, b, f"mtp{n}"))
@@ -212,8 +212,8 @@ custom("mt_sticky", "com.noclip.block.StickyFloorBlock", {"parent": "minecraft:b
 stairs("mt_steps", "mt_carpet_aud", "mt_carpet_aud", display="Aisle Steps", sound="wool")
 cube("mt_wall_fabric", "mt_wall_fabric", display="Acoustic Fabric", sound="wool")
 cube("mt_wall_corridor", "mt_wall_corridor", display="Corridor Wall", sound="stone")
-for name in ("mt_screen", "mt_screen_b", "mt_screen_you", "mt_screen_you_turned", "mt_screen_the", "mt_screen_end"):
-    cube(name, name, display="Screen", sound="wool", light=6, emissive=True)
+for name in ("mt_screen", "mt_screen_b", "mt_screen_you", "mt_screen_you_turned") + tuple(f"mt_screen_letter_{c}" for c in "thend"):
+    cube(name, name, display="Screen", sound="wool", light=12, emissive=True)
 cube("mt_screen_dark", "mt_screen_dark", display="Screen", sound="wool")
 shaped("mt_seat", [
     (1, 0, 3, 3, 9, 13, "frame"), (13, 0, 3, 15, 9, 13, "frame"),

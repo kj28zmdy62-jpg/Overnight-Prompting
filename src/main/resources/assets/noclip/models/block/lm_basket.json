@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "noclip:block/lm_basket",
+    "particle": "noclip:block/lm_basket"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        9,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#b",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#b",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#b",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#b",
+          "uv": [
+            3,
+            7,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#b",
+          "uv": [
+            3,
+            7,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

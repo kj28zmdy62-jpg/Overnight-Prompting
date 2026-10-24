@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/wp_lamp"
+    },
+    "lit=false": {
+      "model": "noclip:block/wp_lamp_off"
+    }
+  }
+}
