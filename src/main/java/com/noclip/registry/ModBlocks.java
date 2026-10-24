@@ -19,6 +19,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CarpetBlock;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.LadderBlock;
+import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.FenceBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
@@ -89,7 +93,7 @@ public final class ModBlocks {
             else p.lightLevel(s -> light);
         }
         String render = str(o, "render", "solid");
-        if (!render.equals("solid") || kind.equals("shaped") || kind.equals("pickup") || kind.equals("pane") || kind.equals("fence")) p.noOcclusion();
+        if (!render.equals("solid") || kind.equals("shaped") || kind.equals("pickup") || kind.equals("door") || kind.equals("trapdoor") || kind.equals("ladder") || kind.equals("pane") || kind.equals("fence")) p.noOcclusion();
         if (bool(o, "no_collision", false)) p.noCollission();
         if (bool(o, "emissive", false)) p.emissiveRendering((s, l, pos) -> true).hasPostProcess((s, l, pos) -> true);
         if (render.equals("translucent") || render.equals("cutout")) {
@@ -112,14 +116,27 @@ public final class ModBlocks {
             case "hazard" -> new HazardBlock(p, num(o, "damage", 2f), bool(o, "solid", true));
             case "exit" -> new ExitBlock(p, ExitType.valueOf(str(o, "exit", "DOOR")),
                     ExitBlock.Trigger.valueOf(str(o, "trigger", "INSIDE")), bool(o, "solid", false));
+            case "door" -> new DoorBlock(str(o, "sound", "wood").equals("wood") ? BlockSetType.OAK : BlockSetType.COPPER, p);
+            case "trapdoor" -> new TrapDoorBlock(str(o, "sound", "metal").equals("wood") ? BlockSetType.OAK : BlockSetType.COPPER, p);
+            case "ladder" -> new LadderBlock(p);
+            case "class" -> reflect(str(o, "class", ""), p);
             default -> throw new IllegalArgumentException("Unknown block kind " + kind + " for " + name);
         };
         ResourceLocation id = Noclip.id(name);
         Registry.register(BuiltInRegistries.BLOCK, id, block);
         Registry.register(BuiltInRegistries.ITEM, id, new BlockItem(block, new Item.Properties()));
         BLOCKS.put(name, block);
-        CREATIVE_ORDER.add(block);
+        if (!bool(o, "hidden", false) && !name.startsWith("flashlight_glow")) CREATIVE_ORDER.add(block);
         if (!render.equals("solid")) RENDER_LAYERS.put(name, render);
+    }
+
+    /** Custom block classes live next to their level; they only need a (Properties) constructor. */
+    private static Block reflect(String cls, BlockBehaviour.Properties p) {
+        try {
+            return (Block) Class.forName(cls).getConstructor(BlockBehaviour.Properties.class).newInstance(p);
+        } catch (ReflectiveOperationException e) {
+            throw new IllegalStateException("Cannot create block class " + cls, e);
+        }
     }
 
     private static List<double[]> boxes(JsonObject o) {

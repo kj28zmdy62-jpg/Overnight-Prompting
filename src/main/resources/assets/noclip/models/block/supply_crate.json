@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "noclip:block/l1_crate",
+    "top": "noclip:block/l1_crate_top",
+    "particle": "noclip:block/l1_crate"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#side",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -70,8 +70,9 @@ public final class BackroomsPost {
             e.safeGetUniform("Scanlines").set(v.scanlines * k);
             e.safeGetUniform("Flicker").set(v.flicker * k);
             e.safeGetUniform("Bloom").set(v.bloom * k);
-            e.safeGetUniform("Darkness").set(v.darkness * k);
-            e.safeGetUniform("Flash").set(flash * Math.max(0.35f, v.darkness));
+            e.safeGetUniform("Darkness").set(ClientState.blackout());
+            float flashK = Math.max(ClientState.blackout(), v.darkness > 0.5f ? 0.85f : 0.25f);
+            e.safeGetUniform("Flash").set(flash * flashK);
             e.safeGetUniform("Insanity").set(ClientState.insanity());
             e.safeGetUniform("Noclip").set(ClientState.noclipFlash);
             e.safeGetUniform("Special").set(v.special);

@@ -64,6 +64,7 @@ public class NoclipClient implements ClientModInitializer {
         ClientPlayNetworking.registerGlobalReceiver(NoclipNet.EventPayload.TYPE, (p, ctx) -> ClientEvents.handle(p.event(), p.strength()));
         JournalItem.openScreen = () -> journalRequested = true;
 
+        com.noclip.client.render.EntityRenderers.init();
         HudRenderCallback.EVENT.register(Overlay::render);
         com.noclip.client.dev.AutoTest.init();
         ClientTickEvents.END_CLIENT_TICK.register(this::tick);

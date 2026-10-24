@@ -4,6 +4,8 @@ import com.noclip.level.BackroomsLevel;
 import com.noclip.level.ExitType;
 import com.noclip.level.LevelBehavior;
 import com.noclip.level.LevelGenerator;
+import com.noclip.level.SpawnRule;
+import com.noclip.registry.ModEntities;
 import com.noclip.level.Visuals;
 import com.noclip.registry.ModBlocks;
 import com.noclip.util.Hash;
@@ -44,6 +46,8 @@ public final class Level0 {
                 .exit(ExitType.NOCLIP, "level_37", 1).exit(ExitType.NOCLIP, "level_fun", 1)
                 .exit(ExitType.NOCLIP, "level_run", 1).exit(ExitType.NOCLIP, "manila_room", 1)
                 .exit(ExitType.FALL, "level_1", 3).exit(ExitType.FALL, "level_27", 1)
+                .spawn(SpawnRule.of(ModEntities.lazy("shadow_figure"), 1, 0.05f).seen().dist(28, 44))
+                .spawn(SpawnRule.of(ModEntities.lazy("smiler"), 2, 0.5f).dark().dist(14, 30).weight(3))
                 .exit(ExitType.DOOR, "level_2", 3).exit(ExitType.DOOR, "level_4", 2).exit(ExitType.DOOR, "level_fun", 1)
                 .build();
     }

@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/l1_ceiling",
+    "up": "noclip:block/l1_ceiling",
+    "north": "noclip:block/l1_ceiling",
+    "south": "noclip:block/l1_ceiling",
+    "west": "noclip:block/l1_ceiling",
+    "east": "noclip:block/l1_ceiling",
+    "particle": "noclip:block/l1_ceiling"
+  }
+}

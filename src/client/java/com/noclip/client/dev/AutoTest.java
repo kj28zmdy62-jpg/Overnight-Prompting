@@ -97,6 +97,7 @@ public final class AutoTest {
                 Player p = mc.player;
                 if (p == null) return;
                 if (timer == 50) shot(mc, current + "_card");
+                if (timer == settle - 40 && System.getenv("NOCLIP_AUTOTEST_ENTITIES") != null) spawnLineup(mc);
                 int[] at = {settle, settle + 40, settle + 80, settle + 120};
                 for (int i = 0; i < at.length; i++) {
                     if (timer == at[i] - 20) {
@@ -113,6 +114,30 @@ public final class AutoTest {
             default -> {
             }
         }
+    }
+
+    /** Places each listed entity in a row in front of the camera, frozen, for model checks. */
+    private static void spawnLineup(Minecraft mc) {
+        String[] names = System.getenv("NOCLIP_AUTOTEST_ENTITIES").split(",");
+        var server = mc.getSingleplayerServer();
+        float yaw = mc.player.getYRot() + 90f * 1;
+        server.execute(() -> {
+            ServerPlayer sp = server.getPlayerList().getPlayer(mc.player.getUUID());
+            double rad = Math.toRadians(yaw);
+            double fx = -Math.sin(rad), fz = Math.cos(rad);
+            for (int i = 0; i < names.length; i++) {
+                var type = com.noclip.registry.ModEntities.ALL.get(names[i]);
+                if (type == null) continue;
+                var e = type.create(sp.serverLevel());
+                double side = (i - (names.length - 1) / 2.0) * 1.8;
+                e.moveTo(sp.getX() + fx * 5 - fz * side, sp.getY(), sp.getZ() + fz * 5 + fx * side, yaw + 180f, 0f);
+                e.setNoAi(true);
+                e.setYHeadRot(yaw + 180f);
+                e.setYBodyRot(yaw + 180f);
+                e.setPersistenceRequired();
+                sp.serverLevel().addFreshEntity(e);
+            }
+        });
     }
 
     private static void shot(Minecraft mc, String name) {

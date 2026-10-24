@@ -303,3 +303,92 @@ def sound(event, files, stream=False, subtitle=None, volume=1.0, attenuation=Non
     SOUNDS[event] = dict(files=files, stream=stream, subtitle=subtitle, volume=volume)
     if subtitle:
         LANG[f"subtitles.noclip.{event}"] = subtitle
+
+
+# ---------------------------------------------------------------- entities
+
+ENTITY_MODELS = {}   # name -> dict(tex=(w,h), parts=[...])
+ENTITY_TEXTURES = {}  # texture name -> callable returning (rgb, alpha)
+
+
+def part(name, pivot=(0, 0, 0), rot=(0, 0, 0), cubes=(), parent=None):
+    """A model part. cubes: list of (u, v, x, y, z, w, h, d[, inflate[, mirror]]) in vanilla units."""
+    return dict(name=name, pivot=pivot, rot=rot, cubes=list(cubes), parent=parent)
+
+
+def entity_model(name, parts, tex_size=(64, 64)):
+    ENTITY_MODELS[name] = dict(tex=tex_size, parts=parts)
+
+
+def entity_tex(name, fn):
+    ENTITY_TEXTURES[name] = fn
+
+
+def box_uv(u, v, w, h, d):
+    """Face rectangles (x, y, w, h) on the texture for a cube with vanilla UV layout."""
+    return {
+        "up": (u + d, v, w, d),
+        "down": (u + d + w, v, w, d),
+        "right": (u, v + d, d, h),
+        "front": (u + d, v + d, w, h),
+        "left": (u + d + w, v + d, d, h),
+        "back": (u + d + w + d, v + d, w, h),
+    }
+
+
+# ---------------------------------------------------------------- doors, trapdoors, ladders, reflection
+
+_TEMPLATES = os.path.join(os.path.dirname(__file__), "templates")
+
+
+def door(name, top, bottom, display=None, sound="wood", unbreakable=False, item_texture=None, strength=3.0):
+    """Two-tall openable door (vanilla DoorBlock)."""
+    t, b = _ref(top), _ref(bottom)
+    for part in ("bottom_left", "bottom_left_open", "bottom_right", "bottom_right_open",
+                 "top_left", "top_left_open", "top_right", "top_right_open"):
+        BLOCK_MODELS[f"{name}_{part}"] = {"parent": f"minecraft:block/door_{part}", "textures": {"bottom": b, "top": t}}
+    states = json.load(open(os.path.join(_TEMPLATES, "door_states.json")))
+    for v in states["variants"].values():
+        v["model"] = v["model"].replace("minecraft:block/oak_door", f"noclip:block/{name}")
+    BLOCKSTATES[name] = states
+    LOOT_OVERRIDE = {"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": f"noclip:{name}",
+        "conditions": [{"condition": "minecraft:block_state_property", "block": f"noclip:{name}", "properties": {"half": "lower"}}]}]}]}
+    r = _block(name, "door", display, item_model={"parent": "minecraft:item/generated",
+               "textures": {"layer0": _ref(item_texture) if item_texture else t}},
+               sound=sound, unbreakable=unbreakable or None, render="cutout", strength=strength)
+    if not unbreakable:
+        LOOT[name] = LOOT_OVERRIDE
+    return r
+
+
+def trapdoor(name, texture, display=None, sound="metal", unbreakable=False, strength=3.0):
+    t = _ref(texture)
+    for part in ("bottom", "top", "open"):
+        BLOCK_MODELS[f"{name}_{part}"] = {"parent": f"minecraft:block/template_trapdoor_{part}", "textures": {"texture": t}}
+    states = json.load(open(os.path.join(_TEMPLATES, "trapdoor_states.json")))
+    for v in states["variants"].values():
+        v["model"] = v["model"].replace("minecraft:block/oak_trapdoor", f"noclip:block/{name}")
+    BLOCKSTATES[name] = states
+    return _block(name, "trapdoor", display, item_model={"parent": f"noclip:block/{name}_bottom"},
+                  sound=sound, unbreakable=unbreakable or None, render="cutout", strength=strength)
+
+
+def ladder(name, texture, display=None, sound="metal", unbreakable=False):
+    t = _ref(texture)
+    BLOCK_MODELS[name] = {"parent": "minecraft:block/ladder", "textures": {"particle": t, "texture": t}}
+    BLOCKSTATES[name] = {"variants": {"facing=east": {"model": f"noclip:block/{name}", "y": 90},
+                                      "facing=north": {"model": f"noclip:block/{name}"},
+                                      "facing=south": {"model": f"noclip:block/{name}", "y": 180},
+                                      "facing=west": {"model": f"noclip:block/{name}", "y": 270}}}
+    return _block(name, "ladder", display, item_model={"parent": "minecraft:item/generated", "textures": {"layer0": t}},
+                  sound=sound, unbreakable=unbreakable or None, render="cutout")
+
+
+def custom(name, java_class, model, blockstate=None, display=None, item_model=None, **props):
+    """A block backed by your own Java class (constructor takes BlockBehaviour.Properties).
+
+    model: a block model json (registered as noclip:block/<name>). blockstate defaults to a single variant.
+    """
+    BLOCK_MODELS[name] = model
+    BLOCKSTATES[name] = blockstate or {"variants": {"": {"model": f"noclip:block/{name}"}}}
+    return _block(name, "class", display, item_model=item_model, **{"class": java_class}, **props)

@@ -119,8 +119,10 @@ void main() {
         reach *= reach;
         float spot = (cone * 0.85 + hot * 0.35) * reach * Flash;
         float ringN = noise(fc * 9.0) * 0.15;
-        vec3 lit = raw * (2.2 + ringN) + raw * hot * 1.2;
+        vec3 lit = raw * (1.9 + ringN) + raw * hot * 1.1;
         col = mix(col, lit * vec3(1.0, 0.97, 0.9), clamp(spot, 0.0, 1.0));
+        // outside the cone the beam's spill falls away
+        col *= mix(1.0, 0.45 + 0.55 * cone, clamp(Flash, 0.0, 1.0));
     }
 
     // grade

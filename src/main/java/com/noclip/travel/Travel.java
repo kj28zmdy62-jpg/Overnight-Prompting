@@ -104,6 +104,7 @@ public final class Travel {
         ServerPlayNetworking.send(player, new NoclipNet.EnterPayload(def.id, first, PlayerData.visited(player).size()));
         ServerPlayNetworking.send(player, new NoclipNet.JournalPayload(String.join(",", PlayerData.visited(player))));
         level.playSound(null, player.blockPosition(), ModSounds.NOCLIP, SoundSource.PLAYERS, 0.9f, 1f);
+        com.noclip.world.Blackouts.sync(player);
         def.behavior.onEnter(player, level, def);
     }
 

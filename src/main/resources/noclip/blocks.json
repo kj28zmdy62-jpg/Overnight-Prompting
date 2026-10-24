@@ -77,6 +77,20 @@
     "item": "noclip:almond_water"
   },
   {
+    "name": "flashlight_glow",
+    "kind": "class",
+    "class": "com.noclip.block.GlowBlock",
+    "light": 13,
+    "unbreakable": true
+  },
+  {
+    "name": "flashlight_glow_dim",
+    "kind": "class",
+    "class": "com.noclip.block.GlowBlock",
+    "light": 8,
+    "unbreakable": true
+  },
+  {
     "name": "yellow_wallpaper",
     "kind": "cube",
     "sound": "wool",
@@ -215,5 +229,338 @@
         14
       ]
     ]
+  },
+  {
+    "name": "warehouse_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "painted_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "wet_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "concrete_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "concrete_pillar",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "hazard_pillar",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "warehouse_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "wooden_crate",
+    "kind": "cube",
+    "sound": "wood",
+    "strength": 2.0
+  },
+  {
+    "name": "chain_link_fence",
+    "kind": "pane",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "metal_service_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "strip_light",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        2,
+        12,
+        6,
+        14,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "strip_light_off",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        12,
+        6,
+        14,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "cardboard_boxes",
+    "kind": "shaped",
+    "sound": "wool",
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        9,
+        7,
+        9
+      ],
+      [
+        8,
+        0,
+        6,
+        15,
+        6,
+        14
+      ],
+      [
+        3,
+        7,
+        3,
+        9,
+        12,
+        8
+      ]
+    ]
+  },
+  {
+    "name": "metal_shelf",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        1,
+        16,
+        1
+      ],
+      [
+        15,
+        0,
+        0,
+        16,
+        16,
+        1
+      ],
+      [
+        0,
+        0,
+        15,
+        1,
+        16,
+        16
+      ],
+      [
+        15,
+        0,
+        15,
+        16,
+        16,
+        16
+      ],
+      [
+        0,
+        1,
+        0,
+        16,
+        2,
+        16
+      ],
+      [
+        0,
+        8,
+        0,
+        16,
+        9,
+        16
+      ],
+      [
+        0,
+        15,
+        0,
+        16,
+        16,
+        16
+      ],
+      [
+        2,
+        2,
+        3,
+        8,
+        7,
+        12
+      ],
+      [
+        9,
+        9,
+        2,
+        14,
+        13,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "supply_crate",
+    "kind": "pickup",
+    "sound": "wood",
+    "collides": true,
+    "render": "cutout",
+    "strength": 0.5,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        10,
+        14
+      ]
+    ],
+    "item": "noclip:almond_water*5,noclip:battery*3,noclip:canned_beans*3,noclip:energy_bar*3,noclip:flashlight*1"
+  },
+  {
+    "name": "puddle",
+    "kind": "shaped",
+    "sound": "mud",
+    "unbreakable": true,
+    "collides": false,
+    "render": "translucent",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        0.5,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "concrete_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "unbreakable": true,
+    "base": "warehouse_concrete"
+  },
+  {
+    "name": "stairwell_dark",
+    "kind": "exit",
+    "sound": "stone",
+    "unbreakable": true,
+    "exit": "DESCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "cinder_block",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "scratched_cinder_block",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "rough_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "low_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "exit_sign",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "solid",
+    "light": 7,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        2,
+        4,
+        0,
+        14,
+        10,
+        2
+      ]
+    ]
+  },
+  {
+    "name": "dark_exit_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
   }
 ]

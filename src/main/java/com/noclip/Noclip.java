@@ -2,7 +2,7 @@ package com.noclip;
 
 import com.noclip.level.BackroomsLevel;
 import com.noclip.level.Levels;
-import com.noclip.levels.LevelCatalog;
+import com.noclip.levels.LevelIndex;
 import com.noclip.net.NoclipNet;
 import com.noclip.registry.ModBlocks;
 import com.noclip.registry.ModEntities;
@@ -48,7 +48,7 @@ public class Noclip implements ModInitializer {
         PlayerData.init();
         NoclipNet.init();
         Registry.register(BuiltInRegistries.CHUNK_GENERATOR, id("backrooms"), BackroomsChunkGenerator.CODEC);
-        LevelCatalog.registerAll();
+        LevelIndex.registerAll();
         LOG.info("{} Backrooms levels registered", Levels.count());
 
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, id("main"), FabricItemGroup.builder()
@@ -86,6 +86,7 @@ public class Noclip implements ModInitializer {
         BackroomsLevel def = Levels.get(level.dimension());
         for (ServerPlayer p : level.players()) {
             Sanity.tick(p);
+            com.noclip.item.FlashlightLights.tick(p);
             if (def != null) {
                 def.behavior.tickPlayer(p, level, def);
                 EntityDirector.tick(p, level, def);

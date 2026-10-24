@@ -293,3 +293,11 @@ def _wall_thin():
 
 sound("event.heartbeat", [("event/heartbeat", _heartbeat)], subtitle="Your heartbeat")
 sound("event.wall_thin", [("event/wall_thin", _wall_thin)], subtitle="The wall feels thin")
+
+from assets import custom
+custom("flashlight_glow", "com.noclip.block.GlowBlock", {"textures": {"particle": "noclip:block/void"}},
+       display="Flashlight Glow", light=13, unbreakable=True, item_model={"parent": "minecraft:item/generated",
+                                                                         "textures": {"layer0": "noclip:item/flashlight"}})
+custom("flashlight_glow_dim", "com.noclip.block.GlowBlock", {"textures": {"particle": "noclip:block/void"}},
+       display="Flashlight Glow", light=8, unbreakable=True, item_model={"parent": "minecraft:item/generated",
+                                                                        "textures": {"layer0": "noclip:item/flashlight"}})

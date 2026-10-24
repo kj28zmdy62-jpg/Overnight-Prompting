@@ -92,6 +92,91 @@
     ],
     "subtitle": "subtitles.noclip.event.wall_thin"
   },
+  "entity.hound.howl": {
+    "sounds": [
+      {
+        "name": "noclip:entity/hound_howl0"
+      },
+      {
+        "name": "noclip:entity/hound_howl1"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.hound.howl"
+  },
+  "entity.hound.ambient": {
+    "sounds": [
+      {
+        "name": "noclip:entity/hound_growl0"
+      },
+      {
+        "name": "noclip:entity/hound_growl1"
+      },
+      {
+        "name": "noclip:entity/hound_growl2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.hound.ambient"
+  },
+  "entity.hound.hurt": {
+    "sounds": [
+      {
+        "name": "noclip:entity/hound_hurt"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.hound.hurt"
+  },
+  "entity.smiler.scream": {
+    "sounds": [
+      {
+        "name": "noclip:entity/smiler_scream"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.smiler.scream"
+  },
+  "entity.smiler.vanish": {
+    "sounds": [
+      {
+        "name": "noclip:entity/smiler_vanish"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.smiler.vanish"
+  },
+  "entity.mannequin.creak": {
+    "sounds": [
+      {
+        "name": "noclip:entity/mannequin_creak0"
+      },
+      {
+        "name": "noclip:entity/mannequin_creak1"
+      },
+      {
+        "name": "noclip:entity/mannequin_creak2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.mannequin.creak"
+  },
+  "entity.partygoer.giggle": {
+    "sounds": [
+      {
+        "name": "noclip:entity/partygoer_giggle0"
+      },
+      {
+        "name": "noclip:entity/partygoer_giggle1"
+      },
+      {
+        "name": "noclip:entity/partygoer_giggle2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.partygoer.giggle"
+  },
+  "entity.deathmoth.flutter": {
+    "sounds": [
+      {
+        "name": "noclip:entity/deathmoth_flutter"
+      }
+    ],
+    "subtitle": "subtitles.noclip.entity.deathmoth.flutter"
+  },
   "ambient.level_0": {
     "sounds": [
       {
@@ -119,5 +204,66 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.level_0.additions"
+  },
+  "ambient.level_1": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_1",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_1.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_1_drip0"
+      },
+      {
+        "name": "noclip:ambient/level_1_drip1"
+      },
+      {
+        "name": "noclip:ambient/level_1_drip2"
+      },
+      {
+        "name": "noclip:ambient/level_1_clang0"
+      },
+      {
+        "name": "noclip:ambient/level_1_clang1"
+      },
+      {
+        "name": "noclip:ambient/level_1_chain"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_1.additions"
+  },
+  "event.power_down": {
+    "sounds": [
+      {
+        "name": "noclip:event/power_down"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.power_down"
+  },
+  "ambient.level_6": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_6",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.level_6.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/level_6_scrape0"
+      },
+      {
+        "name": "noclip:ambient/level_6_scrape1"
+      },
+      {
+        "name": "noclip:ambient/level_6_scrape2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.level_6.additions"
   }
 }

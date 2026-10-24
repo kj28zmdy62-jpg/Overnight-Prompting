@@ -41,7 +41,7 @@ def main():
         importlib.import_module("content." + m.name)
 
     # generated folders are wiped so removed content does not linger
-    for sub in ("textures/block", "textures/item", "models/block", "models/item", "blockstates"):
+    for sub in ("textures/block", "textures/item", "textures/entity", "models/block", "models/item", "blockstates"):
         clean(os.path.join(A.ASSETS, sub))
     for sub in ("dimension", "dimension_type", "worldgen/biome", "loot_table/blocks"):
         clean(os.path.join(A.DATA, sub))
@@ -58,6 +58,15 @@ def main():
         path = os.path.join(A.ASSETS, "textures", "item", name + ".png")
         os.makedirs(os.path.dirname(path), exist_ok=True)
         tex.save(rgb, path, alpha)
+
+    for name, fn in A.ENTITY_TEXTURES.items():
+        out = fn()
+        rgb, alpha = (out if isinstance(out, tuple) else (out, None))
+        path = os.path.join(A.ASSETS, "textures", "entity", name + ".png")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        tex.save(rgb, path, alpha)
+    import gen_models
+    gen_models.write()
 
     for name, m in A.BLOCK_MODELS.items():
         dump(os.path.join(A.ASSETS, "models", "block", name + ".json"), m)
@@ -83,6 +92,9 @@ def main():
         write_level(lid, L)
 
     write_sounds(force_sounds, only)
+    import gen_index
+    nl, ne, nr = gen_index.run()
+    print(f"indexed {nl} levels, {ne} extra entities, {nr} extra renderers")
     print(f"{len(A.BLOCKS)} blocks, {len(A.TEXTURES)} textures, {len(A.ITEM_TEXTURES)} item textures, "
           f"{len(A.LEVELS)} levels, {len(A.SOUNDS)} sound events")
 

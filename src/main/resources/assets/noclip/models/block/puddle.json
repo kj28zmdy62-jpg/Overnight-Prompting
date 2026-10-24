@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "w": "noclip:block/l1_puddle",
+    "particle": "noclip:block/l1_puddle"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0.5,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#w",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#w",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#w",
+          "uv": [
+            0,
+            15.5,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#w",
+          "uv": [
+            0,
+            15.5,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#w",
+          "uv": [
+            0,
+            15.5,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#w",
+          "uv": [
+            0,
+            15.5,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

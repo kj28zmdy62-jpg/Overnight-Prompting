@@ -78,7 +78,7 @@ public final class EntityDirector {
             if (!level.getBlockState(m).getCollisionShape(level, m).isEmpty()) continue;
             if (!level.getBlockState(m.above()).getCollisionShape(level, m.above()).isEmpty()) continue;
             if (!level.getFluidState(m).isEmpty() && !def.allowWaterSpawn) continue;
-            if (rule.needsDark() && level.getBrightness(LightLayer.BLOCK, m) >= 5) return null;
+            if (rule.needsDark() && !Blackouts.active(level) && level.getBrightness(LightLayer.BLOCK, m) >= 5) return null;
             if (rule.unseen() && visible(p, Vec3.atCenterOf(m))) return null;
             return m.immutable();
         }

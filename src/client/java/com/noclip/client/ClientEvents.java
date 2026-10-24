@@ -8,6 +8,7 @@ public final class ClientEvents {
         switch (event) {
             case "flash" -> ClientState.noclipFlash = Math.max(ClientState.noclipFlash, strength);
             case "pulse" -> ClientState.pulse = Math.max(ClientState.pulse, strength);
+            case "blackout" -> ClientState.blackoutUntil = System.currentTimeMillis() + (long) (strength * 1000);
             default -> {
             }
         }

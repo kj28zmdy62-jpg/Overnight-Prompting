@@ -21,6 +21,26 @@ public final class ClientState {
     public static float noclipFlash;
     public static float pulse;
     public static boolean camcorder;
+    /** Wall-clock end of the current blackout, 0 if none. */
+    public static long blackoutUntil;
+
+    /** How much to remove ambient light from the lightmap (dark levels). Eases in and out. */
+    private static float lightmapDark;
+
+    public static float lightmapDarkness() {
+        float target = level != null ? level.visuals.darkness : 0f;
+        lightmapDark += (target - lightmapDark) * 0.05f;
+        return lightmapDark < 0.005f ? 0f : lightmapDark;
+    }
+
+    /** 0..1 darkness from a level-wide blackout, flickering at its start and end. */
+    public static float blackout() {
+        long left = blackoutUntil - System.currentTimeMillis();
+        if (left <= 0) return 0f;
+        long t = System.currentTimeMillis();
+        if (left < 1500) return ((t / 90) % 3 == 0) ? 0.2f : 0.95f;
+        return 0.95f;
+    }
 
     /** Blended visual profile; eases between levels instead of snapping. */
     public static final Visuals current = new Visuals();
@@ -34,6 +54,7 @@ public final class ClientState {
 
     public static void enter(String id, boolean first, int count) {
         level = id.isEmpty() ? null : Levels.get(id);
+        blackoutUntil = 0;
         enteredAt = System.currentTimeMillis();
         firstVisit = first;
         discovered = count;
