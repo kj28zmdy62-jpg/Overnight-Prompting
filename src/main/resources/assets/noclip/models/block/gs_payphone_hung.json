@@ -1,0 +1,283 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pole": "noclip:block/gs_pole",
+    "body": "noclip:block/gs_phone",
+    "hand": "noclip:block/gs_handset",
+    "particle": "noclip:block/gs_pole"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        12
+      ],
+      "to": [
+        11,
+        8,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pole",
+          "uv": [
+            5,
+            12,
+            11,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#pole",
+          "uv": [
+            5,
+            12,
+            11,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#pole",
+          "uv": [
+            5,
+            8,
+            11,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#pole",
+          "uv": [
+            5,
+            8,
+            11,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#pole",
+          "uv": [
+            12,
+            8,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#pole",
+          "uv": [
+            12,
+            8,
+            14,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        8,
+        11
+      ],
+      "to": [
+        13,
+        22,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pole",
+          "uv": [
+            3,
+            11,
+            13,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#pole",
+          "uv": [
+            3,
+            11,
+            13,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#pole",
+          "uv": [
+            3,
+            -6,
+            13,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#pole",
+          "uv": [
+            11,
+            -6,
+            16,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#pole",
+          "uv": [
+            11,
+            -6,
+            16,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        22,
+        9
+      ],
+      "to": [
+        14,
+        24,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pole",
+          "uv": [
+            2,
+            9,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#pole",
+          "uv": [
+            2,
+            9,
+            14,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#pole",
+          "uv": [
+            2,
+            -8,
+            14,
+            -6
+          ]
+        },
+        "south": {
+          "texture": "#pole",
+          "uv": [
+            2,
+            -8,
+            14,
+            -6
+          ]
+        },
+        "west": {
+          "texture": "#pole",
+          "uv": [
+            9,
+            -8,
+            16,
+            -6
+          ]
+        },
+        "east": {
+          "texture": "#pole",
+          "uv": [
+            9,
+            -8,
+            16,
+            -6
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        14,
+        10
+      ],
+      "to": [
+        5.5,
+        21,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hand",
+          "uv": [
+            3.5,
+            10,
+            5.5,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#hand",
+          "uv": [
+            3.5,
+            10,
+            5.5,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#hand",
+          "uv": [
+            3.5,
+            -5,
+            5.5,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#hand",
+          "uv": [
+            3.5,
+            -5,
+            5.5,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#hand",
+          "uv": [
+            10,
+            -5,
+            11,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#hand",
+          "uv": [
+            10,
+            -5,
+            11,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

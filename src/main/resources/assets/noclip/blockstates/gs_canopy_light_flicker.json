@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/gs_canopy_light_flicker"
+    },
+    "lit=false": {
+      "model": "noclip:block/gs_canopy_light_flicker_off"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "mode=0": {
+      "model": "noclip:block/sf_tv_m0"
+    },
+    "mode=1": {
+      "model": "noclip:block/sf_tv_m1"
+    },
+    "mode=2": {
+      "model": "noclip:block/sf_tv_m2"
+    },
+    "mode=3": {
+      "model": "noclip:block/sf_tv_m3"
+    }
+  }
+}

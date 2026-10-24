@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sl_mirage_lower"
+    },
+    "facing=east": {
+      "model": "noclip:block/sl_mirage_lower",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sl_mirage_lower",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sl_mirage_lower",
+      "y": 270
+    }
+  }
+}

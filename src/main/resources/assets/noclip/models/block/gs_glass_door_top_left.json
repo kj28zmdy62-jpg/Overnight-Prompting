@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "noclip:block/gs_door_bottom",
+    "top": "noclip:block/gs_door_top"
+  }
+}

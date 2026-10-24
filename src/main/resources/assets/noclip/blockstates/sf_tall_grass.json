@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sf_tall_grass"
+    },
+    "facing=east": {
+      "model": "noclip:block/sf_tall_grass"
+    },
+    "facing=south": {
+      "model": "noclip:block/sf_tall_grass"
+    },
+    "facing=west": {
+      "model": "noclip:block/sf_tall_grass"
+    }
+  }
+}

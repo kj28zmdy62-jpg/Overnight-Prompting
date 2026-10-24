@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "l": "noclip:block/gh_porch_light",
+    "particle": "noclip:block/gh_porch_light"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        4,
+        0
+      ],
+      "to": [
+        10,
+        12,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#l",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#l",
+          "uv": [
+            6,
+            0,
+            10,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#l",
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#l",
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#l",
+          "uv": [
+            0,
+            4,
+            3,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#l",
+          "uv": [
+            0,
+            4,
+            3,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

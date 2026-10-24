@@ -177,6 +177,93 @@
     ],
     "subtitle": "subtitles.noclip.entity.deathmoth.flutter"
   },
+  "ambient.gas_station": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/gas_station",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.gas_station.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/gas_station_ice"
+      },
+      {
+        "name": "noclip:ambient/gas_station_horn"
+      },
+      {
+        "name": "noclip:ambient/gas_station_pump"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.gas_station.additions"
+  },
+  "event.gas_station_chime": {
+    "sounds": [
+      {
+        "name": "noclip:event/gas_station_chime"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.gas_station_chime"
+  },
+  "event.gas_station_ring": {
+    "sounds": [
+      {
+        "name": "noclip:event/gas_station_ring"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.gas_station_ring"
+  },
+  "event.gas_station_dial": {
+    "sounds": [
+      {
+        "name": "noclip:event/gas_station_dial"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.gas_station_dial"
+  },
+  "event.gas_station_breath": {
+    "sounds": [
+      {
+        "name": "noclip:event/gas_station_breath"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.gas_station_breath"
+  },
+  "ambient.golden_hour": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/golden_hour",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.golden_hour.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/golden_hour_truck"
+      },
+      {
+        "name": "noclip:ambient/golden_hour_screen_door"
+      },
+      {
+        "name": "noclip:ambient/golden_hour_dog"
+      },
+      {
+        "name": "noclip:ambient/golden_hour_chimes"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.golden_hour.additions"
+  },
+  "event.golden_hour_lullaby": {
+    "sounds": [
+      {
+        "name": "noclip:event/golden_hour_lullaby"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.golden_hour_lullaby"
+  },
   "ambient.level_0": {
     "sounds": [
       {
@@ -299,5 +386,130 @@
       }
     ],
     "subtitle": "subtitles.noclip.ambient.level_6.additions"
+  },
+  "ambient.salt_flats": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/salt_flats",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.salt_flats.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/salt_flats_crackle"
+      },
+      {
+        "name": "noclip:ambient/salt_flats_door"
+      },
+      {
+        "name": "noclip:ambient/salt_flats_engine"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.salt_flats.additions"
+  },
+  "event.salt_flats_shimmer": {
+    "sounds": [
+      {
+        "name": "noclip:event/salt_flats_shimmer"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.salt_flats_shimmer"
+  },
+  "event.salt_flats_tone": {
+    "sounds": [
+      {
+        "name": "noclip:event/salt_flats_tone"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.salt_flats_tone"
+  },
+  "ambient.sky_rooms": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/sky_rooms",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.sky_rooms.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/sky_rooms_plane"
+      },
+      {
+        "name": "noclip:ambient/sky_rooms_debris"
+      },
+      {
+        "name": "noclip:ambient/sky_rooms_pop"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.sky_rooms.additions"
+  },
+  "event.sky_rooms_gust": {
+    "sounds": [
+      {
+        "name": "noclip:event/sky_rooms_gust"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.sky_rooms_gust"
+  },
+  "event.sky_rooms_crack": {
+    "sounds": [
+      {
+        "name": "noclip:event/sky_rooms_crack"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.sky_rooms_crack"
+  },
+  "ambient.static_fields": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/static_fields",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.static_fields.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/static_fields_channel"
+      },
+      {
+        "name": "noclip:ambient/static_fields_tone"
+      },
+      {
+        "name": "noclip:ambient/static_fields_crow"
+      },
+      {
+        "name": "noclip:ambient/static_fields_gust"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.static_fields.additions"
+  },
+  "event.static_fields_tv": {
+    "sounds": [
+      {
+        "name": "noclip:event/static_fields_tv"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.static_fields_tv"
+  },
+  "event.static_fields_burst": {
+    "sounds": [
+      {
+        "name": "noclip:event/static_fields_burst"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.static_fields_burst"
+  },
+  "event.static_fields_sting": {
+    "sounds": [
+      {
+        "name": "noclip:event/static_fields_sting"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.static_fields_sting"
   }
 }

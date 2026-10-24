@@ -1,0 +1,11 @@
+{
+  "type": "noclip:golden_hour",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "golden_hour",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:golden_hour"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sr_dangling_wires"
+    },
+    "facing=east": {
+      "model": "noclip:block/sr_dangling_wires"
+    },
+    "facing=south": {
+      "model": "noclip:block/sr_dangling_wires"
+    },
+    "facing=west": {
+      "model": "noclip:block/sr_dangling_wires"
+    }
+  }
+}
