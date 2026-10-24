@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "noclip:block/sl_frame",
+    "particle": "noclip:block/sl_frame"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6.5
+      ],
+      "to": [
+        16,
+        3,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            6.5,
+            13,
+            9.5,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            6.5,
+            13,
+            9.5,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

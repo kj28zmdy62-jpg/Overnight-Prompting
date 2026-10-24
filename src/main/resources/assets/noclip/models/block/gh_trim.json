@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "west": "noclip:block/gh_trim_w",
+    "up": "noclip:block/gh_trim_u",
+    "north": "noclip:block/gh_trim_n",
+    "south": "noclip:block/gh_trim_n",
+    "east": "noclip:block/gh_trim_e",
+    "down": "noclip:block/gh_trim_e",
+    "particle": "noclip:block/gh_trim_n"
+  }
+}

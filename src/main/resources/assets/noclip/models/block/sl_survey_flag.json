@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p": "noclip:block/sl_survey",
+    "f": "noclip:block/sl_flag",
+    "particle": "noclip:block/sl_survey"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        10,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#p",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#p",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#p",
+          "uv": [
+            7,
+            6,
+            9,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#p",
+          "uv": [
+            7,
+            6,
+            9,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#p",
+          "uv": [
+            7,
+            6,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#p",
+          "uv": [
+            7,
+            6,
+            9,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        4,
+        8
+      ],
+      "to": [
+        16,
+        14,
+        8.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#f",
+          "uv": [
+            9,
+            2,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#f",
+          "uv": [
+            9,
+            2,
+            16,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

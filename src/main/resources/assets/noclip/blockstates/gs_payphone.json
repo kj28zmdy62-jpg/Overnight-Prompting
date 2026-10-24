@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,ringing=true": {
+      "model": "noclip:block/gs_payphone_hung"
+    },
+    "facing=north,ringing=false": {
+      "model": "noclip:block/gs_payphone_hung"
+    },
+    "facing=east,ringing=true": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 90
+    },
+    "facing=east,ringing=false": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 90
+    },
+    "facing=south,ringing=true": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 180
+    },
+    "facing=south,ringing=false": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 180
+    },
+    "facing=west,ringing=true": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 270
+    },
+    "facing=west,ringing=false": {
+      "model": "noclip:block/gs_payphone_hung",
+      "y": 270
+    }
+  }
+}

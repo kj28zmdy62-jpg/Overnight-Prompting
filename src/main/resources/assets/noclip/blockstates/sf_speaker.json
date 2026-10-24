@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sf_speaker"
+    },
+    "facing=east": {
+      "model": "noclip:block/sf_speaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sf_speaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sf_speaker",
+      "y": 270
+    }
+  }
+}

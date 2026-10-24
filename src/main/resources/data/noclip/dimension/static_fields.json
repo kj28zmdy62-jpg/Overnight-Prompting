@@ -1,0 +1,11 @@
+{
+  "type": "noclip:static_fields",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "static_fields",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:static_fields"
+    }
+  }
+}

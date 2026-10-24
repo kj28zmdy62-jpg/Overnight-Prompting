@@ -7,8 +7,13 @@ public final class LevelIndex {
     private LevelIndex() {}
 
     public static void registerAll() {
+        Levels.register(GasStation.create());
+        Levels.register(GoldenHour.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
+        Levels.register(SaltFlats.create());
+        Levels.register(SkyRooms.create());
+        Levels.register(StaticFields.create());
     }
 }

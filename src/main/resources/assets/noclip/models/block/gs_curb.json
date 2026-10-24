@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "curb": "noclip:block/gs_curb",
+    "conc": "noclip:block/gs_concrete",
+    "particle": "noclip:block/gs_curb"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#curb",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#conc",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#curb",
+          "uv": [
+            0,
+            11,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#curb",
+          "uv": [
+            0,
+            11,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#curb",
+          "uv": [
+            0,
+            11,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#curb",
+          "uv": [
+            0,
+            11,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}
