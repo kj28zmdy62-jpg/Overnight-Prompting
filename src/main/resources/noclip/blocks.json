@@ -1740,6 +1740,283 @@
     "render": "cutout"
   },
   {
+    "name": "asm_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_floor_line",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_belt",
+    "kind": "class",
+    "class": "com.noclip.block.AsmBeltBlock",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_arm_base",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        4,
+        14
+      ],
+      [
+        5,
+        4,
+        5,
+        11,
+        32,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "asm_arm_head",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 6,
+    "strength": 1.0,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        4,
+        11
+      ],
+      [
+        6,
+        3,
+        -10,
+        10,
+        7,
+        11
+      ],
+      [
+        6,
+        -2,
+        -12,
+        10,
+        4,
+        -8
+      ],
+      [
+        7,
+        -4,
+        -11,
+        9,
+        -2,
+        -9
+      ]
+    ]
+  },
+  {
+    "name": "asm_press",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_press_head",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        6,
+        0,
+        16,
+        16,
+        16
+      ],
+      [
+        2,
+        0,
+        2,
+        14,
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "asm_column",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_ceiling",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_lamp",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        10,
+        3,
+        13,
+        16,
+        13
+      ],
+      [
+        7,
+        16,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "asm_wrapped",
+    "kind": "shaped",
+    "sound": "wool",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        0,
+        3,
+        13,
+        9,
+        13
+      ],
+      [
+        4,
+        9,
+        9,
+        12,
+        20,
+        14
+      ],
+      [
+        5,
+        20,
+        6,
+        11,
+        27,
+        12
+      ],
+      [
+        2,
+        9,
+        4,
+        4,
+        17,
+        11
+      ],
+      [
+        12,
+        9,
+        4,
+        14,
+        17,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "asm_bin",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        12,
+        15
+      ]
+    ]
+  },
+  {
+    "name": "asm_counter",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 4,
+    "emissive": true
+  },
+  {
+    "name": "asm_shipping_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "asm_booth_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "asm_pallet",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        3,
+        16
+      ]
+    ]
+  },
+  {
     "name": "ball_carpet",
     "kind": "cube",
     "sound": "wool",
@@ -7102,6 +7379,259 @@
     "unbreakable": true
   },
   {
+    "name": "cons_slab",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_column",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "unbreakable": true,
+    "base": "cons_slab"
+  },
+  {
+    "name": "cons_rebar",
+    "kind": "shaped",
+    "sound": "metal",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "cons_mesh",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        1,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "cons_plywood",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_scaffold",
+    "kind": "pane",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cons_board",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        13,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "cons_sheeting",
+    "kind": "pane",
+    "sound": "wool",
+    "unbreakable": true,
+    "render": "translucent"
+  },
+  {
+    "name": "cons_mud",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_worklight",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        22,
+        9
+      ],
+      [
+        2,
+        0,
+        7,
+        4,
+        1,
+        9
+      ],
+      [
+        12,
+        0,
+        7,
+        14,
+        1,
+        9
+      ],
+      [
+        7,
+        0,
+        2,
+        9,
+        1,
+        4
+      ],
+      [
+        3,
+        22,
+        5,
+        13,
+        30,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "cons_crane",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cons_cab",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_counterweight",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_beacon",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 9,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        6,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "cons_barrier",
+    "kind": "pane",
+    "sound": "wood",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "cons_blocks_pallet",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_rubble",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "cons_sign",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        2,
+        0,
+        15,
+        14,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "cons_hoist",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid",
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "cons_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
     "name": "cy_box_red",
     "kind": "cube",
     "sound": "metal",
@@ -7898,6 +8428,136 @@
     "class": "com.noclip.block.ConventionDeskBlock",
     "unbreakable": true,
     "sound": "wood"
+  },
+  {
+    "name": "dam_concrete",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_concrete_b",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_concrete_wet",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_marker",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_seep",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_spill_floor",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_ledge",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_catwalk",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        13,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "dam_rail",
+    "kind": "pane",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "dam_penstock",
+    "kind": "pillar",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "dam_work_light",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        3,
+        0,
+        13,
+        13,
+        5
+      ]
+    ]
+  },
+  {
+    "name": "dam_sluice",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "WATER",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "no_collision": true
+  },
+  {
+    "name": "dam_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "dam_gallery_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 14,
+    "emissive": true
+  },
+  {
+    "name": "dam_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
   },
   {
     "name": "dc_foam_ry",
@@ -9816,6 +10476,2442 @@
         16
       ]
     ]
+  },
+  {
+    "name": "dri_scr_0_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_0",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_1",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_2",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_3",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_4",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_5",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_6",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_7",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_8",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_9",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_10",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_0_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_1_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_2_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_3_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_4_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_5_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_6_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_7_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_8_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_9_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_10_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_11_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_12_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_13_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_14_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_15_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_16_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_17_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_18_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_19_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_20_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_21_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_22_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_scr_23_11",
+    "kind": "cube",
+    "sound": "wool",
+    "unbreakable": true,
+    "light": 12,
+    "emissive": true
+  },
+  {
+    "name": "dri_screen_back",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_screen_frame",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_gravel",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_asphalt",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_asphalt_line",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_speaker",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 3,
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        12,
+        9
+      ],
+      [
+        4,
+        10,
+        6,
+        12,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "dri_booth_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_booth_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 13,
+    "emissive": true
+  },
+  {
+    "name": "dri_neon_snacks",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 8,
+    "emissive": true
+  },
+  {
+    "name": "dri_booth_door",
+    "kind": "exit",
+    "sound": "wood",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "dri_lamp",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 14,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        16,
+        9
+      ],
+      [
+        4,
+        13,
+        2,
+        12,
+        16,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "dri_pole",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "dri_fence",
+    "kind": "pane",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
   },
   {
     "name": "el_wall",
@@ -28926,6 +32022,259 @@
     "unbreakable": true
   },
   {
+    "name": "pwr_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_floor_hazard",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_floor_walk",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_wall_low",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_sign_turbine",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_sign_ears",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_casing",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_casing_top",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_generator",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_generator_label",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_hall_lamp",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        10,
+        3,
+        13,
+        15,
+        13
+      ],
+      [
+        7,
+        15,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "pwr_plinth",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_pipe",
+    "kind": "pillar",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_panel",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_panel_b",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_annunciator",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 5,
+    "emissive": true
+  },
+  {
+    "name": "pwr_desk",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 5,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        2,
+        12,
+        2,
+        14,
+        22,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "pwr_desk_odd",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "light": 5,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        12,
+        16
+      ],
+      [
+        2,
+        12,
+        2,
+        14,
+        22,
+        6
+      ]
+    ]
+  },
+  {
+    "name": "pwr_ack",
+    "kind": "class",
+    "class": "com.noclip.block.PwrAckBlock",
+    "sound": "metal",
+    "unbreakable": true,
+    "light": 4,
+    "render": "cutout"
+  },
+  {
+    "name": "pwr_ceiling",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "pwr_light",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 15,
+    "emissive": true
+  },
+  {
+    "name": "pwr_flood",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 15,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        3,
+        3,
+        0,
+        13,
+        13,
+        4
+      ]
+    ]
+  },
+  {
+    "name": "pwr_beacon",
+    "kind": "class",
+    "class": "com.noclip.block.AlarmBeaconBlock",
+    "sound": "glass",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "pwr_exit_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "pwr_grate",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
     "name": "rc_asphalt",
     "kind": "cube",
     "sound": "stone",
@@ -31383,6 +34732,343 @@
     "solid": false,
     "render": "solid",
     "no_collision": true
+  },
+  {
+    "name": "roof_brick",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_brick_b",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_window_lit",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 10,
+    "emissive": true
+  },
+  {
+    "name": "roof_tar",
+    "kind": "cube",
+    "sound": "gravel",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_parapet",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_parapet_b",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_ac",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        13,
+        15
+      ],
+      [
+        3,
+        13,
+        3,
+        13,
+        14,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "roof_tank",
+    "kind": "cube",
+    "sound": "wood",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_tank_cap",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        0,
+        1,
+        15,
+        4,
+        15
+      ],
+      [
+        4,
+        4,
+        4,
+        12,
+        8,
+        12
+      ],
+      [
+        7,
+        8,
+        7,
+        9,
+        11,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "roof_leg",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        6,
+        0,
+        6,
+        10,
+        16,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "roof_antenna",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        16,
+        9
+      ],
+      [
+        3,
+        8,
+        7.5,
+        13,
+        9,
+        8.5
+      ]
+    ]
+  },
+  {
+    "name": "roof_beacon",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 8,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        6,
+        11
+      ]
+    ]
+  },
+  {
+    "name": "roof_door_locked",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "roof_door",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "DOOR",
+    "trigger": "USE",
+    "solid": true,
+    "render": "solid"
+  },
+  {
+    "name": "roof_lamp",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 13,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        4,
+        10,
+        11,
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "roof_skylight",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 11,
+    "emissive": true
+  },
+  {
+    "name": "roof_plank",
+    "kind": "shaped",
+    "sound": "wood",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        2,
+        13,
+        0,
+        14,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "roof_dish",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        7,
+        0,
+        7,
+        9,
+        8,
+        9
+      ],
+      [
+        2,
+        6,
+        3,
+        14,
+        16,
+        5
+      ],
+      [
+        7,
+        9,
+        5,
+        9,
+        11,
+        10
+      ]
+    ]
+  },
+  {
+    "name": "roof_chair",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        3,
+        6,
+        3,
+        13,
+        7,
+        13
+      ],
+      [
+        3,
+        7,
+        12,
+        13,
+        16,
+        13
+      ],
+      [
+        3,
+        0,
+        3,
+        4,
+        6,
+        4
+      ],
+      [
+        12,
+        0,
+        3,
+        13,
+        6,
+        4
+      ],
+      [
+        3,
+        0,
+        12,
+        4,
+        6,
+        13
+      ],
+      [
+        12,
+        0,
+        12,
+        13,
+        6,
+        13
+      ]
+    ]
   },
   {
     "name": "rod_marble_white",
@@ -38479,6 +42165,229 @@
         12
       ]
     ]
+  },
+  {
+    "name": "sig_grass",
+    "kind": "cube",
+    "sound": "grass",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_peat",
+    "kind": "cube",
+    "sound": "mud",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_granite",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_drystone",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_heather",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "sig_tussock",
+    "kind": "shaped",
+    "sound": "grass",
+    "render": "cutout",
+    "collides": false,
+    "boxes": [
+      [
+        2,
+        0,
+        2,
+        14,
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "name": "sig_lattice",
+    "kind": "cube",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_platform",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": true,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        0,
+        14,
+        0,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "sig_beacon",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 10,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        5,
+        0,
+        5,
+        11,
+        7,
+        11
+      ],
+      [
+        4,
+        0,
+        4,
+        12,
+        1,
+        12
+      ]
+    ]
+  },
+  {
+    "name": "sig_hut_wall",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_roof",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_floor",
+    "kind": "cube",
+    "sound": "stone",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_hut_window",
+    "kind": "cube",
+    "sound": "glass",
+    "unbreakable": true,
+    "light": 6,
+    "emissive": true
+  },
+  {
+    "name": "sig_radio",
+    "kind": "class",
+    "class": "com.noclip.block.SigRadioBlock",
+    "sound": "wood",
+    "unbreakable": true,
+    "light": 4,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_tx_door",
+    "kind": "class",
+    "class": "com.noclip.block.SigDoorBlock",
+    "sound": "metal",
+    "unbreakable": true
+  },
+  {
+    "name": "sig_bulb",
+    "kind": "shaped",
+    "sound": "glass",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "light": 13,
+    "strength": 1.0,
+    "emissive": true,
+    "boxes": [
+      [
+        6,
+        6,
+        6,
+        10,
+        12,
+        10
+      ],
+      [
+        7,
+        12,
+        7,
+        9,
+        16,
+        9
+      ]
+    ]
+  },
+  {
+    "name": "sig_sign_tx",
+    "kind": "shaped",
+    "sound": "metal",
+    "unbreakable": true,
+    "collides": false,
+    "render": "cutout",
+    "strength": 1.0,
+    "boxes": [
+      [
+        1,
+        2,
+        0,
+        15,
+        14,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "sig_ladder",
+    "kind": "ladder",
+    "sound": "metal",
+    "unbreakable": true,
+    "render": "cutout"
+  },
+  {
+    "name": "sig_mast_top",
+    "kind": "exit",
+    "sound": "metal",
+    "unbreakable": true,
+    "exit": "ASCEND",
+    "trigger": "INSIDE",
+    "solid": false,
+    "render": "solid",
+    "light": 12,
+    "emissive": true,
+    "no_collision": true
   },
   {
     "name": "the_void_floor",

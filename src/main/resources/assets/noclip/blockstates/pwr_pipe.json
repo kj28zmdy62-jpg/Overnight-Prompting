@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/pwr_pipe"
+    },
+    "axis=z": {
+      "model": "noclip:block/pwr_pipe_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/pwr_pipe_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

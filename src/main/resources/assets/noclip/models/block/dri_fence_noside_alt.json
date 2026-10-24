@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "noclip:block/dri_fence",
+    "edge": "noclip:block/dri_fence"
+  }
+}

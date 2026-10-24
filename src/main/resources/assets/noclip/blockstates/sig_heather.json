@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sig_heather"
+    },
+    "facing=east": {
+      "model": "noclip:block/sig_heather"
+    },
+    "facing=south": {
+      "model": "noclip:block/sig_heather"
+    },
+    "facing=west": {
+      "model": "noclip:block/sig_heather"
+    }
+  }
+}

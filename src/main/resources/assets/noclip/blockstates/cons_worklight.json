@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cons_worklight"
+    },
+    "facing=east": {
+      "model": "noclip:block/cons_worklight",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cons_worklight",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cons_worklight",
+      "y": 270
+    }
+  }
+}

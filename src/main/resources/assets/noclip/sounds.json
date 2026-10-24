@@ -234,6 +234,55 @@
     ],
     "subtitle": "subtitles.noclip.event.archive_step"
   },
+  "ambient.assembly_line": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/assembly_line",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.assembly_line.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/assembly_line_servo"
+      },
+      {
+        "name": "noclip:ambient/assembly_line_wrench"
+      },
+      {
+        "name": "noclip:ambient/assembly_line_casters"
+      },
+      {
+        "name": "noclip:ambient/assembly_line_pa"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.assembly_line.additions"
+  },
+  "event.assembly_line_horn": {
+    "sounds": [
+      {
+        "name": "noclip:event/assembly_line_horn"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.assembly_line_horn"
+  },
+  "event.assembly_line_stamp": {
+    "sounds": [
+      {
+        "name": "noclip:event/assembly_line_stamp"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.assembly_line_stamp"
+  },
+  "event.assembly_line_breath": {
+    "sounds": [
+      {
+        "name": "noclip:event/assembly_line_breath"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.assembly_line_breath"
+  },
   "ambient.ballroom": {
     "sounds": [
       {
@@ -771,6 +820,44 @@
     ],
     "subtitle": "subtitles.noclip.event.wall_thin"
   },
+  "ambient.construction_site": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/construction_site",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.construction_site.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/construction_site_clank"
+      },
+      {
+        "name": "noclip:ambient/construction_site_hammer"
+      },
+      {
+        "name": "noclip:ambient/construction_site_slew"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.construction_site.additions"
+  },
+  "event.construction_site_whistle": {
+    "sounds": [
+      {
+        "name": "noclip:event/construction_site_whistle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.construction_site_whistle"
+  },
+  "event.construction_site_crash": {
+    "sounds": [
+      {
+        "name": "noclip:event/construction_site_crash"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.construction_site_crash"
+  },
   "ambient.container_yard": {
     "sounds": [
       {
@@ -861,6 +948,47 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.convention_bell"
+  },
+  "ambient.dam": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/dam",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.dam.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/dam_groan"
+      },
+      {
+        "name": "noclip:ambient/dam_drip"
+      },
+      {
+        "name": "noclip:ambient/dam_slam"
+      },
+      {
+        "name": "noclip:ambient/dam_gurgle"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.dam.additions"
+  },
+  "event.dam_siren": {
+    "sounds": [
+      {
+        "name": "noclip:event/dam_siren"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.dam_siren"
+  },
+  "event.dam_surge": {
+    "sounds": [
+      {
+        "name": "noclip:event/dam_surge"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.dam_surge"
   },
   "ambient.daycare": {
     "sounds": [
@@ -1017,6 +1145,52 @@
       }
     ],
     "subtitle": "subtitles.noclip.entity.dh_tin_soldier.march"
+  },
+  "ambient.drive_in": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/drive_in",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.drive_in.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/drive_in_horn"
+      },
+      {
+        "name": "noclip:ambient/drive_in_speaker"
+      },
+      {
+        "name": "noclip:ambient/drive_in_door"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.drive_in.additions"
+  },
+  "event.drive_in_reel_end": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_reel_end"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_reel_end"
+  },
+  "event.drive_in_footsteps": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_footsteps"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_footsteps"
+  },
+  "event.drive_in_voice": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_voice"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_voice"
   },
   "ambient.elevator_shaft": {
     "sounds": [
@@ -3179,6 +3353,55 @@
     ],
     "subtitle": "subtitles.noclip.event.pole_forest_hum"
   },
+  "ambient.power_plant": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/power_plant",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.power_plant.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/power_plant_steam"
+      },
+      {
+        "name": "noclip:ambient/power_plant_relay"
+      },
+      {
+        "name": "noclip:ambient/power_plant_pa"
+      },
+      {
+        "name": "noclip:ambient/power_plant_bang"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.power_plant.additions"
+  },
+  "event.power_plant_klaxon": {
+    "sounds": [
+      {
+        "name": "noclip:event/power_plant_klaxon"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.power_plant_klaxon"
+  },
+  "event.power_plant_trip": {
+    "sounds": [
+      {
+        "name": "noclip:event/power_plant_trip"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.power_plant_trip"
+  },
+  "event.power_plant_ack": {
+    "sounds": [
+      {
+        "name": "noclip:event/power_plant_ack"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.power_plant_ack"
+  },
   "ambient.rain_city": {
     "sounds": [
       {
@@ -3368,6 +3591,39 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.restrooms_flush"
+  },
+  "ambient.rooftops": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/rooftops",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.rooftops.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/rooftops_siren"
+      },
+      {
+        "name": "noclip:ambient/rooftops_heli"
+      },
+      {
+        "name": "noclip:ambient/rooftops_ac"
+      },
+      {
+        "name": "noclip:ambient/rooftops_flutter"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.rooftops.additions"
+  },
+  "event.rooftops_gust": {
+    "sounds": [
+      {
+        "name": "noclip:event/rooftops_gust"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.rooftops_gust"
   },
   "ambient.room_of_doors": {
     "sounds": [
@@ -4186,6 +4442,60 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.the_hub_locked"
+  },
+  "ambient.the_signal": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_signal",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.the_signal.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/the_signal_static"
+      },
+      {
+        "name": "noclip:ambient/the_signal_moan"
+      },
+      {
+        "name": "noclip:ambient/the_signal_thunder"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.the_signal.additions"
+  },
+  "event.the_signal_thunder": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_signal_thunder"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_signal_thunder"
+  },
+  "event.the_signal_tune": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_signal_tune"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_signal_tune"
+  },
+  "event.the_signal_numbers": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_signal_numbers"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_signal_numbers"
+  },
+  "event.the_signal_breathing": {
+    "sounds": [
+      {
+        "name": "noclip:event/the_signal_breathing"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.the_signal_breathing"
   },
   "ambient.the_void": {
     "sounds": [

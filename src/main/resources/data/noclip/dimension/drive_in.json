@@ -1,0 +1,11 @@
+{
+  "type": "noclip:drive_in",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "drive_in",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:drive_in"
+    }
+  }
+}

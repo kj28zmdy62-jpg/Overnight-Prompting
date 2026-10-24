@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "noclip:block/cons_scaffold",
+    "edge": "noclip:block/cons_scaffold"
+  }
+}

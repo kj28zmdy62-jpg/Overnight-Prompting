@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/asm_bin"
+    },
+    "facing=east": {
+      "model": "noclip:block/asm_bin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/asm_bin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/asm_bin",
+      "y": 270
+    }
+  }
+}

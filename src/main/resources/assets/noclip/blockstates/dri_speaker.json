@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/dri_speaker"
+    },
+    "facing=east": {
+      "model": "noclip:block/dri_speaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/dri_speaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/dri_speaker",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "noclip:rooftops",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "rooftops",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:rooftops"
+    }
+  }
+}

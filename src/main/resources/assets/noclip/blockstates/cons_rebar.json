@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cons_rebar"
+    },
+    "facing=east": {
+      "model": "noclip:block/cons_rebar"
+    },
+    "facing=south": {
+      "model": "noclip:block/cons_rebar"
+    },
+    "facing=west": {
+      "model": "noclip:block/cons_rebar"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "noclip:block/pwr_pipe_end",
+    "side": "noclip:block/pwr_pipe_side"
+  }
+}

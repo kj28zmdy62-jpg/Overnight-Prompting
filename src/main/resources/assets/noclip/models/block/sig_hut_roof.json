@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/sig_hut_roof",
+    "bottom": "noclip:block/sig_hut_floor",
+    "side": "noclip:block/sig_hut_roof"
+  }
+}

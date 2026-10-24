@@ -1,0 +1,11 @@
+{
+  "type": "noclip:assembly_line",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "assembly_line",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:assembly_line"
+    }
+  }
+}

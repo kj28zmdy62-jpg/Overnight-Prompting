@@ -1,0 +1,147 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "noclip:block/pwr_desk_side",
+    "acktop": "noclip:block/pwr_ack_top",
+    "btn": "noclip:block/pwr_ack_button",
+    "particle": "noclip:block/pwr_desk_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#acktop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        15,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#btn",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}
