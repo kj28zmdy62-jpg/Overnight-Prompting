@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/run_alarm_strobe"
+    },
+    "lit=false": {
+      "model": "noclip:block/run_alarm_strobe_off"
+    }
+  }
+}

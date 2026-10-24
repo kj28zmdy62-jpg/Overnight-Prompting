@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/fr_lawn",
+    "bottom": "noclip:block/fr_lawn_side",
+    "side": "noclip:block/fr_lawn_side"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "noclip:block/run_locked_door"
+    }
+  }
+}

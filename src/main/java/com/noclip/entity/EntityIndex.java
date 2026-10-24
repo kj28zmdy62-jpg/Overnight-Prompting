@@ -6,5 +6,9 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        MotionClayFigure.register();
+        RunChaser.register();
+        VoidFarThing.register();
+        WindowWatcher.register();
     }
 }

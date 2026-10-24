@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/run_emergency_light"
+    },
+    "lit=false": {
+      "model": "noclip:block/run_emergency_light_off"
+    }
+  }
+}

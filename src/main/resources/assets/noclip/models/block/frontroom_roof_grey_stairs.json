@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "noclip:block/fr_shingles_grey",
+    "top": "noclip:block/fr_shingles_grey",
+    "side": "noclip:block/fr_shingles_grey"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "noclip:the_hub",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "the_hub",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:the_hub"
+    }
+  }
+}

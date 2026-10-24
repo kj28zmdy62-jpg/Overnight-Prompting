@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/frontroom_sofa"
+    },
+    "facing=east": {
+      "model": "noclip:block/frontroom_sofa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/frontroom_sofa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/frontroom_sofa",
+      "y": 270
+    }
+  }
+}

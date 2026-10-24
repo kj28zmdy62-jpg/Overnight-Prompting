@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/courtyard_dead_branches"
+    },
+    "facing=east": {
+      "model": "noclip:block/courtyard_dead_branches"
+    },
+    "facing=south": {
+      "model": "noclip:block/courtyard_dead_branches"
+    },
+    "facing=west": {
+      "model": "noclip:block/courtyard_dead_branches"
+    }
+  }
+}

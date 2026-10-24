@@ -6,5 +6,9 @@ public final class ClientEntityIndex {
     private ClientEntityIndex() {}
 
     public static void registerAll() {
+        MotionClayFigureRenderers.register();
+        RunChaserRenderers.register();
+        VoidFarThingRenderers.register();
+        WindowWatcherRenderers.register();
     }
 }

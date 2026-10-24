@@ -1,0 +1,202 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        11,
+        10,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rubber"
+        },
+        "up": {
+          "texture": "#rubber"
+        },
+        "north": {
+          "texture": "#rubber"
+        },
+        "south": {
+          "texture": "#rubber"
+        },
+        "west": {
+          "texture": "#rubber"
+        },
+        "east": {
+          "texture": "#rubber"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        5,
+        6
+      ],
+      "to": [
+        12,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rubber"
+        },
+        "up": {
+          "texture": "#rubber"
+        },
+        "north": {
+          "texture": "#rubber"
+        },
+        "south": {
+          "texture": "#rubber"
+        },
+        "west": {
+          "texture": "#rubber"
+        },
+        "east": {
+          "texture": "#rubber"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        5,
+        4
+      ],
+      "to": [
+        10,
+        9,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rubber"
+        },
+        "up": {
+          "texture": "#rubber"
+        },
+        "north": {
+          "texture": "#rubber"
+        },
+        "south": {
+          "texture": "#rubber"
+        },
+        "west": {
+          "texture": "#rubber"
+        },
+        "east": {
+          "texture": "#rubber"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        10,
+        6.5
+      ],
+      "to": [
+        9.5,
+        11,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rubber"
+        },
+        "up": {
+          "texture": "#rubber"
+        },
+        "north": {
+          "texture": "#rubber"
+        },
+        "south": {
+          "texture": "#rubber"
+        },
+        "west": {
+          "texture": "#rubber"
+        },
+        "east": {
+          "texture": "#rubber"
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        3,
+        7.5
+      ],
+      "to": [
+        8.5,
+        4,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rubber"
+        },
+        "up": {
+          "texture": "#rubber"
+        },
+        "north": {
+          "texture": "#rubber"
+        },
+        "south": {
+          "texture": "#rubber"
+        },
+        "west": {
+          "texture": "#rubber"
+        },
+        "east": {
+          "texture": "#rubber"
+        }
+      }
+    },
+    {
+      "from": [
+        7.8,
+        0,
+        7.8
+      ],
+      "to": [
+        8.2,
+        3,
+        8.2
+      ],
+      "faces": {
+        "down": {
+          "texture": "#string"
+        },
+        "up": {
+          "texture": "#string"
+        },
+        "north": {
+          "texture": "#string"
+        },
+        "south": {
+          "texture": "#string"
+        },
+        "west": {
+          "texture": "#string"
+        },
+        "east": {
+          "texture": "#string"
+        }
+      }
+    }
+  ],
+  "textures": {
+    "rubber": "noclip:block/fun_balloon_red",
+    "string": "noclip:block/fun_string",
+    "particle": "noclip:block/fun_balloon_red"
+  }
+}
