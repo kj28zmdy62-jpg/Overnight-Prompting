@@ -1,0 +1,11 @@
+{
+  "type": "noclip:recursion",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "recursion",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:recursion"
+    }
+  }
+}

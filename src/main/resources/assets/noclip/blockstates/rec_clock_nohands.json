@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rec_clock_nohands"
+    },
+    "facing=east": {
+      "model": "noclip:block/rec_clock_nohands",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rec_clock_nohands",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rec_clock_nohands",
+      "y": 270
+    }
+  }
+}

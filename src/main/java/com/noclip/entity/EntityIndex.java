@@ -6,5 +6,14 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        DhTinSoldier.register();
+        GrHorizon.register();
+        GrSentinel.register();
+        MrReflection.register();
+        MtNull.register();
+        PgPhotographer.register();
+        RecResident.register();
+        RedGuest.register();
+        ZzBlank.register();
     }
 }

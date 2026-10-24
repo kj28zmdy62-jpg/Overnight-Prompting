@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/gr_wire_y"
+    },
+    "facing=east": {
+      "model": "noclip:block/gr_wire_y",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/gr_wire_y",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/gr_wire_y",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/mr_plaque_m_l"
+    },
+    "facing=east": {
+      "model": "noclip:block/mr_plaque_m_l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/mr_plaque_m_l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/mr_plaque_m_l",
+      "y": 270
+    }
+  }
+}

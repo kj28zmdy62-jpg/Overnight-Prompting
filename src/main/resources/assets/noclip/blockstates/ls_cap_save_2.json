@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/ls_cap_save_2"
+    },
+    "facing=east": {
+      "model": "noclip:block/ls_cap_save_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/ls_cap_save_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/ls_cap_save_2",
+      "y": 270
+    }
+  }
+}

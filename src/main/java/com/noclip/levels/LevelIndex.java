@@ -7,8 +7,21 @@ public final class LevelIndex {
     private LevelIndex() {}
 
     public static void registerAll() {
+        Levels.register(Dollhouse.create());
+        Levels.register(GlitchLevel.create());
+        Levels.register(GravityRooms.create());
         Levels.register(Level0.create());
         Levels.register(Level1.create());
         Levels.register(Level6.create());
+        Levels.register(LoadingScreen.create());
+        Levels.register(LongHallway.create());
+        Levels.register(MirrorLevel.create());
+        Levels.register(MissingTextures.create());
+        Levels.register(PhotoGallery.create());
+        Levels.register(Recursion.create());
+        Levels.register(RedRoom.create());
+        Levels.register(RoomOfDoors.create());
+        Levels.register(TheGrid.create());
+        Levels.register(ZeroZero.create());
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "noclip:photo_gallery",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "photo_gallery",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:photo_gallery"
+    }
+  }
+}

@@ -6,5 +6,13 @@ public final class ClientEntityIndex {
     private ClientEntityIndex() {}
 
     public static void registerAll() {
+        DhTinSoldierRenderers.register();
+        GridRenderers.register();
+        MrReflectionRenderers.register();
+        MtNullRenderers.register();
+        PgPhotographerRenderers.register();
+        RecResidentRenderers.register();
+        RedGuestRenderers.register();
+        ZzBlankRenderers.register();
     }
 }
