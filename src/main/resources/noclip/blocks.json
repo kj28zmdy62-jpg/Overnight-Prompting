@@ -91,6 +91,78 @@
     "unbreakable": true
   },
   {
+    "name": "chalk_arrow",
+    "kind": "shaped",
+    "sound": "gravel",
+    "collides": false,
+    "render": "cutout",
+    "strength": 0.1,
+    "boxes": [
+      [
+        0,
+        0,
+        15.9,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "chalk_cross",
+    "kind": "shaped",
+    "sound": "gravel",
+    "collides": false,
+    "render": "cutout",
+    "strength": 0.1,
+    "boxes": [
+      [
+        0,
+        0,
+        15.9,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "chalk_tally",
+    "kind": "shaped",
+    "sound": "gravel",
+    "collides": false,
+    "render": "cutout",
+    "strength": 0.1,
+    "boxes": [
+      [
+        0,
+        0,
+        15.9,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "chalk_circle",
+    "kind": "shaped",
+    "sound": "gravel",
+    "collides": false,
+    "render": "cutout",
+    "strength": 0.1,
+    "boxes": [
+      [
+        0,
+        0,
+        15.9,
+        16,
+        16,
+        16
+      ]
+    ]
+  },
+  {
     "name": "yellow_wallpaper",
     "kind": "cube",
     "sound": "wool",

@@ -28,6 +28,8 @@ public final class ModItems {
     public static Item JOURNAL;
     public static Item CANNED_BEANS;
     public static Item ENERGY_BAR;
+    public static Item CAMCORDER;
+    public static Item CHALK;
 
     private ModItems() {}
 
@@ -40,6 +42,8 @@ public final class ModItems {
                 new FoodProperties.Builder().nutrition(6).saturationModifier(0.7f).build())));
         ENERGY_BAR = register("energy_bar", new Item(new Item.Properties().food(
                 new FoodProperties.Builder().nutrition(4).saturationModifier(0.4f).fast().build())));
+        CAMCORDER = register("camcorder", new com.noclip.item.CamcorderItem(new Item.Properties().stacksTo(1)));
+        CHALK = register("chalk", new com.noclip.item.ChalkItem(new Item.Properties().durability(64)));
     }
 
     public static Item register(String name, Item item) {

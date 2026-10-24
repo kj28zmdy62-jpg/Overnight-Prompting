@@ -86,6 +86,7 @@ public class NoclipClient implements ClientModInitializer {
 
     private void tick(Minecraft mc) {
         ClientState.tick(mc);
+        ClientState.camcorder = mc.player != null && com.noclip.item.CamcorderItem.viewing(mc.player);
         Hallucinations.tick(mc);
         if (mc.player == null) return;
         boolean pushing = mc.player.horizontalCollision && mc.player.input.forwardImpulse > 0.1f

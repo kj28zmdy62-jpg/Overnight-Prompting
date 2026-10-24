@@ -100,7 +100,15 @@ public final class Travel {
     }
 
     private static void arrive(ServerPlayer player, ServerLevel level, BackroomsLevel def) {
+        boolean firstEver = PlayerData.visited(player).isEmpty();
         boolean first = PlayerData.visit(player, def.id);
+        if (firstEver) {
+            // you arrive with nothing but what was in your pockets
+            player.getInventory().add(new net.minecraft.world.item.ItemStack(com.noclip.registry.ModItems.JOURNAL));
+            player.getInventory().add(new net.minecraft.world.item.ItemStack(com.noclip.registry.ModItems.ALMOND_WATER));
+            player.sendSystemMessage(net.minecraft.network.chat.Component.translatable("noclip.first_arrival")
+                    .withStyle(net.minecraft.ChatFormatting.GRAY, net.minecraft.ChatFormatting.ITALIC));
+        }
         ServerPlayNetworking.send(player, new NoclipNet.EnterPayload(def.id, first, PlayerData.visited(player).size()));
         ServerPlayNetworking.send(player, new NoclipNet.JournalPayload(String.join(",", PlayerData.visited(player))));
         level.playSound(null, player.blockPosition(), ModSounds.NOCLIP, SoundSource.PLAYERS, 0.9f, 1f);

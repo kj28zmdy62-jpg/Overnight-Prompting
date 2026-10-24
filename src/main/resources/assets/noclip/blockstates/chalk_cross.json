@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/chalk_cross"
+    },
+    "facing=east": {
+      "model": "noclip:block/chalk_cross",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/chalk_cross",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/chalk_cross",
+      "y": 270
+    }
+  }
+}

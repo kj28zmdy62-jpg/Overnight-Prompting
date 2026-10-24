@@ -39,20 +39,27 @@ public final class EntityDirector {
             }
         }
         if (r.nextFloat() >= rule.chance()) return;
+        trySpawn(p, level, def, rule);
+    }
+
+    /** Attempts to place one entity for this rule near the player. */
+    public static boolean trySpawn(ServerPlayer p, ServerLevel level, BackroomsLevel def, SpawnRule rule) {
+        RandomSource r = p.getRandom();
         EntityType<? extends Mob> type = rule.type().get();
         int nearby = level.getEntities(type, p.getBoundingBox().inflate(64), e -> true).size();
-        if (nearby >= rule.maxNearby()) return;
+        if (nearby >= rule.maxNearby()) return false;
         for (int attempt = 0; attempt < 8; attempt++) {
             BlockPos pos = candidate(p, level, def, rule, r);
             if (pos == null) continue;
             Mob mob = type.create(level);
-            if (mob == null) return;
+            if (mob == null) return false;
             mob.moveTo(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, r.nextFloat() * 360f, 0f);
             if (!level.noCollision(mob)) continue;
             mob.finalizeSpawn(level, level.getCurrentDifficultyAt(pos), MobSpawnType.EVENT, null);
             level.addFreshEntity(mob);
-            return;
+            return true;
         }
+        return false;
     }
 
     private static BlockPos candidate(ServerPlayer p, ServerLevel level, BackroomsLevel def, SpawnRule rule, RandomSource r) {

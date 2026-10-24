@@ -400,3 +400,12 @@ def custom(name, java_class, model, blockstate=None, display=None, item_model=No
     BLOCK_MODELS[name] = model
     BLOCKSTATES[name] = blockstate or {"variants": {"": {"model": f"noclip:block/{name}"}}}
     return _block(name, "class", display, item_model=item_model, **{"class": java_class}, **props)
+
+
+RECIPES = {}  # name -> recipe json
+
+
+def recipe(name, data):
+    if name in RECIPES:
+        raise ValueError(f"duplicate recipe '{name}'")
+    RECIPES[name] = data
