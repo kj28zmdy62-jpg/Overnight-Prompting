@@ -41,7 +41,7 @@ public class NoclipClient implements ClientModInitializer {
         for (BackroomsLevel l : Levels.all()) {
             if (!l.visuals.sky) DimensionRenderingRegistry.registerSkyRenderer(l.dimension, ctx -> {});
             if (!l.visuals.clouds) DimensionRenderingRegistry.registerCloudRenderer(l.dimension, ctx -> {});
-            DimensionRenderingRegistry.registerWeatherRenderer(l.dimension, ctx -> {});
+            if (!l.visuals.weather) DimensionRenderingRegistry.registerWeatherRenderer(l.dimension, ctx -> {});
         }
 
         ClientPlayNetworking.registerGlobalReceiver(NoclipNet.SanityPayload.TYPE,
