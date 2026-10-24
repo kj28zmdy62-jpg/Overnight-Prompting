@@ -79,6 +79,9 @@ or bring with you.
 | Skin-Stealer | Wears someone else's skin. In multiplayer, it wears one of your friends. |
 | Mannequin | Moves only when nobody is looking at it. |
 | Partygoer | "Hello friend =)" |
+| Lurker | Invisible to the naked eye, standing just behind you. Look through a camcorder. |
+| Mimic | Footsteps that walk where you walked, a few seconds behind. They don't always stop when you do. |
+| Shadow Figure | Someone at the end of the hall. Walk toward them and there was never anyone there. |
 
 Many levels add their own.
 
