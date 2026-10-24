@@ -91,25 +91,25 @@ def folder():
     return img
 
 
-TEX = {"mr_wall": wall, "mr_wall_base": wall_base, "mr_carpet": carpet, "mr_ceiling": ceiling,
-       "mr_door_top": painted_door(True), "mr_door_bottom": painted_door(False), "mr_clock": clock,
-       "mr_picture": picture, "mr_folder": folder}
+TEX = {"mnl_wall": wall, "mnl_wall_base": wall_base, "mnl_carpet": carpet, "mnl_ceiling": ceiling,
+       "mnl_door_top": painted_door(True), "mnl_door_bottom": painted_door(False), "mnl_clock": clock,
+       "mnl_picture": picture, "mnl_folder": folder}
 for k, fn in TEX.items():
     tex(k, fn)
 
-cube("manila_wall", "mr_wall", display="Manila Wall", sound="wool")
-cube("manila_wall_base", "mr_wall_base", display="Manila Wall", sound="wool")
-cube("manila_carpet", "mr_carpet", display="Manila Carpet", sound="wool")
-cube("manila_ceiling", "mr_ceiling", display="Manila Ceiling", flat=True, light=15, emissive=True, sound="wool")
-cube("manila_clock", "mr_clock", display="Clock With No Hands", sound="wool")
-exit_block("manila_painted_door", "mr_door_bottom", "DOOR", trigger="USE", solid=True, display="Painted Door",
+cube("manila_wall", "mnl_wall", display="Manila Wall", sound="wool")
+cube("manila_wall_base", "mnl_wall_base", display="Manila Wall", sound="wool")
+cube("manila_carpet", "mnl_carpet", display="Manila Carpet", sound="wool")
+cube("manila_ceiling", "mnl_ceiling", display="Manila Ceiling", flat=True, light=15, emissive=True, sound="wool")
+cube("manila_clock", "mnl_clock", display="Clock With No Hands", sound="wool")
+exit_block("manila_painted_door", "mnl_door_bottom", "DOOR", trigger="USE", solid=True, display="Painted Door",
            sound="wool")
-exit_block("manila_painted_door_top", "mr_door_top", "DOOR", trigger="USE", solid=True, display="Painted Door",
+exit_block("manila_painted_door_top", "mnl_door_top", "DOOR", trigger="USE", solid=True, display="Painted Door",
            sound="wool")
 shaped("manila_picture", [(2, 2, 0, 14, 14, 1, {"all": "frame", "south": "pic"})],
-       {"frame": "mr_wall_base", "pic": "mr_picture"}, display="Photograph", collides=False, sound="wool",
+       {"frame": "mnl_wall_base", "pic": "mnl_picture"}, display="Photograph", collides=False, sound="wool",
        unbreakable=True)
-shaped("manila_folder", [(3, 0, 4, 13, 0.6, 12, "f")], {"f": "mr_folder"}, display="A Folder With Your Name On It",
+shaped("manila_folder", [(3, 0, 4, 13, 0.6, 12, "f")], {"f": "mnl_folder"}, display="A Folder With Your Name On It",
        kind="pickup", item="noclip:journal*1,noclip:almond_water*3,noclip:battery*2", collides=False, sound="wool",
        strength=0.2)
 

@@ -23,7 +23,8 @@ if [ -n "$REAL" ]; then
   echo "MANUAL CONFLICTS:$REAL"
   exit 2
 fi
-python3 tools/build.py | tail -2 || exit 3
+python3 tools/build.py > /tmp/noclip-build.log 2>&1 || { tail -5 /tmp/noclip-build.log; echo "BUILD FAILED"; exit 3; }
+tail -2 /tmp/noclip-build.log
 ./gradlew compileJava compileClientJava -q --console=plain 2>&1 | grep -E "error|\.java:" && exit 4
 git add -A
 git commit -q -m "Merge levels from $BR
