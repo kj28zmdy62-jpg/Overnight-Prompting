@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "noclip:almond_water"
+    },
+    "title": "NOCLIP",
+    "description": "Something is wrong with the walls.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "noclip:textures/block/l0_wallpaper.png"
+  },
+  "criteria": {
+    "arrive": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -201,13 +201,13 @@
   {
     "name": "moist_carpet",
     "kind": "cube",
-    "sound": "wool",
+    "sound": "moist",
     "unbreakable": true
   },
   {
     "name": "damp_carpet",
     "kind": "cube",
-    "sound": "wool",
+    "sound": "moist",
     "unbreakable": true
   },
   {

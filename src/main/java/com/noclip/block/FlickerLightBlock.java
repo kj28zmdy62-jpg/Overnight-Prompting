@@ -34,6 +34,15 @@ public class FlickerLightBlock extends Block {
     }
 
     @Override
+    public void animateTick(BlockState state, net.minecraft.world.level.Level level, BlockPos pos, RandomSource random) {
+        if (!state.getValue(LIT) && random.nextFloat() < 0.35f) {
+            level.playLocalSound(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5,
+                    com.noclip.registry.ModSounds.get("block.light.zap"), net.minecraft.sounds.SoundSource.BLOCKS,
+                    0.35f, 0.9f + random.nextFloat() * 0.2f, false);
+        }
+    }
+
+    @Override
     protected void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         if (!state.getValue(LIT)) level.setBlock(pos, state.setValue(LIT, true), Block.UPDATE_CLIENTS);
     }

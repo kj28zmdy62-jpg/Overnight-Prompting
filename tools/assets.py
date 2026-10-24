@@ -409,3 +409,5 @@ def recipe(name, data):
     if name in RECIPES:
         raise ValueError(f"duplicate recipe '{name}'")
     RECIPES[name] = data
+
+ADVANCEMENTS = {}  # name -> advancement json

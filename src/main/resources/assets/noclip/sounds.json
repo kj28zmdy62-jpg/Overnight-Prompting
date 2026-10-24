@@ -205,6 +205,40 @@
     ],
     "subtitle": "subtitles.noclip.ambient.level_0.additions"
   },
+  "block.moist_carpet.step": {
+    "sounds": [
+      {
+        "name": "noclip:block/moist_carpet_step0",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step1",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step2",
+        "volume": 0.6
+      },
+      {
+        "name": "noclip:block/moist_carpet_step3",
+        "volume": 0.6
+      }
+    ]
+  },
+  "block.light.zap": {
+    "sounds": [
+      {
+        "name": "noclip:block/light_zap0"
+      },
+      {
+        "name": "noclip:block/light_zap1"
+      },
+      {
+        "name": "noclip:block/light_zap2"
+      }
+    ],
+    "subtitle": "subtitles.noclip.block.light.zap"
+  },
   "ambient.level_1": {
     "sounds": [
       {

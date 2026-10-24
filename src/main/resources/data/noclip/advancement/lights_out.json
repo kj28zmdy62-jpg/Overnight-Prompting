@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "noclip:flashlight"
+    },
+    "title": "Lights Out",
+    "description": "Reach Level 6. Hope you brought a flashlight.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrive": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "noclip:level_6"
+      }
+    }
+  },
+  "parent": "noclip:habitable"
+}

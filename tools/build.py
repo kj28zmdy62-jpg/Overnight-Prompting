@@ -43,7 +43,7 @@ def main():
     # generated folders are wiped so removed content does not linger
     for sub in ("textures/block", "textures/item", "textures/entity", "models/block", "models/item", "blockstates"):
         clean(os.path.join(A.ASSETS, sub))
-    for sub in ("dimension", "dimension_type", "worldgen/biome", "loot_table/blocks", "recipe"):
+    for sub in ("dimension", "dimension_type", "worldgen/biome", "loot_table/blocks", "recipe", "advancement"):
         clean(os.path.join(A.DATA, sub))
 
     for name, fn in A.TEXTURES.items():
@@ -81,6 +81,8 @@ def main():
     for name, l in A.LOOT.items():
         dump(os.path.join(A.DATA, "loot_table", "blocks", name + ".json"), l)
     dump(os.path.join(A.RES, "noclip", "blocks.json"), A.BLOCKS)
+    for name, a in A.ADVANCEMENTS.items():
+        dump(os.path.join(A.DATA, "advancement", name + ".json"), a)
     for name, r in A.RECIPES.items():
         dump(os.path.join(A.DATA, "recipe", name + ".json"), r)
 
