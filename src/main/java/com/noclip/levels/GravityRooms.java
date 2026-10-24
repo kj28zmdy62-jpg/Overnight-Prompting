@@ -48,7 +48,7 @@ public final class GravityRooms {
                 .danger(BackroomsLevel.Danger.LOW)
                 .generator(Gen::new)
                 .behavior(new Falling())
-                .visuals(new Visuals().tint(1.02f, 1.0f, 0.96f).saturation(0.85f).contrast(1.06f).brightness(1.1f)
+                .visuals(new Visuals().tint(1.02f, 1.0f, 0.96f).saturation(0.85f).contrast(1.06f).brightness(1.25f)
                         .grain(0.06f).aberration(0.0022f).vignette(0.55f).warp(0.07f).fog(6f, 40f).fogColor(0x20242C).bloom(0.5f))
                 .sanityDrain(0.03f)
                 .spawnY(BASE + 1, BASE + STEP * N)

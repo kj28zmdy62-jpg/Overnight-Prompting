@@ -59,7 +59,8 @@ def sun_face():
     for k, y0 in enumerate((14, 19, 23, 26, 29)):
         band |= (yy >= y0) & (yy < y0 + 1 + k * 0.5)
     a = (disc & ~band).astype(float)
-    return grad, a
+    # the glow layer ignores alpha, so everything outside the sun must be black
+    return grad * a[..., None], a
 
 
 tex("gr_black", black)
