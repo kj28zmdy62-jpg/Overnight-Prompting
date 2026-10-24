@@ -90,8 +90,9 @@ Many levels add their own.
 Everything you see is filtered through a camcorder: barrel lens, VHS grain and tracking noise,
 chromatic aberration, bloom on lights, contact shadows (SSAO), per-level colour grading and fog,
 and a REC overlay with timestamp. Dark levels remove all ambient light so only real light sources
-(and your flashlight) show anything. This is built into the mod and needs no other mods. If you also
-run a shader pack through Iris, NOCLIP's camera look is applied on top.
+(and your flashlight) show anything. This is built into the mod and needs no shader pack or other mods.
+It has not been tested together with Iris/OptiFine shader packs; if something looks broken with
+a pack enabled, turn the pack off.
 
 ## Multiplayer
 
