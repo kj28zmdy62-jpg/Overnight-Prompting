@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tile": "noclip:block/mall_mosaic_teal",
+    "top": "noclip:block/mall_terrazzo",
+    "particle": "noclip:block/mall_mosaic_teal"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#tile",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#tile",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#tile",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#tile",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#tile",
+          "uv": [
+            0,
+            7,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

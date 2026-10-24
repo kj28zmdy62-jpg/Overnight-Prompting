@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "a": "noclip:block/rc_awning_green",
+    "particle": "noclip:block/rc_awning_green"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        10,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#a",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#a",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#a",
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#a",
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#a",
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#a",
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ]
+        }
+      }
+    }
+  ]
+}

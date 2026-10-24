@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/arc_cab_upper_knockout"
+    },
+    "facing=east": {
+      "model": "noclip:block/arc_cab_upper_knockout",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/arc_cab_upper_knockout",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/arc_cab_upper_knockout",
+      "y": 270
+    }
+  }
+}

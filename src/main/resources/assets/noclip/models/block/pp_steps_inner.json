@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "noclip:block/pp_foam_blue",
+    "top": "noclip:block/pp_foam_blue",
+    "side": "noclip:block/pp_foam_blue"
+  }
+}

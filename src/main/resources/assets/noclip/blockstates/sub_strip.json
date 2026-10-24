@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sub_strip"
+    },
+    "facing=east": {
+      "model": "noclip:block/sub_strip",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sub_strip",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sub_strip",
+      "y": 270
+    }
+  }
+}

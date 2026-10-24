@@ -51,7 +51,12 @@ public final class AutoTest {
         timer++;
         switch (phase) {
             case 0 -> {
-                if (mc.screen instanceof TitleScreen && timer > 40) {
+                if (!(mc.screen instanceof TitleScreen)) {
+                    timer = 0;
+                    return;
+                }
+                if (timer == 60) shot(mc, "title_screen");
+                if (timer > 70) {
                     LevelSettings s = new LevelSettings("autotest", GameType.CREATIVE, false, Difficulty.NORMAL, true,
                             new GameRules(), WorldDataConfiguration.DEFAULT);
                     mc.createWorldOpenFlows().createFreshLevel("autotest", s, new WorldOptions(1234L, false, false),
@@ -96,6 +101,10 @@ public final class AutoTest {
             case 3 -> {
                 Player p = mc.player;
                 if (p == null) return;
+                if (System.getenv("NOCLIP_AUTOTEST_PANORAMA") != null) {
+                    panorama(mc, p);
+                    return;
+                }
                 if (timer == 50) shot(mc, current + "_card");
                 if (timer == settle - 40 && System.getenv("NOCLIP_AUTOTEST_ENTITIES") != null) spawnLineup(mc);
                 int[] at = {settle, settle + 40, settle + 80, settle + 120};
@@ -113,6 +122,32 @@ public final class AutoTest {
             }
             default -> {
             }
+        }
+    }
+
+    private static float panoYaw;
+
+    /** Captures the six faces of a cube map for the title screen panorama. */
+    private static void panorama(Minecraft mc, Player p) {
+        com.noclip.client.ClientState.panorama = true;
+        mc.options.hideGui = true;
+        mc.options.bobView().set(false);
+        mc.options.fov().set(90);
+        if (timer == 5) panoYaw = p.getYRot();
+        float[][] faces = {{0, 0}, {90, 0}, {180, 0}, {270, 0}, {0, -90}, {0, 90}};
+        for (int i = 0; i < 6; i++) {
+            int at = settle + i * 30;
+            if (timer == at - 15) {
+                p.setYRot(panoYaw + faces[i][0]);
+                p.setXRot(faces[i][1]);
+                p.yRotO = p.getYRot();
+                p.xRotO = p.getXRot();
+            }
+            if (timer == at) shot(mc, "panorama_" + i);
+        }
+        if (timer > settle + 6 * 30) {
+            phase = 2;
+            timer = 0;
         }
     }
 

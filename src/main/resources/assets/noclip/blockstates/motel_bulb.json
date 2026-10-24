@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/motel_bulb"
+    },
+    "lit=false": {
+      "model": "noclip:block/motel_bulb_off"
+    }
+  }
+}

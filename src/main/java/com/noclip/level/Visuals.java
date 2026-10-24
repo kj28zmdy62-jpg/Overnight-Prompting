@@ -30,6 +30,8 @@ public final class Visuals {
     public boolean sky = false;
     /** Draw clouds. */
     public boolean clouds = false;
+    /** Draw vanilla rain/snow when the world's weather has it. */
+    public boolean weather = false;
 
     public Visuals grain(float v) { grain = v; return this; }
     public Visuals aberration(float v) { aberration = v; return this; }
@@ -54,4 +56,5 @@ public final class Visuals {
     public Visuals special(float v) { special = v; return this; }
     public Visuals sky() { sky = true; return this; }
     public Visuals clouds() { clouds = true; return this; }
+    public Visuals weather() { weather = true; return this; }
 }

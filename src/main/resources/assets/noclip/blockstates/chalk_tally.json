@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/chalk_tally"
+    },
+    "facing=east": {
+      "model": "noclip:block/chalk_tally",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/chalk_tally",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/chalk_tally",
+      "y": 270
+    }
+  }
+}

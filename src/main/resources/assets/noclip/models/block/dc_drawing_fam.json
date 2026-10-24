@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "d": "noclip:block/dc_drawing_fam",
+    "particle": "noclip:block/dc_drawing_fam"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        1,
+        0
+      ],
+      "to": [
+        15,
+        15,
+        0.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "#d",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        }
+      }
+    }
+  ]
+}

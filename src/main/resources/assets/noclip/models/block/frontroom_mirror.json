@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "glass": "noclip:block/fr_mirror",
+    "frame": "noclip:block/fr_wood_dark",
+    "particle": "noclip:block/fr_mirror"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        15
+      ],
+      "to": [
+        14,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/frontroom_table"
+    },
+    "facing=east": {
+      "model": "noclip:block/frontroom_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/frontroom_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/frontroom_table",
+      "y": 270
+    }
+  }
+}

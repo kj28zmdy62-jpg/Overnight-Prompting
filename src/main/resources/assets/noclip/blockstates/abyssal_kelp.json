@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/abyssal_kelp"
+    },
+    "facing=east": {
+      "model": "noclip:block/abyssal_kelp"
+    },
+    "facing=south": {
+      "model": "noclip:block/abyssal_kelp"
+    },
+    "facing=west": {
+      "model": "noclip:block/abyssal_kelp"
+    }
+  }
+}

@@ -8,3 +8,4 @@ classes/
 bin/
 remappedSrc/
 __pycache__/
+.claude/worktrees/

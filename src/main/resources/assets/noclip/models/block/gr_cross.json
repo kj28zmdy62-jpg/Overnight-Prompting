@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/gr_cross",
+    "up": "noclip:block/gr_cross",
+    "north": "noclip:block/gr_cross",
+    "south": "noclip:block/gr_cross",
+    "west": "noclip:block/gr_cross",
+    "east": "noclip:block/gr_cross",
+    "particle": "noclip:block/gr_cross"
+  }
+}

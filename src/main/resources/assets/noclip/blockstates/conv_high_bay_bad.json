@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/conv_high_bay_bad"
+    },
+    "lit=false": {
+      "model": "noclip:block/conv_high_bay_bad_off"
+    }
+  }
+}

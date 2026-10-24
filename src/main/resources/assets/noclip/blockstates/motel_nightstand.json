@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/motel_nightstand"
+    },
+    "facing=east": {
+      "model": "noclip:block/motel_nightstand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/motel_nightstand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/motel_nightstand",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pressure_gauge"
+    },
+    "facing=east": {
+      "model": "noclip:block/pressure_gauge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pressure_gauge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pressure_gauge",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "s": "noclip:block/sb_suitcase",
+    "particle": "noclip:block/sb_suitcase"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        4,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#s",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#s",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#s",
+          "uv": [
+            2,
+            12,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#s",
+          "uv": [
+            2,
+            12,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#s",
+          "uv": [
+            4,
+            12,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#s",
+          "uv": [
+            4,
+            12,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

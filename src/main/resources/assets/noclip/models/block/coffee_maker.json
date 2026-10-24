@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "case": "noclip:block/l4_crt_case",
+    "front": "noclip:block/l4_coffee",
+    "particle": "noclip:block/l4_crt_case"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        6
+      ],
+      "to": [
+        12,
+        10,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            4,
+            6,
+            12,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            4,
+            6,
+            12,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#case",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#front",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            6,
+            6,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            6,
+            6,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

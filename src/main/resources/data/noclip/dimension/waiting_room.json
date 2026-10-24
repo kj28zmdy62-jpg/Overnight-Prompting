@@ -1,0 +1,11 @@
+{
+  "type": "noclip:waiting_room",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "waiting_room",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:waiting_room"
+    }
+  }
+}

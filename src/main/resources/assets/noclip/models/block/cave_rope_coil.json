@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rope": "noclip:block/l8_rope",
+    "particle": "noclip:block/l8_rope"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        4,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            12,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            12,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            12,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#rope",
+          "uv": [
+            3,
+            12,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

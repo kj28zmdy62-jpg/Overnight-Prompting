@@ -27,7 +27,7 @@ public final class BackroomsPost {
 
     public static void render(float partialTick) {
         Minecraft mc = Minecraft.getInstance();
-        if (mc.level == null || failed) return;
+        if (mc.level == null || failed || ClientState.panorama) return;
         Visuals target = ClientState.level != null ? ClientState.level.visuals : NONE;
         float strengthTarget = ClientState.level != null || ClientState.insanity() > 0 || ClientState.camcorder ? 1f : 0f;
         ClientState.effectStrength += (strengthTarget - ClientState.effectStrength) * 0.05f;

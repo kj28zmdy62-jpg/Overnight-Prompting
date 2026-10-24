@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/office_copier"
+    },
+    "facing=east": {
+      "model": "noclip:block/office_copier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/office_copier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/office_copier",
+      "y": 270
+    }
+  }
+}

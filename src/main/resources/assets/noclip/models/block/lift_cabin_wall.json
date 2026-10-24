@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "noclip:block/lift_cabin_wall"
+  }
+}

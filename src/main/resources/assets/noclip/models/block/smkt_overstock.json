@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/smkt_overstock",
+    "bottom": "noclip:block/smkt_overstock",
+    "side": "noclip:block/smkt_overstock"
+  }
+}

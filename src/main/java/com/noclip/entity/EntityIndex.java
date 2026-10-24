@@ -6,11 +6,38 @@ public final class EntityIndex {
     private EntityIndex() {}
 
     public static void registerAll() {
+        Bellhop.register();
+        CaveCrawler.register();
+        DhTinSoldier.register();
         DuctCrawler.register();
         ElevatorCar.register();
+        GasAttendant.register();
+        GrHorizon.register();
+        GrSentinel.register();
+        Groundskeeper.register();
+        HallMonitor.register();
+        InvertedWalker.register();
+        Leviathan.register();
+        LiftAttendant.register();
+        MotionClayFigure.register();
+        MrReflection.register();
+        MtNull.register();
+        NightStocker.register();
+        PgPhotographer.register();
+        PlayplaceMascot.register();
+        RecResident.register();
+        RedGuest.register();
+        RunChaser.register();
+        Seeker.register();
         SludgeLurker.register();
+        StaticMan.register();
         TankSettler.register();
         TheDrill.register();
+        TideWalker.register();
+        VoidFarThing.register();
+        WardPatient.register();
+        WindowWatcher.register();
         WrappedOne.register();
+        ZzBlank.register();
     }
 }

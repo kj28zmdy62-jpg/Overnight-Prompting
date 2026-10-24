@@ -1,0 +1,11 @@
+{
+  "type": "noclip:parking_garage",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "parking_garage",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:parking_garage"
+    }
+  }
+}

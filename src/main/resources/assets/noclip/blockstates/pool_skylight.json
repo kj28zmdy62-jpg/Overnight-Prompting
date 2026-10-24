@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "noclip:block/pool_skylight"
+    },
+    "lit=false": {
+      "model": "noclip:block/pool_skylight_off"
+    }
+  }
+}

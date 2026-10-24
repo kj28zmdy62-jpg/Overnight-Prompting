@@ -1,0 +1,85 @@
+{
+  "variants": {
+    "letter=0": {
+      "model": "noclip:block/sub_letter_0"
+    },
+    "letter=1": {
+      "model": "noclip:block/sub_letter_1"
+    },
+    "letter=2": {
+      "model": "noclip:block/sub_letter_2"
+    },
+    "letter=3": {
+      "model": "noclip:block/sub_letter_3"
+    },
+    "letter=4": {
+      "model": "noclip:block/sub_letter_4"
+    },
+    "letter=5": {
+      "model": "noclip:block/sub_letter_5"
+    },
+    "letter=6": {
+      "model": "noclip:block/sub_letter_6"
+    },
+    "letter=7": {
+      "model": "noclip:block/sub_letter_7"
+    },
+    "letter=8": {
+      "model": "noclip:block/sub_letter_8"
+    },
+    "letter=9": {
+      "model": "noclip:block/sub_letter_9"
+    },
+    "letter=10": {
+      "model": "noclip:block/sub_letter_10"
+    },
+    "letter=11": {
+      "model": "noclip:block/sub_letter_11"
+    },
+    "letter=12": {
+      "model": "noclip:block/sub_letter_12"
+    },
+    "letter=13": {
+      "model": "noclip:block/sub_letter_13"
+    },
+    "letter=14": {
+      "model": "noclip:block/sub_letter_14"
+    },
+    "letter=15": {
+      "model": "noclip:block/sub_letter_15"
+    },
+    "letter=16": {
+      "model": "noclip:block/sub_letter_16"
+    },
+    "letter=17": {
+      "model": "noclip:block/sub_letter_17"
+    },
+    "letter=18": {
+      "model": "noclip:block/sub_letter_18"
+    },
+    "letter=19": {
+      "model": "noclip:block/sub_letter_19"
+    },
+    "letter=20": {
+      "model": "noclip:block/sub_letter_20"
+    },
+    "letter=21": {
+      "model": "noclip:block/sub_letter_21"
+    },
+    "letter=22": {
+      "model": "noclip:block/sub_letter_22"
+    },
+    "letter=23": {
+      "model": "noclip:block/sub_letter_23"
+    },
+    "letter=24": {
+      "model": "noclip:block/sub_letter_24"
+    },
+    "letter=25": {
+      "model": "noclip:block/sub_letter_25"
+    },
+    "letter=26": {
+      "model": "noclip:block/sub_letter_26"
+    }
+  }
+}

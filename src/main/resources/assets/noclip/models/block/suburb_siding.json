@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/l9_trim",
+    "bottom": "noclip:block/l9_trim",
+    "side": "noclip:block/l9_siding"
+  }
+}

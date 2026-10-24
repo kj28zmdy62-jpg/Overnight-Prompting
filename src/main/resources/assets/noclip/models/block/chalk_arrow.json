@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "m": "noclip:block/chalk_arrow",
+    "particle": "noclip:block/chalk_arrow"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        15.9
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#m",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

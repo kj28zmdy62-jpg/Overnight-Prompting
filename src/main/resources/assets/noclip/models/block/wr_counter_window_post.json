@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "noclip:block/wr_counter_window",
+    "edge": "noclip:block/wr_counter_window"
+  }
+}

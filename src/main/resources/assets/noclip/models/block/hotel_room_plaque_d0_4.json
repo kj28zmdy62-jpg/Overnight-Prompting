@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "d": "noclip:block/l5_digit_4",
+    "particle": "noclip:block/l5_brass"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4.5,
+        0.6
+      ],
+      "to": [
+        6,
+        8.5,
+        0.8
+      ],
+      "faces": {
+        "south": {
+          "texture": "#d",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

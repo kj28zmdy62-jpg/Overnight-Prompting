@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/caged_bulb_cold"
+    },
+    "facing=east": {
+      "model": "noclip:block/caged_bulb_cold",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/caged_bulb_cold",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/caged_bulb_cold",
+      "y": 270
+    }
+  }
+}

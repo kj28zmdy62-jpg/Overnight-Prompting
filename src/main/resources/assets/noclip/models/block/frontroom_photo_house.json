@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pic": "noclip:block/fr_photo_house",
+    "frame": "noclip:block/fr_wood_dark",
+    "particle": "noclip:block/fr_photo_house"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        2,
+        15
+      ],
+      "to": [
+        12,
+        12,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#pic",
+          "uv": [
+            4,
+            4,
+            12,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            4,
+            4,
+            12,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            4,
+            16,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            4,
+            16,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/c188_room_curtain",
+    "up": "noclip:block/c188_room_curtain",
+    "north": "noclip:block/c188_room_curtain",
+    "south": "noclip:block/c188_room_curtain",
+    "west": "noclip:block/c188_room_curtain",
+    "east": "noclip:block/c188_room_curtain",
+    "particle": "noclip:block/c188_room_curtain"
+  }
+}

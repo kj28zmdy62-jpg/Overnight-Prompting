@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "noclip:block/l37_slide",
+    "top": "noclip:block/l37_slide",
+    "side": "noclip:block/l37_slide"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/party_banner_t"
+    },
+    "facing=east": {
+      "model": "noclip:block/party_banner_t",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/party_banner_t",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/party_banner_t",
+      "y": 270
+    }
+  }
+}

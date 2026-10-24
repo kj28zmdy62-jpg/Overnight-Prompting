@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/stair_paper"
+    },
+    "facing=east": {
+      "model": "noclip:block/stair_paper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/stair_paper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/stair_paper",
+      "y": 270
+    }
+  }
+}

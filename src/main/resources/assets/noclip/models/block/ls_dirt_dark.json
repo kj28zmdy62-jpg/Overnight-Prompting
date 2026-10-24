@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/ls_dirt_dark",
+    "up": "noclip:block/ls_dirt_dark",
+    "north": "noclip:block/ls_dirt_dark",
+    "south": "noclip:block/ls_dirt_dark",
+    "west": "noclip:block/ls_dirt_dark",
+    "east": "noclip:block/ls_dirt_dark",
+    "particle": "noclip:block/ls_dirt_dark"
+  }
+}

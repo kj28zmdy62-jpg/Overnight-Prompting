@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "noclip:wooden_crate"
+    },
+    "title": "Habitable?",
+    "description": "Reach Level 1.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrive": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "noclip:level_1"
+      }
+    }
+  },
+  "parent": "noclip:noclip"
+}

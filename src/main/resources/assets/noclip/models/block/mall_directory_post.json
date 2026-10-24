@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "metal": "noclip:block/mall_dark_metal",
+    "particle": "noclip:block/mall_dark_metal"
+  },
+  "elements": [
+    {
+      "from": [
+        6.5,
+        0,
+        6.5
+      ],
+      "to": [
+        9.5,
+        16,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        1,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

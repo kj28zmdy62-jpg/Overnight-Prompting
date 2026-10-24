@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "red": "noclip:block/motel_green_metal",
+    "front": "noclip:block/motel_vending_front",
+    "particle": "noclip:block/motel_green_metal"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        16,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#red",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#red",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#front",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#red",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#red",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#red",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

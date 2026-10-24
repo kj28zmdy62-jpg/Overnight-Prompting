@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/pool_float_ring"
+    },
+    "facing=east": {
+      "model": "noclip:block/pool_float_ring",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/pool_float_ring",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/pool_float_ring",
+      "y": 270
+    }
+  }
+}

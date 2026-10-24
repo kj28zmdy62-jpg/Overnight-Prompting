@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/ol_car_red_cabin_back"
+    },
+    "facing=east": {
+      "model": "noclip:block/ol_car_red_cabin_back",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/ol_car_red_cabin_back",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/ol_car_red_cabin_back",
+      "y": 270
+    }
+  }
+}

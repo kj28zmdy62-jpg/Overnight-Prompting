@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/cv_marquee",
+    "up": "noclip:block/cv_marquee",
+    "north": "noclip:block/cv_marquee",
+    "south": "noclip:block/cv_marquee",
+    "west": "noclip:block/cv_marquee",
+    "east": "noclip:block/cv_marquee",
+    "particle": "noclip:block/cv_marquee"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "noclip:dollhouse",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "dollhouse",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:dollhouse"
+    }
+  }
+}

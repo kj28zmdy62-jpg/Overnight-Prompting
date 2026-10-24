@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/mall_palm_trunk"
+    },
+    "facing=east": {
+      "model": "noclip:block/mall_palm_trunk"
+    },
+    "facing=south": {
+      "model": "noclip:block/mall_palm_trunk"
+    },
+    "facing=west": {
+      "model": "noclip:block/mall_palm_trunk"
+    }
+  }
+}

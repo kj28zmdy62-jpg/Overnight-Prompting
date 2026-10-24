@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "noclip:block/l4_stair_door_bottom"
+  }
+}

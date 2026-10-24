@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "hot": "noclip:block/l2_pipe_hot",
+    "ring": "noclip:block/l2_bracket",
+    "particle": "noclip:block/l2_pipe_hot"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#hot",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        6,
+        2
+      ],
+      "to": [
+        14,
+        8,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            8,
+            14,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            8,
+            14,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            8,
+            14,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#ring",
+          "uv": [
+            2,
+            8,
+            14,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

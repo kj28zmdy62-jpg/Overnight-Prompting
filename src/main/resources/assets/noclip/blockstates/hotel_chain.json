@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/hotel_chain"
+    },
+    "facing=east": {
+      "model": "noclip:block/hotel_chain"
+    },
+    "facing=south": {
+      "model": "noclip:block/hotel_chain"
+    },
+    "facing=west": {
+      "model": "noclip:block/hotel_chain"
+    }
+  }
+}

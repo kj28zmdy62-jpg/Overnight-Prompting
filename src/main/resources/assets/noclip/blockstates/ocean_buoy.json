@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/ocean_buoy"
+    },
+    "facing=east": {
+      "model": "noclip:block/ocean_buoy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/ocean_buoy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/ocean_buoy",
+      "y": 270
+    }
+  }
+}

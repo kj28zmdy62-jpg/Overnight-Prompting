@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/ol_car_green_trunk"
+    },
+    "facing=east": {
+      "model": "noclip:block/ol_car_green_trunk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/ol_car_green_trunk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/ol_car_green_trunk",
+      "y": 270
+    }
+  }
+}

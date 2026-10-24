@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/sf_tv_fallen"
+    },
+    "facing=east": {
+      "model": "noclip:block/sf_tv_fallen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/sf_tv_fallen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/sf_tv_fallen",
+      "y": 270
+    }
+  }
+}

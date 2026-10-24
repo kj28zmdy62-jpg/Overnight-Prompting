@@ -1,0 +1,284 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "post": "noclip:block/l10_post",
+    "face": "noclip:block/l10_scarecrow_face",
+    "face_side": "noclip:block/l10_straw",
+    "straw": "noclip:block/l10_straw",
+    "particle": "noclip:block/l10_post"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        3,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#post",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#post",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#post",
+          "uv": [
+            7,
+            13,
+            9,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#post",
+          "uv": [
+            7,
+            13,
+            9,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#post",
+          "uv": [
+            7,
+            13,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#post",
+          "uv": [
+            7,
+            13,
+            9,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        11,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#face_side",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#face_side",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#face_side",
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#face",
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#face_side",
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#face_side",
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        11,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ]
+        },
+        "south": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ]
+        },
+        "east": {
+          "texture": "#straw",
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        15,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#straw",
+          "uv": [
+            5,
+            1,
+            11,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

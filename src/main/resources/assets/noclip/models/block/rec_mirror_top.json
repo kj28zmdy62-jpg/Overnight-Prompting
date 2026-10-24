@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/rec_mirror_top",
+    "up": "noclip:block/rec_mirror_top",
+    "north": "noclip:block/rec_mirror_top",
+    "south": "noclip:block/rec_mirror_top",
+    "west": "noclip:block/rec_mirror_top",
+    "east": "noclip:block/rec_mirror_top",
+    "particle": "noclip:block/rec_mirror_top"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "noclip:block/motel_pole"
+    },
+    "axis=z": {
+      "model": "noclip:block/motel_pole_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "noclip:block/motel_pole_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

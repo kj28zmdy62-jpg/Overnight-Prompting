@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": "RUN",
+    "description": "Arrive in Level !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "arrive": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "noclip:level_run"
+      }
+    }
+  },
+  "parent": "noclip:noclip"
+}

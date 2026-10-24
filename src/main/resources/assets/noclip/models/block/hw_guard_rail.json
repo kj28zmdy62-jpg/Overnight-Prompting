@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "r": "noclip:block/hw_rail",
+    "particle": "noclip:block/hw_rail"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        7,
+        6
+      ],
+      "to": [
+        16,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#r",
+          "uv": [
+            0,
+            6,
+            16,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#r",
+          "uv": [
+            0,
+            6,
+            16,
+            8
+          ]
+        },
+        "north": {
+          "texture": "#r",
+          "uv": [
+            0,
+            4,
+            16,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#r",
+          "uv": [
+            0,
+            4,
+            16,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#r",
+          "uv": [
+            6,
+            4,
+            8,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#r",
+          "uv": [
+            6,
+            4,
+            8,
+            9
+          ]
+        }
+      }
+    }
+  ]
+}

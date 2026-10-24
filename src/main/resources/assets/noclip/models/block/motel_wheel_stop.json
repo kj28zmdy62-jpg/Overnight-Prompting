@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "c": "noclip:block/motel_curb",
+    "particle": "noclip:block/motel_curb"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        5
+      ],
+      "to": [
+        15,
+        3,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#c",
+          "uv": [
+            1,
+            5,
+            15,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#c",
+          "uv": [
+            1,
+            5,
+            15,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#c",
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#c",
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#c",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#c",
+          "uv": [
+            5,
+            13,
+            11,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

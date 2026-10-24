@@ -172,8 +172,21 @@ public final class ModBlocks {
             case "bone" -> SoundType.BONE_BLOCK;
             case "moss" -> SoundType.MOSS;
             case "concrete" -> SoundType.STONE;
+            case "moist" -> moist();
             default -> SoundType.STONE;
         };
+    }
+
+    private static SoundType moistCarpet;
+
+    /** Wet carpet: squelches underfoot. */
+    private static SoundType moist() {
+        if (moistCarpet == null) {
+            var step = ModSounds.get("block.moist_carpet.step");
+            moistCarpet = new SoundType(1.0f, 1.0f, SoundType.WOOL.getBreakSound(), step,
+                    SoundType.WOOL.getPlaceSound(), SoundType.WOOL.getHitSound(), step);
+        }
+        return moistCarpet;
     }
 
     private static String str(JsonObject o, String k, String def) {

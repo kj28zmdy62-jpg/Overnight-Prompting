@@ -15,7 +15,7 @@ def wallpaper_base_pattern(seed="wp"):
     yy, xx = np.mgrid[0:S, 0:S]
     band = ((xx % 8) < 1).astype(float) * 0.06 + ((xx % 8) == 4).astype(float) * 0.03
     chev = (np.abs(((yy + np.abs((xx % 8) - 4)) % 8) - 4) < 0.6).astype(float) * ((xx % 8) > 1) * ((xx % 8) < 7)
-    img = T.shade(img, 1 - band - chev * 0.045)
+    img = T.shade(img, 1 - band * 1.2 - chev * 0.075)
     # long vertical discolouration, like the paper has been damp for years
     streak = T.noise(seed + "streak", sigma=0, shape=(1, S))
     streak = np.repeat(T.noise(seed + "s2", shape=(1, S), sigma=0) * 0 + streak, S, axis=0)
@@ -181,8 +181,8 @@ cube("yellow_wallpaper_baseboard", "l0_wallpaper_base", display="Yellow Wallpape
 cube("yellow_wallpaper_peeling", "l0_wallpaper_peeling", display="Peeling Yellow Wallpaper", sound="wool")
 cube("yellow_wallpaper_outlet", "l0_wallpaper_outlet", display="Wall Outlet", sound="wool")
 cube("yellow_wallpaper_smiley", "l0_wallpaper_smiley", display="Scrawled Wallpaper", sound="wool")
-cube("moist_carpet", "l0_carpet", sound="wool")
-cube("damp_carpet", "l0_carpet_damp", sound="wool")
+cube("moist_carpet", "l0_carpet", sound="moist")
+cube("damp_carpet", "l0_carpet_damp", sound="moist")
 cube("ceiling_tile", "l0_ceiling", sound="wool", flat=True)
 cube("stained_ceiling_tile", "l0_ceiling_stained", sound="wool", flat=True)
 cube("missing_ceiling_tile", "l0_ceiling_missing", sound="wool", flat=True)
@@ -263,3 +263,35 @@ sound("ambient.level_0.additions",
 
 level("level_0", fog="#b9a95e", sky="#b9a95e", ambient="ambient.level_0",
       additions="ambient.level_0.additions", additions_chance=0.004, fixed_time=6000, height=64)
+
+
+def squelch(i):
+    def f():
+        n = int(0.32 * Y.SR)
+        w = Y.white(0.32, f"sq{i}")
+        t = np.arange(n) / Y.SR
+        body = Y.lp(w, 700 + i * 80) * np.exp(-t * 18)
+        wet = Y.bp(w, 1800, 5200) * np.exp(-((t - 0.06) ** 2) / 0.0015) * 0.5
+        bubbles = np.zeros(n)
+        for k in range(3):
+            fr = 900 + 400 * k + i * 120
+            st = int((0.05 + 0.04 * k) * Y.SR)
+            seg = np.arange(n - st) / Y.SR
+            bubbles[st:] += np.sin(2 * np.pi * fr * seg * (1 + seg * 3)) * np.exp(-seg * 60) * 0.25
+        return Y.norm(body + wet + bubbles, 0.7)
+    return f
+
+
+def zap(i):
+    def f():
+        d = 0.5
+        t = Y.t_axis(d)
+        buzz = np.sign(np.sin(2 * np.pi * 120 * t)) * 0.4 + Y.bp(Y.white(d, f"zap{i}"), 2000, 8000) * 0.5
+        env_ = (np.random.default_rng(i).random(len(t)) > 0.4).astype(float)
+        env_ = Y.lp(env_, 60) * np.exp(-t * 5)
+        return Y.norm(Y.hp(buzz * env_, 150), 0.5)
+    return f
+
+
+sound("block.moist_carpet.step", [(f"block/moist_carpet_step{i}", squelch(i)) for i in range(4)], volume=0.6)
+sound("block.light.zap", [(f"block/light_zap{i}", zap(i)) for i in range(3)], subtitle="A light buzzes")

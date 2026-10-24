@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/party_streamers_a"
+    },
+    "facing=east": {
+      "model": "noclip:block/party_streamers_a"
+    },
+    "facing=south": {
+      "model": "noclip:block/party_streamers_a"
+    },
+    "facing=west": {
+      "model": "noclip:block/party_streamers_a"
+    }
+  }
+}

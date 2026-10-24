@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/gs_canopy_under",
+    "up": "noclip:block/gs_roof",
+    "north": "noclip:block/gs_fascia",
+    "south": "noclip:block/gs_fascia",
+    "west": "noclip:block/gs_fascia",
+    "east": "noclip:block/gs_fascia",
+    "particle": "noclip:block/gs_fascia"
+  }
+}

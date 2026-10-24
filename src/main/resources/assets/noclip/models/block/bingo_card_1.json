@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "c": "noclip:block/bingo_card_1",
+    "particle": "noclip:block/bingo_card_1"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        -4,
+        2
+      ],
+      "to": [
+        13,
+        -3.8,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#c",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#c"
+        }
+      }
+    }
+  ]
+}

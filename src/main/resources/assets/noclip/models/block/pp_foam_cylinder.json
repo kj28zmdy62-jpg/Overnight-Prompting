@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pad": "noclip:block/pp_pad_green",
+    "particle": "noclip:block/pp_pad_green"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#pad",
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        8,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            8,
+            13,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            8,
+            13,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            8,
+            13,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#pad",
+          "uv": [
+            3,
+            8,
+            13,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

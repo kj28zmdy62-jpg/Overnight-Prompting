@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "l": "noclip:block/conv_lanyards",
+    "p": "noclip:block/conv_pipe",
+    "particle": "noclip:block/conv_lanyards"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        7
+      ],
+      "to": [
+        15,
+        16,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#p",
+          "uv": [
+            1,
+            7,
+            15,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#p",
+          "uv": [
+            1,
+            7,
+            15,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#l",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#l",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#p",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#p",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@ public final class NoclipTriggers {
 
     public static void init() {
         ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) -> {
-            if (entity instanceof ServerPlayer p && source.is(DamageTypes.IN_WALL) && !Travel.onCooldown(p)) {
+            if (entity instanceof ServerPlayer p && source.is(DamageTypes.IN_WALL) && !Travel.onCooldown(p)
+                    && p.serverLevel().getGameRules().getBoolean(com.noclip.registry.ModGameRules.NOCLIP_FROM_SUFFOCATION)) {
                 boolean backrooms = Levels.isBackrooms(p.level().dimension());
                 float chance = backrooms ? 0.5f : (p.level().dimension() == Level.OVERWORLD ? suffocationChance : 0f);
                 if (p.getRandom().nextFloat() < chance) {
@@ -45,6 +46,7 @@ public final class NoclipTriggers {
      */
     public static void onWallPush(ServerPlayer p, int ticks) {
         if (p.isSpectator() || Travel.onCooldown(p) || ticks < 100) return;
+        if (!p.serverLevel().getGameRules().getBoolean(com.noclip.registry.ModGameRules.NOCLIP_FROM_WALLS)) return;
         net.minecraft.core.BlockPos ahead = net.minecraft.core.BlockPos.containing(
                 p.position().add(p.getLookAngle().multiply(1, 0, 1).normalize().scale(0.8)).add(0, 0.5, 0));
         if (p.level().getBlockState(ahead).getCollisionShape(p.level(), ahead).isEmpty()) return;

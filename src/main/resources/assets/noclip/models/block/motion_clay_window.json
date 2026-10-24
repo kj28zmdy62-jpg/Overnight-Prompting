@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/m94_window",
+    "up": "noclip:block/m94_window",
+    "north": "noclip:block/m94_window",
+    "south": "noclip:block/m94_window",
+    "west": "noclip:block/m94_window",
+    "east": "noclip:block/m94_window",
+    "particle": "noclip:block/m94_window"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "noclip:block/pp_net",
+    "edge": "noclip:block/pp_net"
+  }
+}

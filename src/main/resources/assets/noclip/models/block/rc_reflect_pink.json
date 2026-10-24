@@ -1,0 +1,12 @@
+{
+  "parent": "noclip:base/cube_flat",
+  "textures": {
+    "down": "noclip:block/rc_reflect_pink",
+    "up": "noclip:block/rc_reflect_pink",
+    "north": "noclip:block/rc_reflect_pink",
+    "south": "noclip:block/rc_reflect_pink",
+    "west": "noclip:block/rc_reflect_pink",
+    "east": "noclip:block/rc_reflect_pink",
+    "particle": "noclip:block/rc_reflect_pink"
+  }
+}

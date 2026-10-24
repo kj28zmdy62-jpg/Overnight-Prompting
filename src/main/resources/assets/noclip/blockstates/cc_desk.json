@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/cc_desk"
+    },
+    "facing=east": {
+      "model": "noclip:block/cc_desk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/cc_desk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/cc_desk",
+      "y": 270
+    }
+  }
+}

@@ -38,6 +38,8 @@ public final class ModEntities {
     public static EntityType<SkinStealer> SKIN_STEALER;
     public static EntityType<Partygoer> PARTYGOER;
     public static EntityType<Deathmoth> DEATHMOTH;
+    public static EntityType<com.noclip.entity.Lurker> LURKER;
+    public static EntityType<com.noclip.entity.Mimic> MIMIC;
 
     private ModEntities() {}
 
@@ -50,6 +52,8 @@ public final class ModEntities {
         SKIN_STEALER = register("skin_stealer", SkinStealer::new, MobCategory.MONSTER, 0.6f, 2.2f, SkinStealer.createAttributes(), 0xC9B6A2, 0x5A2A22);
         PARTYGOER = register("partygoer", Partygoer::new, MobCategory.MONSTER, 0.6f, 2.0f, Partygoer.createAttributes(), 0xF0D040, 0xE04070);
         DEATHMOTH = register("deathmoth", Deathmoth::new, MobCategory.MONSTER, 1.4f, 0.9f, Deathmoth.createAttributes(), 0x7A6C58, 0xE8DCC0);
+        LURKER = register("lurker", com.noclip.entity.Lurker::new, MobCategory.MONSTER, 0.6f, 2.4f, com.noclip.entity.Lurker.createAttributes(), 0x1A1A1A, 0x6A0000);
+        MIMIC = register("mimic", com.noclip.entity.Mimic::new, MobCategory.MONSTER, 0.6f, 1.8f, com.noclip.entity.Mimic.createAttributes(), 0x3A3A3A, 0xB0B0B0);
         com.noclip.entity.EntityIndex.registerAll();
     }
 

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/ap_wing",
+    "bottom": "noclip:block/ap_wing",
+    "side": "noclip:block/ap_engine"
+  }
+}

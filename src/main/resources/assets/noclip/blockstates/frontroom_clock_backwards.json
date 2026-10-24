@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/frontroom_clock_backwards"
+    },
+    "facing=east": {
+      "model": "noclip:block/frontroom_clock_backwards",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/frontroom_clock_backwards",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/frontroom_clock_backwards",
+      "y": 270
+    }
+  }
+}

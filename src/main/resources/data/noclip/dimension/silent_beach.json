@@ -1,0 +1,11 @@
+{
+  "type": "noclip:silent_beach",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "silent_beach",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:silent_beach"
+    }
+  }
+}

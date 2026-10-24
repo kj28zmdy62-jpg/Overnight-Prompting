@@ -1,0 +1,283 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "mirror": "noclip:block/mr_mirror",
+    "chrome": "noclip:block/mr_chrome",
+    "bulb": "noclip:block/mr_bulb",
+    "particle": "noclip:block/mr_mirror"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chrome",
+          "uv": [
+            2,
+            0,
+            14,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#chrome",
+          "uv": [
+            2,
+            0,
+            14,
+            1
+          ]
+        },
+        "north": {
+          "texture": "#chrome",
+          "uv": [
+            2,
+            2,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#mirror",
+          "uv": [
+            2,
+            2,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#chrome",
+          "uv": [
+            0,
+            2,
+            1,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#chrome",
+          "uv": [
+            0,
+            2,
+            1,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        14,
+        0
+      ],
+      "to": [
+        3,
+        16,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            1,
+            0,
+            3,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#bulb",
+          "uv": [
+            1,
+            0,
+            3,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#bulb",
+          "uv": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#bulb",
+          "uv": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        14,
+        0
+      ],
+      "to": [
+        9,
+        16,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            7,
+            0,
+            9,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#bulb",
+          "uv": [
+            7,
+            0,
+            9,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#bulb",
+          "uv": [
+            7,
+            0,
+            9,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#bulb",
+          "uv": [
+            7,
+            0,
+            9,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13,
+        14,
+        0
+      ],
+      "to": [
+        15,
+        16,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bulb",
+          "uv": [
+            13,
+            0,
+            15,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#bulb",
+          "uv": [
+            13,
+            0,
+            15,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#bulb",
+          "uv": [
+            13,
+            0,
+            15,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#bulb",
+          "uv": [
+            13,
+            0,
+            15,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#bulb",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

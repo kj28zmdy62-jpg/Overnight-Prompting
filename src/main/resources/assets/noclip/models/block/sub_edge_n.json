@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/sub_edge_n",
+    "bottom": "noclip:block/sub_platform",
+    "side": "noclip:block/sub_tile_base"
+  }
+}

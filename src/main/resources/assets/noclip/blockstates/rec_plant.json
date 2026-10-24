@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/rec_plant"
+    },
+    "facing=east": {
+      "model": "noclip:block/rec_plant",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/rec_plant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/rec_plant",
+      "y": 270
+    }
+  }
+}

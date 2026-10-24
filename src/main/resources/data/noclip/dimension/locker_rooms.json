@@ -1,0 +1,11 @@
+{
+  "type": "noclip:locker_rooms",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "locker_rooms",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:locker_rooms"
+    }
+  }
+}

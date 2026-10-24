@@ -314,3 +314,30 @@ for name, disp in (("faceling", "Faceling"), ("mannequin", "Mannequin"), ("shado
 from assets import ITEM_MODELS
 for name in ("faceling", "mannequin", "shadow_figure", "skin_stealer", "partygoer", "hound", "deathmoth", "smiler"):
     ITEM_MODELS[f"{name}_spawn_egg"] = {"parent": "minecraft:item/template_spawn_egg"}
+
+
+# ------------------------------------------------------------------ Lurker (only visible through a camcorder)
+
+def lurker_tex():
+    c = Canvas()
+    pale = skin("lk", "#8c8a86", "#a5a29c", sigma=0.6, spots="#5a5650")
+
+    def face(w, h):
+        img = pale(w, h)
+        img[2:4, 1:3] = T.hexc("#050505")
+        img[2:4, 5:7] = T.hexc("#050505")
+        img[4:8, 3:5] = T.hexc("#1a0a08")
+        return img
+
+    paint_humanoid(c, pale, pale, pale, pale, face=face)
+    return c.out()
+
+
+entity_model("lurker", humanoid(arm_len=20, leg_len=16))
+entity_tex("lurker", lurker_tex)
+lang("entity.noclip.lurker", "Lurker")
+lang("item.noclip.lurker_spawn_egg", "Lurker Spawn Egg")
+lang("entity.noclip.mimic", "Mimic")
+lang("item.noclip.mimic_spawn_egg", "Mimic Spawn Egg")
+ITEM_MODELS["lurker_spawn_egg"] = {"parent": "minecraft:item/template_spawn_egg"}
+ITEM_MODELS["mimic_spawn_egg"] = {"parent": "minecraft:item/template_spawn_egg"}

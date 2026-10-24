@@ -14,6 +14,20 @@ import java.util.List;
 public class JournalScreen extends Screen {
     private double scroll;
 
+    /** Notes the wanderer wrote to themself on the first page. */
+    private static final String[] NOTES = {
+            "Notes to self:",
+            "- Almond water keeps your head clear. Drink it.",
+            "- Lean into a wall long enough and it lets you through.",
+            "- Hounds hear you. Crouch. Don't run.",
+            "- Smilers hate being stared at. Don't light them up.",
+            "- If you hear footsteps when you stop, keep walking.",
+            "- The camcorder sees what I can't.",
+            "- Never turn your back on a mannequin.",
+            "- Stay with people. It's easier with people.",
+            "- Look for doors, holes, stairs, signs. Every place has a way out."
+    };
+
     public JournalScreen() {
         super(Component.translatable("item.noclip.journal"));
     }
@@ -31,6 +45,11 @@ public class JournalScreen extends Screen {
         g.drawString(font, head, x0, y0, 0xFF3A2A1A, false);
         g.enableScissor(x0 - 4, y0 + 14, x0 + w + 4, y1);
         int y = y0 + 16 - (int) scroll;
+        for (String note : NOTES) {
+            if (y > y0 && y < y1) g.drawString(font, note, x0 + 4, y, 0xFF4A3A26, false);
+            y += 10;
+        }
+        y += 8;
         for (BackroomsLevel l : all) {
             boolean seen = ClientState.visited.contains(l.id);
             if (y > y0 && y < y1) {
@@ -46,7 +65,7 @@ public class JournalScreen extends Screen {
             y += 24;
         }
         g.disableScissor();
-        scroll = Math.max(0, Math.min(scroll, Math.max(0, all.size() * 24 - (y1 - y0 - 20))));
+        scroll = Math.max(0, Math.min(scroll, Math.max(0, all.size() * 24 + NOTES.length * 10 + 8 - (y1 - y0 - 20))));
     }
 
     @Override

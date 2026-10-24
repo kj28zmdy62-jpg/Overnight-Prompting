@@ -1,0 +1,11 @@
+{
+  "type": "noclip:daycare",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "daycare",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:daycare"
+    }
+  }
+}

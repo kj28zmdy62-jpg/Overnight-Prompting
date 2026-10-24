@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/fr_counter",
+    "bottom": "noclip:block/fr_cabinet",
+    "side": "noclip:block/fr_cabinet"
+  }
+}

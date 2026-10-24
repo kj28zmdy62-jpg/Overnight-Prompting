@@ -1,0 +1,11 @@
+{
+  "type": "noclip:carnival",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "carnival",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:carnival"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "noclip:block/rc_pavement",
+    "top": "noclip:block/rc_pavement",
+    "side": "noclip:block/rc_pavement"
+  }
+}

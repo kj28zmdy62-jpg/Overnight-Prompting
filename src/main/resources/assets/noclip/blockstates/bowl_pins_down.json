@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "noclip:block/bowl_pins_down"
+    },
+    "facing=east": {
+      "model": "noclip:block/bowl_pins_down",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "noclip:block/bowl_pins_down",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "noclip:block/bowl_pins_down",
+      "y": 270
+    }
+  }
+}

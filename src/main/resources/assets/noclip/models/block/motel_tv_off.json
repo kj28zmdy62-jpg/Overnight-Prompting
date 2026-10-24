@@ -1,0 +1,147 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "noclip:block/motel_wood",
+    "case": "noclip:block/motel_green_metal",
+    "screen": "noclip:block/motel_tv_off",
+    "particle": "noclip:block/motel_wood"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        8,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            8,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            2,
+            8,
+            14,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        8,
+        4
+      ],
+      "to": [
+        14,
+        16,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#case",
+          "uv": [
+            2,
+            4,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#screen",
+          "uv": [
+            2,
+            0,
+            14,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#case",
+          "uv": [
+            2,
+            0,
+            14,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#case",
+          "uv": [
+            4,
+            0,
+            13,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#case",
+          "uv": [
+            4,
+            0,
+            13,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}
