@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/roof_parapet_top",
+    "bottom": "noclip:block/roof_brick",
+    "side": "noclip:block/roof_brick"
+  }
+}

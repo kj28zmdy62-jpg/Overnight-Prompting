@@ -1146,6 +1146,52 @@
     ],
     "subtitle": "subtitles.noclip.entity.dh_tin_soldier.march"
   },
+  "ambient.drive_in": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/drive_in",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.drive_in.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/drive_in_horn"
+      },
+      {
+        "name": "noclip:ambient/drive_in_speaker"
+      },
+      {
+        "name": "noclip:ambient/drive_in_door"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.drive_in.additions"
+  },
+  "event.drive_in_reel_end": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_reel_end"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_reel_end"
+  },
+  "event.drive_in_footsteps": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_footsteps"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_footsteps"
+  },
+  "event.drive_in_voice": {
+    "sounds": [
+      {
+        "name": "noclip:event/drive_in_voice"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.drive_in_voice"
+  },
   "ambient.elevator_shaft": {
     "sounds": [
       {
@@ -3545,6 +3591,39 @@
       }
     ],
     "subtitle": "subtitles.noclip.event.restrooms_flush"
+  },
+  "ambient.rooftops": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/rooftops",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.rooftops.additions": {
+    "sounds": [
+      {
+        "name": "noclip:ambient/rooftops_siren"
+      },
+      {
+        "name": "noclip:ambient/rooftops_heli"
+      },
+      {
+        "name": "noclip:ambient/rooftops_ac"
+      },
+      {
+        "name": "noclip:ambient/rooftops_flutter"
+      }
+    ],
+    "subtitle": "subtitles.noclip.ambient.rooftops.additions"
+  },
+  "event.rooftops_gust": {
+    "sounds": [
+      {
+        "name": "noclip:event/rooftops_gust"
+      }
+    ],
+    "subtitle": "subtitles.noclip.event.rooftops_gust"
   },
   "ambient.room_of_doors": {
     "sounds": [

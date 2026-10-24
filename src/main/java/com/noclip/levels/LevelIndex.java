@@ -27,6 +27,7 @@ public final class LevelIndex {
         Levels.register(Daycare.create());
         Levels.register(DeadMall.create());
         Levels.register(Dollhouse.create());
+        Levels.register(DriveIn.create());
         Levels.register(ElevatorShaft.create());
         Levels.register(EndlessHighway.create());
         Levels.register(FloodedLobby.create());
@@ -80,6 +81,7 @@ public final class LevelIndex {
         Levels.register(Recursion.create());
         Levels.register(RedRoom.create());
         Levels.register(Restrooms.create());
+        Levels.register(Rooftops.create());
         Levels.register(RoomOfDoors.create());
         Levels.register(SaltFlats.create());
         Levels.register(School.create());

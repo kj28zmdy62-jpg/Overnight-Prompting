@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "l": "noclip:block/roof_lamp",
+    "particle": "noclip:block/roof_lamp"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        4,
+        10
+      ],
+      "to": [
+        11,
+        10,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#l",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#l",
+          "uv": [
+            5,
+            10,
+            11,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#l",
+          "uv": [
+            5,
+            6,
+            11,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#l",
+          "uv": [
+            5,
+            6,
+            11,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#l",
+          "uv": [
+            10,
+            6,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#l",
+          "uv": [
+            10,
+            6,
+            16,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}
