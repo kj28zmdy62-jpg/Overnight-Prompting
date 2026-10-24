@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "noclip:block/wt_rim",
+    "bottom": "noclip:block/wt_tank_wall",
+    "side": "noclip:block/wt_tank_wall"
+  }
+}

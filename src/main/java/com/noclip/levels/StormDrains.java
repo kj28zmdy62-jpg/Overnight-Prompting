@@ -119,6 +119,7 @@ public final class StormDrains {
         final BlockState bottle = ModBlocks.state("almond_water_bottle");
         final BlockState water = Blocks.WATER.defaultBlockState();
         final BlockState light = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 15);
+        final BlockState fill = Blocks.LIGHT.defaultBlockState().setValue(LightBlock.LEVEL, 8);
         final BlockState sub = ModBlocks.state("subfloor");
         final BlockState filler = ModBlocks.state("void_filler");
 
@@ -174,6 +175,7 @@ public final class StormDrains {
             }
             w.set(x, top + 1, z, crown);
             w.fill(x, top + 2, z, x, FLOOR + 10, z, wall);
+            if (a == 0 && Math.floorMod(along, 6) == 0) w.set(x, FLOOR + 6, z, fill);
         }
 
         void junctionColumn(ChunkWriter w, long s, int x, int z, int u, int v) {

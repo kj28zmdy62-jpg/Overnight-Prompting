@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "t": "noclip:block/ms_tnt",
+    "particle": "noclip:block/ms_tnt"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        8,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#t",
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#t",
+          "uv": [
+            2,
+            8,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#t",
+          "uv": [
+            2,
+            8,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#t",
+          "uv": [
+            3,
+            8,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#t",
+          "uv": [
+            3,
+            8,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

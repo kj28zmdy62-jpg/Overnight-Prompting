@@ -1,0 +1,11 @@
+{
+  "type": "noclip:water_treatment",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "water_treatment",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:water_treatment"
+    }
+  }
+}

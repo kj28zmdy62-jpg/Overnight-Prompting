@@ -1,0 +1,11 @@
+{
+  "type": "noclip:steel_mill",
+  "generator": {
+    "type": "noclip:backrooms",
+    "level": "steel_mill",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "noclip:steel_mill"
+    }
+  }
+}

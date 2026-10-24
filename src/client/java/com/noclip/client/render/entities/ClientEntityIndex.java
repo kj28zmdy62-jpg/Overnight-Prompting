@@ -28,7 +28,10 @@ public final class ClientEntityIndex {
         RedGuestRenderers.register();
         RunChaserRenderers.register();
         SeekerRenderers.register();
+        SludgeLurkerRenderers.register();
         StaticManRenderers.register();
+        TankSettlerRenderers.register();
+        TheDrillRenderers.register();
         TideWalkerRenderers.register();
         VoidFarThingRenderers.register();
         WardPatientRenderers.register();

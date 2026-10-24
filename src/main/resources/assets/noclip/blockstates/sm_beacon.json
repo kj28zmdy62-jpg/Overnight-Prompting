@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "noclip:block/sm_amber_off"
+    },
+    "lit=true": {
+      "model": "noclip:block/sm_amber_on"
+    }
+  }
+}

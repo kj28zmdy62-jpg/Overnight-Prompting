@@ -1,0 +1,26 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 2757642,
+    "sky_color": 2757642,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "noclip:ambient.steel_mill",
+    "additions_sound": {
+      "sound": "noclip:ambient.steel_mill.additions",
+      "tick_chance": 0.006
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:lava"
+      },
+      "probability": 0.0015
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

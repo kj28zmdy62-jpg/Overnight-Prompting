@@ -29,7 +29,10 @@ public final class EntityIndex {
         RedGuest.register();
         RunChaser.register();
         Seeker.register();
+        SludgeLurker.register();
         StaticMan.register();
+        TankSettler.register();
+        TheDrill.register();
         TideWalker.register();
         VoidFarThing.register();
         WardPatient.register();
