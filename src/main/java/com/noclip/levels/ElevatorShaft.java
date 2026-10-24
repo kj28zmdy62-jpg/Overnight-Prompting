@@ -53,7 +53,7 @@ public final class ElevatorShaft {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Hoistway())
-                .visuals(new Visuals().darkness(0.45f).tint(0.95f, 0.98f, 1.04f).saturation(0.62f).contrast(1.12f)
+                .visuals(new Visuals().darkness(0.2f).tint(0.95f, 0.98f, 1.04f).saturation(0.62f).contrast(1.12f)
                         .brightness(1.15f).grain(0.09f).aberration(0.0016f).vignette(0.65f).warp(0.045f)
                         .fog(3f, 40f).fogColor(0x0E1114).bloom(0.7f))
                 .sanityDrain(0.04f)
@@ -125,6 +125,8 @@ public final class ElevatorShaft {
         final BlockState bottle = ModBlocks.state("almond_water_bottle");
         final BlockState supply = ModBlocks.state("supply_crate");
         final BlockState filler = ModBlocks.state("void_filler");
+        final BlockState fill = net.minecraft.world.level.block.Blocks.LIGHT.defaultBlockState()
+                .setValue(net.minecraft.world.level.block.LightBlock.LEVEL, 9);
 
         Gen() {
             String[] labs = {"13", "13a", "14", "b9", "112", "1203", "4", "0"};
@@ -184,6 +186,7 @@ public final class ElevatorShaft {
                 int missing = L % 4;
                 if (sd == missing) continue;
                 w.set(x, y, z, grating);
+                if ((a == 2 || a == 9) && (b == 2 || b == 9)) w.set(x, y + 3, z, fill);
             }
             // ladder from each platform up to the next, on the wall opposite that level's gap
             for (int L = 0; L < 4; L++) {

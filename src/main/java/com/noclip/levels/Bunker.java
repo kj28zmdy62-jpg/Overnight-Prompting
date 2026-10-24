@@ -56,7 +56,7 @@ public final class Bunker {
                 .danger(BackroomsLevel.Danger.HIGH)
                 .generator(Gen::new)
                 .behavior(new Lockdown())
-                .visuals(new Visuals().tint(1.02f, 1.0f, 0.88f).saturation(0.72f).contrast(1.1f).brightness(1.12f)
+                .visuals(new Visuals().tint(1.02f, 1.0f, 0.88f).saturation(0.72f).contrast(1.1f).brightness(1.3f)
                         .grain(0.09f).aberration(0.0015f).vignette(0.6f).fog(3f, 34f).fogColor(0x1C1E18).bloom(0.6f))
                 .sanityDrain(0.035f)
                 .spawnY(FLOOR + 1, FLOOR + 1)
