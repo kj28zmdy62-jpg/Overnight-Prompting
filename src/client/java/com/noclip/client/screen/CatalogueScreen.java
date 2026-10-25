@@ -63,11 +63,16 @@ public class CatalogueScreen extends Screen {
     }
 
     @Override
+    public void renderBackground(GuiGraphics g, int mouseX, int mouseY, float partialTick) {
+        g.fill(0, 0, width, height, 0xFF101010);
+    }
+
+    @Override
     public void render(GuiGraphics g, int mouseX, int mouseY, float partialTick) {
-        g.fill(0, 0, width, height, 0xF0101010);
+        super.render(g, mouseX, mouseY, partialTick);
         g.drawString(font, "NOCLIP  -  LEVEL CATALOGUE", 12, 12, 0xFFE8DC9A, false);
         String count = shown.size() + " / " + all.size() + " levels";
-        g.drawString(font, count, listWidth() + 8 - font.width(count), 12, 0xFF8A8670, false);
+        g.drawString(font, count, 12 + font.width("NOCLIP  -  LEVEL CATALOGUE") + 12, 12, 0xFF8A8670, false);
 
         // list
         int listW = listWidth();
@@ -93,7 +98,6 @@ public class CatalogueScreen extends Screen {
         g.disableScissor();
 
         if (!shown.isEmpty()) detail(g, shown.get(Math.min(selected, shown.size() - 1)), listW + 22);
-        super.render(g, mouseX, mouseY, partialTick);
     }
 
     private void detail(GuiGraphics g, BackroomsLevel l, int x) {

@@ -28,6 +28,11 @@ You need Java 21.
 # the mod jar is in build/libs/noclip-<version>.jar
 ```
 
+## Level Catalogue
+
+Press **Backrooms Levels** on the title screen, or **K** in game, to browse all 100 levels with a photo,
+survival class, description and where each level's exits lead. Search by name or number.
+
 ## Getting in
 
 - **Suffocate inside a wall** in the real world. Each time you take suffocation damage there is a

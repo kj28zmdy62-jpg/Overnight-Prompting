@@ -73,7 +73,7 @@ public class NoclipClient implements ClientModInitializer {
                 net.fabricmc.fabric.api.client.screen.v1.Screens.getButtons(screen).add(
                         net.minecraft.client.gui.components.Button.builder(net.minecraft.network.chat.Component.literal("Backrooms Levels"),
                                 b -> client.setScreen(new com.noclip.client.screen.CatalogueScreen(screen)))
-                                .bounds(w / 2 - 100, h / 4 + 48 + 72 + 24, 200, 20).build());
+                                .bounds(w / 2 - 100, h / 4 + 48 + 72 + 36, 200, 20).build());
             }
         });
         HudRenderCallback.EVENT.register(Overlay::render);

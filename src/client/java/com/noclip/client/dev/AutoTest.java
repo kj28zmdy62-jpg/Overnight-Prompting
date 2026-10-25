@@ -51,11 +51,20 @@ public final class AutoTest {
         timer++;
         switch (phase) {
             case 0 -> {
-                if (!(mc.screen instanceof TitleScreen)) {
+                if (!(mc.screen instanceof TitleScreen) && !(mc.screen instanceof com.noclip.client.screen.CatalogueScreen)) {
                     timer = 0;
                     return;
                 }
                 if (timer == 60) shot(mc, "title_screen");
+                if (System.getenv("NOCLIP_AUTOTEST_CATALOGUE") != null) {
+                    if (timer == 80) mc.setScreen(new com.noclip.client.screen.CatalogueScreen(mc.screen));
+                    if (timer == 120) shot(mc, "catalogue_0");
+                    if (timer == 125) mc.screen.keyPressed(org.lwjgl.glfw.GLFW.GLFW_KEY_DOWN, 0, 0);
+                    if (timer == 126) for (int k = 0; k < 16; k++) mc.screen.keyPressed(org.lwjgl.glfw.GLFW.GLFW_KEY_DOWN, 0, 0);
+                    if (timer == 160) shot(mc, "catalogue_1");
+                    if (timer == 170) mc.stop();
+                    return;
+                }
                 if (timer > 70) {
                     LevelSettings s = new LevelSettings("autotest", GameType.CREATIVE, false, Difficulty.NORMAL, true,
                             new GameRules(), WorldDataConfiguration.DEFAULT);
