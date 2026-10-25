@@ -65,6 +65,17 @@ public class NoclipClient implements ClientModInitializer {
         JournalItem.openScreen = () -> journalRequested = true;
 
         com.noclip.client.render.EntityRenderers.init();
+        // Level Catalogue: a button on the title screen and the K key in game
+        CATALOGUE_KEY = net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper.registerKeyBinding(
+                new net.minecraft.client.KeyMapping("key.noclip.catalogue", org.lwjgl.glfw.GLFW.GLFW_KEY_K, "key.categories.noclip"));
+        net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.AFTER_INIT.register((client, screen, w, h) -> {
+            if (screen instanceof net.minecraft.client.gui.screens.TitleScreen) {
+                net.fabricmc.fabric.api.client.screen.v1.Screens.getButtons(screen).add(
+                        net.minecraft.client.gui.components.Button.builder(net.minecraft.network.chat.Component.literal("Backrooms Levels"),
+                                b -> client.setScreen(new com.noclip.client.screen.CatalogueScreen(screen)))
+                                .bounds(w / 2 - 100, h / 4 + 48 + 72 + 24, 200, 20).build());
+            }
+        });
         HudRenderCallback.EVENT.register(Overlay::render);
         com.noclip.client.dev.AutoTest.init();
         ClientTickEvents.END_CLIENT_TICK.register(this::tick);
@@ -83,9 +94,13 @@ public class NoclipClient implements ClientModInitializer {
     }
 
     private static boolean journalRequested;
+    private static net.minecraft.client.KeyMapping CATALOGUE_KEY;
 
     private void tick(Minecraft mc) {
         ClientState.tick(mc);
+        while (CATALOGUE_KEY.consumeClick()) {
+            if (mc.screen == null) mc.setScreen(new com.noclip.client.screen.CatalogueScreen(null));
+        }
         ClientState.camcorder = mc.player != null && com.noclip.item.CamcorderItem.viewing(mc.player);
         Hallucinations.tick(mc);
         if (mc.player == null) return;

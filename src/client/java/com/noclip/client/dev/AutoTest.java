@@ -101,6 +101,17 @@ public final class AutoTest {
             case 3 -> {
                 Player p = mc.player;
                 if (p == null) return;
+                if (System.getenv("NOCLIP_AUTOTEST_THUMB") != null) {
+                    // one clean shot per level for the catalogue: no HUD, facing the open view
+                    mc.options.hideGui = true;
+                    com.noclip.client.ClientState.enteredAt = System.currentTimeMillis() - 60000;
+                    if (timer == settle) shot(mc, "thumb_" + current);
+                    if (timer > settle + 2) {
+                        phase = 2;
+                        timer = 0;
+                    }
+                    return;
+                }
                 if (System.getenv("NOCLIP_AUTOTEST_PANORAMA") != null) {
                     panorama(mc, p);
                     return;

@@ -3228,6 +3228,8 @@
   "item.noclip.wrapped_one_spawn_egg": "The Wrapped Spawn Egg",
   "item.noclip.zz_blank_spawn_egg": "The Blank Spawn Egg",
   "itemGroup.noclip": "NOCLIP: The Backrooms",
+  "key.categories.noclip": "NOCLIP",
+  "key.noclip.catalogue": "Open Level Catalogue",
   "noclip.first_arrival": "You are somewhere else. The air hums. In your pocket: a notebook you don't remember buying, and a bottle of something that smells faintly of almonds.",
   "subtitles.noclip.ambient.air_vents.additions": "The ducts creak",
   "subtitles.noclip.ambient.airport.additions": "The terminal echoes",
